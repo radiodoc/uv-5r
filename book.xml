@@ -7,7 +7,7 @@
 <!ENTITY ch03 SYSTEM "ch03-unboxing.xml">
 <!ENTITY ch03 SYSTEM "ch03-unboxing.xml">
 <!ENTITY ch03 SYSTEM "ch03-unboxing.xml">
-<!ENTITY appa SYSTEM "ch40.xml">
+<!ENTITY appa SYSTEM "ch04.xml">
 <!ENTITY appb SYSTEM "appb.xml">
 ]>
 <book xmlns="http://docbook.org/ns/docbook" version="5.0">
