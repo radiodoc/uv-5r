@@ -1,0 +1,34 @@
+<chapter>
+<title>Features and functions.</title>
+<para>
+	<simplelist type='vert' columns='1'>
+		<member>Dual-band handheld transceiver with display function menu on the display LCD.</member>
+		<member>DTMF encoded.</member>
+		<member>High Capacity Lithium-Ion battery</member>
+		<member>Broadcast FM radio receiver 65-108 MHz</member>
+		<member>50 CTCSS tones and 105 DCS codes.</member>
+		<member>VOX (voice activated transmit).</member>
+		<member>Alarm function.</member>
+		<member>Up to 128 named memory channels.</member>
+		<member>FCC part 90 Narrowband compliance.</member>
+		<member>High and low power, selectable.</member>
+		<member>Display illumination and programmable keyboard.</member>
+		<member>function beep on the keyboard.</member>
+		<member>Dual watch / Dual reception.</member>
+		<member>Frequency step, selectable between 2.5 / 5 / 6.25 / 10 / 12.5 / 25 (kHz).</member>
+		<member>Programmable repeater offset.</member>
+		<member>battery saving function</member>
+		<member>Transmission time-out timer.</member>
+		<member>selecting the scan mode</member>
+		<member>function busy channel lock</member>
+		<member>built in CTCSS/DCS scan</member>
+		<member>LED flashlight.</member>
+		<member>PC programmable.</member>
+		<member>Ten (10) levels of Squelch adjustment.</member>
+		<member>Crossband reception.</member>
+		<member>End of transmission tone, aka "Roger Beep".</member>
+		<member>ANI</member>
+		<member>keylock</member>
+	</simplelist>
+</para>
+</chapter>
