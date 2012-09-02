@@ -314,7 +314,7 @@
 </section>
 <section>
 	<title>14 VOICE - Voice Prompt</title>
-	<para></para>
+	<para>When enabled your radio will "talk back" to you, meaning audible confirmation when pressing keys and working the menu system.</para>
 	<table>
 		<tgroup cols="3">
 		<thead>
@@ -326,9 +326,9 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry><literal>OFF / ENG / CHI</literal></entry>
 				<entry><literal></literal></entry>
-				<entry><literal></literal></entry>
-				<entry></entry>
+				<entry>ENG = English, CHI = Chinese.</entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -370,7 +370,7 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal></literal></entry>
+				<entry><literal>OFF / DT-ST / ANI-ST / DT+ANI</literal></entry>
 				<entry><literal></literal></entry>
 				<entry></entry>
 			</row>
@@ -392,7 +392,7 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal></literal></entry>
+				<entry><literal>1 - 15</literal></entry>
 				<entry><literal></literal></entry>
 				<entry></entry>
 			</row>
@@ -414,7 +414,7 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal></literal></entry>
+				<entry><literal>TO / CO / SE</literal></entry>
 				<entry><literal></literal></entry>
 				<entry></entry>
 			</row>
