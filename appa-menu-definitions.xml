@@ -44,10 +44,276 @@
 		</tgroup>
 	</table>
 </section>
-</appendix>
-<!--
 <section>
-	<title></title>
+	<title>2 TXP - Transmit Power</title>
+	<para>Transmit power is only setable in Frequency(VFO) Mode. In Memory(MR) Mode transmit power will be set to the level programmed in memory for any given channel.</para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal>High / Low</literal></entry>
+				<entry><literal></literal></entry>
+				<entry>High = 4W, Low = 1W.</entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>3 SAVE - Battery Save</title>
+	<para>Sampling ratio of the Receiver to acknowledge a signal</para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal>OFF / 1 - 4</literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>4 VOX - Voice Operated TX</title>
+	<para>Adjusts the sensitivity of the VOX feature, if enabled.</para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal>OFF / 1 - 10</literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+	<para>The lower the setting, the louder your voice have to be in order to engage the transmitter.</para>
+</section>
+<section>
+	<title>5 W/N - Wideband / Narrowband</title>
+	<para>Sets maximum band deviation.</para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal>WIDE / NARR</literal></entry>
+				<entry><literal></literal></entry>
+				<entry>Wide = 5kHz, Narrow = 2.5kHz.</entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+	<para>In the USA, FCC part 90 radios are mandated to switch over to Narrowband communication by Janurary 1st 2013. Meaning all commerical users. This does not affect Amateur Radio operators.</para>
+</section>
+<section>
+	<title>6 ABR - Display Illumination Time</title>
+	<para>Time-out for the LCD backlight.</para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values (seconds)</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal>OFF / 1 - 5</literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>7 TDR - Dual Watch</title>
+	<para>When enabled it allows you to monitor two frequencies simultaneously.</para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal>OFF / ON</literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+	<para>It should be noted that this radio does not possess a dual VFO, meaning that the Dual Watch feature is a time sharing operation. Your radio will flip-flop between A and B channels at a fixed rate. This will not allow you to receive two frequencies in paralell.</para>
+</section>
+<section>
+	<title>8 BEEP - Keypad Beep</title>
+	<para>When enabled your radio will emmit an audible tone at every key press.</para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal>OFF / ON</literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>9 TOT - Transmission Time-out-Timer</title>
+	<para>Transmission times out after set time</para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values (seconds)</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal>15 / 30 / 45 - 600</literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+	<para>Radio will alert you when your time is up.</para>
+</section>
+<section>
+	<title>10 R-DCS - Receiver DCS</title>
+	<para>Digital-Coded Squelch(DCS) will block out any signal that isn't sent with a matching DCS code.</para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal>OFF / D023N - D754I</literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>11 R-CTS - Receiver CTCSS</title>
+	<para>Continuous Tone-Coded Squelch System(CTCSS) will block out any signal that isn't sent with a matching CTCSS sub-tone.</para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values (Hz)</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal>OFF / 67.0 - 254.1</literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>12 T-DCS - Transmitter DCS</title>
+	<para>Sets the Digital-Coded Squelch(DCS) code for the transmitter.</para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal>OFF / D023N - D754I</literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>13 T-CTC - Transmitter CTCSS</title>
+	<para>Sets the Continuous Tone-Coded Squelch System(CTCSS) sub-tone for the transmitter.</para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal>OFF / 67.0 - 254.1</literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>14 VOICE - Voice Prompt</title>
 	<para></para>
 	<table>
 		<tgroup cols="3">
@@ -68,4 +334,576 @@
 		</tgroup>
 	</table>
 </section>
--->
+<section>
+	<title>15 ANI - Automatic Number ID</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>16 DTMFST - DTMF tone of transmit code</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>17 S-CODE - Signal Code</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>18 SC-REV - Scanner Resume Method</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>19 PTT-ID - When to send the PTT-ID</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>20 PTT-LT - Signal code sending delay.</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>21 MDF-A - Channel Mode A Display</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>22 MDF-B - Channel Mode B Display</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>23 BCL - Busy Channel Lock-out</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>24 AUTOLK - Automatic Keypad Lock</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>25 SFT-D - Frequency Shift Direction</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>26 OFFSET - Frequency shift amount</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>27 MEMCH - Store a Memory Channel</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>28 DELCH - Delete a memory channel</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>29 WT-LED - Display backlight colour, Standby</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>30 RX-LED - Display backlight colour, Receive</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>31 TX-LED - Display backlight colour, Transmit</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>32 AL-MOD - Alarm Mode</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>33 BAND - Band Selection</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>34 TX-AB - Transmit selection while in Dual Watch mode</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>35 STE - Squelch Tail Elimination</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>36 RP_STE - Squelch Tail Elimination through a repeater</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>37 RPT_RL - Delay the squelch tail of repeater</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>38 PONMGS - Power On Message</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>39 ROGER -  Roger Beep</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+<section>
+	<title>40 RESET - Restore defaults</title>
+	<para></para>
+	<table>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Values</entry>
+				<entry>Default value</entry>
+				<entry>Notes</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry><literal></literal></entry>
+				<entry><literal></literal></entry>
+				<entry></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+</section>
+</appendix>
