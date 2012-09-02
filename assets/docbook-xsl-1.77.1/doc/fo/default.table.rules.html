@@ -1,0 +1,48 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>default.table.rules</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="tables.html" title="Tables"><link rel="prev" href="default.table.frame.html" title="default.table.frame"><link rel="next" href="table.cell.padding.html" title="table.cell.padding"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">default.table.rules</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="default.table.frame.html">Prev</a> </td><th width="60%" align="center">Tables</th><td width="20%" align="right"> <a accesskey="n" href="table.cell.padding.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="default.table.rules"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">default.table.rules</span></h2><p>
+default.table.rules
+ &#8212; The default column and row rules for tables using HTML markup
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="default.table.rules.frag"></a><pre class="programlisting">
+&lt;xsl:param name="default.table.rules"&gt;none&lt;/xsl:param&gt;
+</pre>
+</div>
+
+<div class="refsection"><a name="id559844"></a><h2>Description</h2>
+
+<p>Tables using HTML markup elements can use an attribute
+named <code class="sgmltag-attribute">rules</code> on the <a href="http://docbook.org/tdg5/en/html/table.html"><code class="sgmltag-element">table</code></a> or
+<a href="http://docbook.org/tdg5/en/html/informaltable.html"><code class="sgmltag-element">informaltable</code></a> element
+to specify whether column and row border rules should be 
+displayed. This parameter lets you specify a global default
+style for all HTML tables that don't otherwise have
+that attribute.</p>
+<p>These are the supported values:</p>
+
+<div class="variablelist"><dl class="variablelist"><dt><span class="term">all</span></dt><dd>
+<p>Rules will appear between all rows and columns.</p>
+</dd><dt><span class="term">rows</span></dt><dd>
+<p>Rules will appear between rows only.</p>
+</dd><dt><span class="term">cols</span></dt><dd>
+<p>Rules will appear between columns only.</p>
+</dd><dt><span class="term">groups</span></dt><dd>
+<p>Rules will appear between row groups (thead, tfoot, tbody).
+No support for rules between column groups yet.
+</p>
+</dd><dt><span class="term">none</span></dt><dd>
+<p>No rules.  This is the default value.
+</p>
+</dd></dl></div>
+
+<p>The border after the last row and the border after
+the last column are not affected by
+this setting. Those borders are controlled by
+the <code class="sgmltag-attribute">frame</code> attribute on the table element.
+</p>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="default.table.frame.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="tables.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="table.cell.padding.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">default.table.frame </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> table.cell.padding</td></tr></table></div></body></html>
+

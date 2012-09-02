@@ -1,0 +1,43 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>idref</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="generallibrary.html" title="General Library Templates"><link rel="prev" href="xpointer.idref.html" title="xpointer.idref"><link rel="next" href="length-magnitude.html" title="length-magnitude"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">idref</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="xpointer.idref.html">Prev</a> </td><th width="60%" align="center">General Library Templates</th><td width="20%" align="right"> <a accesskey="n" href="length-magnitude.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="idref"></a><div class="titlepage"></div>
+<div class="refnamediv"><h2>idref</h2><p>
+idref
+ &#8212; Extract IDREF from a linking element
+</p></div>
+
+<div class="refsect1"><a name="id603427"></a><h2>Description</h2>
+
+<p>The <code class="function">idref</code> template accepts 
+any <a href="http://docbook.org/tdg5/en/html/xref.html"><code class="sgmltag-element">xref</code></a> or universally linking element as a parameter
+and returns the local
+ID that it points to.
+If it has a <code class="sgmltag-attribute">linkend</code> attribute,
+it returns that value.
+If it has a <code class="sgmltag-attribute">xlink:href</code>, it
+returns that value, parsed as needed to extract just
+the id reference.  Otherwise it returns an empty string.</p>
+
+<a name="idref.frag"></a><pre class="programlisting">
+&lt;xsl:template name="idref"&gt;
+  &lt;xsl:param name="xref" select="."&gt;&lt;/xsl:param&gt;
+  &lt;xsl:param name="linkend" select="$xref/@linkend"&gt;&lt;/xsl:param&gt;
+  &lt;xsl:param name="xpointer"&gt;
+    &lt;xsl:call-template name="xpointer.idref"&gt;
+      &lt;xsl:with-param name="xpointer" select="$xref/@xlink:href"&gt;&lt;/xsl:with-param&gt;
+    &lt;/xsl:call-template&gt;
+  &lt;/xsl:param&gt; 
+
+  &lt;xsl:choose&gt;
+    &lt;xsl:when test="string-length($linkend) != 0"&gt;
+      &lt;xsl:value-of select="$linkend"&gt;&lt;/xsl:value-of&gt;
+    &lt;/xsl:when&gt;
+    &lt;xsl:when test="string-length($xpointer) != 0"&gt;
+      &lt;xsl:value-of select="$xpointer"&gt;&lt;/xsl:value-of&gt;
+    &lt;/xsl:when&gt;
+    &lt;!-- otherwise it's a pointer to some other document --&gt;
+  &lt;/xsl:choose&gt;
+&lt;/xsl:template&gt;
+</pre>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="xpointer.idref.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="generallibrary.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="length-magnitude.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">xpointer.idref </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> length-magnitude</td></tr></table></div></body></html>
+

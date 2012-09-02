@@ -1,0 +1,35 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>refentry.source.name.suppress</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="refmeta.html" title="Refentry metadata gathering"><link rel="prev" href="refentry.manual.profile.enabled.html" title="refentry.manual.profile.enabled"><link rel="next" href="refentry.source.name.profile.html" title="refentry.source.name.profile"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">refentry.source.name.suppress</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="refentry.manual.profile.enabled.html">Prev</a> </td><th width="60%" align="center">Refentry metadata gathering</th><td width="20%" align="right"> <a accesskey="n" href="refentry.source.name.profile.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="refentry.source.name.suppress"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">refentry.source.name.suppress</span></h2><p>
+refentry.source.name.suppress
+ &#8212; Suppress "name" part of refentry "source" contents?
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="refentry.source.name.suppress.frag"></a><pre class="programlisting">
+&lt;xsl:param name="refentry.source.name.suppress"&gt;0&lt;/xsl:param&gt;</pre>
+</div>
+
+<div class="refsection"><a name="id587894"></a><h2>Description</h2>
+
+<p>If the value of
+<a href="../manpages/refentry.source.name.suppress.html"><em class="parameter"><code>refentry.source.name.suppress</code></em></a> is non-zero, then
+during <a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a> metadata gathering, no "source name" data
+is added to the <a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a> "source" contents. Instead (unless
+<a href="../manpages/refentry.version.suppress.html"><em class="parameter"><code>refentry.version.suppress</code></em></a> is also non-zero),
+only "version" data is added to the "source" contents.</p>
+
+<p>If you find that the <a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a> metadata gathering
+mechanism is causing unwanted "source name" data to show up in your
+output -- for example, in the footer (or possibly header) of a man
+page -- then you might consider setting a non-zero value for
+<a href="../manpages/refentry.source.name.suppress.html"><em class="parameter"><code>refentry.source.name.suppress</code></em></a>.</p>
+
+<p>Note that the terms "source", "source name", and "version" have
+special meanings in this context. For details, see the documentation
+for the <a href="../manpages/refentry.source.name.profile.html"><em class="parameter"><code>refentry.source.name.profile</code></em></a>
+parameter.</p>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="refentry.manual.profile.enabled.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="refmeta.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="refentry.source.name.profile.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">refentry.manual.profile.enabled </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> refentry.source.name.profile</td></tr></table></div></body></html>
+

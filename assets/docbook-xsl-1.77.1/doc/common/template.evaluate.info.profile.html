@@ -1,0 +1,49 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>evaluate.info.profile</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="base.html" title="Common » Base Template Reference"><link rel="prev" href="template.select.choice.separator.html" title="select.choice.separator"><link rel="next" href="template.graphic.format.content-type.html" title="graphic.format.content-type"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">evaluate.info.profile</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="template.select.choice.separator.html">Prev</a> </td><th width="60%" align="center">Common » Base Template Reference</th><td width="20%" align="right"> <a accesskey="n" href="template.graphic.format.content-type.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="template.evaluate.info.profile"></a><div class="titlepage"></div>
+<div class="refnamediv"><h2>evaluate.info.profile</h2><p>
+evaluate.info.profile
+ &#8212; Evaluates an info profile
+</p></div>
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<pre class="synopsis">&lt;xsl:template name="evaluate.info.profile"&gt;
+&lt;xsl:param name="profile"/&gt;
+&lt;xsl:param name="info"/&gt;
+  ...
+&lt;/xsl:template&gt;</pre>
+</div>
+<div class="refsect1"><a name="id605592"></a><h2>Description</h2>
+    
+<p>This template evaluates an "info profile" matching the XPath
+    expression given by the <em class="parameter"><code>profile</code></em>
+    parameter. It relies on the XSLT <code class="function">evaluate()</code>
+    extension function.</p>
+
+
+    
+<p>The value of the <em class="parameter"><code>profile</code></em> parameter
+    can include the literal string <code class="literal">$info</code>. If found
+    in the value of the <em class="parameter"><code>profile</code></em> parameter, the
+    literal string <code class="literal">$info</code> string is replaced with
+    the value of the <em class="parameter"><code>info</code></em> parameter, which
+    should be a set of <em class="replaceable"><code>*info</code></em> nodes; the
+    expression is then evaluated using the XSLT
+    <code class="function">evaluate()</code> extension function.</p>
+
+  </div><div class="refsect1"><a name="id605640"></a><h2>Parameters</h2>
+    
+<div class="variablelist"><dl class="variablelist"><dt><span class="term">profile</span></dt><dd>
+          
+<p>A string representing an XPath expression </p>
+
+        </dd><dt><span class="term">info</span></dt><dd>
+          
+<p>A set of *info nodes</p>
+
+        </dd></dl></div>
+
+  </div><div class="refsect1"><a name="id605680"></a><h2>Returns</h2>
+    
+<p>Returns a node (the result of evaluating the
+    <em class="parameter"><code>profile</code></em> parameter)</p>
+
+  </div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="template.select.choice.separator.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="base.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="template.graphic.format.content-type.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">select.choice.separator </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> graphic.format.content-type</td></tr></table></div></body></html>
+

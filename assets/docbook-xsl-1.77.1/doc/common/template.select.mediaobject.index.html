@@ -1,0 +1,57 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>select.mediaobject.index</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="base.html" title="Common » Base Template Reference"><link rel="prev" href="template.select.mediaobject.html" title="select.mediaobject"><link rel="next" href="template.is.acceptable.mediaobject.html" title="is.acceptable.mediaobject"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">select.mediaobject.index</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="template.select.mediaobject.html">Prev</a> </td><th width="60%" align="center">Common » Base Template Reference</th><td width="20%" align="right"> <a accesskey="n" href="template.is.acceptable.mediaobject.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="template.select.mediaobject.index"></a><div class="titlepage"></div>
+<div class="refnamediv"><h2>select.mediaobject.index</h2><p>
+select.mediaobject.index
+ &#8212; Selects the position of the appropriate media object from a list
+</p></div>
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<pre class="synopsis">&lt;xsl:template name="select.mediaobject.index"&gt;
+&lt;xsl:param name="olist" select="imageobject|imageobjectco                      |videoobject|audioobject|textobject"/&gt;
+&lt;xsl:param name="count"&gt;1&lt;/xsl:param&gt;
+  ...
+&lt;/xsl:template&gt;</pre>
+</div>
+<div class="refsect1"><a name="id604915"></a><h2>Description</h2>
+
+<p>This template takes a list of media objects (usually the
+children of a mediaobject or inlinemediaobject) and determines
+the "right" object. It returns the position of that object
+to be used by the calling template.</p>
+
+
+
+<p>If the parameter <a href="../html/use.role.for.mediaobject.html"><em class="parameter"><code>use.role.for.mediaobject</code></em></a>
+is nonzero, then it first checks for an object with
+a role attribute of the appropriate value.  It takes the first
+of those.  Otherwise, it takes the first acceptable object
+through a recursive pass through the list.</p>
+
+
+
+<p>This template relies on a template named "is.acceptable.mediaobject"
+to determine if a given object is an acceptable graphic. The semantics
+of media objects is that the first acceptable graphic should be used.
+</p>
+
+
+
+<p>If no acceptable object is located, no index is returned.</p>
+
+</div><div class="refsect1"><a name="id604941"></a><h2>Parameters</h2>
+
+<div class="variablelist"><dl class="variablelist"><dt><span class="term">olist</span></dt><dd>
+
+<p>The node list of potential objects to examine.</p>
+
+</dd><dt><span class="term">count</span></dt><dd>
+
+<p>The position in the list currently being considered by the 
+recursive process.</p>
+
+</dd></dl></div>
+
+</div><div class="refsect1"><a name="id604980"></a><h2>Returns</h2>
+
+<p>Returns the position in the original list of the selected object.</p>
+
+</div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="template.select.mediaobject.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="base.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="template.is.acceptable.mediaobject.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">select.mediaobject </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> is.acceptable.mediaobject</td></tr></table></div></body></html>
+

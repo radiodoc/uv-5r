@@ -1,0 +1,95 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>calc.column.width</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="table-templates.html" title="Part 3. Formatting Object Table Reference"><link rel="prev" href="table-templates.html" title="Part 3. Formatting Object Table Reference"><link rel="next" href="../template/index.html" title="Part 4. Titlepage Template Stylesheet Reference"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">calc.column.width</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="table-templates.html">Prev</a> </td><th width="60%" align="center">Part 3. Formatting Object Table Reference</th><td width="20%" align="right"> <a accesskey="n" href="../template/index.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="template.calc.column.width"></a><div class="titlepage"></div>
+<div class="refnamediv"><h2>calc.column.width</h2><p>
+calc.column.width
+ &#8212; Calculate an XSL FO table column width specification from a
+CALS table column width specification.
+</p></div>
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<pre class="synopsis">&lt;xsl:template name="calc.column.width"&gt;
+&lt;xsl:param name="colwidth"&gt;1*&lt;/xsl:param&gt;
+  ...
+&lt;/xsl:template&gt;</pre>
+</div>
+<div class="refsect1"><a name="id608176"></a><h2>Description</h2>
+
+<p>CALS expresses table column widths in the following basic
+forms:</p>
+
+
+
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+
+<p><span class="emphasis"><em>99.99units</em></span>, a fixed length specifier.</p>
+
+</li><li class="listitem">
+
+<p><span class="emphasis"><em>99.99</em></span>, a fixed length specifier without any units.</p>
+
+</li><li class="listitem">
+
+<p><span class="emphasis"><em>99.99*</em></span>, a relative length specifier.</p>
+
+</li><li class="listitem">
+
+<p><span class="emphasis"><em>99.99*+99.99units</em></span>, a combination of both.</p>
+
+</li></ul></div>
+
+
+
+<p>The CALS units are points (pt), picas (pi), centimeters (cm),
+millimeters (mm), and inches (in). These are the same units as XSL,
+except that XSL abbreviates picas "pc" instead of "pi". If a length
+specifier has no units, the CALS default unit (pt) is assumed.</p>
+
+
+
+<p>Relative length specifiers are represented in XSL with the
+proportional-column-width() function.</p>
+
+
+
+<p>Here are some examples:</p>
+
+
+
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+
+<p>"36pt" becomes "36pt"</p>
+
+</li><li class="listitem">
+
+<p>"3pi" becomes "3pc"</p>
+
+</li><li class="listitem">
+
+<p>"36" becomes "36pt"</p>
+
+</li><li class="listitem">
+
+<p>"3*" becomes "proportional-column-width(3)"</p>
+
+</li><li class="listitem">
+
+<p>"3*+2pi" becomes "proportional-column-width(3)+2pc"</p>
+
+</li><li class="listitem">
+
+<p>"1*+2" becomes "proportional-column-width(1)+2pt"</p>
+
+</li></ul></div>
+
+</div><div class="refsect1"><a name="id608177"></a><h2>Parameters</h2>
+
+<div class="variablelist"><dl class="variablelist"><dt><span class="term">colwidth</span></dt><dd>
+
+<p>The CALS column width specification.</p>
+
+</dd></dl></div>
+
+</div><div class="refsect1"><a name="id608316"></a><h2>Returns</h2>
+
+<p>The XSL column width specification.</p>
+
+</div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="table-templates.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="table-templates.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="../template/index.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Part 3. Formatting Object Table Reference </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> Part 4. Titlepage Template Stylesheet Reference</td></tr></table></div></body></html>
+

@@ -1,0 +1,49 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>side.region.precedence</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="general.html" title="Pagination and General Styles"><link rel="prev" href="marker.section.level.html" title="marker.section.level"><link rel="next" href="region.inner.properties.html" title="region.inner.properties"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">side.region.precedence</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="marker.section.level.html">Prev</a> </td><th width="60%" align="center">Pagination and General Styles</th><td width="20%" align="right"> <a accesskey="n" href="region.inner.properties.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="side.region.precedence"></a><div class="titlepage"></div> 
+ 
+<div class="refnamediv"><h2><span class="refentrytitle">side.region.precedence</span></h2><p> 
+side.region.precedence 
+ &#8212; Determines side region page layout precedence 
+</p></div> 
+<div class="refsynopsisdiv"><h2>Synopsis</h2> <a name="side.region.precedence.frag"></a><pre class="programlisting">
+&lt;xsl:param name="side.region.precedence"&gt;false&lt;/xsl:param&gt;
+</pre> 
+</div> 
+<div class="refsection"><a name="id575338"></a><h2>Description</h2> 
+ 
+<p>If optional side regions on a page
+are established using parameters such as
+<a href="../fo/body.margin.inner.html"><em class="parameter"><code>body.margin.inner</code></em></a>, 
+<a href="../fo/region.inner.extent.html"><em class="parameter"><code>region.inner.extent</code></em></a>, etc., then this
+parameter determines what happens at the corners where the
+side regions meet the header and footer regions.</p>
+
+<p>If the value of this parameter is <code class="literal">true</code>,
+then the side regions have precedence and extend higher
+and lower, while the header and footer regions are narrower
+and fit inside the side regions.</p>
+
+<p>If the value of this parameter is <code class="literal">false</code>
+(the default value), then the header and footer regions 
+have precedence and extend over and below the side regions.
+Any value other than <code class="literal">true</code> or
+<code class="literal">false</code> is taken to be <code class="literal">false</code>.</p>
+
+<p>If you need to set precedence separately for
+individual regions, then you can set four
+parameters that are normally internal to the stylesheet.
+These four parameters are normally set based
+on the value from <a href="../fo/side.region.precedence.html"><em class="parameter"><code>side.region.precedence</code></em></a>:</p>
+
+<pre class="programlisting">region.before.precedence
+region.after.precedence
+region.start.precedence
+region.end.precedence</pre>
+
+<p>See also
+<a href="../fo/region.inner.extent.html"><em class="parameter"><code>region.inner.extent</code></em></a>,
+<a href="../fo/region.outer.extent.html"><em class="parameter"><code>region.outer.extent</code></em></a>,
+<a href="../fo/body.margin.inner.html"><em class="parameter"><code>body.margin.inner</code></em></a>,
+<a href="../fo/body.margin.outer.html"><em class="parameter"><code>body.margin.outer</code></em></a>.
+</p>
+</div> </div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="marker.section.level.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="general.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="region.inner.properties.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">marker.section.level </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> region.inner.properties</td></tr></table></div></body></html>
+

@@ -1,0 +1,36 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>xpointer.idref</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="generallibrary.html" title="General Library Templates"><link rel="prev" href="string.subst.html" title="string.subst"><link rel="next" href="idref.html" title="idref"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">xpointer.idref</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="string.subst.html">Prev</a> </td><th width="60%" align="center">General Library Templates</th><td width="20%" align="right"> <a accesskey="n" href="idref.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="xpointer.idref"></a><div class="titlepage"></div>
+<div class="refnamediv"><h2>xpointer.idref</h2><p>
+xpointer.idref
+ &#8212; Extract IDREF from an XPointer
+</p></div>
+
+<div class="refsect1"><a name="id603364"></a><h2>Description</h2>
+
+<p>The <code class="function">xpointer.idref</code> template returns the
+ID portion of an XPointer which is a pointer to an ID within the current
+document, or the empty string if it is not.</p>
+<p>In other words, <code class="function">xpointer.idref</code> returns
+<span class="quote">&#8220;<span class="quote">foo</span>&#8221;</span> when passed either <code class="literal">#foo</code>
+or <code class="literal">#xpointer(id('foo'))</code>, otherwise it returns
+the empty string.</p>
+
+<a name="xpointer.idref.frag"></a><pre class="programlisting">
+&lt;xsl:template name="xpointer.idref"&gt;
+  &lt;xsl:param name="xpointer"&gt;http://...&lt;/xsl:param&gt;
+  &lt;xsl:choose&gt;
+    &lt;xsl:when test="starts-with($xpointer, '#xpointer(id(')"&gt;
+      &lt;xsl:variable name="rest" select="substring-after($xpointer, '#xpointer(id(')"&gt;&lt;/xsl:variable&gt;
+      &lt;xsl:variable name="quote" select="substring($rest, 1, 1)"&gt;&lt;/xsl:variable&gt;
+      &lt;xsl:value-of select="substring-before(substring-after($xpointer, $quote), $quote)"&gt;&lt;/xsl:value-of&gt;
+    &lt;/xsl:when&gt;
+    &lt;xsl:when test="starts-with($xpointer, '#')"&gt;
+      &lt;xsl:value-of select="substring-after($xpointer, '#')"&gt;&lt;/xsl:value-of&gt;
+    &lt;/xsl:when&gt;
+    &lt;!-- otherwise it's a pointer to some other document --&gt;
+  &lt;/xsl:choose&gt;
+&lt;/xsl:template&gt;
+</pre>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="string.subst.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="generallibrary.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="idref.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">string.subst </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> idref</td></tr></table></div></body></html>
+

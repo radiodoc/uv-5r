@@ -1,0 +1,46 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>man.output.encoding</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="output.html" title="Output"><link rel="prev" href="man.output.quietly.html" title="man.output.quietly"><link rel="next" href="man.output.better.ps.enabled.html" title="man.output.better.ps.enabled"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">man.output.encoding</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="man.output.quietly.html">Prev</a> </td><th width="60%" align="center">Output</th><td width="20%" align="right"> <a accesskey="n" href="man.output.better.ps.enabled.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="man.output.encoding"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">man.output.encoding</span></h2><p>
+man.output.encoding
+ &#8212; Encoding used for man-page output
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="man.output.encoding.frag"></a><pre class="programlisting">
+&lt;xsl:param name="man.output.encoding"&gt;UTF-8&lt;/xsl:param&gt;
+</pre>
+</div>
+
+<div class="refsection"><a name="id589938"></a><h2>Description</h2>
+
+<p>This parameter specifies the encoding to use for files generated
+by the manpages stylesheet. Not all processors support specification
+of this parameter.</p>
+
+<div class="important" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Important</h3>
+  <p>If the value of the <a href="../manpages/man.charmap.enabled.html"><em class="parameter"><code>man.charmap.enabled</code></em></a>
+  parameter is non-zero (the default), keeping the
+  <a href="../manpages/man.output.encoding.html"><em class="parameter"><code>man.output.encoding</code></em></a> parameter at its default
+  value (<code class="literal">UTF-8</code>) or setting it to
+  <code class="literal">UTF-16</code> <span class="bold"><strong>does not cause your
+  man pages to be output in raw UTF-8 or UTF-16</strong></span> -- because
+  any Unicode characters for which matches are found in the enabled
+  character map will be replaced with roff escape sequences before the
+  final man-page files are generated.</p>
+
+  <p>So if you want to generate "real" UTF-8 man pages, without any
+  character substitution being performed on your content, you need to
+  set <a href="../manpages/man.charmap.enabled.html"><em class="parameter"><code>man.charmap.enabled</code></em></a> to zero (which will
+  completely disable character-map processing). </p>
+
+  <p>You may also need to set
+  <a href="../manpages/man.charmap.enabled.html"><em class="parameter"><code>man.charmap.enabled</code></em></a> to zero if you want to
+  output man pages in an encoding other than <code class="literal">UTF-8</code>
+  or <code class="literal">UTF-16</code>. Character-map processing is based on
+  Unicode character values and may not work with other output
+  encodings.</p>
+</div>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="man.output.quietly.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="output.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="man.output.better.ps.enabled.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">man.output.quietly </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> man.output.better.ps.enabled</td></tr></table></div></body></html>
+

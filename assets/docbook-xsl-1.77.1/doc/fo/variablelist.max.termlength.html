@@ -1,0 +1,39 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>variablelist.max.termlength</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="lists.html" title="Lists"><link rel="prev" href="orderedlist.label.width.html" title="orderedlist.label.width"><link rel="next" href="variablelist.term.separator.html" title="variablelist.term.separator"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">variablelist.max.termlength</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="orderedlist.label.width.html">Prev</a> </td><th width="60%" align="center">Lists</th><td width="20%" align="right"> <a accesskey="n" href="variablelist.term.separator.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="variablelist.max.termlength"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">variablelist.max.termlength</span></h2><p>
+variablelist.max.termlength
+ &#8212; Specifies the longest term in variablelists
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="variablelist.max.termlength.frag"></a><pre class="programlisting">
+&lt;xsl:param name="variablelist.max.termlength"&gt;24&lt;/xsl:param&gt;
+</pre>
+</div>
+
+<div class="refsection"><a name="id563579"></a><h2>Description</h2>
+
+<p>In variablelists, the <a href="http://docbook.org/tdg5/en/html/listitem.html"><code class="sgmltag-element">listitem</code></a>
+is indented to leave room for the 
+<a href="http://docbook.org/tdg5/en/html/term.html"><code class="sgmltag-element">term</code></a> elements. That indent may be computed
+if it is not specified with a <code class="sgmltag-attribute">termlength</code>
+attribute on the <a href="http://docbook.org/tdg5/en/html/variablelist.html"><code class="sgmltag-element">variablelist</code></a> element.
+</p>
+<p>
+The computation counts characters in the 
+<a href="http://docbook.org/tdg5/en/html/term.html"><code class="sgmltag-element">term</code></a> elements in the list
+to find the longest term.  However, some terms are very long
+and would produce extreme indents.  This parameter lets you
+set a maximum character count.  Any terms longer than the maximum
+would line wrap.  The default value is 24.
+</p>
+<p>
+The character counts are converted to physical widths
+by multiplying by 0.50em. There will be some variability
+in how many actual characters fit in the space
+since some characters are wider than others.
+</p>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="orderedlist.label.width.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="lists.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="variablelist.term.separator.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">orderedlist.label.width </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> variablelist.term.separator</td></tr></table></div></body></html>
+

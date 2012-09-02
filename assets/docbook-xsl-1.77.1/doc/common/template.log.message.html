@@ -1,0 +1,144 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>log.message</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="utility.html" title="Common » Utility Template Reference"><link rel="prev" href="utility.html" title="Common » Utility Template Reference"><link rel="next" href="template.get.doc.title.html" title="get.doc.title"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">log.message</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="utility.html">Prev</a> </td><th width="60%" align="center">Common » Utility Template Reference</th><td width="20%" align="right"> <a accesskey="n" href="template.get.doc.title.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="template.log.message"></a><div class="titlepage"></div>
+<div class="refnamediv"><h2>log.message</h2><p>
+log.message
+ &#8212; Logs/emits formatted notes and warnings
+</p></div>
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<pre class="synopsis">&lt;xsl:template name="log.message"&gt;
+&lt;xsl:param name="level"/&gt;
+&lt;xsl:param name="source"/&gt;
+&lt;xsl:param name="context-desc"/&gt;
+&lt;xsl:param name="context-desc-field-length"&gt;12&lt;/xsl:param&gt;
+&lt;xsl:param name="context-desc-padded"&gt;
+    &lt;xsl:if test="not($context-desc = '')"&gt;
+      &lt;xsl:call-template name="pad-string"&gt;
+        &lt;xsl:with-param name="leftRight"&gt;right&lt;/xsl:with-param&gt;
+        &lt;xsl:with-param name="padVar" select="substring($context-desc, 1, $context-desc-field-length)"/&gt;
+        &lt;xsl:with-param name="length" select="$context-desc-field-length"/&gt;
+      &lt;/xsl:call-template&gt;
+    &lt;/xsl:if&gt;
+  &lt;/xsl:param&gt;
+&lt;xsl:param name="message"/&gt;
+&lt;xsl:param name="message-field-length" select="45"/&gt;
+&lt;xsl:param name="message-padded"&gt;
+    &lt;xsl:variable name="spaces-for-blank-level"&gt;
+      &lt;!-- * if the level field is blank, we'll need to pad out --&gt;
+      &lt;!-- * the message field with spaces to compensate --&gt;
+      &lt;xsl:choose&gt;
+        &lt;xsl:when test="$level = ''"&gt;
+          &lt;xsl:value-of select="4 + 2"/&gt;
+          &lt;!-- * 4 = hard-coded length of comment text ("Note" or "Warn") --&gt;
+          &lt;!-- * + 2 = length of colon-plus-space separator ": " --&gt;
+        &lt;/xsl:when&gt;
+        &lt;xsl:otherwise&gt;
+          &lt;xsl:value-of select="0"/&gt;
+        &lt;/xsl:otherwise&gt;
+      &lt;/xsl:choose&gt;
+    &lt;/xsl:variable&gt;
+    &lt;xsl:variable name="spaces-for-blank-context-desc"&gt;
+      &lt;!-- * if the context-description field is blank, we'll need --&gt;
+      &lt;!-- * to pad out the message field with spaces to compensate --&gt;
+      &lt;xsl:choose&gt;
+        &lt;xsl:when test="$context-desc = ''"&gt;
+          &lt;xsl:value-of select="$context-desc-field-length + 2"/&gt;
+          &lt;!-- * + 2 = length of colon-plus-space separator ": " --&gt;
+        &lt;/xsl:when&gt;
+        &lt;xsl:otherwise&gt;
+          &lt;xsl:value-of select="0"/&gt;
+        &lt;/xsl:otherwise&gt;
+      &lt;/xsl:choose&gt;
+    &lt;/xsl:variable&gt;
+    &lt;xsl:variable name="extra-spaces" select="$spaces-for-blank-level + $spaces-for-blank-context-desc"/&gt;
+    &lt;xsl:call-template name="pad-string"&gt;
+      &lt;xsl:with-param name="leftRight"&gt;right&lt;/xsl:with-param&gt;
+      &lt;xsl:with-param name="padVar" select="substring($message, 1, ($message-field-length + $extra-spaces))"/&gt;
+      &lt;xsl:with-param name="length" select="$message-field-length + $extra-spaces"/&gt;
+    &lt;/xsl:call-template&gt;
+  &lt;/xsl:param&gt;
+  ...
+&lt;/xsl:template&gt;</pre>
+</div>
+<div class="refsect1"><a name="id607399"></a><h2>Description</h2>
+    
+<p>The <code class="function">log.message</code> template is a utility
+    template for logging/emitting formatted messages &#8211; that is,
+    notes and warnings, along with a given log &#8220;level&#8221; and an
+    identifier for the &#8220;source&#8221; that the message relates to.</p>
+
+  </div><div class="refsect1"><a name="id607413"></a><h2>Parameters</h2>
+    
+<div class="variablelist"><dl class="variablelist"><dt><span class="term">level</span></dt><dd>
+          
+<p>Text to log/emit in the message-level field to
+            indicate the message level
+          (<code class="literal">Note</code> or
+          <code class="literal">Warning</code>)</p>
+
+        </dd><dt><span class="term">source</span></dt><dd>
+          
+<p>Text to log/emit in the source field to identify the
+            &#8220;source&#8221; to which the notification/warning relates.
+            This can be any arbitrary string, but because the
+            message lacks line and column numbers to identify the
+            exact part of the source document to which it
+            relates, the intention is that the value you pass
+            into the <code class="literal">source</code> parameter should
+            give the user some way to identify the portion of
+            their source document on which to take potentially
+            take action in response to the log message (for
+            example, to edit, change, or add content).</p>
+
+          
+<p>So the <code class="literal">source</code> value should be,
+            for example, an ID, book/chapter/article title, title
+            of some formal object, or even a string giving an
+            XPath expression.</p>
+
+        </dd><dt><span class="term">context-desc</span></dt><dd>
+          
+<p>Text to log/emit in the context-description field to
+            describe the context for the message.</p>
+
+        </dd><dt><span class="term">context-desc-field-length</span></dt><dd>
+          
+<p>Specifies length of the context-description field
+            (in characters); default is 12</p>
+
+          
+<p>If the text specified by the
+            <code class="literal">context-desc</code> parameter is longer
+            than the number of characters specified in
+            <code class="literal">context-desc-field-length</code>, it is
+            truncated to <code class="literal">context-desc-field-length</code>
+            (12 characters by default).</p>
+
+          
+<p>If the specified text is shorter than
+            <code class="literal">context-desc-field-length</code>,
+          it is right-padded out to
+          <code class="literal">context-desc-field-length</code> (12 by
+          default).</p>
+
+        
+<p>If no value has been specified for the
+          <code class="literal">context-desc</code> parameter, the field is
+          left empty and the text of the log message begins with
+          the value of the <code class="literal">message</code>
+          parameter.</p>
+
+        </dd><dt><span class="term">message</span></dt><dd>
+          
+<p>Text to log/emit in the actual message field</p>
+
+        </dd><dt><span class="term">message-field-length</span></dt><dd>
+          
+<p>Specifies length of the message
+            field (in characters); default is 45</p>
+
+        </dd></dl></div>
+
+  </div><div class="refsect1"><a name="id607572"></a><h2>Returns</h2>
+  
+<p>Outputs a message (generally, to standard error).</p>
+</div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="utility.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="utility.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="template.get.doc.title.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Common » Utility Template Reference </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> get.doc.title</td></tr></table></div></body></html>
+

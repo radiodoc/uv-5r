@@ -1,0 +1,26 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>rootid</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="xslt.html" title="XSLT Processing"><link rel="prev" href="xslt.html" title="XSLT Processing"><link rel="next" href="meta.html" title="Meta/*Info"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">rootid</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="xslt.html">Prev</a> </td><th width="60%" align="center">XSLT Processing</th><td width="20%" align="right"> <a accesskey="n" href="meta.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="rootid"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">rootid</span></h2><p>
+rootid
+ &#8212; Specify the root element to format
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="rootid.frag"></a><pre class="programlisting">
+&lt;xsl:param name="rootid"&gt;&lt;/xsl:param&gt;</pre>
+</div>
+
+<div class="refsection"><a name="id558639"></a><h2>Description</h2>
+
+<p>If <a href="../html/rootid.html"><em class="parameter"><code>rootid</code></em></a> is not empty, it must be the
+value of an ID that occurs in the document being formatted. The entire
+document will be loaded and parsed, but formatting will begin at the
+element identified, rather than at the root. For example, this allows
+you to process only <a href="http://docbook.org/tdg5/en/html/chapter.html"><code class="sgmltag-element">chapter</code></a> 4 of a <a href="http://docbook.org/tdg5/en/html/book.html"><code class="sgmltag-element">book</code></a>.</p>
+<p>Because the entire document is available to the processor, automatic
+numbering, cross references, and other dependencies are correctly
+resolved.</p>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="xslt.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="xslt.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="meta.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">XSLT Processing </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> Meta/*Info</td></tr></table></div></body></html>
+

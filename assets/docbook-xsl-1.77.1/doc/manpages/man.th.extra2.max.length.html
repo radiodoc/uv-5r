@@ -1,0 +1,36 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>man.th.extra2.max.length</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="th.html" title="Page header/footer"><link rel="prev" href="man.th.title.max.length.html" title="man.th.title.max.length"><link rel="next" href="man.th.extra3.max.length.html" title="man.th.extra3.max.length"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">man.th.extra2.max.length</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="man.th.title.max.length.html">Prev</a> </td><th width="60%" align="center">Page header/footer</th><td width="20%" align="right"> <a accesskey="n" href="man.th.extra3.max.length.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="man.th.extra2.max.length"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">man.th.extra2.max.length</span></h2><p>
+man.th.extra2.max.length
+ &#8212; Maximum length of extra2 in header/footer
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="man.th.extra2.max.length.frag"></a><pre class="programlisting">
+&lt;xsl:param name="man.th.extra2.max.length"&gt;30&lt;/xsl:param&gt;
+</pre>
+</div>
+
+<div class="refsection"><a name="id589177"></a><h2>Description</h2>
+
+<p>Specifies the maximum permitted length of the
+<code class="literal">extra2</code> part of the man-page part of the
+<code class="literal">.TH</code> title line header/footer. If the
+<code class="literal">extra2</code> content exceeds the maxiumum specified, it
+is truncated down to the maximum permitted length.</p>
+
+<p>The content of the <code class="literal">extra2</code> field is usually
+displayed in the left footer of the page and is typically "source"
+data indicating the software system or product that the item
+documented in the man page belongs to, often in the form
+<em class="replaceable"><code>Name</code></em> <em class="replaceable"><code>Version</code></em>;
+for example, "GTK+ 1.2" (from the <code class="literal">gtk-options(7)</code>
+man page).</p>
+
+<p>The default value for this parameter is reasonable but somewhat
+arbitrary. If you are processing pages with long "source" information,
+you may want to experiment with changing the value in order to achieve
+the correct aesthetic results.</p>
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="man.th.title.max.length.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="th.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="man.th.extra3.max.length.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">man.th.title.max.length </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> man.th.extra3.max.length</td></tr></table></div></body></html>
+

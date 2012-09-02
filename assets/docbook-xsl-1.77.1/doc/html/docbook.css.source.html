@@ -1,0 +1,71 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>docbook.css.source</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="html.html" title="HTML"><link rel="prev" href="make.clean.html.html" title="make.clean.html"><link rel="next" href="docbook.css.link.html" title="docbook.css.link"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">docbook.css.source</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="make.clean.html.html">Prev</a> </td><th width="60%" align="center">HTML</th><td width="20%" align="right"> <a accesskey="n" href="docbook.css.link.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="docbook.css.source"></a><div class="titlepage"></div>
+  
+  <div class="refnamediv"><h2><span class="refentrytitle">docbook.css.source</span></h2><p>
+    docbook.css.source
+     &#8212; Name of the default CSS input file
+  </p></div>
+
+  <div class="refsynopsisdiv"><h2>Synopsis</h2>
+    <a name="docbook.css.source.frag"></a><pre class="programlisting">&lt;xsl:param name="docbook.css.source"&gt;docbook.css.xml&lt;/xsl:param&gt;</pre>
+  </div>
+
+  <div class="refsection"><a name="id532164"></a><h2>Description</h2>
+
+<p>The <a href="../html/docbook.css.source.html"><em class="parameter"><code>docbook.css.source</code></em></a> parameter
+specifies the name of the file containing the default DocBook
+CSS styles.  Those styles are necessary when the
+<a href="../html/make.clean.html.html"><em class="parameter"><code>make.clean.html</code></em></a> parameter is nonzero.</p>
+
+<p>The file is a well-formed XML file that
+must consist of a single <code class="sgmltag-element">style</code> root
+element that contains CSS styles as its text content.
+The default value of the parameter (and filename)
+is <code class="literal">docbook.css.xml</code>.
+The stylesheets ship with the default file. You can substitute
+your own and specify its path in this parameter.</p>
+
+<p>If <a href="../html/docbook.css.source.html"><em class="parameter"><code>docbook.css.source</code></em></a> is not blank,
+and <a href="../html/make.clean.html.html"><em class="parameter"><code>make.clean.html</code></em></a> is nonzero, then
+the stylesheet takes the following actions:</p>
+
+<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem">
+    <p>The stylesheet uses the XSLT <code class="literal">document()</code>
+    function to open the file specified by the parameter and
+    load it into a variable.</p>
+  </li><li class="listitem">
+    <p>The stylesheet forms an output pathname consisting of the
+    value of the <a href="../html/base.dir.html"><em class="parameter"><code>base.dir</code></em></a> parameter (if it is set)
+    and the value of <a href="../html/docbook.css.source.html"><em class="parameter"><code>docbook.css.source</code></em></a>,
+    with the <code class="literal">.xml</code> suffix stripped off.
+    </p>
+  </li><li class="listitem">
+    <p>The stylesheet removes the <code class="sgmltag-element">style</code>
+    wrapper element and writes just the CSS text content to the output file.</p>
+  </li><li class="listitem">
+    <p>The stylesheet adds a <a href="http://docbook.org/tdg5/en/html/link.html"><code class="sgmltag-element">link</code></a> element to the
+    HTML <code class="sgmltag-element">HEAD</code> element to reference the external CSS stylesheet.
+    For example:</p>
+    <pre class="programlisting">&lt;link rel="stylesheet" href="docbook.css" type="text/css"&gt;
+    </pre>
+    <p>However, if the <a href="../html/docbook.css.link.html"><em class="parameter"><code>docbook.css.link</code></em></a>
+    parameter is set to zero, then no <a href="http://docbook.org/tdg5/en/html/link.html"><code class="sgmltag-element">link</code></a> is written
+    for the default CSS file.  That is useful if a custom
+    CSS file will import the default CSS stylesheet to ensure
+    proper cascading of styles.</p>
+  </li></ol></div>
+
+<p>If the <a href="../html/docbook.css.source.html"><em class="parameter"><code>docbook.css.source</code></em></a> parameter
+is changed from its default <code class="literal">docbook.css.xml</code> to blank,
+then no default CSS is generated. Likewise if the
+<a href="../html/make.clean.html.html"><em class="parameter"><code>make.clean.html</code></em></a> parameter is set to zero,
+then no default CSS is generated. The 
+<a href="../html/custom.css.source.html"><em class="parameter"><code>custom.css.source</code></em></a> parameter can be used
+instead to generate a complete custom CSS file.</p>
+
+<p>You can use the <a href="../html/generate.css.header.html"><em class="parameter"><code>generate.css.header</code></em></a>
+parameter to instead write the CSS to each HTML <code class="sgmltag-element">HEAD</code>
+element in a <code class="sgmltag-element">style</code> tag instead of an external CSS file.</p>
+
+  </div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="make.clean.html.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="html.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="docbook.css.link.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">make.clean.html </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> docbook.css.link</td></tr></table></div></body></html>
+

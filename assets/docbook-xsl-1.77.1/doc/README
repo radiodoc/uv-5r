@@ -1,0 +1,34 @@
+----------------------------------------------------------------------
+  README file for the DocBook XSL Stylesheets reference documentation
+----------------------------------------------------------------------
+$Id: README 7067 2007-07-17 14:54:22Z xmldoc $
+
+This is generated reference documentation for the DocBook XSL
+stylesheets, primarily documentation on the parameters you can
+adjust to control the behavior of the stylesheets.
+
+This is purely reference documentation, not how-to documentation.
+For a thorough step-by-step how-to guide to publishing content
+using the DocBook XSL stylesheets, see Bob Stayton's "DocBook XSL:
+The Complete Guide", available online at
+
+  http://www.sagehill.net/docbookxsl/
+
+----------------------------------------------------------------------
+Manifest
+----------------------------------------------------------------------
+AUTHORS            - contact information
+COPYING            - copyright, license, and warranty information
+README             - this file
+copyright.html     - copyright and license information (HTML)
+index.html         - documentation start page
+reference.html     - documentation start page (same as index.html)
+reference.pdf.gz   - documentation in PDF form (gzipped)
+reference.txt.gz   - documentation in plain-text form (gzipped)
+warranty.html      - warranty information (HTML)and 
+
+The subdirectories all contain documentation on individual DocBook
+XSL stylesheets parameters, in HTML form. You don't need to access
+the subdirectories directly, because the content in all the
+subdirectories is accessible through the index.html (and
+reference.html) start page.

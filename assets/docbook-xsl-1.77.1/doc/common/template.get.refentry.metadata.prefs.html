@@ -1,0 +1,37 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>get.refentry.metadata.prefs</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="refentry.html" title="Common » Refentry Metadata Template Reference"><link rel="prev" href="template.get.refentry.manual.html" title="get.refentry.manual"><link rel="next" href="template.set.refentry.metadata.html" title="set.refentry.metadata"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">get.refentry.metadata.prefs</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="template.get.refentry.manual.html">Prev</a> </td><th width="60%" align="center">Common » Refentry Metadata Template Reference</th><td width="20%" align="right"> <a accesskey="n" href="template.set.refentry.metadata.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="template.get.refentry.metadata.prefs"></a><div class="titlepage"></div>
+<div class="refnamediv"><h2>get.refentry.metadata.prefs</h2><p>
+get.refentry.metadata.prefs
+ &#8212; Gets user preferences for refentry metadata gathering
+</p></div>
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<pre class="synopsis">&lt;xsl:template name="get.refentry.metadata.prefs"/&gt;</pre>
+</div>
+<div class="refsect1"><a name="id607114"></a><h2>Description</h2>
+    
+<p>The DocBook XSL stylesheets include several user-configurable
+    global stylesheet parameters for controlling <a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a>
+    metadata gathering. Those parameters are not read directly by the
+    other <a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a> metadata-gathering
+    templates. Instead, they are read only by the
+    <code class="function">get.refentry.metadata.prefs</code> template,
+    which assembles them into a structure that is then passed to
+    the other <a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a> metadata-gathering
+    templates.</p>
+
+
+    
+<p>So the, <code class="function">get.refentry.metadata.prefs</code>
+    template is the only interface to collecting stylesheet parameters for
+    controlling <a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a> metadata gathering.</p>
+
+  </div><div class="refsect1"><a name="id607152"></a><h2>Parameters</h2>
+    
+<p>There are no local parameters for this template; however, it
+    does rely on a number of global parameters.</p>
+
+  </div><div class="refsect1"><a name="id607160"></a><h2>Returns</h2>
+    
+<p>Returns a <code class="sgmltag-element">manual</code> node.</p>
+
+  </div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="template.get.refentry.manual.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="refentry.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="template.set.refentry.metadata.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">get.refentry.manual </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> set.refentry.metadata</td></tr></table></div></body></html>
+

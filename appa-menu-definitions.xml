@@ -29,14 +29,14 @@
 		<tgroup cols="3">
 		<thead>
 			<row>
-				<entry>Values</entry>
+				<entry>Values (kHz)</entry>
 				<entry>Default value</entry>
 				<entry>Notes</entry>
 			</row>
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>2.5 / 5 / 6.25 / 10 / 12.5 / 25 (kHz)</literal></entry>
+				<entry><literal>2.5 / 5 / 6.25 / 10 / 12.5 / 25</literal></entry>
 				<entry><literal></literal></entry>
 				<entry></entry>
 			</row>
