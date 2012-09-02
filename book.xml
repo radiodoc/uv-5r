@@ -3,12 +3,7 @@
 <!ENTITY ch01 SYSTEM "ch01-safety-information.xml">
 <!ENTITY ch02 SYSTEM "ch02-features.xml">
 <!ENTITY ch03 SYSTEM "ch03-unboxing.xml">
-<!ENTITY ch03 SYSTEM "ch03-unboxing.xml">
-<!ENTITY ch03 SYSTEM "ch03-unboxing.xml">
-<!ENTITY ch03 SYSTEM "ch03-unboxing.xml">
-<!ENTITY ch03 SYSTEM "ch03-unboxing.xml">
-<!ENTITY appa SYSTEM "ch04.xml">
-<!ENTITY appb SYSTEM "appb.xml">
+<!ENTITY appa SYSTEM "appa-menu-definitions.xml">
 ]>
 <book xmlns="http://docbook.org/ns/docbook" version="5.0">
 	<title>Baofeng UV-5R</title>
@@ -47,21 +42,12 @@
 
 	<!-- External entity refs -->
 
-	&foreword;
-	&ch00;
 	&ch01;
 	&ch02;
 	&ch03;
-	&ch04;
-	&ch05;
-	&ch06;
-	&ch07;
-	&ch08;
-	&ch09;
 	&appa;
-	&appb;
-	&appc;
+<!--
 	&license;
 	&index;
-
+-->
 </book>
