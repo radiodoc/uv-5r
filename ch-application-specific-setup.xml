@@ -1,0 +1,22 @@
+<chapter>
+<title>Application Specific Setup</title>
+<section>
+	<title>Commercial Radio Setup</title>
+	Narrowband
+</section>
+<section>
+	<title>Amateur Radio Setup</title>
+	Wideband
+	DCS off (unless needed by repeater)
+	CTCSS off (unless needed by repeater)
+	ANI / DTMFST / S-CODE / PTT-ID off
+	PTT-LT 0ms
+	STE off
+	ROGER off
+
+	Repeater frequency shift + direction
+</section>
+<section>
+	<title>Airsoft / Paintball</title>
+</section>
+</chapter>
