@@ -1,0 +1,62 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>man.base.url.for.relative.links</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="endnotes.html" title="Endnotes and link handling"><link rel="prev" href="man.endnotes.are.numbered.html" title="man.endnotes.are.numbered"><link rel="next" href="lists.html" title="Lists"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">man.base.url.for.relative.links</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="man.endnotes.are.numbered.html">Prev</a> </td><th width="60%" align="center">Endnotes and link handling</th><td width="20%" align="right"> <a accesskey="n" href="lists.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="man.base.url.for.relative.links"></a><div class="titlepage"></div>
+  
+  <div class="refnamediv"><h2><span class="refentrytitle">man.base.url.for.relative.links</span></h2><p>
+    man.base.url.for.relative.links
+     &#8212; Specifies a base URL for relative links
+  </p></div>
+
+  <div class="refsynopsisdiv"><h2>Synopsis</h2>
+    <a name="man.base.url.for.relative.links.frag"></a><pre class="programlisting">&lt;xsl:param name="man.base.url.for.relative.links"&gt;[set $man.base.url.for.relative.links]/&lt;/xsl:param&gt;</pre>
+  </div>
+
+  <div class="refsection"><a name="id585408"></a><h2>Description</h2>
+
+    <p>For any &#8220;notesource&#8221; listed in the auto-generated
+      &#8220;NOTES&#8221; section of output man pages (which is generated when
+      the value of the
+      <a href="../manpages/man.endnotes.list.enabled.html"><em class="parameter"><code>man.endnotes.list.enabled</code></em></a> parameter
+      is non-zero), if the notesource is a link source with a
+      relative URI, the URI is displayed in output with the value
+      of the
+      <a href="../manpages/man.base.url.for.relative.links.html"><em class="parameter"><code>man.base.url.for.relative.links</code></em></a>
+      parameter prepended to the value of the link URI.</p>
+
+    <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>
+      <p>A link source is an notesource that references an
+        external resource:
+        </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+            <p>a <code class="sgmltag-element">ulink</code> element with a <code class="sgmltag-attribute">url</code> attribute</p>
+          </li><li class="listitem">
+            <p>any element with an <code class="sgmltag-attribute">xlink:href</code> attribute</p>
+          </li><li class="listitem">
+            <p>an <a href="http://docbook.org/tdg5/en/html/imagedata.html"><code class="sgmltag-element">imagedata</code></a>, <a href="http://docbook.org/tdg5/en/html/audiodata.html"><code class="sgmltag-element">audiodata</code></a>, or
+              <a href="http://docbook.org/tdg5/en/html/videodata.html"><code class="sgmltag-element">videodata</code></a> element</p>
+          </li></ul></div><p>
+      </p>
+    </div>
+
+    <p>If you use relative URIs in link sources in your DocBook
+      <a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a> source, and you leave
+      <a href="../manpages/man.base.url.for.relative.links.html"><em class="parameter"><code>man.base.url.for.relative.links</code></em></a>
+      unset, the relative links will appear &#8220;as is&#8221; in the &#8220;Notes&#8221;
+      section of any man-page output generated from your source.
+      That&#8217;s probably not what you want, because such relative
+      links are only usable in the context of HTML output. So, to
+      make the links meaningful and usable in the context of
+      man-page output, set a value for
+      <a href="../manpages/man.base.url.for.relative.links.html"><em class="parameter"><code>man.base.url.for.relative.links</code></em></a> that
+      points to the online version of HTML output generated from
+      your DocBook <a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a> source. For
+      example:
+      </p><pre class="programlisting">&lt;xsl:param name="man.base.url.for.relative.links"
+        &gt;http://www.kernel.org/pub/software/scm/git/docs/&lt;/xsl:param&gt;</pre><p>
+    </p>
+
+  </div>
+
+  <div class="refsection"><a name="id585521"></a><h2>Related Parameters</h2>
+    <p><a href="../manpages/man.endnotes.list.enabled.html"><em class="parameter"><code>man.endnotes.list.enabled</code></em></a></p>
+  </div>
+
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="man.endnotes.are.numbered.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="endnotes.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="lists.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">man.endnotes.are.numbered </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> Lists</td></tr></table></div></body></html>
+

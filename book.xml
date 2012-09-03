@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book [
+<!ENTITY ch01 SYSTEM "ch01-safety-information.xml">
+<!ENTITY ch02 SYSTEM "ch02-features.xml">
+<!ENTITY ch03 SYSTEM "ch03-unboxing.xml">
+<!ENTITY ch04 SYSTEM "ch04-basic-operation.xml">
+<!ENTITY ch05 SYSTEM "ch05-advanced-operation.xml">
+<!ENTITY appa SYSTEM "appa-menu-definitions.xml">
+<!ENTITY appb SYSTEM "appb-glossary.xml">
+]>
+<book xmlns="http://docbook.org/ns/docbook" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns:svg="http://www.w3.org/2000/svg"
+	version="5.0">
+	<title>Baofeng UV-5R</title>
+
+	<info>
+
+		<subtitle>From the</subtitle>
+		<subtitle>(Chinese) Radio Documentation Project.</subtitle>
+		<subtitle><link xlink:href="http://radiodoc.github.com/"/></subtitle>
+
+		<authorgroup>
+			<author>
+				<firstname>xles</firstname>
+				<surname>McFuzzypants</surname>
+			</author>
+		</authorgroup>
+
+		<editor>
+			<firstname>xles</firstname>
+			<surname>McFuzzypants</surname>
+		</editor>
+		<copyright>
+			<year>2012</year>
+			<holder>xles McFuzzypants</holder>
+		</copyright>
+
+		<legalnotice>
+			<para>This work is licensed under the Creative 
+			Commons Attribution-ShareAlike 3.0 Unported License.  
+			To view a copy of this license, visit 
+			
+			<link xlink:href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			
+			or send a letter to Creative Commons, 559 Nathan Abbott Way,
+			Stanford, California 94305, USA.</para>
+<!--
+<mediaobject>
+  <imageobject>
+    <imagedata format="PNG" fileref="assets/images/g3151.png"/>
+    <imagedata format="SVG" fileref="assets/images/display-blank.svg"/>
+  </imageobject>
+</mediaobject>
+-->
+		</legalnotice>
+
+	</info>
+
+	<!-- External entity refs -->
+
+	&ch01;
+	&ch02;
+	&ch03;
+	&ch04;
+	&ch05;
+	&appa;
+	&appb;
+<!--
+	&license;
+	&index;
+-->
+</book>

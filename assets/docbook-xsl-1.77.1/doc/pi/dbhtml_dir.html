@@ -1,0 +1,66 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>dbhtml_dir</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="pi-html.html" title="Part 1. HTML Processing Instruction Reference"><link rel="prev" href="dbhtml_class.html" title="dbhtml_class"><link rel="next" href="dbhtml_filename.html" title="dbhtml_filename"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">dbhtml_dir</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="dbhtml_class.html">Prev</a> </td><th width="60%" align="center">Part 1. HTML Processing Instruction Reference</th><td width="20%" align="right"> <a accesskey="n" href="dbhtml_filename.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="dbhtml_dir"></a><div class="titlepage"></div>
+<div class="refnamediv"><h2>dbhtml_dir</h2><p>
+dbhtml_dir
+ &#8212; Specifies a directory name in which to write files
+</p></div>
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+
+    <pre class="synopsis"><code class="sgmltag-xmlpi">&lt;?dbhtml dir="<em class="replaceable"><code>path</code></em>"?&gt;</code></pre>
+  
+</div>
+<div class="refsect1"><a name="id597124"></a><h2>Description</h2>
+    
+<p>When chunking output, use the <a href="../pi/dbhtml_dir.html"><code class="sgmltag-xmlpi">&lt;?dbhtml dir?&gt;</code></a> PI
+      as a child of a chunk source to cause the output of that
+      chunk to be written to the specified directory; also, use it
+      as a child of a <a href="http://docbook.org/tdg5/en/html/mediaobject.html"><code class="sgmltag-element">mediaobject</code></a> to specify a
+      directory into which any long-description files for that
+      <a href="http://docbook.org/tdg5/en/html/mediaobject.html"><code class="sgmltag-element">mediaobject</code></a> will be written.</p>
+
+
+
+<p>The output directory specification is inherited by all
+chunks of the descendants of the element.  If descendants need
+to go to a different directory, then add another 
+<a href="../pi/dbhtml_dir.html"><code class="sgmltag-xmlpi">&lt;?dbhtml dir?&gt;</code></a> processing
+instruction as a child of the source element
+for that chunk, and specify the path relative to the
+ancestor path.</p>
+
+
+
+<p>For example, to put most chunk files into 
+<code class="filename">shared</code>
+but one chapter into 
+<code class="filename">exception</code>
+at the same level, use:</p>
+
+
+<pre class="programlisting">&lt;book&gt;
+  &lt;?dbhtml dir="shared"?&gt;
+  ...
+  &lt;chapter&gt;
+    &lt;?dbhtml dir="../exception"?&gt;
+  &lt;/chapter&gt;
+&lt;/book&gt;
+</pre>
+
+
+  </div><div class="refsect1"><a name="id597180"></a><h2>Parameters</h2>
+    
+<div class="variablelist"><dl class="variablelist"><dt><span class="term">dir="<em class="replaceable"><code>path</code></em>"</span></dt><dd>
+          
+<p>Specifies the pathname for the directory</p>
+
+        </dd></dl></div>
+
+  </div><div class="refsect1"><a name="id597206"></a><h2>Related Global Parameters</h2>
+    
+<p><a href="../html/base.dir.html"><em class="parameter"><code>base.dir</code></em></a></p>
+
+  </div><div class="refsect1"><a name="id597216"></a><h2>Related Information in <a class="ulink" href="http://www.sagehill.net/docbookxsl/" target="_top">DocBook XSL: The Complete Guide</a></h2>
+    
+<p><a class="ulink" href="http://www.sagehill.net/docbookxsl/Chunking.html#dbhtmlDirPI" target="_top">dbhtml dir processing instruction</a></p>
+
+  </div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="dbhtml_class.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="pi-html.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="dbhtml_filename.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">dbhtml_class </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> dbhtml_filename</td></tr></table></div></body></html>
+

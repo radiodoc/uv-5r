@@ -1,0 +1,39 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>appendix.autolabel</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="labels.html" title="Automatic labelling"><link rel="prev" href="labels.html" title="Automatic labelling"><link rel="next" href="chapter.autolabel.html" title="chapter.autolabel"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">appendix.autolabel</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="labels.html">Prev</a> </td><th width="60%" align="center">Automatic labelling</th><td width="20%" align="right"> <a accesskey="n" href="chapter.autolabel.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="appendix.autolabel"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">appendix.autolabel</span></h2><p>
+appendix.autolabel
+ &#8212; Specifies the labeling format for Appendix titles
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="appendix.autolabel.frag"></a><pre class="programlisting">
+&lt;xsl:param name="appendix.autolabel"&gt;A&lt;/xsl:param&gt;
+</pre>
+</div>
+
+<div class="refsection"><a name="id557332"></a><h2>Description</h2>
+
+<p>If non-zero, then appendices will be numbered using the
+parameter value as the number format if the value matches one of the
+following:
+</p>
+
+<div class="variablelist"><dl class="variablelist"><dt><span class="term">1 or arabic</span></dt><dd>
+      <p>Arabic numeration (1, 2, 3 ...).</p>
+    </dd><dt><span class="term">A or upperalpha</span></dt><dd>
+      <p>Uppercase letter numeration (A, B, C ...).</p>
+    </dd><dt><span class="term">a or loweralpha</span></dt><dd>
+      <p>Lowercase letter numeration (a, b, c ...).</p>
+    </dd><dt><span class="term">I or upperroman</span></dt><dd>
+      <p>Uppercase roman numeration (I, II, III ...).</p>
+    </dd><dt><span class="term">i or lowerroman</span></dt><dd>
+      <p>Lowercase roman letter numeration (i, ii, iii ...).</p>
+    </dd></dl></div>
+
+<p>Any nonzero value other than the above will generate
+the default number format (upperalpha).
+</p>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="labels.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="labels.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="chapter.autolabel.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Automatic labelling </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> chapter.autolabel</td></tr></table></div></body></html>
+

@@ -1,0 +1,47 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>index.term.separator</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="toc_index.html" title="ToC/LoT/Index Generation"><link rel="prev" href="index.range.separator.html" title="index.range.separator"><link rel="next" href="xep.index.item.properties.html" title="xep.index.item.properties"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">index.term.separator</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="index.range.separator.html">Prev</a> </td><th width="60%" align="center">ToC/LoT/Index Generation</th><td width="20%" align="right"> <a accesskey="n" href="xep.index.item.properties.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="index.term.separator"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">index.term.separator</span></h2><p>
+index.term.separator
+ &#8212; Override for punctuation separating an index term 
+from its list of page references in an index
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="index.term.separator.frag"></a><pre class="programlisting">
+&lt;xsl:param name="index.term.separator"&gt;&lt;/xsl:param&gt;
+</pre>
+</div>
+
+<div class="refsection"><a name="id555273"></a><h2>Description</h2>
+
+<p>This parameter permits you to override
+the text to insert between
+the end of an index term and its list of page references.
+Typically that might be a comma and a space.
+</p>
+
+<p>Because this text may be locale dependent,
+this parameter's value is normally taken from a gentext
+template named 'term-separator' in the
+context 'index' in the stylesheet
+locale file for the language
+of the current document.
+This parameter can be used to override the gentext string,
+and would typically be used on the command line.
+This parameter would apply to all languages.
+</p>
+
+<p>So this text string can be customized in two ways.
+You can reset the default gentext string using
+the <em class="parameter"><code>local.l10n.xml</code></em> parameter, or you can
+fill in the content for this normally empty 
+override parameter.
+The content can be a simple string, or it can be
+something more complex such as a call-template.
+For fo output, it could be an <code class="sgmltag-element">fo:leader</code>
+element to provide space of a specific length, or a dot leader.
+</p>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="index.range.separator.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="toc_index.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="xep.index.item.properties.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">index.range.separator </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> xep.index.item.properties</td></tr></table></div></body></html>
+

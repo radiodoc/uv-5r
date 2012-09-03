@@ -1,0 +1,64 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>dbhtml-include_href</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="pi-html.html" title="Part 1. HTML Processing Instruction Reference"><link rel="prev" href="dbfunclist.html" title="dbfunclist"><link rel="next" href="dbhh.html" title="dbhh"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">dbhtml-include_href</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="dbfunclist.html">Prev</a> </td><th width="60%" align="center">Part 1. HTML Processing Instruction Reference</th><td width="20%" align="right"> <a accesskey="n" href="dbhh.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="dbhtml-include_href"></a><div class="titlepage"></div>
+<div class="refnamediv"><h2>dbhtml-include_href</h2><p>
+dbhtml-include_href
+ &#8212; Copies an external well-formed HTML/XML file into current doc
+</p></div>
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+
+    <pre class="synopsis"><code class="sgmltag-xmlpi">&lt;?dbhtml-include href="<em class="replaceable"><code>URI</code></em>"?&gt;</code></pre>
+  
+</div>
+<div class="refsect1"><a name="id599470"></a><h2>Description</h2>
+    
+<p>Use the <a href="../pi/dbhtml-include_href.html"><code class="sgmltag-xmlpi">&lt;?dbhtml-include href?&gt;</code></a> PI anywhere in a
+      document to cause the contents of the file referenced by the
+      <code class="code">href</code> pseudo-attribute to be copied/inserted &#8220;as
+      is&#8221; into your HTML output at the point in document order
+      where the PI occurs in the source.</p>
+
+    <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>
+      
+<p>The referenced file may contain plain text (as long as
+        it is &#8220;wrapped&#8221; in an <code class="sgmltag-element">html</code> element &#8212; see the
+        note below) or markup in any arbitrary vocabulary,
+        including HTML &#8212; but it must conform to XML
+        well-formedness constraints (because the feature in XSLT
+        1.0 for opening external files, the
+        <code class="function">document()</code> function, can only handle
+        files that meet XML well-formedness constraints).</p>
+
+      
+<p>Among other things, XML well-formedness constraints
+        require a document to have <span class="emphasis"><em>a single root
+          element</em></span>. So if the content you want to
+        include is plain text or is markup that does
+        <span class="emphasis"><em>not</em></span> have a single root element,
+        <span class="strong"><strong>wrap the content in an
+          <code class="sgmltag-element">html</code> element</strong></span>. The stylesheets will
+        strip out that surrounding <code class="sgmltag-element">html</code> &#8220;wrapper&#8221; when
+        they find it, leaving just the content you want to
+        insert.</p>
+
+    </div>
+  </div><div class="refsect1"><a name="id599535"></a><h2>Parameters</h2>
+    
+<div class="variablelist"><dl class="variablelist"><dt><span class="term">href="<em class="replaceable"><code>URI</code></em>"</span></dt><dd>
+          
+<p>Specifies the URI for the file to include; the URI
+            can be, for example, a remote <code class="literal">http:</code>
+            URI, or a local filesystem <code class="literal">file:</code>
+            URI</p>
+
+        </dd></dl></div>
+
+  </div><div class="refsect1"><a name="id599570"></a><h2>Related Global Parameters</h2>
+    
+<p><a href="../html/textinsert.extension.html"><em class="parameter"><code>textinsert.extension</code></em></a></p>
+
+  </div><div class="refsect1"><a name="id599580"></a><h2>Related Information in <a class="ulink" href="http://www.sagehill.net/docbookxsl/" target="_top">DocBook XSL: The Complete Guide</a></h2>
+    
+<p><a class="ulink" href="http://www.sagehill.net/docbookxsl/InsertExtHtml.html" target="_top">Inserting external HTML code</a>,
+      <a class="ulink" href="http://www.sagehill.net/docbookxsl/ExternalCode.html" target="_top">External code files</a></p>
+
+  </div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="dbfunclist.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="pi-html.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="dbhh.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">dbfunclist </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> dbhh</td></tr></table></div></body></html>
+

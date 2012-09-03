@@ -1,0 +1,65 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>apply-character-map</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="charmap.html" title="Common » Character-Map Template Reference"><link rel="prev" href="charmap.html" title="Common » Character-Map Template Reference"><link rel="next" href="template.read-character-map.html" title="read-character-map"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">apply-character-map</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="charmap.html">Prev</a> </td><th width="60%" align="center">Common » Character-Map Template Reference</th><td width="20%" align="right"> <a accesskey="n" href="template.read-character-map.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="template.apply-character-map"></a><div class="titlepage"></div>
+<div class="refnamediv"><h2>apply-character-map</h2><p>
+apply-character-map
+ &#8212; Applies an XSLT character map
+</p></div>
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<pre class="synopsis">&lt;xsl:template name="apply-character-map"&gt;
+&lt;xsl:param name="content"/&gt;
+&lt;xsl:param name="map.contents"/&gt;
+  ...
+&lt;/xsl:template&gt;</pre>
+</div>
+<div class="refsect1"><a name="id607809"></a><h2>Description</h2>
+    
+<p>This template applies an <a class="ulink" href="http://www.w3.org/TR/xslt20/#character-maps" target="_top">XSLT character map</a>; that is, it causes certain
+      individual characters to be substituted with strings of one
+      or more characters. It is useful mainly for replacing
+      multiple &#8220;special&#8221; characters or symbols in the same target
+      content. It uses the value of
+      <em class="parameter"><code>map.contents</code></em> to do substitution on
+      <em class="parameter"><code>content</code></em>, and then returns the
+      modified contents.</p>
+
+    <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>
+      
+<p>This template is a very slightly modified version of
+        Jeni Tennison&#8217;s <code class="function">replace_strings</code>
+        template in the <a class="ulink" href="http://www.dpawson.co.uk/xsl/sect2/StringReplace.html#d9351e13" target="_top">multiple string replacements</a> section of Dave Pawson&#8217;s
+        <a class="ulink" href="http://www.dpawson.co.uk/xsl/index.html" target="_top">XSLT FAQ</a>.</p>
+
+      
+<p>The <code class="function">apply-string-subst-map</code>
+        template is essentially the same template as the
+        <code class="function">apply-character-map</code> template; the
+        only difference is that in the map that
+        <code class="function">apply-string-subst-map</code> expects, <code class="sgmltag-attribute">oldstring</code> and <code class="sgmltag-attribute">newstring</code> attributes are used
+        instead of <code class="sgmltag-attribute">character</code> and <code class="sgmltag-attribute">string</code> attributes.</p>
+
+    </div>
+  </div><div class="refsect1"><a name="id607897"></a><h2>Parameters</h2>
+    
+<div class="variablelist"><dl class="variablelist"><dt><span class="term">content</span></dt><dd>
+          
+<p>The content on which to perform the character-map
+            substitution.</p>
+
+        </dd><dt><span class="term">map.contents</span></dt><dd>
+          
+<p>A node set of elements, with each element having
+            the following attributes:
+            
+</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+                <code class="sgmltag-attribute">character</code>, a
+                  character to be replaced
+              </li><li class="listitem">
+                <code class="sgmltag-attribute">string</code>, a
+                  string with which to replace <code class="sgmltag-attribute">character</code>
+              </li></ul></div><p>
+
+          </p>
+
+        </dd></dl></div>
+
+  </div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="charmap.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="charmap.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="template.read-character-map.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Common » Character-Map Template Reference </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> read-character-map</td></tr></table></div></body></html>
+

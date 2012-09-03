@@ -1,0 +1,52 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>refentry.title.properties</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="refentry.html" title="Reference Pages"><link rel="prev" href="refentry.pagebreak.html" title="refentry.pagebreak"><link rel="next" href="refentry.xref.manvolnum.html" title="refentry.xref.manvolnum"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">refentry.title.properties</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="refentry.pagebreak.html">Prev</a> </td><th width="60%" align="center">Reference Pages</th><td width="20%" align="right"> <a accesskey="n" href="refentry.xref.manvolnum.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="refentry.title.properties"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">refentry.title.properties</span></h2><p>
+refentry.title.properties
+ &#8212; Title properties for a refentry title
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="refentry.title.properties.frag"></a><pre class="programlisting">
+&lt;xsl:attribute-set name="refentry.title.properties"&gt;
+  &lt;xsl:attribute name="font-family"&gt;
+    &lt;xsl:value-of select="$title.fontset"&gt;&lt;/xsl:value-of&gt;
+  &lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name="font-size"&gt;18pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name="font-weight"&gt;bold&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name="space-after"&gt;1em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name="hyphenate"&gt;false&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name="keep-with-next.within-column"&gt;always&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name="space-before.minimum"&gt;0.8em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name="space-before.optimum"&gt;1.0em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name="space-before.maximum"&gt;1.2em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name="space-after.optimum"&gt;0.5em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name="space-after.minimum"&gt;0.4em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name="space-after.maximum"&gt;0.6em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name="start-indent"&gt;&lt;xsl:value-of select="$title.margin.left"&gt;&lt;/xsl:value-of&gt;&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+</pre>
+</div>
+
+<div class="refsection"><a name="id559383"></a><h2>Description</h2>
+
+<p>Formatting properties applied to the title generated for the
+<a href="http://docbook.org/tdg5/en/html/refnamediv.html"><code class="sgmltag-element">refnamediv</code></a> part of output for
+<a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a> when the value of the
+<a href="../html/refentry.generate.title.html"><em class="parameter"><code>refentry.generate.title</code></em></a> parameter is
+non-zero. The font size is supplied by the appropriate <em class="parameter"><code>section.level<em class="replaceable"><code>X</code></em>.title.properties</code></em>
+attribute-set, computed from the location of the
+<a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a> in the section hierarchy.</p>
+
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>
+  <p>This parameter has no effect on the the title generated for
+  the <a href="http://docbook.org/tdg5/en/html/refnamediv.html"><code class="sgmltag-element">refnamediv</code></a> part of output for
+  <a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a> when the value of the
+  <a href="../html/refentry.generate.name.html"><em class="parameter"><code>refentry.generate.name</code></em></a> parameter is
+  non-zero. By default, that title is formatted with the same
+  properties as the titles for all other first-level children of
+  <a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a>.</p>
+</div>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="refentry.pagebreak.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="refentry.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="refentry.xref.manvolnum.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">refentry.pagebreak </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> refentry.xref.manvolnum</td></tr></table></div></body></html>
+

@@ -1,0 +1,54 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>man.output.better.ps.enabled</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="output.html" title="Output"><link rel="prev" href="man.output.encoding.html" title="man.output.encoding"><link rel="next" href="other.html" title="Other"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">man.output.better.ps.enabled</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="man.output.encoding.html">Prev</a> </td><th width="60%" align="center">Output</th><td width="20%" align="right"> <a accesskey="n" href="other.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="man.output.better.ps.enabled"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">man.output.better.ps.enabled</span></h2><p>
+man.output.better.ps.enabled
+ &#8212; Enable enhanced print/PostScript output?
+</p></div>
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="man.output.better.ps.enabled.frag"></a><pre class="programlisting">
+&lt;xsl:param name="man.output.better.ps.enabled"&gt;0&lt;/xsl:param&gt;
+</pre>
+</div>
+<div class="refsection"><a name="id590051"></a><h2>Description</h2>
+
+<p>If the value of the
+<a href="../manpages/man.output.better.ps.enabled.html"><em class="parameter"><code>man.output.better.ps.enabled</code></em></a> parameter is
+non-zero, certain markup is embedded in each generated man page
+such that PostScript output from the <span class="command"><strong>man -Tps</strong></span>
+command for that page will include a number of enhancements
+designed to improve the quality of that output.</p>
+
+<p>If <a href="../manpages/man.output.better.ps.enabled.html"><em class="parameter"><code>man.output.better.ps.enabled</code></em></a> is
+zero (the default), no such markup is embedded in generated man
+pages, and no enhancements are included in the PostScript
+output generated from those man pages by the <span class="command"><strong>man
+ -Tps</strong></span> command.</p>
+
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Warning</h3>
+  <p>The enhancements provided by this parameter rely on
+    features that are specific to groff (GNU troff) and that are
+    not part of &#8220;classic&#8221; AT&amp;T troff or any of its
+    derivatives. Therefore, any man pages you generate with this
+    parameter enabled will be readable only on systems on which
+    the groff (GNU troff) program is installed, such as GNU/Linux
+    systems. The pages <span class="bold"><strong>will not not be
+      readable on systems on with the classic troff (AT&amp;T
+      troff) command is installed</strong></span>.</p>
+</div>
+
+<p>The value of this parameter only affects PostScript output
+  generated from the <span class="command"><strong>man</strong></span> command. It has no
+  effect on output generated using the FO backend.</p>
+
+<div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Tip</h3>
+  <p>You can generate PostScript output for any man page by
+    running the following command:</p>
+  <pre class="programlisting">  man <em class="replaceable"><code>FOO</code></em> -Tps &gt; <em class="replaceable"><code>FOO</code></em>.ps</pre>
+  <p>You can then generate PDF output by running the following
+    command:</p>
+  <pre class="programlisting">  ps2pdf <em class="replaceable"><code>FOO</code></em>.ps</pre>
+</div>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="man.output.encoding.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="output.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="other.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">man.output.encoding </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> Other</td></tr></table></div></body></html>
+

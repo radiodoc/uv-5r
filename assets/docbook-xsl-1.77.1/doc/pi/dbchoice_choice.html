@@ -1,0 +1,43 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>dbchoice_choice</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="pi-common.html" title="Part 4. Common Processing Instruction Reference"><link rel="prev" href="pi-common.html" title="Part 4. Common Processing Instruction Reference"><link rel="next" href="dbtimestamp.html" title="dbtimestamp"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">dbchoice_choice</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="pi-common.html">Prev</a> </td><th width="60%" align="center">Part 4. Common Processing Instruction Reference</th><td width="20%" align="right"> <a accesskey="n" href="dbtimestamp.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="dbchoice_choice"></a><div class="titlepage"></div>
+<div class="refnamediv"><h2>dbchoice_choice</h2><p>
+dbchoice_choice
+ &#8212; Generates a localized choice separator
+</p></div>
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+
+    <pre class="synopsis"><code class="sgmltag-xmlpi">&lt;?dbchoice choice="and"|"or"|<em class="replaceable"><code>string</code></em>"?&gt;</code></pre>
+  
+</div>
+<div class="refsect1"><a name="id602797"></a><h2>Description</h2>
+    
+<p>Use the <a href="../pi/dbchoice_choice.html"><code class="sgmltag-xmlpi">&lt;?dbchoice choice?&gt;</code></a> PI to
+      generate an appropriate localized &#8220;choice&#8221; separator (for
+      example, <code class="literal">and</code> or <code class="literal">or</code>)
+      before the final item in an inline <a href="http://docbook.org/tdg5/en/html/simplelist.html"><code class="sgmltag-element">simplelist</code></a></p>
+
+    <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Warning</h3>
+      
+<p>This PI is a less-than-ideal hack; support for it may
+        disappear in the future (particularly if and when a more
+        appropriate means for marking up "choice" lists becomes
+        available in DocBook).</p>
+
+    </div>
+  </div><div class="refsect1"><a name="id602831"></a><h2>Parameters</h2>
+    
+<div class="variablelist"><dl class="variablelist"><dt><span class="term">choice="and"</span></dt><dd>
+          
+<p>generates a localized <code class="literal">and</code> separator</p>
+
+        </dd><dt><span class="term">choice="or"</span></dt><dd>
+          
+<p>generates a localized <code class="literal">or</code> separator</p>
+
+        </dd><dt><span class="term">choice="<em class="replaceable"><code>string</code></em>"</span></dt><dd>
+          
+<p>generates a literal <em class="replaceable"><code>string</code></em> separator</p>
+
+        </dd></dl></div>
+
+  </div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="pi-common.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="pi-common.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="dbtimestamp.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Part 4. Common Processing Instruction Reference </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> dbtimestamp</td></tr></table></div></body></html>
+

@@ -1,0 +1,44 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>textinsert.extension</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="dbk_ext.html" title="Stylesheet Extensions"><link rel="prev" href="tablecolumns.extension.html" title="tablecolumns.extension"><link rel="next" href="textdata.default.encoding.html" title="textdata.default.encoding"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">textinsert.extension</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="tablecolumns.extension.html">Prev</a> </td><th width="60%" align="center">Stylesheet Extensions</th><td width="20%" align="right"> <a accesskey="n" href="textdata.default.encoding.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="textinsert.extension"></a><div class="titlepage"></div>
+  
+  <div class="refnamediv"><h2><span class="refentrytitle">textinsert.extension</span></h2><p>
+    textinsert.extension
+     &#8212; Enables the textinsert extension element
+  </p></div>
+  <div class="refsynopsisdiv"><h2>Synopsis</h2>
+    <a name="textinsert.extension.frag"></a><pre class="programlisting">
+  &lt;xsl:param name="textinsert.extension" select="1"&gt;&lt;/xsl:param&gt;
+</pre>
+  </div>
+  <div class="refsection"><a name="id528637"></a><h2>Description</h2>
+    <p>The textinsert extension element inserts the contents of
+      a file into the result tree (as text).</p>
+    <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>
+      <p>To use the textinsert extension element, you must use
+        either Saxon or Xalan as your XSLT processor (it doesn&#8217;t
+        work with xsltproc), along with either the DocBook Saxon
+        extensions or DocBook Xalan extensions (for more
+        information about those extensions, see <a href="http://www.sagehill.net/docbookxsl/">DocBook XSL: TCG</a>, <a class="ulink" href="http://www.sagehill.net/docbookxsl/InstallingAProcessor.html#SaxonExtensions" target="_top">DocBook Saxon Extensions</a> and <a href="http://www.sagehill.net/docbookxsl/">DocBook XSL: TCG</a>, <a class="ulink" href="http://www.sagehill.net/docbookxsl/InstallingAProcessor.html#XalanExtensions" target="_top">DocBook Xalan Extensions</a>), and you must set both
+        the <a href="../html/use.extensions.html"><em class="parameter"><code>use.extensions</code></em></a> and
+        <a href="../html/textinsert.extension.html"><em class="parameter"><code>textinsert.extension</code></em></a> parameters to
+        <code class="literal">1</code>.</p>
+      <p>As an alternative to using the textinsert element,
+        consider using an Xinclude element with the
+        <code class="literal">parse="text"</code> attribute and value
+        specified, as detailed in <a href="http://www.sagehill.net/docbookxsl/">DocBook XSL: TCG</a>, <a class="ulink" href="http://www.sagehill.net/docbookxsl/ExternalCode.html#XIncludeCode" target="_top">Using XInclude for text inclusions</a>.</p>
+    </div>
+  </div>
+  <div class="refsection"><a name="id528705"></a><h2>See Also</h2>
+    <p>You can also use the <a href="../pi/dbhtml-include_href.html"><code class="sgmltag-xmlpi">&lt;?dbhtml-include href?&gt;</code></a> processing
+      instruction to insert external files &#8212; both files containing
+      plain text and files with markup content (including HTML
+      content).</p>
+  </div>
+  <div class="refsection"><a name="id528729"></a><h2>More information</h2>
+    <p>For how-to documentation on inserting contents of
+      external code files and other text files into output, see
+      <a href="http://www.sagehill.net/docbookxsl/">DocBook XSL: TCG</a>, <a class="ulink" href="http://www.sagehill.net/docbookxsl/ExternalCode.html" target="_top">External code files</a>.</p>
+    <p>For guidelines on inserting contents of
+      HTML files into output, see <a href="http://www.sagehill.net/docbookxsl/">DocBook XSL: TCG</a>, <a class="ulink" href="http://www.sagehill.net/docbookxsl/InsertExtHtml.html" target="_top">Inserting external HTML code</a>.</p>
+  </div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="tablecolumns.extension.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="dbk_ext.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="textdata.default.encoding.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">tablecolumns.extension </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> textdata.default.encoding</td></tr></table></div></body></html>
+

@@ -1,0 +1,35 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>man.hyphenate.computer.inlines</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="general.html" title="Hyphenation, justification, and breaking"><link rel="prev" href="man.hyphenate.filenames.html" title="man.hyphenate.filenames"><link rel="next" href="man.justify.html" title="man.justify"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">man.hyphenate.computer.inlines</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="man.hyphenate.filenames.html">Prev</a> </td><th width="60%" align="center">Hyphenation, justification, and breaking</th><td width="20%" align="right"> <a accesskey="n" href="man.justify.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="man.hyphenate.computer.inlines"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">man.hyphenate.computer.inlines</span></h2><p>
+man.hyphenate.computer.inlines
+ &#8212; Hyphenate computer inlines?
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="man.hyphenate.computer.inlines.frag"></a><pre class="programlisting">
+&lt;xsl:param name="man.hyphenate.computer.inlines"&gt;0&lt;/xsl:param&gt;</pre>
+</div>
+
+<div class="refsection"><a name="id583214"></a><h2>Description</h2>
+
+<p>If zero (the default), hyphenation is suppressed for
+<span class="quote">&#8220;<span class="quote">computer inlines</span>&#8221;</span> such as environment variables,
+constants, etc. This parameter current affects output of the following
+elements:
+<span class="simplelist"><a href="http://docbook.org/tdg5/en/html/classname.html"><code class="sgmltag-element">classname</code></a>, <a href="http://docbook.org/tdg5/en/html/constant.html"><code class="sgmltag-element">constant</code></a>, <a href="http://docbook.org/tdg5/en/html/envar.html"><code class="sgmltag-element">envar</code></a>, <a href="http://docbook.org/tdg5/en/html/errorcode.html"><code class="sgmltag-element">errorcode</code></a>, <a href="http://docbook.org/tdg5/en/html/option.html"><code class="sgmltag-element">option</code></a>, <a href="http://docbook.org/tdg5/en/html/replaceable.html"><code class="sgmltag-element">replaceable</code></a>, <a href="http://docbook.org/tdg5/en/html/userinput.html"><code class="sgmltag-element">userinput</code></a>, <a href="http://docbook.org/tdg5/en/html/type.html"><code class="sgmltag-element">type</code></a>, <a href="http://docbook.org/tdg5/en/html/varname.html"><code class="sgmltag-element">varname</code></a></span>
+</p>
+
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>
+  <p>If hyphenation is already turned off globally (that is, if
+  <a href="../manpages/man.hyphenate.html"><em class="parameter"><code>man.hyphenate</code></em></a> is zero, setting the
+  <a href="../manpages/man.hyphenate.computer.inlines.html"><em class="parameter"><code>man.hyphenate.computer.inlines</code></em></a> is not
+  necessary.</p>
+</div>
+
+<p>If <a href="../manpages/man.hyphenate.computer.inlines.html"><em class="parameter"><code>man.hyphenate.computer.inlines</code></em></a> is
+non-zero, computer inlines will not be treated specially and will be
+hyphenated like other words when needed.</p>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="man.hyphenate.filenames.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="general.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="man.justify.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">man.hyphenate.filenames </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> man.justify</td></tr></table></div></body></html>
+

@@ -1,0 +1,146 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>man.string.subst.map</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="charmap.html" title="Character/string substitution"><link rel="prev" href="man.string.subst.map.local.pre.html" title="man.string.subst.map.local.pre"><link rel="next" href="man.string.subst.map.local.post.html" title="man.string.subst.map.local.post"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">man.string.subst.map</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="man.string.subst.map.local.pre.html">Prev</a> </td><th width="60%" align="center">Character/string substitution</th><td width="20%" align="right"> <a accesskey="n" href="man.string.subst.map.local.post.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="man.string.subst.map"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">man.string.subst.map</span></h2><p>
+man.string.subst.map
+ &#8212; Specifies a set of string substitutions
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="man.string.subst.map.frag"></a><pre class="programlisting">
+&lt;xsl:param name="man.string.subst.map"&gt;
+
+  &lt;!-- * remove no-break marker at beginning of line (stylesheet artifact) --&gt; 
+  &lt;ss:substitution oldstring="&#9618;&#9600;" newstring="&#9618;"&gt;&lt;/ss:substitution&gt;
+  &lt;!-- * replace U+2580 no-break marker (stylesheet-added) w/ no-break space --&gt;
+  &lt;ss:substitution oldstring="&#9600;" newstring="\ "&gt;&lt;/ss:substitution&gt;
+
+  &lt;!-- ==================================================================== --&gt;
+
+  &lt;!-- * squeeze multiple newlines before a roff request  --&gt;
+  &lt;ss:substitution oldstring="
+
+." newstring="
+."&gt;&lt;/ss:substitution&gt;
+  &lt;!-- * remove any .sp instances that directly precede a .PP  --&gt;
+  &lt;ss:substitution oldstring=".sp
+.PP" newstring=".PP"&gt;&lt;/ss:substitution&gt;
+  &lt;!-- * remove any .sp instances that directly follow a .PP  --&gt;
+  &lt;ss:substitution oldstring=".sp
+.sp" newstring=".sp"&gt;&lt;/ss:substitution&gt;
+  &lt;!-- * squeeze multiple .sp instances into a single .sp--&gt;
+  &lt;ss:substitution oldstring=".PP
+.sp" newstring=".PP"&gt;&lt;/ss:substitution&gt;
+  &lt;!-- * squeeze multiple newlines after start of no-fill (verbatim) env. --&gt;
+  &lt;ss:substitution oldstring=".nf
+
+" newstring=".nf
+"&gt;&lt;/ss:substitution&gt;
+  &lt;!-- * squeeze multiple newlines after REstoring margin --&gt;
+  &lt;ss:substitution oldstring=".RE
+
+" newstring=".RE
+"&gt;&lt;/ss:substitution&gt;
+  &lt;!-- * U+2591 is a marker we add before and after every Parameter in --&gt;
+  &lt;!-- * Funcprototype output --&gt;
+  &lt;ss:substitution oldstring="&#9617;" newstring=" "&gt;&lt;/ss:substitution&gt;
+  &lt;!-- * U+2592 is a marker we add for the newline before output of &lt;sbr&gt;; --&gt;
+  &lt;ss:substitution oldstring="&#9618;" newstring="
+"&gt;&lt;/ss:substitution&gt;
+  &lt;!-- * --&gt;
+  &lt;!-- * Now deal with some other characters that are added by the --&gt;
+  &lt;!-- * stylesheets during processing. --&gt;
+  &lt;!-- * --&gt;
+  &lt;!-- * bullet --&gt;
+  &lt;ss:substitution oldstring="&#8226;" newstring="\(bu"&gt;&lt;/ss:substitution&gt;
+  &lt;!-- * left double quote --&gt;
+  &lt;ss:substitution oldstring="&#8220;" newstring="\(lq"&gt;&lt;/ss:substitution&gt;
+  &lt;!-- * right double quote --&gt;
+  &lt;ss:substitution oldstring="&#8221;" newstring="\(rq"&gt;&lt;/ss:substitution&gt;
+  &lt;!-- * left single quote --&gt;
+  &lt;ss:substitution oldstring="&#8216;" newstring="\(oq"&gt;&lt;/ss:substitution&gt;
+  &lt;!-- * right single quote --&gt;
+  &lt;ss:substitution oldstring="&#8217;" newstring="\(cq"&gt;&lt;/ss:substitution&gt;
+  &lt;!-- * copyright sign --&gt;
+  &lt;ss:substitution oldstring="©" newstring="\(co"&gt;&lt;/ss:substitution&gt;
+  &lt;!-- * registered sign --&gt;
+  &lt;ss:substitution oldstring="®" newstring="\(rg"&gt;&lt;/ss:substitution&gt;
+  &lt;!-- * ...servicemark... --&gt;
+  &lt;!-- * There is no groff equivalent for it. --&gt;
+  &lt;ss:substitution oldstring="&#8480;" newstring="(SM)"&gt;&lt;/ss:substitution&gt;
+  &lt;!-- * ...trademark... --&gt;
+  &lt;!-- * We don't do "\(tm" because for console output, --&gt;
+  &lt;!-- * groff just renders that as "tm"; that is: --&gt;
+  &lt;!-- * --&gt;
+  &lt;!-- *   Product&amp;#x2122; -&gt; Producttm --&gt;
+  &lt;!-- * --&gt;
+  &lt;!-- * So we just make it to "(TM)" instead; thus: --&gt;
+  &lt;!-- * --&gt;
+  &lt;!-- *   Product&amp;#x2122; -&gt; Product(TM) --&gt;
+  &lt;ss:substitution oldstring="&#8482;" newstring="(TM)"&gt;&lt;/ss:substitution&gt;
+
+&lt;/xsl:param&gt;
+</pre>
+</div>
+
+<div class="refsection"><a name="id586946"></a><h2>Description</h2>
+
+<p>The <a href="../manpages/man.string.subst.map.html"><em class="parameter"><code>man.string.subst.map</code></em></a> parameter
+contains <a class="link" href="man.string.subst.map.html#map" title="Contents of the substitution map">a map</a> that specifies a set of
+string substitutions to perform over the entire roff source for each
+man page, either just before generating final man-page output (that
+is, before writing man-page files to disk) or, if the value of the
+<a href="../manpages/man.charmap.enabled.html"><em class="parameter"><code>man.charmap.enabled</code></em></a> parameter is non-zero,
+before applying the roff character map.</p>
+
+<p>You can use <a href="../manpages/man.string.subst.map.html"><em class="parameter"><code>man.string.subst.map</code></em></a> as a
+&#8220;lightweight&#8221; character map to perform &#8220;essential&#8221; substitutions --
+that is, substitutions that are <span class="emphasis"><em>always</em></span> performed,
+even if the value of the <a href="../manpages/man.charmap.enabled.html"><em class="parameter"><code>man.charmap.enabled</code></em></a>
+parameter is zero. For example, you can use it to replace quotation
+marks or other special characters that are generated by the DocBook
+XSL stylesheets for a particular locale setting (as opposed to those
+characters that are actually in source XML documents), or to replace
+any special characters that may be automatically generated by a
+particular customization of the DocBook XSL stylesheets.</p>
+
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Warning</h3>
+  <p>Do you not change value of the
+  <a href="../manpages/man.string.subst.map.html"><em class="parameter"><code>man.string.subst.map</code></em></a> parameter unless you are
+  sure what you are doing. First consider adding your
+  string-substitution mappings to either or both of the following
+  parameters:
+  </p><div class="variablelist"><dl class="variablelist"><dt><span class="term"><a href="../manpages/man.string.subst.map.local.pre.html"><em class="parameter"><code>man.string.subst.map.local.pre</code></em></a></span></dt><dd><p>applied before
+      <a href="../manpages/man.string.subst.map.html"><em class="parameter"><code>man.string.subst.map</code></em></a></p></dd><dt><span class="term"><a href="../manpages/man.string.subst.map.local.post.html"><em class="parameter"><code>man.string.subst.map.local.post</code></em></a></span></dt><dd><p>applied after
+      <a href="../manpages/man.string.subst.map.html"><em class="parameter"><code>man.string.subst.map</code></em></a></p></dd></dl></div><p>
+  By default, both of those parameters contain no
+  string substitutions. They are intended as a means for you to
+  specify your own local string-substitution mappings.</p>
+
+  <p>If you remove any of default mappings from the value of the
+  <a href="../manpages/man.string.subst.map.html"><em class="parameter"><code>man.string.subst.map</code></em></a> parameter, you are
+  likely to end up with broken output. And be very careful about adding
+  anything to it; it&#8217;s used for doing string substitution over the
+  entire roff source of each man page &#8211; it causes target strings to be
+  replaced in roff requests and escapes, not just in the visible
+  contents of the page.</p>
+
+</div>
+
+<div class="refsection"><a name="map"></a><h3>Contents of the substitution map</h3>
+  
+  <p>The string-substitution map contains one or more
+  <code class="sgmltag-element">ss:substitution</code> elements, each of which has two
+  attributes:
+  </p><div class="variablelist"><dl class="variablelist"><dt><span class="term">oldstring</span></dt><dd>
+        string to replace
+      </dd><dt><span class="term">newstring</span></dt><dd>
+        string with which to replace <code class="sgmltag-attribute">oldstring</code>
+      </dd></dl></div><p>
+  It may also include XML comments (that is, delimited with
+  "<code class="literal">&lt;!--</code>" and "<code class="literal">--&gt;</code>").
+  </p>
+</div>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="man.string.subst.map.local.pre.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="charmap.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="man.string.subst.map.local.post.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">man.string.subst.map.local.pre </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> man.string.subst.map.local.post</td></tr></table></div></body></html>
+

@@ -1,0 +1,96 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>man.endnotes.are.numbered</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="endnotes.html" title="Endnotes and link handling"><link rel="prev" href="man.endnotes.list.heading.html" title="man.endnotes.list.heading"><link rel="next" href="man.base.url.for.relative.links.html" title="man.base.url.for.relative.links"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">man.endnotes.are.numbered</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="man.endnotes.list.heading.html">Prev</a> </td><th width="60%" align="center">Endnotes and link handling</th><td width="20%" align="right"> <a accesskey="n" href="man.base.url.for.relative.links.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="man.endnotes.are.numbered"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">man.endnotes.are.numbered</span></h2><p>
+man.endnotes.are.numbered
+ &#8212; Number endnotes?
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="man.endnotes.are.numbered.frag"></a><pre class="programlisting">
+&lt;xsl:param name="man.endnotes.are.numbered"&gt;1&lt;/xsl:param&gt;
+</pre>
+</div>
+
+<div class="refsection"><a name="id585191"></a><h2>Description</h2>
+
+<p>If the value of <a href="../manpages/man.endnotes.are.numbered.html"><em class="parameter"><code>man.endnotes.are.numbered</code></em></a> is
+non-zero (the default), then for each non-empty<a href="#ftn.id585202" class="footnote"><sup class="footnote"><a name="id585202"></a>[8]</sup></a> &#8220;notesource&#8221;:
+
+</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+    <p>a number (in square brackets) is displayed inline after the
+    rendered inline contents (if any) of the notesource</p>
+  </li><li class="listitem">
+    <p>the contents of the notesource are included in a
+      numbered list of endnotes that is generated at the end of
+      each man page; the number for each endnote corresponds to
+      the inline number for the notesource with which it is
+      associated</p>
+  </li></ul></div><p>
+The default heading for the list of endnotes is
+<code class="literal">NOTES</code>. To output a different heading, set a value
+for the <em class="parameter"><code>man.endnotes.section.heading</code></em>
+parameter.</p>
+
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>
+  <p>The endnotes list is also displayed (but without
+    numbers) if the value of
+    <a href="../manpages/man.endnotes.list.enabled.html"><em class="parameter"><code>man.endnotes.list.enabled</code></em></a> is
+    non-zero.</p>
+</div>
+
+
+<p>If the value of <a href="../manpages/man.endnotes.are.numbered.html"><em class="parameter"><code>man.endnotes.are.numbered</code></em></a> is
+zero, numbering of endnotess is suppressed; only inline
+contents (if any) of the notesource are displayed inline.
+</p><div class="important" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Important</h3>
+  <p>If you are thinking about disabling endnote numbering by setting
+  the value of <a href="../manpages/man.endnotes.are.numbered.html"><em class="parameter"><code>man.endnotes.are.numbered</code></em></a> to zero,
+  before you do so, first take some time to carefully
+  consider the information needs and experiences of your users. The
+  square-bracketed numbers displayed inline after notesources may seem
+  obstrusive and aesthetically unpleasing<a href="#ftn.id585282" class="footnote"><sup class="footnote"><a name="id585282"></a>[9]</sup></a>,
+
+  but in a text-only output format, the
+  numbered-notesources/endnotes-listing mechanism is the only
+  practical way to handle this kind of content.</p>
+
+  <p>Also, users of &#8220;text based&#8221; browsers such as
+  <span class="command"><strong>lynx</strong></span> will already be accustomed to seeing inline
+  numbers for links. And various "man to html" applications, such as
+  the widely used <span class="command"><strong><a class="ulink" href="http://users.actrix.gen.nz/michael/vhman2html.html" target="_top">man2html</a></strong></span> (<code class="literal">VH-Man2html</code>)
+  application, can automatically turn URLs into "real" HTML hyperlinks
+  in output. So leaving <a href="../manpages/man.endnotes.are.numbered.html"><em class="parameter"><code>man.endnotes.are.numbered</code></em></a>
+  at its default (non-zero) value ensures that no information is
+  lost in your man-page output. It just gets
+  &#8220;rearranged&#8221;.</p>
+</div><p>
+</p>
+<p>The handling of empty links is not affected by this
+parameter. Empty links are handled simply by displaying their URLs
+inline. Empty links are never auto-numbered.</p>
+
+<p>If you disable endnotes numbering, you should probably also set
+<a href="../manpages/man.font.links.html"><em class="parameter"><code>man.font.links</code></em></a> to an empty value (to
+disable font formatting for links.</p>
+</div>
+
+<div class="refsection"><a name="id585345"></a><h2>Related Parameters</h2>
+  <p><a href="../manpages/man.endnotes.list.enabled.html"><em class="parameter"><code>man.endnotes.list.enabled</code></em></a>,
+    <a href="../manpages/man.font.links.html"><em class="parameter"><code>man.font.links</code></em></a></p>
+</div>
+<div class="footnotes"><br><hr style="width:100; align:left;"><div id="ftn.id585202" class="footnote">
+<p><a href="#id585202" class="para"><sup class="para">[8] </sup></a>A &#8220;non-empty&#8221; notesource is one that looks like
+this:</p><pre class="literallayout">  &lt;ulink url="http://docbook.sf.net/snapshot/xsl/doc/manpages/"&gt;manpages&lt;/ulink&gt;</pre><p>
+an &#8220;empty&#8221; notesource is on that looks like this:</p><pre class="literallayout">  &lt;ulink url="http://docbook.sf.net/snapshot/xsl/doc/manpages/"/&gt;</pre><p>
+</p></div><div id="ftn.id585282" class="footnote"><p><a href="#id585282" class="para"><sup class="para">[9] </sup></a>As far as notesources that are links, ytou might
+  think it would be better to just display URLs for non-empty
+  links inline, after their content, rather than displaying
+  square-bracketed numbers all over the place. But it's not better. In
+  fact, it's not even practical, because many (most) URLs for links
+  are too long to be displayed inline. They end up overflowing the
+  right margin. You can set a non-zero value for
+  <a href="../manpages/man.break.after.slash.html"><em class="parameter"><code>man.break.after.slash</code></em></a> parameter to deal with
+  that, but it could be argued that what you end up with is at least
+  as ugly, and definitely more obstrusive, then having short
+  square-bracketed numbers displayed inline.</p></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="man.endnotes.list.heading.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="endnotes.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="man.base.url.for.relative.links.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">man.endnotes.list.heading </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> man.base.url.for.relative.links</td></tr></table></div></body></html>
+
