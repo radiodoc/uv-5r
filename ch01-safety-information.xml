@@ -2,20 +2,20 @@
 <title>Safety Information</title>
 <para>
 	The following safety precautions should always be observed during operation, service and repair of this equipment.
-	<simplelist type='vert' columns='1'>
-		<member>This equipment shall be serviced by qualified technicians only.</member>
-		<member>Do not modify the radio for any reason.</member>
-		<member>Use only BAOFENG supplied or approved batteries and chargers.</member>
-		<member>Do not use any portable radio that has a damaged antenna. If a damaged antenna comes into contact with your skin, a minor burn can result.</member>
-		<member>Turn off your radio prior to entering any area with explosive and flammable materials.</member>
-		<member>Do not charge your battery in a location with explosive and flammable materials.</member>
-		<member>To avoid electromagnetic interference and/or compatibility conflicts, turn off your radio in any area where posted notices instruct you to do so.</member>
-		<member>Turn off your radio before boarding an aircraft, Any use of a radio must be in accordance with airline regulations or crew instructions.</member>
-		<member>Turn off your radio before entering a blasting area.</member>
-		<member>For vehicles with an air bag, do not place a radio in the area over an air bag or in the air bag deployment area.</member>
-		<member>Do not expose the radio to direct sunlight over a long time, nor place it close to heating source.</member>
-		<member>When transmitting with a portable radio, hold the radio in a vertical position with the microphone 3/4 centimeters away from your lips. Keep antenna at least 2.5 centimeters away from your body when transmitting.</member>
-	</simplelist>
+	<itemizedlist>
+		<listitem>This equipment shall be serviced by qualified technicians only.</listitem>
+		<listitem>Do not modify the radio for any reason.</listitem>
+		<listitem>Use only BAOFENG supplied or approved batteries and chargers.</listitem>
+		<listitem>Do not use any portable radio that has a damaged antenna. If a damaged antenna comes into contact with your skin, a minor burn can result.</listitem>
+		<listitem>Turn off your radio prior to entering any area with explosive and flammable materials.</listitem>
+		<listitem>Do not charge your battery in a location with explosive and flammable materials.</listitem>
+		<listitem>To avoid electromagnetic interference and/or compatibility conflicts, turn off your radio in any area where posted notices instruct you to do so.</listitem>
+		<listitem>Turn off your radio before boarding an aircraft, Any use of a radio must be in accordance with airline regulations or crew instructions.</listitem>
+		<listitem>Turn off your radio before entering a blasting area.</listitem>
+		<listitem>For vehicles with an air bag, do not place a radio in the area over an air bag or in the air bag deployment area.</listitem>
+		<listitem>Do not expose the radio to direct sunlight over a long time, nor place it close to heating source.</listitem>
+		<listitem>When transmitting with a portable radio, hold the radio in a vertical position with the microphone 3/4 centimeters away from your lips. Keep antenna at least 2.5 centimeters away from your body when transmitting.</listitem>
+	</itemizedlist>
 </para>
 <warning>
 	<para>WARNING: If you wear a radio on your body, ensure the radio and its antenna are at least 2.5 centimeters away from your body when transmitting.</para>

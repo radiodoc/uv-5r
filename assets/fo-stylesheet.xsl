@@ -90,7 +90,6 @@
 -->
 
   <!-- Colourize links in output -->
-<!--
   <xsl:attribute-set name="xref.properties">
     <xsl:attribute name="color">
       <xsl:choose>
@@ -101,6 +100,7 @@
       </xsl:choose>
     </xsl:attribute>
   </xsl:attribute-set>
+<!--
 
   <xsl:attribute-set name="sidebar.properties" use-attribute-sets="formal.object.properties">
     <xsl:attribute name="border-style">solid</xsl:attribute>
