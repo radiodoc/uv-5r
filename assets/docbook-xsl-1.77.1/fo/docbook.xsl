@@ -4,6 +4,7 @@
                 xmlns:fo="http://www.w3.org/1999/XSL/Format"
                 xmlns:ng="http://docbook.org/docbook-ng"
                 xmlns:db="http://docbook.org/ns/docbook"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
                 exclude-result-prefixes="db ng exsl"
                 version='1.0'>
 

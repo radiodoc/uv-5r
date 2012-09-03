@@ -10,7 +10,8 @@ XSLTPROC = d:/bin/libxml/bin/xsltproc
 KINDLEGEN = "D:\bin\Amazon\Kindle Previewer\lib\kindlegen.exe"
 
 PDF_DST = build/$(FILENAME).pdf
-PDF_XSL = assets/docbook-xsl-1.77.1/fo/docbook.xsl
+PDF_XSL = assets/fo-stylesheet.xsl
+#PDF_XSL = assets/docbook-xsl-1.77.1/fo/docbook.xsl
 
 HTML_DST = build/$(FILENAME).html
 HTML_XSL = assets/docbook-xsl-1.77.1/html/docbook.xsl

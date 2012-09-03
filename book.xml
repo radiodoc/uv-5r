@@ -3,15 +3,17 @@
 <!ENTITY ch01 SYSTEM "ch01-safety-information.xml">
 <!ENTITY ch02 SYSTEM "ch02-features.xml">
 <!ENTITY ch03 SYSTEM "ch03-unboxing.xml">
+<!ENTITY ch04 SYSTEM "ch04-basic-operation.xml">
+<!ENTITY ch05 SYSTEM "ch05-advanced-operation.xml">
 <!ENTITY appa SYSTEM "appa-menu-definitions.xml">
 ]>
-<book xmlns="http://docbook.org/ns/docbook" version="5.0">
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
 	<title>Baofeng UV-5R</title>
 
 	<info>
 
 		<subtitle>From the (Chinese) Radio Documentation Project.</subtitle>
-		<subtitle>http://radiodoc.github.com/</subtitle>
+		<subtitle><link xlink:href="http://radiodoc.github.com/"/></subtitle>
 
 		<authorgroup>
 			<author>
@@ -33,7 +35,9 @@
 			<para>This work is licensed under the Creative 
 			Commons Attribution-ShareAlike 3.0 Unported License.  
 			To view a copy of this license, visit 
-			<link url="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			
+			<link xlink:href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			
 			or send a letter to Creative Commons, 559 Nathan Abbott Way,
 			Stanford, California 94305, USA.</para>
 		</legalnotice>
@@ -45,6 +49,8 @@
 	&ch01;
 	&ch02;
 	&ch03;
+	&ch04;
+	&ch05;
 	&appa;
 <!--
 	&license;
