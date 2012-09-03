@@ -1,0 +1,30 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>page.height</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="general.html" title="Pagination and General Styles"><link rel="prev" href="general.html" title="Pagination and General Styles"><link rel="next" href="page.height.portrait.html" title="page.height.portrait"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">page.height</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="general.html">Prev</a> </td><th width="60%" align="center">Pagination and General Styles</th><td width="20%" align="right"> <a accesskey="n" href="page.height.portrait.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="page.height"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">page.height</span></h2><p>
+page.height
+ &#8212; The height of the physical page
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="page.height.frag"></a><pre class="programlisting">&lt;xsl:param name="page.height"&gt;
+  &lt;xsl:choose&gt;
+    &lt;xsl:when test="$page.orientation = 'portrait'"&gt;
+      &lt;xsl:value-of select="$page.height.portrait"&gt;&lt;/xsl:value-of&gt;
+    &lt;/xsl:when&gt;
+    &lt;xsl:otherwise&gt;
+      &lt;xsl:value-of select="$page.width.portrait"&gt;&lt;/xsl:value-of&gt;
+    &lt;/xsl:otherwise&gt;
+  &lt;/xsl:choose&gt;
+&lt;/xsl:param&gt;</pre>
+</div>
+
+<div class="refsection"><a name="id570785"></a><h2>Description</h2>
+
+<p>The page height is generally calculated from the
+<a href="../fo/paper.type.html"><em class="parameter"><code>paper.type</code></em></a> and
+<a href="../fo/page.orientation.html"><em class="parameter"><code>page.orientation</code></em></a> parameters.
+</p>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="general.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="general.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="page.height.portrait.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Pagination and General Styles </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> page.height.portrait</td></tr></table></div></body></html>
+

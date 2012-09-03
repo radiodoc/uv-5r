@@ -1,0 +1,64 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>html.head.legalnotice.link.types</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="meta.html" title="Meta/*Info and Titlepages"><link rel="prev" href="generate.revhistory.link.html" title="generate.revhistory.link"><link rel="next" href="html.head.legalnotice.link.multiple.html" title="html.head.legalnotice.link.multiple"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">html.head.legalnotice.link.types</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="generate.revhistory.link.html">Prev</a> </td><th width="60%" align="center">Meta/*Info and Titlepages</th><td width="20%" align="right"> <a accesskey="n" href="html.head.legalnotice.link.multiple.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="html.head.legalnotice.link.types"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">html.head.legalnotice.link.types</span></h2><p>
+html.head.legalnotice.link.types
+ &#8212; Specifies link types for legalnotice link in html head
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="html.head.legalnotice.link.types.frag"></a><pre class="programlisting">
+&lt;xsl:param name="html.head.legalnotice.link.types"&gt;copyright&lt;/xsl:param&gt;
+</pre>
+</div>
+
+<div class="refsection"><a name="id534196"></a><h2>Description</h2>
+
+<p>The value of
+<a href="../html/html.head.legalnotice.link.types.html"><em class="parameter"><code>html.head.legalnotice.link.types</code></em></a> is a
+space-separated list of link types, as described in <a class="ulink" href="http://www.w3.org/TR/html401/types.html#type-links" target="_top">Section 6.12
+of the HTML 4.01 specification</a>. If the value of the
+<a href="../html/generate.legalnotice.link.html"><em class="parameter"><code>generate.legalnotice.link</code></em></a> parameter is
+non-zero, then the stylesheet generates (in the
+<code class="literal">head</code> section of the HTML source) either a single
+HTML <code class="literal">link</code> element or, if the value of the
+<a href="../html/html.head.legalnotice.link.multiple.html"><em class="parameter"><code>html.head.legalnotice.link.multiple</code></em></a> is
+non-zero, one <code class="literal">link</code> element for each link type
+specified. Each <code class="literal">link</code> has the following attributes:
+
+</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+    <p>a <code class="sgmltag-attribute">rel</code> attribute whose
+    value is derived from the value of
+    <a href="../html/html.head.legalnotice.link.types.html"><em class="parameter"><code>html.head.legalnotice.link.types</code></em></a></p>
+  </li><li class="listitem">
+    <p>an <code class="sgmltag-attribute">href</code> attribute whose
+    value is set to the URL of the file containing the
+    <a href="http://docbook.org/tdg5/en/html/legalnotice.html"><code class="sgmltag-element">legalnotice</code></a></p>
+  </li><li class="listitem">
+    <p>a <code class="sgmltag-attribute">title</code> attribute whose
+    value is set to the title of the corresponding
+    <a href="http://docbook.org/tdg5/en/html/legalnotice.html"><code class="sgmltag-element">legalnotice</code></a> (or a title programatically
+    determined by the stylesheet)</p>
+  </li></ul></div><p>
+
+For example:
+
+</p><pre class="screen">  &lt;link rel="license" href="ln-id2524073.html" title="Legal Notice"&gt;</pre><p>
+</p>
+
+<div class="refsection"><a name="id534210"></a><h3>About the default value</h3>
+  
+  <p>In an ideal world, the default value of
+  <a href="../html/html.head.legalnotice.link.types.html"><em class="parameter"><code>html.head.legalnotice.link.types</code></em></a> would
+  probably be &#8220;<code class="literal">license</code>&#8221;, since the content of the
+  DocBook <a href="http://docbook.org/tdg5/en/html/legalnotice.html"><code class="sgmltag-element">legalnotice</code></a> is typically license
+  information, not copyright information. However, the default value
+  is &#8220;<code class="literal">copyright</code>&#8221; for pragmatic reasons: because
+  that&#8217;s among the set of &#8220;recognized link types&#8221; listed in <a class="ulink" href="http://www.w3.org/TR/html401/types.html#type-links" target="_top">Section
+  6.12 of the HTML 4.01 specification</a>, and because certain
+  browsers and browser extensions are preconfigured to recognize that
+  value.</p>
+</div>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="generate.revhistory.link.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="meta.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="html.head.legalnotice.link.multiple.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">generate.revhistory.link </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> html.head.legalnotice.link.multiple</td></tr></table></div></body></html>
+

@@ -1,0 +1,40 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>man.output.lang.in.name.enabled</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="output.html" title="Output"><link rel="prev" href="man.output.in.separate.dir.html" title="man.output.in.separate.dir"><link rel="next" href="man.output.base.dir.html" title="man.output.base.dir"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">man.output.lang.in.name.enabled</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="man.output.in.separate.dir.html">Prev</a> </td><th width="60%" align="center">Output</th><td width="20%" align="right"> <a accesskey="n" href="man.output.base.dir.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="man.output.lang.in.name.enabled"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">man.output.lang.in.name.enabled</span></h2><p>
+man.output.lang.in.name.enabled
+ &#8212; Include $LANG value in man-page filename/pathname?
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="man.output.lang.in.name.enabled.frag"></a><pre class="programlisting">
+&lt;xsl:param name="man.output.lang.in.name.enabled" select="0"&gt;&lt;/xsl:param&gt;
+</pre>
+</div>
+
+<div class="refsection"><a name="id589565"></a><h2>Description</h2>
+
+  <p>The <a href="../manpages/man.output.lang.in.name.enabled.html"><em class="parameter"><code>man.output.lang.in.name.enabled</code></em></a>
+  parameter specifies whether a <code class="literal">$lang</code> value is
+  included in man-page filenames and pathnames.</p>
+
+  <p>If the value of
+  <a href="../manpages/man.output.lang.in.name.enabled.html"><em class="parameter"><code>man.output.lang.in.name.enabled</code></em></a> is non-zero,
+  man-page files are output with the <code class="literal">$lang</code> value
+  included in their filenames or pathnames as follows;
+
+  </p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+      <p>if <a href="../manpages/man.output.subdirs.enabled.html"><em class="parameter"><code>man.output.subdirs.enabled</code></em></a> is
+      non-zero, each file is output to, e.g., a
+      <code class="filename">man/<em class="replaceable"><code>$lang</code></em>/man8/foo.8</code>
+      pathname</p>
+    </li><li class="listitem">
+      <p>if <a href="../manpages/man.output.subdirs.enabled.html"><em class="parameter"><code>man.output.subdirs.enabled</code></em></a> is
+      zero, each file is output with a
+      <code class="literal">foo.<em class="replaceable"><code>$lang</code></em>.8</code>
+      filename</p>
+    </li></ul></div><p>
+  </p>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="man.output.in.separate.dir.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="output.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="man.output.base.dir.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">man.output.in.separate.dir </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> man.output.base.dir</td></tr></table></div></body></html>
+

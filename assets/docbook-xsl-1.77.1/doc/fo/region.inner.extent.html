@@ -1,0 +1,44 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>region.inner.extent</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="general.html" title="Pagination and General Styles"><link rel="prev" href="region.before.extent.html" title="region.before.extent"><link rel="next" href="region.outer.extent.html" title="region.outer.extent"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">region.inner.extent</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="region.before.extent.html">Prev</a> </td><th width="60%" align="center">Pagination and General Styles</th><td width="20%" align="right"> <a accesskey="n" href="region.outer.extent.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="region.inner.extent"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">region.inner.extent</span></h2><p>
+region.inner.extent
+ &#8212; Specifies the width of the inner side region
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="region.inner.extent.frag"></a><pre class="programlisting">
+&lt;xsl:param name="region.inner.extent"&gt;0in&lt;/xsl:param&gt;
+</pre>
+</div>
+
+<div class="refsection"><a name="id573517"></a><h2>Description</h2>
+
+<p>The region inner extent is the width of the optional
+text area next to the inner side (binding side) of the
+body region.  </p>
+
+<p>For double-sided output, this side region 
+is <code class="literal">fo:region-start</code> on a odd-numbered page,
+and <code class="literal">fo:region-end</code> on an even-numbered page.</p>
+
+<p>For single-sided output, this side region
+is <code class="literal">fo:region-start</code> for all pages.</p>
+
+<p>This correspondence applies to all languages,
+both left-to-right and right-to-left writing modes.</p>
+
+<p>The default value of this parameter is zero.  If you enlarge this extent,
+be sure to also enlarge the <a href="../fo/body.margin.inner.html"><em class="parameter"><code>body.margin.inner</code></em></a>
+parameter to make room for its content, otherwise any text in
+the side region may overlap with the body text.</p>
+
+<p>See also
+<a href="../fo/region.outer.extent.html"><em class="parameter"><code>region.outer.extent</code></em></a>,
+<a href="../fo/body.margin.inner.html"><em class="parameter"><code>body.margin.inner</code></em></a>,
+<a href="../fo/body.margin.outer.html"><em class="parameter"><code>body.margin.outer</code></em></a>,
+<a href="../fo/side.region.precedence.html"><em class="parameter"><code>side.region.precedence</code></em></a>.
+</p>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="region.before.extent.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="general.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="region.outer.extent.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">region.before.extent </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> region.outer.extent</td></tr></table></div></body></html>
+

@@ -1,0 +1,39 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>man.authors.section.enabled</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="authors.html" title="AUTHORS and COPYRIGHT sections"><link rel="prev" href="authors.html" title="AUTHORS and COPYRIGHT sections"><link rel="next" href="man.copyright.section.enabled.html" title="man.copyright.section.enabled"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">man.authors.section.enabled</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="authors.html">Prev</a> </td><th width="60%" align="center">AUTHORS and COPYRIGHT sections</th><td width="20%" align="right"> <a accesskey="n" href="man.copyright.section.enabled.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="man.authors.section.enabled"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">man.authors.section.enabled</span></h2><p>
+man.authors.section.enabled
+ &#8212; Display auto-generated AUTHORS section?
+</p></div>
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="man.authors.section.enabled.frag"></a><pre class="programlisting">
+&lt;xsl:param name="man.authors.section.enabled"&gt;1&lt;/xsl:param&gt;
+</pre>
+</div>
+<div class="refsection"><a name="id584631"></a><h2>Description</h2>
+
+<p>If the value of
+<a href="../manpages/man.authors.section.enabled.html"><em class="parameter"><code>man.authors.section.enabled</code></em></a> is non-zero
+(the default), then an <code class="literal">AUTHORS</code> section is
+generated near the end of each man page. The output of the
+<code class="literal">AUTHORS</code> section is assembled from any
+<a href="http://docbook.org/tdg5/en/html/author.html"><code class="sgmltag-element">author</code></a>, <a href="http://docbook.org/tdg5/en/html/editor.html"><code class="sgmltag-element">editor</code></a>, and <a href="http://docbook.org/tdg5/en/html/othercredit.html"><code class="sgmltag-element">othercredit</code></a>
+metadata found in the contents of the child <a href="http://docbook.org/tdg5/en/html/info.html"><code class="sgmltag-element">info</code></a> or
+<code class="sgmltag-element">refentryinfo</code> (if any) of the <a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a>
+itself, or from any <a href="http://docbook.org/tdg5/en/html/author.html"><code class="sgmltag-element">author</code></a>, <a href="http://docbook.org/tdg5/en/html/editor.html"><code class="sgmltag-element">editor</code></a>, and
+<a href="http://docbook.org/tdg5/en/html/othercredit.html"><code class="sgmltag-element">othercredit</code></a> metadata that may appear in <a href="http://docbook.org/tdg5/en/html/info.html"><code class="sgmltag-element">info</code></a>
+contents of any ancestors of the <a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a>.</p>
+
+<p>If the value of
+<a href="../manpages/man.authors.section.enabled.html"><em class="parameter"><code>man.authors.section.enabled</code></em></a> is zero, the
+the auto-generated <code class="literal">AUTHORS</code> section is
+suppressed.</p>
+
+<p>Set the value of
+  <a href="../manpages/man.authors.section.enabled.html"><em class="parameter"><code>man.authors.section.enabled</code></em></a> to zero if
+  you want to have a manually created <code class="literal">AUTHORS</code>
+  section in your source, and you want it to appear in output
+  instead of the auto-generated <code class="literal">AUTHORS</code>
+  section.</p>
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="authors.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="authors.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="man.copyright.section.enabled.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">AUTHORS and COPYRIGHT sections </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> man.copyright.section.enabled</td></tr></table></div></body></html>
+

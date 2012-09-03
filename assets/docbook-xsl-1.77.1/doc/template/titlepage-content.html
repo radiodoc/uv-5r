@@ -1,0 +1,111 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>t:titlepage-content</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="index.html" title="Part 4. Titlepage Template Stylesheet Reference"><link rel="prev" href="attr_star_in_copy.literal.atts.html" title="@* (in copy.literal.atts mode)"><link rel="next" href="titlepage-separator.html" title="t:titlepage-separator"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">t:titlepage-content</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="attr_star_in_copy.literal.atts.html">Prev</a> </td><th width="60%" align="center">Part 4. Titlepage Template Stylesheet Reference</th><td width="20%" align="right"> <a accesskey="n" href="titlepage-separator.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="titlepage-content"></a><div class="titlepage"></div>
+<div class="refnamediv"><h2>t:titlepage-content</h2><p>
+t:titlepage-content
+ &#8212; Create templates for the content of one side of a title page
+</p></div>
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<pre class="synopsis">&lt;xsl:template match="t:titlepage-content"/&gt;</pre>
+</div>
+<div class="refsect1"><a name="id608706"></a><h2>Description</h2>
+
+<p>The title page content, that is, the elements from the source
+document that are rendered on the title page, can be controlled independently
+for the recto and verso sides of the title page.</p>
+
+
+
+<p>The <code class="literal">t:titlepage-content</code> element has two attributes:
+
+
+</p><div class="variablelist"><dl class="variablelist"><dt><span class="term">side</span></dt><dd>
+<p>Identifies the side of the page to which this title
+page content applies. The
+<code class="sgmltag-attribute">side</code> attribute is required and
+must be set to either 
+<span class="quote">&#8220;<span class="quote"><code class="literal">recto</code></span>&#8221;</span> or
+<span class="quote">&#8220;<span class="quote"><code class="literal">verso</code></span>&#8221;</span>. In addition, you must specify
+exactly one <code class="literal">t:titlepage-content</code> for each side
+within each <code class="literal">t:titlepage</code>.</p>
+
+</dd><dt><span class="term">order</span></dt><dd>
+<p>Indicates how the order of the elements presented on
+the title page is determined. If the
+<code class="sgmltag-attribute">order</code> is
+<span class="quote">&#8220;<span class="quote"><code class="literal">document</code></span>&#8221;</span>, the elements are presented
+in document order. Otherwise (if the
+<code class="sgmltag-attribute">order</code> is
+<span class="quote">&#8220;<span class="quote"><code class="literal">stylesheet</code></span>&#8221;</span>), the elements are presented
+in the order that they appear in the template (and consequently in
+the stylesheet).</p>
+
+</dd></dl></div><p>
+
+</p>
+
+
+
+<p>The content of a <code class="literal">t:titlepage-content</code> element is
+a list of element names. These names should be unqualified.  They identify
+the elements in the source document that should appear on the title page.
+</p>
+
+
+
+<p>Each element may have a single attribute:
+<code class="sgmltag-attribute">predicate</code>. The value of this
+attribute is used as a predicate for the expression that matches
+the element on which it occurs.</p>
+
+
+
+<p>In other words, to put only the first three authors on the
+recto-side of a title
+page, you could specify:
+
+</p><pre class="screen">
+  &lt;t:titlepage-contents side="recto"&gt;
+    &lt;!-- other titlepage elements --&gt;
+    &lt;author predicate="[count(previous-sibling::author)&lt;2]"/&gt;
+    &lt;!-- other titlepage elements --&gt;
+  &lt;/t:titlepage-contents&gt;
+</pre><p>
+</p>
+
+
+
+<p>Usually, the elements so named are empty. But it is possible to
+make one level of selection within them. Suppose that you want to
+process <code class="literal">authorgroup</code> elements on the title page, but
+you want to select only proper authors, editors, or corporate authors,
+not collaborators or other credited authors.</p>
+
+
+
+<p>In that case, you can put a <code class="literal">t:or</code> group inside
+the <code class="literal">authorgroup</code> element:
+
+</p><pre class="screen">
+  &lt;t:titlepage-contents side="recto"&gt;
+    &lt;!-- other titlepage elements --&gt;
+    &lt;authorgroup&gt;
+      &lt;t:or&gt;
+        &lt;author/&gt;
+        &lt;editor/&gt;
+        &lt;corpauthor/&gt;
+      &lt;/t:or&gt;
+    &lt;/authorgroup&gt;
+    &lt;!-- other titlepage elements --&gt;
+  &lt;/t:titlepage-contents&gt;
+</pre><p>
+</p>
+
+
+
+<p>This will have the effect of automatically generating a template
+for processing <code class="literal">authorgroup</code>s in the title page mode,
+selecting only the specified children. If you need more complex processing,
+you'll have to construct the templates by hand.</p>
+
+
+</div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="attr_star_in_copy.literal.atts.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="index.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="titlepage-separator.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">@* (in copy.literal.atts mode) </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> t:titlepage-separator</td></tr></table></div></body></html>
+

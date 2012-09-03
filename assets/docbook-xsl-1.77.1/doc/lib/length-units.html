@@ -1,0 +1,40 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>length-units</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="generallibrary.html" title="General Library Templates"><link rel="prev" href="length-magnitude.html" title="length-magnitude"><link rel="next" href="length-spec.html" title="length-spec"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">length-units</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="length-magnitude.html">Prev</a> </td><th width="60%" align="center">General Library Templates</th><td width="20%" align="right"> <a accesskey="n" href="length-spec.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="length-units"></a><div class="titlepage"></div>
+<div class="refnamediv"><h2>length-units</h2><p>
+length-units
+ &#8212; Return the units from a length specification
+</p></div>
+
+<div class="refsect1"><a name="id603532"></a><h2>Description</h2>
+
+<p>The <code class="function">length-units</code> template returns the
+units ("pt" for "20pt") from a length. If no units are supplied on the
+length, the <em class="parameter"><code>defauilt.units</code></em> are returned.</p>
+
+<a name="length-units.frag"></a><pre class="programlisting">
+&lt;xsl:template name="length-units"&gt;
+  &lt;xsl:param name="length" select="'0pt'"&gt;&lt;/xsl:param&gt;
+  &lt;xsl:param name="default.units" select="'px'"&gt;&lt;/xsl:param&gt;
+  &lt;xsl:variable name="magnitude"&gt;
+    &lt;xsl:call-template name="length-magnitude"&gt;
+      &lt;xsl:with-param name="length" select="$length"&gt;&lt;/xsl:with-param&gt;
+    &lt;/xsl:call-template&gt;
+  &lt;/xsl:variable&gt;
+
+  &lt;xsl:variable name="units"&gt;
+    &lt;xsl:value-of select="substring($length, string-length($magnitude)+1)"&gt;&lt;/xsl:value-of&gt;
+  &lt;/xsl:variable&gt;
+
+  &lt;xsl:choose&gt;
+    &lt;xsl:when test="$units = ''"&gt;
+      &lt;xsl:value-of select="$default.units"&gt;&lt;/xsl:value-of&gt;
+    &lt;/xsl:when&gt;
+    &lt;xsl:otherwise&gt;
+      &lt;xsl:value-of select="$units"&gt;&lt;/xsl:value-of&gt;
+    &lt;/xsl:otherwise&gt;
+  &lt;/xsl:choose&gt;
+&lt;/xsl:template&gt;
+</pre>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="length-magnitude.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="generallibrary.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="length-spec.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">length-magnitude </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> length-spec</td></tr></table></div></body></html>
+

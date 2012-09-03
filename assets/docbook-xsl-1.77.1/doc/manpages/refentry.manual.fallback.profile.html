@@ -1,0 +1,41 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>refentry.manual.fallback.profile</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="refmeta.html" title="Refentry metadata gathering"><link rel="prev" href="refentry.version.profile.enabled.html" title="refentry.version.profile.enabled"><link rel="next" href="refentry.source.fallback.profile.html" title="refentry.source.fallback.profile"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">refentry.manual.fallback.profile</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="refentry.version.profile.enabled.html">Prev</a> </td><th width="60%" align="center">Refentry metadata gathering</th><td width="20%" align="right"> <a accesskey="n" href="refentry.source.fallback.profile.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="refentry.manual.fallback.profile"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">refentry.manual.fallback.profile</span></h2><p>
+refentry.manual.fallback.profile
+ &#8212; Specifies profile of "fallback" for refentry "manual" data
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="refentry.manual.fallback.profile.frag"></a><pre class="programlisting">
+&lt;xsl:param name="refentry.manual.fallback.profile"&gt;
+refmeta/refmiscinfo[not(@class = 'date')][1]/node()&lt;/xsl:param&gt;
+</pre>
+</div>
+
+<div class="refsection"><a name="id588574"></a><h2>Description</h2>
+
+<p>The value of
+<a href="../manpages/refentry.manual.fallback.profile.html"><em class="parameter"><code>refentry.manual.fallback.profile</code></em></a> is a string
+representing an XPath expression. It is evaluated at run-time and
+used only if no "manual" data can be found by other means (that is,
+either using the <a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a> metadata-gathering logic "hard
+coded" in the stylesheets, or the value of
+<a href="../manpages/refentry.manual.profile.html"><em class="parameter"><code>refentry.manual.profile</code></em></a>, if it is
+enabled).</p>
+
+<div class="important" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Important</h3>
+<p>Depending on which XSLT engine you run, either the EXSLT
+<code class="function">dyn:evaluate</code> extension function (for xsltproc or
+Xalan) or <code class="function">saxon:evaluate</code> extension function (for
+Saxon) are used to dynamically evaluate the value of
+<a href="../manpages/refentry.manual.fallback.profile.html"><em class="parameter"><code>refentry.manual.fallback.profile</code></em></a> at
+run-time. If you don't use xsltproc, Saxon, Xalan -- or some other
+XSLT engine that supports <code class="function">dyn:evaluate</code> -- you
+must manually disable fallback processing by setting an empty value
+for the <a href="../manpages/refentry.manual.fallback.profile.html"><em class="parameter"><code>refentry.manual.fallback.profile</code></em></a>
+parameter.</p>
+</div>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="refentry.version.profile.enabled.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="refmeta.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="refentry.source.fallback.profile.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">refentry.version.profile.enabled </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> refentry.source.fallback.profile</td></tr></table></div></body></html>
+

@@ -1,0 +1,49 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>page.margin.inner</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="general.html" title="Pagination and General Styles"><link rel="prev" href="page.margin.bottom.html" title="page.margin.bottom"><link rel="next" href="page.margin.outer.html" title="page.margin.outer"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">page.margin.inner</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="page.margin.bottom.html">Prev</a> </td><th width="60%" align="center">Pagination and General Styles</th><td width="20%" align="right"> <a accesskey="n" href="page.margin.outer.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="page.margin.inner"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">page.margin.inner</span></h2><p>
+page.margin.inner
+ &#8212; The inner page margin
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="page.margin.inner.frag"></a><pre class="programlisting">&lt;xsl:param name="page.margin.inner"&gt;
+  &lt;xsl:choose&gt;
+    &lt;xsl:when test="$double.sided != 0"&gt;1.25in&lt;/xsl:when&gt;
+    &lt;xsl:otherwise&gt;1in&lt;/xsl:otherwise&gt;
+  &lt;/xsl:choose&gt;
+&lt;/xsl:param&gt;</pre>
+</div>
+
+<div class="refsection"><a name="id570980"></a><h2>Description</h2>
+
+<p>The inner page margin is the distance from bound edge of the
+page to the first column of text. </p>
+
+<p>The inner page margin is the distance from bound edge of the
+page to the outer edge of the first column of text.</p>
+
+<p>In left-to-right text direction,
+this is the left margin of recto (front side) pages.
+For single-sided output, it is the left margin
+of all pages.</p>
+
+<p>In right-to-left text direction,
+this is the right margin of recto pages.
+For single-sided output, this is the
+right margin of all pages.</p>
+
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>
+<p>Current versions (at least as of version 4.13)
+of the XEP XSL-FO processor do not
+correctly handle these margin settings for documents
+with right-to-left text direction.
+The workaround in that situation is to reverse
+the values for <a href="../fo/page.margin.inner.html"><em class="parameter"><code>page.margin.inner</code></em></a>
+and <a href="../fo/page.margin.outer.html"><em class="parameter"><code>page.margin.outer</code></em></a>, until
+this bug is fixed by RenderX.  It does not affect documents
+with left-to-right text direction.</p>
+</div>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="page.margin.bottom.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="general.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="page.margin.outer.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">page.margin.bottom </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> page.margin.outer</td></tr></table></div></body></html>
+

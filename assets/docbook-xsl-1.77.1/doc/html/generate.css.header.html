@@ -1,0 +1,33 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>generate.css.header</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="html.html" title="HTML"><link rel="prev" href="custom.css.source.html" title="custom.css.source"><link rel="next" href="xslt.html" title="XSLT Processing"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">generate.css.header</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="custom.css.source.html">Prev</a> </td><th width="60%" align="center">HTML</th><td width="20%" align="right"> <a accesskey="n" href="xslt.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="generate.css.header"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">generate.css.header</span></h2><p>
+generate.css.header
+ &#8212; Insert generated CSS styles in HEAD element
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="generate.css.header.frag"></a><pre class="programlisting">
+&lt;xsl:param name="generate.css.header" select="0"&gt;&lt;/xsl:param&gt;
+</pre>
+</div>
+
+<div class="refsection"><a name="id532718"></a><h2>Description</h2>
+
+<p>The stylesheets are capable of generating both default
+and custom CSS stylesheet files.  The parameters 
+<a href="../html/make.clean.html.html"><em class="parameter"><code>make.clean.html</code></em></a>,
+<a href="../html/docbook.css.source.html"><em class="parameter"><code>docbook.css.source</code></em></a>, and
+<a href="../html/custom.css.source.html"><em class="parameter"><code>custom.css.source</code></em></a> control that feature.</p>
+
+<p>If you require that CSS styles reside in the HTML 
+<code class="sgmltag-element">HEAD</code> element instead of external CSS files,
+then set the <a href="../html/generate.css.header.html"><em class="parameter"><code>generate.css.header</code></em></a>
+parameter to nonzero (it is zero by default).
+Then instead of generating the CSS in external files,
+they are wrapped in <code class="sgmltag-element">style</code> elements in
+the <code class="sgmltag-element">HEAD</code> element of each HTML output file.
+</p>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="custom.css.source.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="html.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="xslt.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">custom.css.source </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> XSLT Processing</td></tr></table></div></body></html>
+

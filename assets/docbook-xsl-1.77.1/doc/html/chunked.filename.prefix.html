@@ -1,0 +1,34 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>chunked.filename.prefix</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="chunking.html" title="Chunking"><link rel="prev" href="base.dir.html" title="base.dir"><link rel="next" href="generate.manifest.html" title="generate.manifest"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">chunked.filename.prefix</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="base.dir.html">Prev</a> </td><th width="60%" align="center">Chunking</th><td width="20%" align="right"> <a accesskey="n" href="generate.manifest.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="chunked.filename.prefix"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">chunked.filename.prefix</span></h2><p>
+chunked.filename.prefix
+ &#8212; Filename prefix for chunked files
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="chunked.filename.prefix.frag"></a><pre class="programlisting">
+&lt;xsl:param name="chunked.filename.prefix"&gt;&lt;/xsl:param&gt;
+</pre>
+</div>
+
+<div class="refsection"><a name="id545324"></a><h2>Description</h2>
+
+<p>If specified, the <a href="../html/chunked.filename.prefix.html"><em class="parameter"><code>chunked.filename.prefix</code></em></a> 
+parameter specifies a prefix string to add to each generated chunk filename.
+For example:</p>
+<pre class="programlisting">&lt;xsl:param name="chunked.filename.prefix"&gt;admin-&lt;xsl:param&gt;</pre>
+<p>will produce chunked filenames like:</p>
+<pre class="programlisting">admin-index.html
+admin-ch01.html
+admin-ch01s01.html
+...
+</pre>
+
+<div class="caution" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Caution</h3><p>Trying to use the <a href="../html/base.dir.html"><em class="parameter"><code>base.dir</code></em></a>
+parameter to add a string prefix (by omitting the trailing slash)
+no longer works (it never worked completely anyway). That parameter
+value should contain only a directory path, and
+now gets a trailing slash appended if it was omitted from the param.</p></div>
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="base.dir.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chunking.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="generate.manifest.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">base.dir </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> generate.manifest</td></tr></table></div></body></html>
+

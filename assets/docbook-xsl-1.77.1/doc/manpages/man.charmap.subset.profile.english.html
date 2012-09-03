@@ -1,0 +1,68 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>man.charmap.subset.profile.english</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="charmap.html" title="Character/string substitution"><link rel="prev" href="man.charmap.subset.profile.html" title="man.charmap.subset.profile"><link rel="next" href="man.string.subst.map.local.pre.html" title="man.string.subst.map.local.pre"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">man.charmap.subset.profile.english</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="man.charmap.subset.profile.html">Prev</a> </td><th width="60%" align="center">Character/string substitution</th><td width="20%" align="right"> <a accesskey="n" href="man.string.subst.map.local.pre.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="man.charmap.subset.profile.english"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">man.charmap.subset.profile.english</span></h2><p>
+man.charmap.subset.profile.english
+ &#8212; Profile of character map subset
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="man.charmap.subset.profile.english.frag"></a><pre class="programlisting">
+&lt;xsl:param name="man.charmap.subset.profile.english"&gt;
+@*[local-name() = 'block'] = 'Miscellaneous Technical' or
+(@*[local-name() = 'block'] = 'C1 Controls And Latin-1 Supplement (Latin-1 Supplement)' and
+ @*[local-name() = 'class'] = 'symbols')
+or
+(@*[local-name() = 'block'] = 'General Punctuation' and
+ (@*[local-name() = 'class'] = 'spaces' or
+  @*[local-name() = 'class'] = 'dashes' or
+  @*[local-name() = 'class'] = 'quotes' or
+  @*[local-name() = 'class'] = 'bullets'
+ )
+) or
+@*[local-name() = 'name'] = 'HORIZONTAL ELLIPSIS' or
+@*[local-name() = 'name'] = 'WORD JOINER' or
+@*[local-name() = 'name'] = 'SERVICE MARK' or
+@*[local-name() = 'name'] = 'TRADE MARK SIGN' or
+@*[local-name() = 'name'] = 'ZERO WIDTH NO-BREAK SPACE'
+&lt;/xsl:param&gt;
+</pre>
+</div>
+
+<div class="refsection"><a name="id586766"></a><h2>Description</h2>
+
+<p>If the value of the
+  <a href="../manpages/man.charmap.use.subset.html"><em class="parameter"><code>man.charmap.use.subset</code></em></a> parameter is
+  non-zero, and your DocBook source is written in English (that
+  is, if its <code class="sgmltag-attribute">lang</code> or <code class="sgmltag-attribute">xml:lang</code> attribute on the root element
+  in your DocBook source or on the first <a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a>
+  element in your source has the value <code class="literal">en</code> or if
+  it has no <code class="sgmltag-attribute">lang</code> or <code class="sgmltag-attribute">xml:lang</code> attribute), then the
+  character-map subset specified by the
+  <a href="../manpages/man.charmap.subset.profile.english.html"><em class="parameter"><code>man.charmap.subset.profile.english</code></em></a>
+  parameter is used instead of the full roff character map.</p>
+
+<p>Otherwise, if the <code class="sgmltag-attribute">lang</code> or <code class="sgmltag-attribute">xml:lang</code> attribute
+  on the root element in your DocBook source or on the first
+  <a href="http://docbook.org/tdg5/en/html/refentry.html"><code class="sgmltag-element">refentry</code></a> element in your source has a value other
+  than <code class="literal">en</code>, then the character-map subset
+  specified by the
+  <a href="../manpages/man.charmap.subset.profile.html"><em class="parameter"><code>man.charmap.subset.profile</code></em></a> parameter is
+  used instead of
+  <a href="../manpages/man.charmap.subset.profile.english.html"><em class="parameter"><code>man.charmap.subset.profile.english</code></em></a>.</p>
+
+<p>The difference between the two subsets is that
+  <a href="../manpages/man.charmap.subset.profile.html"><em class="parameter"><code>man.charmap.subset.profile</code></em></a> provides
+  mappings for characters in Western European languages that are
+  not part of the Roman (English) alphabet (ASCII character set).</p>
+
+<p>The value of <a href="../manpages/man.charmap.subset.profile.english.html"><em class="parameter"><code>man.charmap.subset.profile.english</code></em></a>
+is a string representing an XPath expression that matches attribute
+names and values for <code class="sgmltag-element">output-character</code> elements in the character map.</p>
+
+<p>For other details, see the documentation for the
+<a href="../manpages/man.charmap.subset.profile.english.html"><em class="parameter"><code>man.charmap.subset.profile.english</code></em></a> and
+<a href="../manpages/man.charmap.use.subset.html"><em class="parameter"><code>man.charmap.use.subset</code></em></a> parameters.</p>
+
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="man.charmap.subset.profile.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="charmap.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="man.string.subst.map.local.pre.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">man.charmap.subset.profile </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> man.string.subst.map.local.pre</td></tr></table></div></body></html>
+

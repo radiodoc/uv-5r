@@ -1,0 +1,73 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>man.charmap.use.subset</title><link rel="stylesheet" type="text/css" href="../reference.css"><meta name="generator" content="DocBook XSL Stylesheets V1.77.1"><link rel="home" href="../index.html" title="DocBook XSL Stylesheets: Reference Documentation"><link rel="up" href="charmap.html" title="Character/string substitution"><link rel="prev" href="man.charmap.uri.html" title="man.charmap.uri"><link rel="next" href="man.charmap.subset.profile.html" title="man.charmap.subset.profile"><link rel="copyright" href="copyright.html" title="License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">man.charmap.use.subset</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="man.charmap.uri.html">Prev</a> </td><th width="60%" align="center">Character/string substitution</th><td width="20%" align="right"> <a accesskey="n" href="man.charmap.subset.profile.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="man.charmap.use.subset"></a><div class="titlepage"></div>
+
+<div class="refnamediv"><h2><span class="refentrytitle">man.charmap.use.subset</span></h2><p>
+man.charmap.use.subset
+ &#8212; Use subset of character map instead of full map?
+</p></div>
+
+<div class="refsynopsisdiv"><h2>Synopsis</h2>
+<a name="man.charmap.use.subset.frag"></a><pre class="programlisting">
+&lt;xsl:param name="man.charmap.use.subset" select="1"&gt;&lt;/xsl:param&gt;
+</pre>
+</div>
+
+<div class="refsection"><a name="id585881"></a><h2>Description</h2>
+
+<p>If the value of the
+<a href="../manpages/man.charmap.use.subset.html"><em class="parameter"><code>man.charmap.use.subset</code></em></a> parameter is non-zero,
+a subset of the roff character map is used instead of the full roff
+character map. The profile of the subset used is determined either
+by the value of the
+<a href="../manpages/man.charmap.subset.profile.html"><em class="parameter"><code>man.charmap.subset.profile</code></em></a>
+parameter (if the source is not in English) or the
+<a href="../manpages/man.charmap.subset.profile.english.html"><em class="parameter"><code>man.charmap.subset.profile.english</code></em></a>
+parameter (if the source is in English).</p>
+
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>
+  <p>You may want to experiment with setting a non-zero value of
+  <a href="../manpages/man.charmap.use.subset.html"><em class="parameter"><code>man.charmap.use.subset</code></em></a>, so that the full
+  character map is used. Depending on which XSLT engine you run,
+  setting a non-zero value for
+  <a href="../manpages/man.charmap.use.subset.html"><em class="parameter"><code>man.charmap.use.subset</code></em></a> may significantly
+  increase the time needed to process your documents. Or it may
+  not. For example, if you set it and run it with xsltproc, it seems
+  to dramatically increase processing time; on the other hand, if you
+  set it and run it with Saxon, it does not seem to increase
+  processing time nearly as much.</p>
+
+  <p>If processing time is not a important concern and/or you can
+  tolerate the increase in processing time imposed by using the full
+  character map, set <a href="../manpages/man.charmap.use.subset.html"><em class="parameter"><code>man.charmap.use.subset</code></em></a> to
+  zero.</p>
+</div>
+
+<div class="refsection"><a name="id585933"></a><h3>Details</h3>
+
+<p>For converting certain Unicode symbols and special characters in
+UTF-8 or UTF-16 encoded XML source to appropriate groff/roff
+equivalents in man-page output, the DocBook XSL Stylesheets
+distribution includes a <a class="ulink" href="http://docbook.sourceforge.net/snapshot/xsl/manpages/charmap.groff.xsl" target="_top">roff character map</a> that is compliant with the <a class="ulink" href="http://www.w3.org/TR/xslt20/#character-maps" target="_top">XSLT character
+map</a> format as detailed in the XSLT 2.0 specification. The map
+contains more than 800 character mappings and can be considered the
+standard roff character map for the distribution.</p>
+
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>
+<p>You can use the <a href="../manpages/man.charmap.uri.html"><em class="parameter"><code>man.charmap.uri</code></em></a>
+parameter to specify a URI for the location for an alternate roff
+character map to use in place of the standard roff character map
+provided in the distribution.</p>
+</div>
+
+<p>Because it is not terrifically efficient to use the standard
+800-character character map in full -- and for most (or all) users,
+never necessary to use it in full -- the DocBook XSL Stylesheets
+support a mechanism for using, within any given character map, a
+subset of character mappings instead of the full set. You can use the
+<a href="../manpages/man.charmap.subset.profile.html"><em class="parameter"><code>man.charmap.subset.profile</code></em></a> or
+<a href="../manpages/man.charmap.subset.profile.english.html"><em class="parameter"><code>man.charmap.subset.profile.english</code></em></a>
+parameter to tune the profile of that subset to use.</p>
+
+</div>
+</div>
+</div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="man.charmap.uri.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="charmap.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="man.charmap.subset.profile.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">man.charmap.uri </td><td width="20%" align="center"><a accesskey="h" href="../index.html">Home</a></td><td width="40%" align="right" valign="top"> man.charmap.subset.profile</td></tr></table></div></body></html>
+
