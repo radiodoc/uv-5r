@@ -1,13 +1,10 @@
-all: index 
+all: index v1-0 v0-9
 
 index: 
 	lua index.lua.htm
 
-#about: 
-#	lua about.lua.htm
+v1-0: v0-9
+	lua v1-0.lua.htm
 
-#contact: 
-#	lua contact.lua.htm
-
-#browse:
-#	lua browse.lua.htm
+v0-9:
+	lua v0-9.lua.htm

@@ -1,0 +1,40 @@
+require ("mexican")
+model = "Baofeng UV-5R"
+body = [[
+		<header class="jumbotron" style="text-align:left;">
+ 			<div class="container">
+
+				<h1>Baofeng UV-5R</h1>
+				<p><a id="dl-button" class="btn btn-primary btn-large pull-right" href="http://github.com/radiodoc/uv-5r/">Download v1.0 (PDF) &raquo;</a></p>
+				<h2>The (Chinese) Radio Documentation Project</h2>
+				<p>Version 1.0 is merely a re-write of the original Baofeng UV-5R manual. Hopefully without the grammatical errors. In upcoming revisions we plan to go above and beyond the scope of the original manuals, to bring you the manual these radios need.</p>
+
+			</div>
+		</header>
+		<div class="container">
+			<p>&nbsp;</p>
+			<div class="row">
+				<div class="span4">
+					<h2>Other Versions</h2>
+					<p>Don't want PDF? Want something that better suits your reading device of choice? No problem, we'ge got versions for all the popular formats.</p>
+					<p>Don't find anything you like? Send us an email and let us know!</p>
+					<p><a class="btn btn-primary" href="http://github.com/radiodoc/uv-5r/">Download v1.0 (Kindle) &raquo;</a></p>
+					<p><a class="btn btn-primary" href="http://github.com/radiodoc/uv-5r/">Download v1.0 (EPUB) &raquo;</a></p>
+					<p><a class="btn btn-primary" href="http://github.com/radiodoc/uv-5r/">Download v1.0 (HTML) &raquo;</a></p>
+				</div>
+				<div class="span4">
+					<h2>Source</h2>
+				<p>If you want to be on the cutting edge, feel free to download the source and compile the book yourself.</p>
+				</p><a class="btn" href="#">View source &raquo;</a></p>
+				</div>
+				<div class="span4">
+					<h2>Older revisions</h2>
+					<p>If you, for whatever reason, decide that you want to check out an earlier version of the manual, I've got some good news. We archive everything.</p>
+					<p><a class="btn" href="#">View details &raquo;</a></p>
+				</div>
+			</div>
+
+			<hr>
+		</div>
+]]
+build (body,"v1-0",model)
