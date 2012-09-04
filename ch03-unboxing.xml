@@ -2,22 +2,131 @@
 <title>Unboxing</title>
 <section>
 	<title>What's in the box</title>
-	<para>A lot of stuff</para>
+	<para>
+		This transceiver comes shipped with the following items in the box:
+	</para>
+	<para>
+		<itemizedlist>
+			<listitem>Radio body</listitem>
+			<listitem>Lithium-Ion battery pack</listitem>
+			<listitem>Antenna</listitem>
+			<listitem>Desk charger (With accompanying wall-wart)</listitem>
+			<listitem>Optional belt clip</listitem>
+			<listitem>Optional wrist-strap</listitem>
+		</itemizedlist>
+	</para>
+	<note>
+		<para>
+			Items included may vary depending on country of purchase. For further information please contact your local vendor or dealer.
+		</para>
+	</note>
 </section>
 <section>
 	<title>Assembly</title>
-	<para>And this is how you put it together.</para>
+	<para>
+		Before the radio is ready for use we need to attach the antenna and battery pack, as well as charge the battery.
+	</para>
 	<section>
 		<title>Antenna</title>
-		<para>screw it on you dummy</para>
+		<para>
+			This transceiver is fitted with a Male SMA connector. To mount your antenna (Female SMA connector), align the two connectors and turn clockwise until it stops.
+		</para>
+		<note>
+			<para>
+				<itemizedlist>
+					<listitem>Do not over-tighten your antenna to avoid damage to the connectors.</listitem>
+					<listitem>When installing the antenna, don't grip it by the top. Grip by the base and turn.</listitem>
+					<listitem>If you use an external antenna, make sure the SWR is about 1.5:1 or lower to avoid damage to the transceiver.</listitem>
+					<listitem>Do not hold the antenna with your hand or wrap the outside of it to avoid bad operation of the transceiver.</listitem>
+					<listitem>Never transmit without an antenna.</listitem>
+				</itemizedlist>
+			</para>
+		</note>
 	</section>
 	<section>
 		<title>Belt clip</title>
-		<para></para>
+		<para>
+			At the back of the radio there are two parallel screws mounted above the battery, remove these and thread them through the holes on the belt clip as you screw them back into the radio body.
+		</para>
+		<caution>
+			<para>
+				Do not use any form of glue to fix the screws on the battery clip. The solvents in the glue may cause damage to the battery casing.
+			</para>
+		</caution>
 	</section>
 	<section>
-		<title>battery</title>
+		<title>Battery</title>
+		<para>
+			Before attaching or removing the battery make sure your radio is turned off by turning the power/volume knob all the way counter-clockwise.
+		</para>
+		<section>
+			<title>Installation</title>
+			<para>
+				Make sure the battery is aligned in parallel with the radio body with the lower edge of the battery about 1-2cm below the edge of the radio.
+			</para>
+			<para>
+				Once aligned with the guide-rails, slide the battery upward until you hear a click as the battery locks in place.
+			</para>
+		</section>
+		<section>
+			<title>Removal</title>
+			<para>
+				To remove the battery, press the battery release above the battery pack, as you slide the battery downward.
+			</para>
+		</section>
 	</section>
-	<para>Your radio is now ready for use</para>
+</section>
+<section>
+	<title>Charging and battery maintenance</title>
+	<section>
+		<title>Charging</title>
+		<para>
+			Follow these steps to hook up and use the charger:
+			<orderedlist numeration="arabic">
+				<listitem>Plug the DC connector of the power adaptor into the charger base.</listitem>
+				<listitem>Plug the AC connector of the power adaptor into a mains wall socket.</listitem>
+				<listitem>Place the radio in the charging slot on the charger.</listitem>
+				<listitem>Make sure the radio is making contact with the charger. When the the red LED comes on steady, your radio is charging.</listitem>
+				<listitem>The radio is fully charged once the charger's green status LED goes steady. Please remove the radio at that time to avoid over-charging your battery.</listitem>
+			</orderedlist>
+		</para>
+		<table>
+			<title>Charger LED codes</title>
+			<tgroup cols="3">
+			<thead>
+				<row>
+					<entry>Red LED</entry>
+					<entry>Green LED</entry>
+					<entry>Status</entry>
+				</row>
+			</thead>
+			<tbody>
+				<row>
+					<entry>flashing</entry>
+					<entry>steady</entry>
+					<entry>
+						<simplelist>
+							<member>Standby (charger empty)</member>
+							<member>Error (charger with radio)</member>
+						</simplelist>
+					</entry>
+				</row>
+				<row>
+					<entry>steady</entry>
+					<entry>off</entry>
+					<entry>Charging</entry>
+				</row>
+				<row>
+					<entry>off</entry>
+					<entry>steady</entry>
+					<entry>Charge complete.</entry>
+				</row>
+			</tbody>
+			</tgroup>
+		</table>
+	</section>
+	<para>
+		Your radio is now ready for use
+	</para>
 </section>
 </chapter>

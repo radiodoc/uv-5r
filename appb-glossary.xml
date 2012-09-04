@@ -1,13 +1,87 @@
 <appendix>
 <title>Glossary</title>
-<para>
-VFO
-Squelch
-PTT
-ANI
-PTT-ID
-CTCSS
-DCS
-DTMF
-</para>
+<glosslist>
+	<glossentry>
+		<glossterm>VFO</glossterm>
+		<glossdef>
+			<para>
+				Variable-frequency oscillator
+			</para>
+		</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>Squelch</glossterm>
+		<glossdef>
+			<para>
+				A circuit used to cut out noise.
+			</para>
+		</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>PTT</glossterm>
+		<glossdef>
+			<para>
+				Push-To-Talk. The button used to make a call.
+			</para>
+		</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>ANI</glossterm>
+		<glossdef>
+			<para>
+				Automatic Number Identification. A system used in dispatch environments to let dispatch know which field radio was keyed.
+			</para>
+		</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>PTT-ID</glossterm>
+		<glossdef>
+			<para>
+				See ANI.
+			</para>
+		</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>CTCSS</glossterm>
+		<glossdef>
+			<para>
+				Continuous Tone-Coded Squelch System. Also known as "Private Line" (a Motorola trademark).
+			</para>
+		</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>DCS</glossterm>
+		<glossdef>
+			<para>
+				Digital-Coded Squelch. Also known as "Digital Private Line" (a Motorola trademark).
+			</para>
+		</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>DTMF</glossterm>
+		<glossdef>
+			<para>
+				Dual-Tone Multiple-Frequencies.
+			</para>
+		</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>SWR</glossterm>
+		<glossdef>
+			<para>
+				Standing Wave Ratio.
+			</para>
+		</glossdef>
+	</glossentry>
+</glosslist>
 </appendix>
+<!--
+	<glossentry>
+		<glossterm></glossterm>
+		<glossdef>
+			<para>
+				
+			</para>
+		</glossdef>
+	</glossentry>
+-->

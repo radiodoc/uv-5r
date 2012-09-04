@@ -1,13 +1,16 @@
+FOP = d:/bin/fop/fop
+ZIP = d:/bin/zip/zip
+XSLTPROC = d:/bin/libxml/bin/xsltproc
+KINDLEGEN = "D:\bin\Amazon\Kindle Previewer\lib\kindlegen.exe"
+
+##############################   END SETUP   ##############################
+#####################   DO NOT ALTER BELOW THIS LINE   ####################
+
 MODEL = uv-5r
 SRC = book.xml
 
 REV = $(shell git describe --tags)
 FILENAME = $(MODEL)_$(REV)
-
-FOP = d:/bin/fop/fop
-ZIP = d:/bin/zip/zip
-XSLTPROC = d:/bin/libxml/bin/xsltproc
-KINDLEGEN = "D:\bin\Amazon\Kindle Previewer\lib\kindlegen.exe"
 
 PDF_DST = build/$(FILENAME).pdf
 PDF_XSL = assets/fo-stylesheet.xsl
