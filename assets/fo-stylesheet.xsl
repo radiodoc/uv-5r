@@ -5,6 +5,13 @@
   <xsl:param name="fop1.extension">1</xsl:param>
 -->
   <xsl:import href="docbook-xsl-1.77.1/fo/docbook.xsl"/>
+
+<xsl:template name="book.titlepage.recto">
+<fo:block>
+    <fo:external-graphic src="url(images/logo.png)"/> 
+</fo:block>
+</xsl:template>
+
 <!--
      <xsl:template match="title">
         <xsl:choose>

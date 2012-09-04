@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE book [
+<!ENTITY preface SYSTEM "preface.xml">
 <!ENTITY ch01 SYSTEM "ch01-safety-information.xml">
 <!ENTITY ch02 SYSTEM "ch02-features.xml">
 <!ENTITY ch03 SYSTEM "ch03-unboxing.xml">
@@ -7,17 +8,17 @@
 <!ENTITY ch05 SYSTEM "ch05-advanced-operation.xml">
 <!ENTITY appa SYSTEM "appa-menu-definitions.xml">
 <!ENTITY appb SYSTEM "appb-glossary.xml">
+<!ENTITY license SYSTEM "copyright.xml">
 ]>
 <book xmlns="http://docbook.org/ns/docbook" 
 	xmlns:xlink="http://www.w3.org/1999/xlink" 
 	xmlns:svg="http://www.w3.org/2000/svg"
-	version="5.0">
+	version="5.0" xml:id="manual">
 	<title>Baofeng UV-5R</title>
 
 	<info>
 
-		<subtitle>From the</subtitle>
-		<subtitle>(Chinese) Radio Documentation Project.</subtitle>
+		<subtitle>The (Chinese) Radio Documentation Project</subtitle>
 		<subtitle><link xlink:href="http://radiodoc.github.com/"/></subtitle>
 
 		<authorgroup>
@@ -37,14 +38,25 @@
 		</copyright>
 
 		<legalnotice>
-			<para>This work is licensed under the Creative 
-			Commons Attribution-ShareAlike 3.0 Unported License.  
-			To view a copy of this license, visit 
-			
-			<link xlink:href="http://creativecommons.org/licenses/by-sa/3.0/"/>
-			
-			or send a letter to Creative Commons, 559 Nathan Abbott Way,
-			Stanford, California 94305, USA.</para>
+			<para>
+				This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.  
+				
+				To view a copy of this license, visit 
+			</para>
+			<para>
+				<link xlink:href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+			</para>
+			<para>
+				or send a letter to 
+				<address>
+				Creative Commons, 
+				<street>559 Nathan Abbott Way</street>, 
+				<city>Stanford</city>, <state>California</state> <postcode>94305</postcode>, <country>USA</country>.
+				</address>
+			</para>
+			<para>
+				All brandnames and trademarks mentioned in this document is the property of their respective holders. The authors of this document shares no affiliation with any of the brands and trademarks mentioned within this document.
+			</para>
 <!--
 <mediaobject>
   <imageobject>
@@ -58,14 +70,18 @@
 	</info>
 
 	<!-- External entity refs -->
-
+<!--
+	&preface;
+-->
 	&ch01;
 	&ch02;
 	&ch03;
 	&ch04;
 	&ch05;
+	
 	&appa;
 	&appb;
+	<index xml:id="manual.index"/>
 <!--
 	&license;
 	&index;
