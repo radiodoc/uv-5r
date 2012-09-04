@@ -2,23 +2,46 @@
 <title>Basic Operation</title>
 <section>
 	<title>Power and volume</title>
-	<para>Before we turn the power on, make sure you have attached the battery and antenna as described in chapter 3.</para>
+	<para>
+		Before we turn the power on, make sure you have attached the battery and antenna as described in chapter 3.
+	</para>
 	<section>
 		<title>Turning the unit on</title>
-		<para>To turn the unit on, simply rotate the volume/power knob clockwise until you hear a "click". The backlight and display should now have come on.</para>
+		<para>
+			To turn the unit on, simply rotate the volume/power knob clockwise until you hear a "click". The backlight and display should now have come on.
+		</para>
 	</section>
 	<section>
 		<title>Turning the unit off</title>
-		<para>Turn the volume/power knob counter-clock wise all the way until you hear a "click". The unit is now off.</para>
+		<para>
+			Turn the volume/power knob counter-clock wise all the way until you hear a "click". The unit is now off.
+		</para>
 	</section>
-
+	<section>
+		<title>Adjusting the volume</title>
+		<para>
+			To turn up the volume, turn the volume/power knob clock-wise.
+		</para>
+		<para>
+			To turn the volume down, turn the volume/power knob counter-clock-wise. Be careful not to turn it too far, as you may inadvertently turn your radio off.
+		</para>
+		<tip>
+			<para>
+				By using the monitor function, enabled from the [moni] key below the PTT, you can more easily adjust your volume by adjusting it to the un-squelched static.
+			</para>
+		</tip>
+	</section>
 </section>
 <section>
 	<title>Channel selection.</title>
-	<para>Use the [up] and [down] keys to navigate between channels.</para>
+	<para>
+		Use the [up] and [down] keys to navigate between channels.
+	</para>
 </section>
 <section>
 	<title>Making a call</title>
-	<para>Press and hold the PTT button on the side of the radio body while speaking 3-5cm from the microphone. When you release the PTT your transceiver will go back to receive mode.</para>
+	<para>
+		Press and hold the PTT button on the side of the radio body to transmit. While transmitting, speak approximately 3-5cm from the microphone. When you release the PTT your transceiver will go back to receive mode.
+	</para>
 </section>
 </chapter>

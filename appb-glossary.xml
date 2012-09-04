@@ -65,8 +65,9 @@
 			</para>
 		</glossdef>
 	</glossentry>
-	<glossentry>
-		<glossterm>SWR</glossterm>
+	<glossentry xml:id="swr">
+		<glossterm>Standing Wave Ratio.</glossterm>
+		<acronym>SWR</acronym>
 		<glossdef>
 			<para>
 				Standing Wave Ratio.
@@ -84,4 +85,16 @@
 			</para>
 		</glossdef>
 	</glossentry>
+
+<glossterm linkend="xml">Extensible Markup Language</glossterm>
+
+	<glossentry id="xml">
+		<glossterm>Extensible Markup Language</glossterm>
+		<acronym>XML</acronym>
+		<glossdef>
+			<para>Some reasonable definition here.</para>
+		<glossseealso otherterm="sgml">
+		</glossdef>
+	</glossentry>
+
 -->

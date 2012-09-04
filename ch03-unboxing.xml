@@ -1,5 +1,5 @@
 <chapter>
-<title>Unboxing</title>
+<title>Unboxing and Setup</title>
 <section>
 	<title>What's in the box</title>
 	<para>
@@ -36,7 +36,7 @@
 				<itemizedlist>
 					<listitem>Do not over-tighten your antenna to avoid damage to the connectors.</listitem>
 					<listitem>When installing the antenna, don't grip it by the top. Grip by the base and turn.</listitem>
-					<listitem>If you use an external antenna, make sure the SWR is about 1.5:1 or lower to avoid damage to the transceiver.</listitem>
+					<listitem>If you use an external antenna, make sure the <glossterm linkend="swr">SWR</glossterm> is about 1.5:1 or lower to avoid damage to the transceiver.</listitem>
 					<listitem>Do not hold the antenna with your hand or wrap the outside of it to avoid bad operation of the transceiver.</listitem>
 					<listitem>Never transmit without an antenna.</listitem>
 				</itemizedlist>
@@ -124,9 +124,57 @@
 			</tbody>
 			</tgroup>
 		</table>
+		<tip>
+			<para>
+				The charger and battery are fitted with matching notches so that you can charge your battery on its own! Practical if you have two batteries. That way you can charge one battery while still using your radio.
+			</para>
+		</tip>
 	</section>
-	<para>
-		Your radio is now ready for use
-	</para>
+	<section>
+		<title>Battery Maintenance</title>
+		<para>
+			The battery for your radio comes uncharged from the factory, please let it charge for at least four to five hours before you start using your radio.
+		</para>
+		<warning>
+			<itemizedlist>
+				<listitem>Use only batteries approved by the original manufacturer.</listitem>
+				<listitem>Never attempt to disassemble your battery pack.</listitem>
+				<listitem>Do not expose your batteries to fire or intense heat.</listitem>
+				<listitem>Dispose of batteries in accordance with local recycling regulations. Batteries do not belong in your trash can!</listitem>
+			</itemizedlist>
+		</warning>
+		<section>
+			<title>Prolonging the life of your battery</title>
+			<itemizedlist>
+				<listitem>Only charge batteries in normal room temperatures.</listitem>
+				<listitem>When charging a battery attached to the radio, turn the radio off for a faster charge.</listitem>
+				<listitem>Do not unplug the power to the charger or remove the battery and/or radio before it's finished charging.</listitem>
+				<listitem>Never charge a wet battery.</listitem>
+				<listitem>Batteries wear out over time. If you notice a considerably shorter operating time with your radio, please consider purchasing a new battery.</listitem>
+				<listitem>Battery performance will be reduced in temperatures below freezing. When working in cold environments, keep a spare battery on you. Preferably inside your jacket or in a similar location in order to keep the battery warm.</listitem>
+				<listitem>Dust can interfere with the contacts on the battery. If necessary wipe the contacts with a clean cloth to ensure proper contact with radio and charger.</listitem>
+			</itemizedlist>
+			<tip>
+				<para>
+					If your battery has become wet, remove it from the radio, wipe it dry with a towel and put it in a plastic bag with a handful of dry rice. Tie the bag up and let it sit over night. The rice will absorb any remaining moisture in the battery.
+				</para>
+				<para>
+					This method is only effective against minor splashes (light rain for instance). A soaked radio may very well be beyond repair.
+				</para>
+			</tip>
+		</section>
+		<section>
+			<title>Storage</title>
+			<para>
+				Fully charge your battery before long time storage in order to prevent damage from over-discharge.
+			</para>
+			<para>
+				To avoid severe capacity degradation of your battery while in long time storage, please cycle the battery at least every six(6) months.
+			</para>
+			<para>
+				Store your batteries in a cool and dry place, never above normal room temperatures.
+			</para>
+		</section>
+	</section>
 </section>
 </chapter>
