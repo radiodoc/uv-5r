@@ -1,10 +1,10 @@
-all: index v1-0 v0-9
+all: index v10 v09
 
 index: 
 	lua index.lua.htm
 
-v1-0: v0-9
+v10:
 	lua v1-0.lua.htm
 
-v0-9:
+v09:
 	lua v0-9.lua.htm
