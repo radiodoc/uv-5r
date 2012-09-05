@@ -18,6 +18,7 @@ PDF_XSL = assets/fo-stylesheet.xsl
 
 HTML_DST = $(FILENAME).html
 HTML_XSL = assets/docbook-xsl-1.77.1/html/docbook.xsl
+CHUNK_XSL = assets/docbook-xsl-1.77.1/html/chunk.xsl
 
 # EPUB uses a path relative to build/epub...
 EPUB_DST = $(FILENAME).epub
@@ -32,6 +33,9 @@ pdf:
 	
 html:
 	$(XSLTPROC) --output build/$(HTML_DST) $(HTML_XSL) $(SRC)
+
+chunkhtml:
+	$(XSLTPROC) --output build/html/ $(CHUNK_XSL) $(SRC)
 
 rawepub:
 	$(XSLTPROC) --output build/epub/ $(EPUB_XSL) $(SRC)

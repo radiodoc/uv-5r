@@ -33,7 +33,16 @@
 		</para>
 		<tip>
 			<para>
-				By using the monitor function, enabled from the [moni] key below the PTT, you can more easily adjust your volume by adjusting it to the un-squelched static.
+				By using the monitor function, enabled from the 
+				<inlinemediaobject>
+					<imageobject condition="print">
+						<imagedata contentdepth="1em" format="svg" fileref="assets/images/key-moni.svg"/>
+					</imageobject>
+					<imageobject condition="web">
+						<imagedata contentdepth="1em" format="png" fileref="assets/images/key-moni.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key below the PTT, you can more easily adjust your volume by adjusting it to the un-squelched static.
 			</para>
 		</tip>
 	</section>
@@ -41,7 +50,19 @@
 <section>
 	<title>Channel selection.</title>
 	<para>
-		Use the [up] and [down] keys to navigate between channels.
+		Use the
+		<inlinemediaobject>
+			<imageobject condition="print">
+				<imagedata contentdepth="1em" format="svg" fileref="assets/images/key-up.svg"/>
+			</imageobject>
+		</inlinemediaobject>
+		and
+		<inlinemediaobject>
+			<imageobject condition="print">
+				<imagedata contentdepth="1em" format="svg" fileref="assets/images/key-down.svg"/>
+			</imageobject>
+		</inlinemediaobject>
+		keys to navigate between channels.
 	</para>
 </section>
 <section>
