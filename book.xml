@@ -8,7 +8,10 @@
 <!ENTITY ch05 SYSTEM "ch05-advanced-operation.xml">
 <!ENTITY appa SYSTEM "appa-menu-definitions.xml">
 <!ENTITY appb SYSTEM "appb-glossary.xml">
+<!ENTITY appc SYSTEM "appc-technical-specs.xml">
 <!ENTITY license SYSTEM "copyright.xml">
+<!ENTITY ctcss-table SYSTEM "ctcss-table.xml">
+<!ENTITY dcs-table SYSTEM "dcs-table.xml">
 ]>
 <book xmlns="http://docbook.org/ns/docbook" 
 	xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -72,17 +75,18 @@
 	<!-- External entity refs -->
 <!--
 	&preface;
--->
 	&ch01;
 	&ch02;
 	&ch03;
+-->
 	&ch04;
+<!--
 	&ch05;
 	
 	&appa;
 	&appb;
+	&appc;
 	<index xml:id="manual.index"/>
-<!--
 	&license;
 	&index;
 -->

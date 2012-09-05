@@ -1,0 +1,369 @@
+	<table>
+		<title>DCS Codes</title>
+		<tgroup cols="6">
+		<thead>
+			<row>
+				<entry>Number</entry>
+				<entry>Code</entry>
+				
+				<entry>Number</entry>
+				<entry>Code</entry>
+				
+				<entry>Number</entry>
+				<entry>Code</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry>001</entry>
+				<entry><literal>D023N</literal></entry>
+
+				<entry>002</entry>
+				<entry><literal>D025N</literal></entry>
+
+				<entry>003</entry>
+				<entry><literal>D026N</literal></entry>
+			</row>
+			<row>
+				<entry>004</entry>
+				<entry><literal>D031N</literal></entry>
+
+				<entry>005</entry>
+				<entry><literal>D032N</literal></entry>
+
+				<entry>006</entry>
+				<entry><literal>D036N</literal></entry>
+			</row>
+			<row>
+				<entry>007</entry>
+				<entry><literal>D043N</literal></entry>
+
+				<entry>008</entry>
+				<entry><literal>D047N</literal></entry>
+
+				<entry>009</entry>
+				<entry><literal>D051N</literal></entry>
+			</row>
+			<row>
+				<entry>010</entry>
+				<entry><literal>D053N</literal></entry>
+
+				<entry>011</entry>
+				<entry><literal>D054N</literal></entry>
+
+				<entry>012</entry>
+				<entry><literal>D065N</literal></entry>
+			</row>
+			<row>
+				<entry>013</entry>
+				<entry><literal>D071N</literal></entry>
+
+				<entry>014</entry>
+				<entry><literal>D072N</literal></entry>
+
+				<entry>015</entry>
+				<entry><literal>D073N</literal></entry>
+			</row>
+			<row>
+				<entry>016</entry>
+				<entry><literal>D074N</literal></entry>
+
+				<entry>017</entry>
+				<entry><literal>D114N</literal></entry>
+
+				<entry>018</entry>
+				<entry><literal>D115N</literal></entry>
+			</row>
+			<row>
+				<entry>019</entry>
+				<entry><literal>D116N</literal></entry>
+
+				<entry>020</entry>
+				<entry><literal>D122N</literal></entry>
+
+				<entry>021</entry>
+				<entry><literal>D125N</literal></entry>
+			</row>
+			<row>
+				<entry>022</entry>
+				<entry><literal>D131N</literal></entry>
+
+				<entry>023</entry>
+				<entry><literal>D132N</literal></entry>
+
+				<entry>024</entry>
+				<entry><literal>D134N</literal></entry>
+			</row>
+			<row>
+				<entry>025</entry>
+				<entry><literal>D143N</literal></entry>
+
+				<entry>026</entry>
+				<entry><literal>D145N</literal></entry>
+
+				<entry>027</entry>
+				<entry><literal>D152N</literal></entry>
+			</row>
+			<row>
+				<entry>028</entry>
+				<entry><literal>D155N</literal></entry>
+
+				<entry>029</entry>
+				<entry><literal>D156N</literal></entry>
+
+				<entry>030</entry>
+				<entry><literal>D162N</literal></entry>
+			</row>
+			<row>
+				<entry>031</entry>
+				<entry><literal>D165N</literal></entry>
+
+				<entry>032</entry>
+				<entry><literal>D172N</literal></entry>
+
+				<entry>033</entry>
+				<entry><literal>D174N</literal></entry>
+			</row>
+			<row>
+				<entry>034</entry>
+				<entry><literal>D205N</literal></entry>
+
+				<entry>035</entry>
+				<entry><literal>D212N</literal></entry>
+
+				<entry>036</entry>
+				<entry><literal>D223N</literal></entry>
+			</row>
+			<row>
+				<entry>037</entry>
+				<entry><literal>D225N</literal></entry>
+
+				<entry>038</entry>
+				<entry><literal>D226N</literal></entry>
+
+				<entry>039</entry>
+				<entry><literal>D243N</literal></entry>
+			</row>
+			<row>
+				<entry>040</entry>
+				<entry><literal>D244N</literal></entry>
+
+				<entry>041</entry>
+				<entry><literal>D245N</literal></entry>
+
+				<entry>042</entry>
+				<entry><literal>D246N</literal></entry>
+			</row>
+			<row>
+				<entry>043</entry>
+				<entry><literal>D251N</literal></entry>
+
+				<entry>044</entry>
+				<entry><literal>D252N</literal></entry>
+
+				<entry>045</entry>
+				<entry><literal>D255N</literal></entry>
+			</row>
+			<row>
+				<entry>046</entry>
+				<entry><literal>D261N</literal></entry>
+
+				<entry>047</entry>
+				<entry><literal>D263N</literal></entry>
+
+				<entry>048</entry>
+				<entry><literal>D265N</literal></entry>
+			</row>
+			<row>
+				<entry>049</entry>
+				<entry><literal>D266N</literal></entry>
+
+				<entry>050</entry>
+				<entry><literal>D271N</literal></entry>
+
+				<entry>051</entry>
+				<entry><literal>D274N</literal></entry>
+			</row>
+			<row>
+				<entry>052</entry>
+				<entry><literal>D306N</literal></entry>
+
+				<entry>053</entry>
+				<entry><literal>D311N</literal></entry>
+
+				<entry>054</entry>
+				<entry><literal>D315N</literal></entry>
+			</row>
+			<row>
+				<entry>055</entry>
+				<entry><literal>D325N</literal></entry>
+
+				<entry>056</entry>
+				<entry><literal>D331N</literal></entry>
+
+				<entry>057</entry>
+				<entry><literal>D332N</literal></entry>
+			</row>
+			<row>
+				<entry>058</entry>
+				<entry><literal>D343N</literal></entry>
+
+				<entry>059</entry>
+				<entry><literal>D346N</literal></entry>
+
+				<entry>060</entry>
+				<entry><literal>D351N</literal></entry>
+			</row>
+			<row>
+				<entry>061</entry>
+				<entry><literal>D356N</literal></entry>
+
+				<entry>062</entry>
+				<entry><literal>D364N</literal></entry>
+
+				<entry>063</entry>
+				<entry><literal>D365N</literal></entry>
+			</row>
+			<row>
+				<entry>064</entry>
+				<entry><literal>D371N</literal></entry>
+
+				<entry>065</entry>
+				<entry><literal>D411N</literal></entry>
+
+				<entry>066</entry>
+				<entry><literal>D412N</literal></entry>
+			</row>
+			<row>
+				<entry>067</entry>
+				<entry><literal>D413N</literal></entry>
+
+				<entry>068</entry>
+				<entry><literal>D423N</literal></entry>
+
+				<entry>069</entry>
+				<entry><literal>D431N</literal></entry>
+			</row>
+			<row>
+				<entry>070</entry>
+				<entry><literal>D432N</literal></entry>
+
+				<entry>071</entry>
+				<entry><literal>D445N</literal></entry>
+
+				<entry>072</entry>
+				<entry><literal>D446N</literal></entry>
+			</row>
+			<row>
+				<entry>073</entry>
+				<entry><literal>D452N</literal></entry>
+
+				<entry>074</entry>
+				<entry><literal>D454N</literal></entry>
+
+				<entry>075</entry>
+				<entry><literal>D455N</literal></entry>
+			</row>
+			<row>
+				<entry>076</entry>
+				<entry><literal>D462N</literal></entry>
+
+				<entry>077</entry>
+				<entry><literal>D464N</literal></entry>
+
+				<entry>078</entry>
+				<entry><literal>D465N</literal></entry>
+			</row>
+			<row>
+				<entry>079</entry>
+				<entry><literal>D466N</literal></entry>
+
+				<entry>080</entry>
+				<entry><literal>D503N</literal></entry>
+
+				<entry>081</entry>
+				<entry><literal>D506N</literal></entry>
+			</row>
+			<row>
+				<entry>082</entry>
+				<entry><literal>D516N</literal></entry>
+
+				<entry>083</entry>
+				<entry><literal>D523N</literal></entry>
+
+				<entry>084</entry>
+				<entry><literal>D526N</literal></entry>
+			</row>
+			<row>
+				<entry>085</entry>
+				<entry><literal>D532N</literal></entry>
+
+				<entry>086</entry>
+				<entry><literal>D546N</literal></entry>
+
+				<entry>087</entry>
+				<entry><literal>D565N</literal></entry>
+			</row>
+			<row>
+				<entry>088</entry>
+				<entry><literal>D606N</literal></entry>
+
+				<entry>089</entry>
+				<entry><literal>D612N</literal></entry>
+
+				<entry>090</entry>
+				<entry><literal>D624N</literal></entry>
+			</row>
+			<row>
+				<entry>091</entry>
+				<entry><literal>D627N</literal></entry>
+
+				<entry>092</entry>
+				<entry><literal>D631N</literal></entry>
+
+				<entry>093</entry>
+				<entry><literal>D632N</literal></entry>
+			</row>
+			<row>
+				<entry>094</entry>
+				<entry><literal>D645N</literal></entry>
+
+				<entry>095</entry>
+				<entry><literal>D654N</literal></entry>
+
+				<entry>096</entry>
+				<entry><literal>D662N</literal></entry>
+			</row>
+			<row>
+				<entry>097</entry>
+				<entry><literal>D664N</literal></entry>
+
+				<entry>098</entry>
+				<entry><literal>D703N</literal></entry>
+
+				<entry>099</entry>
+				<entry><literal>D718N</literal></entry>
+			</row>
+			<row>
+				<entry>100</entry>
+				<entry><literal>D723N</literal></entry>
+
+				<entry>101</entry>
+				<entry><literal>D731N</literal></entry>
+
+				<entry>102</entry>
+				<entry><literal>D732N</literal></entry>
+			</row>
+			<row>
+				<entry>103</entry>
+				<entry><literal>D734N</literal></entry>
+
+				<entry>104</entry>
+				<entry><literal>D743N</literal></entry>
+
+				<entry>105</entry>
+				<entry><literal>D754N</literal></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>

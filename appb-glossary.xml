@@ -73,6 +73,18 @@
 			</para>
 		</glossdef>
 	</glossentry>
+	<glossentry xml:id="sinad">
+		<glossterm>SINAD</glossterm>
+		<acronym>SINAD</acronym>
+		<glossdef>
+			<para>
+				SINAD stands for "SIgnal-to-Noise And Distortion ratio".
+			</para>
+			<para>
+				It is a measure of the quality of a signal from a communications device.
+			</para>
+		</glossdef>
+	</glossentry>	
 </glosslist>
 </glossary>
 <!--
