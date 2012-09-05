@@ -6,6 +6,7 @@
 <!ENTITY ch03 SYSTEM "ch03-unboxing.xml">
 <!ENTITY ch04 SYSTEM "ch04-basic-operation.xml">
 <!ENTITY ch05 SYSTEM "ch05-advanced-operation.xml">
+<!ENTITY chts SYSTEM "ch-troubleshooting.xml">
 <!ENTITY appa SYSTEM "appa-menu-definitions.xml">
 <!ENTITY appb SYSTEM "appb-glossary.xml">
 <!ENTITY appc SYSTEM "appc-technical-specs.xml">
@@ -78,12 +79,13 @@
 	&ch01;
 	&ch02;
 	&ch03;
+	&chts;
 -->
 	&ch04;
+	&appa;
 <!--
 	&ch05;
 	
-	&appa;
 	&appb;
 	&appc;
 	<index xml:id="manual.index"/>

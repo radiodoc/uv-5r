@@ -33,7 +33,8 @@
 		</para>
 		<tip>
 			<para>
-				By using the monitor function, enabled from the 
+				By using the monitor function, enabled from the <inlineasset>key-moni</inlineasset>
+				<!--
 				<inlinemediaobject>
 					<imageobject condition="print">
 						<imagedata contentdepth="1em" format="svg" fileref="assets/images/key-moni.svg"/>
@@ -42,6 +43,7 @@
 						<imagedata contentdepth="1em" format="png" fileref="assets/images/key-moni.png"/>
 					</imageobject>
 				</inlinemediaobject>
+				-->
 				key below the PTT, you can more easily adjust your volume by adjusting it to the un-squelched static.
 			</para>
 		</tip>

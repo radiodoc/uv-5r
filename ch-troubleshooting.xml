@@ -1,0 +1,91 @@
+<chapter>
+<title>Troubleshooting</title>
+	<informaltable>
+		<tgroup cols="3">
+		<thead>
+			<row>
+				<entry>Symptom</entry>
+				<entry>Possible cause</entry>
+				<entry>solution</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry>The radio doesn't start.</entry>
+				<entry>
+					<simplelist>
+						<member>The battery is too low.</member>
+						<member>The battery isn't correctly installed.</member>
+					</simplelist>
+				</entry>
+				<entry>
+					<simplelist>
+						<member>Change or recharge the battery.</member>
+						<member>Remove the battery and reinstall it.</member>
+					</simplelist>
+				</entry>
+			</row>
+			<row>
+				<entry>The battery dies quickly.</entry>
+				<entry>
+					<simplelist>
+						<member>The battery is dead.</member>
+						<member>The battery isn't fully charged.</member>
+					</simplelist>
+				</entry>
+				<entry>
+					<simplelist>
+						<member>Purchase a new battery.</member>
+						<member>Recharge the battery.</member>
+					</simplelist>
+				</entry>
+			</row>
+			<row>
+				<entry>The LED indicates reception, but the speaker is silent.</entry>
+				<entry>
+					<simplelist>
+						<member>Volume is too low.</member>
+						<member>CTCSS or DCS enabled.</member>
+					</simplelist>
+				</entry>
+				<entry>
+					<simplelist>
+						<member>Turn up the volume.</member>
+						<member>Change your CTCSS or DCS to match those you're trying to communicate with. Or turn CTCSS or DCS off.</member>
+					</simplelist>
+				</entry>
+			</row>
+			<row>
+				<entry>Others can't hear my transmission.</entry>
+				<entry>
+					<simplelist>
+						<member>Their CTCSS or DCS settings doesn't match yours.</member>
+						<member>You're too far apart.</member>
+					</simplelist>
+				</entry>
+				<entry>
+					<simplelist>
+						<member>Change your CTCSS or DCS settings to match your peers.</member>
+						<member>Move in closer.</member>
+					</simplelist>
+				</entry>
+			</row>
+			<row>
+				<entry>The radio transmits without touching the PTT.</entry>
+				<entry>
+					<simplelist>
+						<member>The VOX is enabled.</member>
+						<member>VOX sensitivity is too high.</member>
+					</simplelist>
+				</entry>
+				<entry>
+					<simplelist>
+						<member>Turn VOX off.</member>
+						<member>Turn down VOX sensitivity.</member>
+					</simplelist>
+				</entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</informaltable>
+</chapter>
