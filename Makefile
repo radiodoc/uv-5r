@@ -35,7 +35,7 @@ png:
 	echo "Processing SVG assets"; \
 	for file in *.svg; do \
 		$(INKSCAPE) -d 300 -f $(CURDIR)/assets/images/$$file \
-		 -e $(CURDIR)/assets/png/$$file.png --export-area-snap; \
+		 -e $(CURDIR)/figs/$$file.png --export-area-snap; \
 		echo "processed" $$file; \
 	done; cd ../png/; \
 	echo "Done processing SVG assets"
@@ -48,13 +48,13 @@ html:
 
 chunkhtml: png
 	$(XSLTPROC) --output build/html/ $(CHUNK_XSL) $(SRC); \
-	mkdir -p build/html/assets/png; \
-	cp assets/png/* build/html/assets/png/
+	mkdir -p build/html/figs; \
+	cp figs/* build/html/figs/
 
 rawepub: png
 	$(XSLTPROC) --output build/epub/ $(EPUB_XSL) $(SRC); \
-	mkdir -p build/epub/OEBPS/assets/png; \
-	cp assets/png/* build/epub/OEBPS/assets/png/
+	mkdir -p build/epub/OEBPS/figs; \
+	cp figs/* build/epub/OEBPS/figs/
 
 epub: rawepub
 	cd build/epub/; \
