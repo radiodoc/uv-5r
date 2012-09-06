@@ -4,33 +4,7 @@
 <!--
 	<xsl:param name="fop1.extension">1</xsl:param>
 -->
-	<xsl:import href="docbook-xsl-1.77.1/fo/docbook.xsl"/>
-	<xsl:template match="inlineasset">
-		<inlinemediaobject>
-			<xsl:apply-templates select="assetimage"/>
-		</inlinemediaobject>
-	</xsl:template>
-
-	<xsl:template match="assetimage">
-		<imageobject condition="print">
-			<imagedata contentdepth="1em" format="svg">
-				<xsl:attribute name="fileref">
-				<xsl:text>assets/images/</xsl:text>
-				<xsl:value-of select="." />
-				<xsl:text>.png</xsl:text>
-				</xsl:attribute>
-			</imagedata>
-		</imageobject>
-		<imageobject condition="web">
-			<imagedata contentdepth="1em" format="png">
-				<xsl:attribute name="fileref">
-				<xsl:text>assets/images/</xsl:text>
-				<xsl:value-of select="." />
-				<xsl:text>.png</xsl:text>
-				</xsl:attribute>
-			</imagedata>
-		</imageobject>
-	</xsl:template>
+	<xsl:import href="assets/fo-stylesheet.xsl"/>
 <!--
 	<xsl:template name="book.titlepage.recto">
 	<fo:block>
@@ -67,13 +41,15 @@
 	-->
 
 
+	<!-- iPad screen: 196x146mm -->
 	<!-- Page related Settings -->
-	<xsl:param name="paper.type">A4</xsl:param>
-	<xsl:param name="page.margin.top">1in</xsl:param>
-	<xsl:param name="page.margin.bottom">1in</xsl:param>
-	<xsl:param name="page.margin.outer">1in</xsl:param>
-	<xsl:param name="page.margin.inner">1in</xsl:param>
-	<xsl:param name="section.margin.bottom">2em</xsl:param>
+	<xsl:param name="page.height">200mm</xsl:param>
+	<xsl:param name="page.width">150mm</xsl:param>
+	<xsl:param name="page.margin.top">2mm</xsl:param>
+	<xsl:param name="page.margin.bottom">2mm</xsl:param>
+	<xsl:param name="page.margin.outer">5mm</xsl:param>
+	<xsl:param name="page.margin.inner">5mm</xsl:param>
+
 
 	<xsl:param name="callout.unicode">1</xsl:param>
 	<xsl:param name="callout.graphics">0</xsl:param>

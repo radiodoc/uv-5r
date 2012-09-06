@@ -14,8 +14,11 @@ SRC = book.xml
 REV = $(shell git describe --tags)
 FILENAME = $(MODEL)_$(REV)
 
-PDF_DST = $(FILENAME).pdf
-PDF_XSL = assets/fo-stylesheet.xsl
+PRINT_DST = $(FILENAME)-print.pdf
+PRINT_XSL = assets/print-stylesheet.xsl
+
+IPAD_DST = $(FILENAME)-ipad.pdf
+IPAD_XSL = assets/ipad-stylesheet.xsl
 #PDF_XSL = assets/docbook-xsl-1.77.1/fo/docbook.xsl
 
 HTML_DST = $(FILENAME).html
@@ -40,8 +43,10 @@ png:
 	done; cd ../png/; \
 	echo "Done processing SVG assets"
 
-pdf: png
-	$(FOP) -xml $(SRC) -xsl $(PDF_XSL) -pdf build/$(PDF_DST)
+print: png
+	$(FOP) -xml $(SRC) -xsl $(PRINT_XSL) -pdf build/$(PRINT_DST)
+ipad: png
+	$(FOP) -xml $(SRC) -xsl $(IPAD_XSL) -pdf build/$(IPAD_DST)
 	
 html: 
 	$(XSLTPROC) --output build/$(HTML_DST) $(HTML_XSL) $(SRC)

@@ -4,68 +4,7 @@
 <!--
 	<xsl:param name="fop1.extension">1</xsl:param>
 -->
-	<xsl:import href="docbook-xsl-1.77.1/fo/docbook.xsl"/>
-	<xsl:template match="inlineasset">
-		<inlinemediaobject>
-			<xsl:apply-templates select="assetimage"/>
-		</inlinemediaobject>
-	</xsl:template>
-
-	<xsl:template match="assetimage">
-		<imageobject condition="print">
-			<imagedata contentdepth="1em" format="svg">
-				<xsl:attribute name="fileref">
-				<xsl:text>assets/images/</xsl:text>
-				<xsl:value-of select="." />
-				<xsl:text>.png</xsl:text>
-				</xsl:attribute>
-			</imagedata>
-		</imageobject>
-		<imageobject condition="web">
-			<imagedata contentdepth="1em" format="png">
-				<xsl:attribute name="fileref">
-				<xsl:text>assets/images/</xsl:text>
-				<xsl:value-of select="." />
-				<xsl:text>.png</xsl:text>
-				</xsl:attribute>
-			</imagedata>
-		</imageobject>
-	</xsl:template>
-<!--
-	<xsl:template name="book.titlepage.recto">
-	<fo:block>
-		<fo:external-graphic src="url(images/logo.png)"/> 
-	</fo:block>
-	</xsl:template>
-
-	 <xsl:template match="title">
-		<xsl:choose>
-			<xsl:when test="(parent::section)">
-				<fo:block break-before="page">   
-					<xsl:apply-imports />
-				</fo:block>
-			</xsl:when>
-			<xsl:otherwise>
-				<xsl:apply-imports />
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>
--->
-<!-- PARAMETER REFERENCE:                                       -->
-	<!-- http://docbook.sourceforge.net/release/xsl/current/doc/fo/ -->
-
-	<!-- Move to FO_XSLTPROC_OPTS for support fop1 and xep, etc.
-	<xsl:param name="fop.extensions" select="1" />
-	-->
-
-	<!-- xsltproc can't support these extensions
-	<xsl:param name="use.extensions">1</xsl:param>
-	<xsl:param name="callouts.extension">1</xsl:param>
-	<xsl:param name="linenumbering.extension">1</xsl:param>
-	<xsl:param name="tablecolumns.extension">1</xsl:param>
-	<xsl:param name="textinsert.extension">1</xsl:param>
-	-->
-
+	<xsl:import href="assets/fo-stylesheet.xsl"/>
 
 	<!-- Page related Settings -->
 	<xsl:param name="paper.type">A4</xsl:param>
@@ -77,23 +16,6 @@
 
 	<xsl:param name="callout.unicode">1</xsl:param>
 	<xsl:param name="callout.graphics">0</xsl:param>
-
-	<!--
-	<xsl:param name="double.sided">1</xsl:param>
-	<xsl:param name="double.sided" select="1" />
-	<xsl:param name="title.margin.left">0pt</xsl:param>
-	<xsl:param name="body.start.indent">0pt</xsl:param>
-	<xsl:param name="body.end.indent">0pt</xsl:param>
-<fo:simple-page-master master-name="A4" page-width="297mm"
-	page-height="210mm" margin-top="1cm" margin-bottom="1cm"
-	margin-left="1cm" margin-right="1cm">
-	<fo:region-body margin="3cm"/>
-	<fo:region-before extent="2cm"/>
-	<fo:region-after extent="2cm"/>
-	<fo:region-start extent="2cm"/>
-	<fo:region-end extent="2cm"/>
-</fo:simple-page-master>
--->
 
 	<!-- Custom font settings 
 	<xsl:param name="title.font.family">sans-serif,SimHei</xsl:param>

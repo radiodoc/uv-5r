@@ -12,7 +12,7 @@
 		<title>Baofeng UV-5R, overview</title>
 		<mediaobject>
 			<imageobject>
-				<imagedata fileref="assets/png/radio-overview.svg.png" contentwidth="4.8in" />
+				<imagedata fileref="figs/radio-overview.svg.png" contentwidth="4.8in" />
 			</imageobject>
 		</mediaobject>
 	</figure>
@@ -41,10 +41,203 @@
 			<title>Baofeng UV-5R, keypad</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="assets/png/keypad.svg.png" contentdepth="5em" />
+					<imagedata fileref="figs/keypad.svg.png" contentdepth="4.5em" />
 				</imageobject>
 			</mediaobject>
 		</figure>
+		<variablelist>
+			<varlistentry>
+				<term>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				</term>
+				<listitem>
+					<para>The menu key, used to enter the menu you big dummy.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				</term>
+				<term>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				</term>
+				<listitem>
+					<para>The menu key, used to enter the menu you big dummy.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				</term>
+				<listitem>
+					<para>The menu key, used to enter the menu you big dummy.</para>
+				</listitem>
+			</varlistentry>
+
+			<varlistentry>
+				<term>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				</term>
+				<listitem>
+					<para>The menu key, used to enter the menu you big dummy.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-2.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				</term>
+				<listitem>
+					<para>The menu key, used to enter the menu you big dummy.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-3.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				</term>
+				<listitem>
+					<para>The menu key, used to enter the menu you big dummy.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-4.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				</term>
+				<listitem>
+					<para>The menu key, used to enter the menu you big dummy.</para>
+				</listitem>
+			</varlistentry>
+
+			<varlistentry>
+				<term>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-5.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				</term>
+				<listitem>
+					<para>The menu key, used to enter the menu you big dummy.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-6.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				</term>
+				<listitem>
+					<para>The menu key, used to enter the menu you big dummy.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-7.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				</term>
+				<listitem>
+					<para>The menu key, used to enter the menu you big dummy.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-8.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				</term>
+				<listitem>
+					<para>The menu key, used to enter the menu you big dummy.</para>
+				</listitem>
+			</varlistentry>
+
+			<varlistentry>
+				<term>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-9.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				</term>
+				<listitem>
+					<para>The menu key, used to enter the menu you big dummy.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				</term>
+				<listitem>
+					<para>The menu key, used to enter the menu you big dummy.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				</term>
+				<listitem>
+					<para>The menu key, used to enter the menu you big dummy.</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				</term>
+				<listitem>
+					<para>The menu key, used to enter the menu you big dummy.</para>
+				</listitem>
+			</varlistentry>
+		</variablelist>
+
 	</section>
 </section>
 <section xml:id="manual.basic.power-volume">
@@ -63,21 +256,31 @@
 		<para>To turn up the volume, turn the volume/power knob clock-wise.</para>
 		<para>To turn the volume down, turn the volume/power knob counter-clock-wise. Be careful not to turn it too far, as you may inadvertently turn your radio off.</para>
 		<tip>
-			<para>By using the monitor function, enabled from the <keycap>[moni]</keycap>
-				<!--
+			<para>By using the monitor function, enabled from the 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="assets/png/key-moni.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-moni.svg.png"/>
 					</imageobject>
 				</inlinemediaobject>
-				-->
 				key below the PTT, you can more easily adjust your volume by adjusting it to the un-squelched static.</para>
 		</tip>
 	</section>
 </section>
 <section>
 	<title>Channel selection.</title>
-	<para>Use the <keycap>[up]</keycap> and <keycap>[down]</keycap> keys to navigate between channels.</para>
+	<para>Use the 
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		and
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		keys to navigate between channels.</para>
 </section>
 <section>
 	<title>Making a call</title>
