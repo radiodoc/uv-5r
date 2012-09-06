@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE book [
 <!ENTITY preface SYSTEM "preface.xml">
+
 <!ENTITY ch01 SYSTEM "ch01-safety-information.xml">
 <!ENTITY ch02 SYSTEM "ch02-features.xml">
 <!ENTITY ch03 SYSTEM "ch03-unboxing.xml">
 <!ENTITY ch04 SYSTEM "ch04-basic-operation.xml">
 <!ENTITY ch05 SYSTEM "ch05-advanced-operation.xml">
-<!ENTITY chts SYSTEM "ch-troubleshooting.xml">
+<!ENTITY ch06 SYSTEM "ch-programming.xml">
+<!ENTITY ch07 SYSTEM "ch-application-specific-setup.xml">
+<!ENTITY ch08 SYSTEM "ch-troubleshooting.xml">
+
 <!ENTITY appa SYSTEM "appa-menu-definitions.xml">
 <!ENTITY appb SYSTEM "appb-glossary.xml">
 <!ENTITY appc SYSTEM "appc-technical-specs.xml">
-<!ENTITY license SYSTEM "copyright.xml">
 <!ENTITY ctcss-table SYSTEM "ctcss-table.xml">
 <!ENTITY dcs-table SYSTEM "dcs-table.xml">
+
+<!ENTITY license SYSTEM "copyright.xml">
+<!ENTITY colophon SYSTEM "xml.colophon">
 ]>
 <book xmlns="http://docbook.org/ns/docbook" 
 	xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -78,18 +84,20 @@
 	&preface;
 	&ch01;
 	&ch02;
-	&chts;
 -->
 	&ch03;
 	&ch04;
 <!--
-	&appa;
 	&ch05;
+	&ch08;
 	
+	&appa;
 	&appb;
 	&appc;
 	<index xml:id="manual.index"/>
-	&license;
 	&index;
+
+	&license;
+	&colophon;
 -->
 </book>

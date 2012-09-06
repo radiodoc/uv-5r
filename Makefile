@@ -35,9 +35,9 @@ png:
 	echo "Processing SVG assets"; \
 	for file in *.svg; do \
 		$(INKSCAPE) -d 300 -f $(CURDIR)/assets/images/$$file \
-		 -e $(CURDIR)/assets/tmp/$$file.png --export-area-snap; \
+		 -e $(CURDIR)/assets/png/$$file.png --export-area-snap; \
 		echo "processed" $$file; \
-	done; cd ../tmp/; \
+	done; cd ../png/; \
 	echo "Done processing SVG assets"
 
 pdf: png

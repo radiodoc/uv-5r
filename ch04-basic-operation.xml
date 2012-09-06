@@ -2,33 +2,50 @@
 <title>Basic Operation</title>
 <section xml:id="manual.basic.get-to-know">
 	<title>Getting to know your radio</title>
+	<!--
 	<blockquote>
 		<attribution>Dr. Emmet Brown</attribution>
 		<para>Please excuse the crudity of this model. I didn't have time to build it to scale or paint it.</para>
 	</blockquote>
-	<programlisting>
-   |  |             |  | &lt;- Antenna
-   |__|             |__| 
-  /    \           /    \          ______
-  |    |           |    |         /______\ &lt;- Volume/power
- _|____|_        __|____|_________\______/_   knob
-|  ____  |      |                          |
-| [CALL] |     || ------------------------ |
-|  ____  |     -| |     Two line         | ||
-| [PTT ] |     || |     display          | || &lt;- Speaker-mic &amp;
-| [____] |     || ------------------------ ||    programming port
-|  ____  |     -| [mode]    ----           ||
-| [MONI] |     ||        ----------        |
-|        |      |        ----------        |
-|        |      |        ----------        |  The keypad also
-|        |      |           ----           |  has the following
-|        |      | [A/B ]            [band] |  numerical layout:
-|        |      | [menu][ up ][down][exit] |  
-|        |      | [step][txp ][save][scan] |  [1][2][3][*]
-|        |      | [vox ][ wn ][abr ][sql ] |  [4][5][6][0]
-|        |      | [tdr ][beep][tot ][key ] |  [7][8][9][#]
-|________|      |__________________________|
-	</programlisting>
+	-->
+	<figure xml:id="manual.radio.front-fig">
+		<title>Baofeng UV-5R, overview</title>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="assets/png/radio-overview.svg.png" contentwidth="4.8in" />
+			</imageobject>
+		</mediaobject>
+	</figure>
+	<orderedlist numeration="arabic">
+		<listitem>Antenna</listitem>
+		<listitem>Power / Volume knob</listitem>
+		<listitem>Two-line LCD</listitem>
+		<listitem>VFO/MR mode key</listitem>
+		<listitem>Status LED</listitem>
+		<listitem>A / B select key</listitem>
+		<listitem>Keypad</listitem>
+		<listitem>Band select key</listitem>
+		<listitem>Speaker and microphone</listitem>
+		<listitem>Battery release latch</listitem>
+		<listitem>Lanyard loop</listitem>
+		<listitem>Accessory jack</listitem>
+		<listitem>Battery pack</listitem>
+		<listitem>Battery contacts</listitem>
+		<listitem>Call key</listitem>
+		<listitem>PTT key</listitem>
+		<listitem>Monitor key</listitem>
+	</orderedlist>
+	<section xml:id="manual.know.keypad">
+		<title>Numeric keypad</title>
+		<figure xml:id="manual.radio.keypad-fig">
+			<title>Baofeng UV-5R, keypad</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="assets/png/keypad.svg.png" contentdepth="5em" />
+				</imageobject>
+			</mediaobject>
+		</figure>
+	</section>
 </section>
 <section xml:id="manual.basic.power-volume">
 	<title>Power and volume</title>
