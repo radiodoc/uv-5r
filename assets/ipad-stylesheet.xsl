@@ -4,7 +4,7 @@
 <!--
 	<xsl:param name="fop1.extension">1</xsl:param>
 -->
-	<xsl:import href="assets/fo-stylesheet.xsl"/>
+	<xsl:import href="fo-stylesheet.xsl"/>
 <!--
 	<xsl:template name="book.titlepage.recto">
 	<fo:block>

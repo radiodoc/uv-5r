@@ -40,7 +40,7 @@ png:
 		$(INKSCAPE) -d 300 -f $(CURDIR)/assets/images/$$file \
 		 -e $(CURDIR)/figs/$$file.png --export-area-snap; \
 		echo "processed" $$file; \
-	done; cd ../png/; \
+	done; cd ../../figs/; \
 	echo "Done processing SVG assets"
 
 print: png
