@@ -30,7 +30,7 @@ KINDLE_DST = $(FILENAME).mobi
 
 all: pdf html epub kindle
 
-looptest:
+png:
 	cd assets/images/; \
 	echo "Processing SVG assets"; \
 	for file in *.svg; do \
@@ -40,24 +40,18 @@ looptest:
 	done; cd ../tmp/; \
 	echo "Done processing SVG assets"
 
-#	echo "Renaming assets"
-#	mv *.svg.png *.png; /
-png:
-	$(INKSCAPE) -d 300 -f $(CURDIR)/assets/images/key-1.svg -e $(CURDIR)/build/tmp/key-1.png
-#	$(MOGRIFY) -path build/tmp -format png assets/images/*.svg
-
-pdf:
+pdf: png
 	$(FOP) -xml $(SRC) -xsl $(PDF_XSL) -pdf build/$(PDF_DST)
 	
-html:
+html: 
 	$(XSLTPROC) --output build/$(HTML_DST) $(HTML_XSL) $(SRC)
 
-chunkhtml:
+chunkhtml: png
 	$(XSLTPROC) --output build/html/ $(CHUNK_XSL) $(SRC); \
 	mkdir -p build/html/assets/png; \
 	cp assets/png/* build/html/assets/png/
 
-rawepub:
+rawepub: png
 	$(XSLTPROC) --output build/epub/ $(EPUB_XSL) $(SRC); \
 	mkdir -p build/epub/OEBPS/assets/png; \
 	cp assets/png/* build/epub/OEBPS/assets/png/
