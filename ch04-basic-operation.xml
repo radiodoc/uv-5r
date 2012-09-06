@@ -1,76 +1,69 @@
-<chapter>
+<chapter xml:id="manual.basic-operation">
 <title>Basic Operation</title>
-<section>
+<section xml:id="manual.basic.get-to-know">
 	<title>Getting to know your radio</title>
-	<para>
-		Your radio is made out of unicorns.
-	</para>
+	<blockquote>
+		<attribution>Dr. Emmet Brown</attribution>
+		<para>Please excuse the crudity of this model. I didn't have time to build it to scale or paint it.</para>
+	</blockquote>
+	<programlisting>
+   |  |             |  | &lt;- Antenna
+   |__|             |__| 
+  /    \           /    \          ______
+  |    |           |    |         /______\ &lt;- Volume/power
+ _|____|_        __|____|_________\______/_   knob
+|  ____  |      |                          |
+| [CALL] |     || ------------------------ |
+|  ____  |     -| |     Two line         | ||
+| [PTT ] |     || |     display          | || &lt;- Speaker-mic &amp;
+| [____] |     || ------------------------ ||    programming port
+|  ____  |     -| [mode]    ----           ||
+| [MONI] |     ||        ----------        |
+|        |      |        ----------        |
+|        |      |        ----------        |  The keypad also
+|        |      |           ----           |  has the following
+|        |      | [A/B ]            [band] |  numerical layout:
+|        |      | [menu][ up ][down][exit] |  
+|        |      | [step][txp ][save][scan] |  [1][2][3][*]
+|        |      | [vox ][ wn ][abr ][sql ] |  [4][5][6][0]
+|        |      | [tdr ][beep][tot ][key ] |  [7][8][9][#]
+|________|      |__________________________|
+	</programlisting>
 </section>
-<section>
+<section xml:id="manual.basic.power-volume">
 	<title>Power and volume</title>
-	<para>
-		Before we turn the power on, make sure you have attached the battery and antenna as described in chapter 3.
-	</para>
+	<para>Before we turn the power on, make sure you have attached the battery and antenna as described in <link linkend="manual.setup.assembly">chapter 3</link>.</para>
 	<section>
 		<title>Turning the unit on</title>
-		<para>
-			To turn the unit on, simply rotate the volume/power knob clockwise until you hear a "click". The backlight and display should now have come on.
-		</para>
+		<para>To turn the unit on, simply rotate the volume/power knob clockwise until you hear a "click". The backlight and display should now have come on.</para>
 	</section>
 	<section>
 		<title>Turning the unit off</title>
-		<para>
-			Turn the volume/power knob counter-clock wise all the way until you hear a "click". The unit is now off.
-		</para>
+		<para>Turn the volume/power knob counter-clock wise all the way until you hear a "click". The unit is now off.</para>
 	</section>
 	<section>
 		<title>Adjusting the volume</title>
-		<para>
-			To turn up the volume, turn the volume/power knob clock-wise.
-		</para>
-		<para>
-			To turn the volume down, turn the volume/power knob counter-clock-wise. Be careful not to turn it too far, as you may inadvertently turn your radio off.
-		</para>
+		<para>To turn up the volume, turn the volume/power knob clock-wise.</para>
+		<para>To turn the volume down, turn the volume/power knob counter-clock-wise. Be careful not to turn it too far, as you may inadvertently turn your radio off.</para>
 		<tip>
-			<para>
-				By using the monitor function, enabled from the <inlineasset>key-moni</inlineasset>
+			<para>By using the monitor function, enabled from the <keycap>[moni]</keycap>
 				<!--
 				<inlinemediaobject>
-					<imageobject condition="print">
-						<imagedata contentdepth="1em" format="svg" fileref="assets/images/key-moni.svg"/>
-					</imageobject>
-					<imageobject condition="web">
-						<imagedata contentdepth="1em" format="png" fileref="assets/images/key-moni.png"/>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="assets/png/key-moni.svg.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				-->
-				key below the PTT, you can more easily adjust your volume by adjusting it to the un-squelched static.
-			</para>
+				key below the PTT, you can more easily adjust your volume by adjusting it to the un-squelched static.</para>
 		</tip>
 	</section>
 </section>
 <section>
 	<title>Channel selection.</title>
-	<para>
-		Use the
-		<inlinemediaobject>
-			<imageobject condition="print">
-				<imagedata contentdepth="1em" format="svg" fileref="assets/images/key-up.svg"/>
-			</imageobject>
-		</inlinemediaobject>
-		and
-		<inlinemediaobject>
-			<imageobject condition="print">
-				<imagedata contentdepth="1em" format="svg" fileref="assets/images/key-down.svg"/>
-			</imageobject>
-		</inlinemediaobject>
-		keys to navigate between channels.
-	</para>
+	<para>Use the <keycap>[up]</keycap> and <keycap>[down]</keycap> keys to navigate between channels.</para>
 </section>
 <section>
 	<title>Making a call</title>
-	<para>
-		Press and hold the PTT button on the side of the radio body to transmit. While transmitting, speak approximately 3-5cm from the microphone. When you release the PTT your transceiver will go back to receive mode.
-	</para>
+	<para>Press and hold the PTT button on the side of the radio body to transmit. While transmitting, speak approximately 3-5cm from the microphone. When you release the PTT your transceiver will go back to receive mode.</para>
 </section>
 </chapter>

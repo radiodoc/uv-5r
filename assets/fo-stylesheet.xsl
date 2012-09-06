@@ -5,7 +5,6 @@
 	<xsl:param name="fop1.extension">1</xsl:param>
 -->
 	<xsl:import href="docbook-xsl-1.77.1/fo/docbook.xsl"/>
-
 	<xsl:template match="inlineasset">
 		<inlinemediaobject>
 			<xsl:apply-templates select="assetimage"/>
@@ -74,6 +73,10 @@
 	<xsl:param name="page.margin.outer">1in</xsl:param>
 	<xsl:param name="page.margin.inner">1in</xsl:param>
 	<xsl:param name="section.margin.bottom">2em</xsl:param>
+
+	<xsl:param name="callout.unicode">1</xsl:param>
+	<xsl:param name="callout.graphics">0</xsl:param>
+
 	<!--
 	<xsl:param name="double.sided">1</xsl:param>
 	<xsl:param name="double.sided" select="1" />

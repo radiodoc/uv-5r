@@ -1,5 +1,7 @@
 FOP = d:/bin/fop/fop
 ZIP = d:/bin/zip/zip
+MOGRIFY = d:/bin/ImageMagick/mogrify.exe
+INKSCAPE = d:/bin/inkscape/inkscape.exe
 XSLTPROC = d:/bin/libxml/bin/xsltproc
 KINDLEGEN = "D:\bin\Amazon\Kindle Previewer\lib\kindlegen.exe"
 
@@ -28,6 +30,22 @@ KINDLE_DST = $(FILENAME).mobi
 
 all: pdf html epub kindle
 
+looptest:
+	cd assets/images/; \
+	echo "Processing SVG assets"; \
+	for file in *.svg; do \
+		$(INKSCAPE) -d 300 -f $(CURDIR)/assets/images/$$file \
+		 -e $(CURDIR)/assets/tmp/$$file.png --export-area-snap; \
+		echo "processed" $$file; \
+	done; cd ../tmp/; \
+	echo "Done processing SVG assets"
+
+#	echo "Renaming assets"
+#	mv *.svg.png *.png; /
+png:
+	$(INKSCAPE) -d 300 -f $(CURDIR)/assets/images/key-1.svg -e $(CURDIR)/build/tmp/key-1.png
+#	$(MOGRIFY) -path build/tmp -format png assets/images/*.svg
+
 pdf:
 	$(FOP) -xml $(SRC) -xsl $(PDF_XSL) -pdf build/$(PDF_DST)
 	
@@ -35,10 +53,14 @@ html:
 	$(XSLTPROC) --output build/$(HTML_DST) $(HTML_XSL) $(SRC)
 
 chunkhtml:
-	$(XSLTPROC) --output build/html/ $(CHUNK_XSL) $(SRC)
+	$(XSLTPROC) --output build/html/ $(CHUNK_XSL) $(SRC); \
+	mkdir -p build/html/assets/png; \
+	cp assets/png/* build/html/assets/png/
 
 rawepub:
-	$(XSLTPROC) --output build/epub/ $(EPUB_XSL) $(SRC)
+	$(XSLTPROC) --output build/epub/ $(EPUB_XSL) $(SRC); \
+	mkdir -p build/epub/OEBPS/assets/png; \
+	cp assets/png/* build/epub/OEBPS/assets/png/
 
 epub: rawepub
 	cd build/epub/; \

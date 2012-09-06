@@ -24,7 +24,7 @@
 </section>
 <section>
 	<title>1 STEP - Frequency Step</title>
-	<para>Selects the step in frequency when using the [up] and [down] keys. This is also the interval the scanner will run at.</para>
+	<para>Selects the step in frequency when using the <keycap>up</keycap> and <keycap>down</keycap> keys. This is also the interval the scanner will run at.</para>
 	<informaltable>
 		<tgroup cols="3">
 		<thead>
@@ -37,7 +37,13 @@
 		<tbody>
 			<row>
 				<entry><literal>2.5</literal></entry>
-				<entry></entry>
+				<entry>
+		<inlinemediaobject>
+			<imageobject condition="print">
+				<imagedata contentdepth="0.8em" format="svg" fileref="assets/images/key-1.svg"/>
+			</imageobject>
+		</inlinemediaobject>
+				</entry>
 				<entry><literal></literal></entry>
 			</row>
 			<row>

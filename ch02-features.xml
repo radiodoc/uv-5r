@@ -1,6 +1,5 @@
 <chapter>
 <title>Features and functions.</title>
-<para>
 	<itemizedlist>
 		<listitem>Dual-band handheld transceiver with display function menu on the display LCD.</listitem>
 		<listitem>DTMF encoded.</listitem>
@@ -30,5 +29,4 @@
 		<listitem>ANI</listitem>
 		<listitem>keylock</listitem>
 	</itemizedlist>
-</para>
 </chapter>

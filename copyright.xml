@@ -1,34 +1,23 @@
+
 <appendix>
-<title>Copyright</title>
+	<title>Copyright</title>
+	<para>Copyright (c) 2012 xles McFuzzypants.</para>
+	<para>This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.  
 
-<para>
-	Copyright (c) 2012 xles McFuzzypants.
-</para>
-<para>
-	This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.  
+	To view a copy of this license, visit</para>
+	<para><link xlink:href="http://creativecommons.org/licenses/by-sa/3.0/"/></para>
+    	<para>or send a letter to 
+		<address>
+		Creative Commons, 
+		<street>559 Nathan Abbott Way</street>, 
+		<city>Stanford</city>, <state>California</state> <postcode>94305</postcode>, <country>USA</country>.
+		</address>
+	</para>
+	<para>All brandnames and trademarks mentioned in this document is the property of their respective holders. The authors of this document shares no affiliation with any of the brands and trademarks mentioned within this document.</para>
 
-	To view a copy of this license, visit 
-</para>
-<para>
-	<link xlink:href="http://creativecommons.org/licenses/by-sa/3.0/"/>
-</para>
-<para>
-	or send a letter to 
-	<address>
-	Creative Commons, 
-	<street>559 Nathan Abbott Way</street>, 
-	<city>Stanford</city>, <state>California</state> <postcode>94305</postcode>, <country>USA</country>.
-	</address>
-</para>
-<para>
-	All brandnames and trademarks mentioned in this document is the property of their respective holders. The authors of this document shares no affiliation with any of the brands and trademarks mentioned within this document.
-</para>
+	<para>A summary of the license is given below, followed by the full legal text.</para>
 
-<para>
-	A summary of the license is given below, followed by the full legal text.
-</para>
-
-<programlisting>
+	<programlisting>
 You are free:
 
     * to Share — to copy, distribute and transmit the work
@@ -432,6 +421,6 @@ Creative Commons Notice
 
     Creative Commons may be contacted at http://creativecommons.org/.
 ====================================================================
-</programlisting>
+	</programlisting>
 
 </appendix>

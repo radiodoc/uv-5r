@@ -1,6 +1,6 @@
-<chapter>
+<chapter xml:id="manual.setup">
 <title>Unboxing and Setup</title>
-<section>
+<section xml:id="manual.setup.in-the-box">
 	<title>What's in the box</title>
 	<para>
 		This transceiver comes shipped with the following items in the box:
@@ -21,7 +21,7 @@
 		</para>
 	</note>
 </section>
-<section>
+<section xml:id="manual.setup.assembly">
 	<title>Assembly</title>
 	<para>
 		Before the radio is ready for use we need to attach the antenna and battery pack, as well as charge the battery.
@@ -76,9 +76,9 @@
 		</section>
 	</section>
 </section>
-<section>
+<section xml:id="manual.setup.battery">
 	<title>Charging and battery maintenance</title>
-	<section>
+	<section xml:id="manual.setup.battery.charging">
 		<title>Charging</title>
 		<para>
 			Follow these steps to hook up and use the charger:
@@ -130,7 +130,7 @@
 			</para>
 		</tip>
 	</section>
-	<section>
+	<section xml:id="manual.setup.battery.maintenance">
 		<title>Battery Maintenance</title>
 		<para>
 			The battery for your radio comes uncharged from the factory, please let it charge for at least four to five hours before you start using your radio.
