@@ -1,0 +1,191 @@
+	<table>
+		<title>CTCSS Frequencies</title>
+		<tgroup cols="4">
+		<thead>
+			<row>
+				<entry>Number</entry>
+				<entry>Frequency</entry>
+
+				<entry>Number</entry>
+				<entry>Frequency</entry>
+			</row>
+		</thead>
+		<tbody>
+			<row>
+				<entry>01</entry>
+				<entry>67.0</entry>
+
+				<entry>02</entry>
+				<entry>69.3</entry>
+			</row>
+			<row>
+				<entry>03</entry>
+				<entry>71.9</entry>
+				
+				<entry>04</entry>
+				<entry>74.4</entry>
+			</row>
+			<row>
+				<entry>05</entry>
+				<entry>77.0</entry>
+				
+				<entry>06</entry>
+				<entry>79.7</entry>
+			</row>
+			<row>
+				<entry>07</entry>
+				<entry>82.5</entry>
+				
+				<entry>08</entry>
+				<entry>85.4</entry>
+			</row>
+			<row>
+				<entry>09</entry>
+				<entry>88.5</entry>
+				
+				<entry>10</entry>
+				<entry>91.5</entry>
+			</row>
+			<row>
+				<entry>11</entry>
+				<entry>94.8</entry>
+				
+				<entry>12</entry>
+				<entry>97.4</entry>
+			</row>
+			<row>
+				<entry>13</entry>
+				<entry>100.0</entry>
+				
+				<entry>14</entry>
+				<entry>103.5</entry>
+			</row>
+			<row>
+				<entry>15</entry>
+				<entry>107.2</entry>
+				
+				<entry>16</entry>
+				<entry>110.9</entry>
+			</row>
+			<row>
+				<entry>17</entry>
+				<entry>114.8</entry>
+				
+				<entry>18</entry>
+				<entry>118.8</entry>
+			</row>
+			<row>
+				<entry>19</entry>
+				<entry>123</entry>
+				
+				<entry>20</entry>
+				<entry>127.3</entry>
+			</row>
+			<row>
+				<entry>21</entry>
+				<entry>131.8</entry>
+				
+				<entry>22</entry>
+				<entry>136.5</entry>
+			</row>
+			<row>
+				<entry>23</entry>
+				<entry>141.3</entry>
+				
+				<entry>24</entry>
+				<entry>146.2</entry>
+			</row>
+			<row>
+				<entry>25</entry>
+				<entry>151.4</entry>
+				
+				<entry>26</entry>
+				<entry>156.7</entry>
+			</row>
+			<row>
+				<entry>27</entry>
+				<entry>159.8</entry>
+				
+				<entry>28</entry>
+				<entry>162.2</entry>
+			</row>
+			<row>
+				<entry>29</entry>
+				<entry>165.5</entry>
+				
+				<entry>30</entry>
+				<entry>167.9</entry>
+			</row>
+			<row>
+				<entry>31</entry>
+				<entry>171.3</entry>
+				
+				<entry>32</entry>
+				<entry>173.8</entry>
+			</row>
+			<row>
+				<entry>33</entry>
+				<entry>177.8</entry>
+				
+				<entry>34</entry>
+				<entry>179.9</entry>
+			</row>
+			<row>
+				<entry>35</entry>
+				<entry>183.5</entry>
+				
+				<entry>36</entry>
+				<entry>186.2</entry>
+			</row>
+			<row>
+				<entry>37</entry>
+				<entry>189.9</entry>
+				
+				<entry>38</entry>
+				<entry>192.8</entry>
+			</row>
+			<row>
+				<entry>39</entry>
+				<entry>196.6</entry>
+				
+				<entry>40</entry>
+				<entry>199.5</entry>
+			</row>
+			<row>
+				<entry>41</entry>
+				<entry>203.5</entry>
+				
+				<entry>42</entry>
+				<entry>206.5</entry>
+			</row>
+			<row>
+				<entry>43</entry>
+				<entry>210.7</entry>
+				
+				<entry>44</entry>
+				<entry>218.1</entry>
+			</row>
+			<row>
+				<entry>45</entry>
+				<entry>225.7</entry>
+				
+				<entry>46</entry>
+				<entry>229.1</entry>
+			</row>
+			<row>
+				<entry>47</entry>
+				<entry>233.6</entry>
+				
+				<entry>48</entry>
+				<entry>241.8</entry>
+			</row>
+			<row>
+				<entry>49</entry>
+				<entry>250.3</entry>
+				
+				<entry>50</entry>
+				<entry>254.1</entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>

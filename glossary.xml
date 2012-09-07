@@ -1,0 +1,111 @@
+<glossary>
+<glosslist>
+	<glossentry>
+		<glossterm>VFO</glossterm>
+		<glossdef>
+			<para>
+				Variable-frequency oscillator
+			</para>
+		</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>Squelch</glossterm>
+		<glossdef>
+			<para>
+				A circuit used to cut out noise.
+			</para>
+		</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>PTT</glossterm>
+		<glossdef>
+			<para>
+				Push-To-Talk. The button used to make a call.
+			</para>
+		</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>ANI</glossterm>
+		<glossdef>
+			<para>
+				Automatic Number Identification. A system used in dispatch environments to let dispatch know which field radio was keyed.
+			</para>
+		</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>PTT-ID</glossterm>
+		<glossdef>
+			<para>
+				See ANI.
+			</para>
+		</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>CTCSS</glossterm>
+		<glossdef>
+			<para>
+				Continuous Tone-Coded Squelch System. Also known as "Private Line" (a Motorola trademark).
+			</para>
+		</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>DCS</glossterm>
+		<glossdef>
+			<para>
+				Digital-Coded Squelch. Also known as "Digital Private Line" (a Motorola trademark).
+			</para>
+		</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>DTMF</glossterm>
+		<glossdef>
+			<para>
+				Dual-Tone Multiple-Frequencies.
+			</para>
+		</glossdef>
+	</glossentry>
+	<glossentry xml:id="swr">
+		<glossterm>Standing Wave Ratio.</glossterm>
+		<acronym>SWR</acronym>
+		<glossdef>
+			<para>
+				Standing Wave Ratio.
+			</para>
+		</glossdef>
+	</glossentry>
+	<glossentry xml:id="sinad">
+		<glossterm>SINAD</glossterm>
+		<acronym>SINAD</acronym>
+		<glossdef>
+			<para>
+				SINAD stands for "SIgnal-to-Noise And Distortion ratio".
+			</para>
+			<para>
+				It is a measure of the quality of a signal from a communications device.
+			</para>
+		</glossdef>
+	</glossentry>	
+</glosslist>
+</glossary>
+<!--
+	<glossentry>
+		<glossterm></glossterm>
+		<glossdef>
+			<para>
+				
+			</para>
+		</glossdef>
+	</glossentry>
+
+<glossterm linkend="xml">Extensible Markup Language</glossterm>
+
+	<glossentry id="xml">
+		<glossterm>Extensible Markup Language</glossterm>
+		<acronym>XML</acronym>
+		<glossdef>
+			<para>Some reasonable definition here.</para>
+		<glossseealso otherterm="sgml">
+		</glossdef>
+	</glossentry>
+
+-->

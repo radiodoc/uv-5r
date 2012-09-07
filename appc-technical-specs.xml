@@ -1,0 +1,155 @@
+<appendix>
+<title>Technical specifications</title>
+<section>
+	<title>General</title>
+	<segmentedlist>
+		<title>General specifications</title>
+	<?dbhtml list-presentation="table"?>
+	<?dbfo   list-presentation="table"?>
+		<segtitle>Specification</segtitle><segtitle>Value</segtitle>
+	<!--
+	-->
+		<seglistitem>
+			<seg>Frequency Range (MHz)</seg>
+			<seg>
+				<simplelist>
+					<member>65-108 (Rx only)</member>
+					<member>136-174 (Rx/Tx)</member>
+					<member>400-480 (Rx/Tx)</member>
+				</simplelist>
+			</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Memory channels</seg>
+			<seg>128</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Frequency stability</seg>
+			<seg>2.5ppm</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Frequency step (kHz)</seg>
+			<seg>2.5 / 5 / 6.25 / 10 / 12.5 / 25</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Antenna impedance</seg>
+			<seg>50 Ohm</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Operating temperature</seg>
+			<seg>-20&#176;C to +60&#176;C</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Supply voltage</seg>
+			<seg>7.4</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Consumption</seg>
+			<seg>
+				<simplelist>
+					<member>&#8804; 75mA (standby)</member>
+					<member>380mA (reception)</member>
+					<member>&#8804; 1.4A (transmission)</member>
+				</simplelist>
+			</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Mode of operation</seg>
+			<seg>Simplex or semi-duplex</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Duty cycle</seg>
+			<seg>03 / 03 / 54 min. (Rx / Tx / Standby)</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Dimensions (mm)</seg>
+			<seg>58 x 110 x 32</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Weight (g)</seg>
+			<seg>214</seg>
+		</seglistitem>
+	</segmentedlist>
+</section>
+<section>
+	<title>Transmitter</title>
+	<segmentedlist>
+		<title>Transmitter specifications</title>
+		<?dbhtml list-presentation="table"?>
+		<?dbfo   list-presentation="table"?>
+		<segtitle>Specification</segtitle><segtitle>Value</segtitle>
+		<seglistitem>
+			<seg>RF power (W)</seg>
+			<seg>
+				<simplelist>
+					<member>4 (UHF high)</member>
+					<member>4 (VHF high)</member>
+					<member>1 (UHF low)</member>
+					<member>1 (VHF low)</member>
+				</simplelist>
+			</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Type of modulation</seg>
+			<seg>FM</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Emission class</seg>
+			<seg>
+				<simplelist>
+					<member>16K&#981;F3E (wideband)</member>
+					<member>11K&#981;F3E (narrowband)</member>
+				</simplelist>
+			</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Maximum deviation (kHz)</seg>
+			<seg>
+				<simplelist>
+					<member>&#8804; &#177; 5.0 (wideband)</member>
+					<member>&#8804; &#177; 2.5 (narrowband)</member>
+				</simplelist>
+			</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Spurious emissions (dB)</seg>
+			<seg>&lt;-60dB</seg>
+		</seglistitem>
+	</segmentedlist>
+</section>
+<section>
+	<title>Receiver</title>
+	<segmentedlist>
+		<title>Receiver specifications</title>
+		<?dbhtml list-presentation="table"?>
+		<?dbfo   list-presentation="table"?>
+		<segtitle>Specification</segtitle><segtitle>Value</segtitle>
+		<seglistitem>
+			<seg>Receiver sensitivity</seg>
+			<seg>0.2&#181;V (at 12dB <glossterm linkend="sinad">SINAD</glossterm>)</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Intermodulation</seg>
+			<seg>60dB</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Audio Output</seg>
+			<seg>1000mW</seg>
+		</seglistitem>
+		<seglistitem>
+			<seg>Adjacent channel selectivity</seg>
+			<seg>65/60dB</seg>
+		</seglistitem>
+	</segmentedlist>
+</section>
+	<!--
+<section>
+	<title>DCS table</title>
+	&dcs-table;
+</section>
+<section>
+	<title>CTCSS table</title>
+	&ctcss-table;
+</section>
+	-->
+</appendix>
