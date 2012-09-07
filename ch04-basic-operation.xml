@@ -162,7 +162,7 @@
 		<para>The status LED has a very simple and traditional design. When you receive a signal it turns green, when you transmit it turns red, and it's off in standby.</para>
 	</section>
 	<section xml:id="manual.know.call-key">
-		<title>Side key 1 - Call (Broadcast FM and Alarm)</title>
+		<title>Side key 1 - CALL (Broadcast FM and Alarm)</title>
 		<para>Press
 			<inlinemediaobject>
 				<imageobject>
@@ -179,7 +179,7 @@
 			to activate the alarm function. Press and hold again to turn it off.</para>
 	</section>
 	<section xml:id="manual.know.monitor-key">
-		<title>Side key 2 - Moni (Monitor and Flashlight)</title>
+		<title>Side key 2 - MONI (Monitor and Flashlight)</title>
 		<para>Press
 			<inlinemediaobject>
 				<imageobject>
