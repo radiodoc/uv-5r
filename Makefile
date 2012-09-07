@@ -1,36 +1,68 @@
+FOP = d:/bin/fop/fop
+ZIP = d:/bin/zip/zip
+MOGRIFY = d:/bin/ImageMagick/mogrify.exe
+INKSCAPE = d:/bin/inkscape/inkscape.exe
+XSLTPROC = d:/bin/libxml/bin/xsltproc
+KINDLEGEN = "D:\bin\Amazon\Kindle Previewer\lib\kindlegen.exe"
+
+##############################   END SETUP   ##############################
+#####################   DO NOT ALTER BELOW THIS LINE   ####################
+
 MODEL = uv-5r
 SRC = book.xml
 
 REV = $(shell git describe --tags)
 FILENAME = $(MODEL)_$(REV)
 
-FOP = d:/bin/fop/fop
-ZIP = d:/bin/zip/zip
-XSLTPROC = d:/bin/libxml/bin/xsltproc
-KINDLEGEN = "D:\bin\Amazon\Kindle Previewer\lib\kindlegen.exe"
+PRINT_DST = $(FILENAME)-print.pdf
+PRINT_XSL = assets/print-stylesheet.xsl
 
-PDF_DST = build/$(FILENAME).pdf
-PDF_XSL = assets/fo-stylesheet.xsl
+IPAD_DST = $(FILENAME)-ipad.pdf
+IPAD_XSL = assets/ipad-stylesheet.xsl
 #PDF_XSL = assets/docbook-xsl-1.77.1/fo/docbook.xsl
 
-HTML_DST = build/$(FILENAME).html
+HTML_DST = $(FILENAME).html
 HTML_XSL = assets/docbook-xsl-1.77.1/html/docbook.xsl
+CHUNK_XSL = assets/docbook-xsl-1.77.1/html/chunk.xsl
 
 # EPUB uses a path relative to build/epub...
 EPUB_DST = $(FILENAME).epub
 EPUB_XSL = assets/docbook-xsl-1.77.1/epub/docbook.xsl
 
+KINDLE_DST = $(FILENAME).mobi
 
 all: pdf html epub kindle
 
-pdf:
-	$(FOP) -xml $(SRC) -xsl $(PDF_XSL) -pdf $(PDF_DST)
+png:
+	cd assets/images/; \
+	echo "Processing SVG assets"; \
+	for file in *.svg; do \
+		$(INKSCAPE) -d 300 -f $(CURDIR)/assets/images/$$file \
+		 -e $(CURDIR)/figs/$$file.png --export-area-snap; \
+		echo "processed" $$file; \
+	done; cd ../../figs/; \
+	echo "Done processing SVG assets"
+
+pdf: print ipad
+
+print:
+	$(FOP) -xml $(SRC) -xsl $(PRINT_XSL) -pdf build/$(PRINT_DST)
+
+ipad:
+	$(FOP) -xml $(SRC) -xsl $(IPAD_XSL) -pdf build/$(IPAD_DST)
 	
-html:
-	$(XSLTPROC) --output $(HTML_DST) $(HTML_XSL) $(SRC)
+html: 
+	$(XSLTPROC) --output build/$(HTML_DST) $(HTML_XSL) $(SRC)
+
+chunkhtml:
+	$(XSLTPROC) --output build/html/ $(CHUNK_XSL) $(SRC); \
+	mkdir -p build/html/figs; \
+	cp figs/* build/html/figs/
 
 rawepub:
-	$(XSLTPROC) --output build/epub/ $(EPUB_XSL) $(SRC)
+	$(XSLTPROC) --output build/epub/ $(EPUB_XSL) $(SRC); \
+	mkdir -p build/epub/OEBPS/figs; \
+	cp figs/* build/epub/OEBPS/figs/
 
 epub: rawepub
 	cd build/epub/; \
@@ -40,7 +72,27 @@ epub: rawepub
 	cd ../../
 
 kindle: epub
-	$(KINDLEGEN) build/$(EPUB_DST)
+	-$(KINDLEGEN) build/$(EPUB_DST)
+
+bundle: png all 
+	cd build/; \
+	cp ../assets/LICENSE LICENSE; \
+	cp ../assets/README README; \
+	$(ZIP) -Xr9D $(PDF_DST).zip $(PDF_DST) LICENSE README; \
+	$(ZIP) -Xr9D $(EPUB_DST).zip $(EPUB_DST) LICENSE README; \
+	$(ZIP) -Xr9D $(HTML_DST).zip $(HTML_DST) LICENSE README; \
+	$(ZIP) -Xr9D $(KINDLE_DST).zip $(KINDLE_DST) LICENSE README; \
+	cd ../
+
+bundleclean: bundle clean
+	-cd build/; \
+	rm $(PDF_DST); \
+	rm $(EPUB_DST); \
+	rm $(HTML_DST); \
+	rm $(KINDLE_DST); \
+	rm README; \
+	rm LICENSE; \
+	cd ..
 
 clean:
-	rm -r build/epub
+	-rm -r build/epub
