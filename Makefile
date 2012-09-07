@@ -74,10 +74,10 @@ epub: rawepub
 kindle: epub
 	-$(KINDLEGEN) build/$(EPUB_DST)
 
-bundle: all 
+bundle: png all 
 	cd build/; \
-	cp ../LICENSE LICENSE; \
-	cp ../README README; \
+	cp ../assets/LICENSE LICENSE; \
+	cp ../assets/README README; \
 	$(ZIP) -Xr9D $(PDF_DST).zip $(PDF_DST) LICENSE README; \
 	$(ZIP) -Xr9D $(EPUB_DST).zip $(EPUB_DST) LICENSE README; \
 	$(ZIP) -Xr9D $(HTML_DST).zip $(HTML_DST) LICENSE README; \

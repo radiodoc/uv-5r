@@ -2,77 +2,53 @@
 <title>Unboxing and Setup</title>
 <section xml:id="manual.setup.in-the-box">
 	<title>What's in the box</title>
-	<para>
-		This transceiver comes shipped with the following items in the box:
-	</para>
-	<para>
-		<itemizedlist>
-			<listitem>Radio body</listitem>
-			<listitem>Lithium-Ion battery pack</listitem>
-			<listitem>Antenna</listitem>
-			<listitem>Desk charger (With accompanying wall-wart)</listitem>
-			<listitem>Optional belt clip</listitem>
-			<listitem>Optional wrist-strap</listitem>
-		</itemizedlist>
-	</para>
+	<para>This transceiver comes shipped with the following items in the box:</para>
+	<itemizedlist spacing="compact">
+		<listitem><para>Radio body</para></listitem>
+		<listitem><para>Lithium-Ion battery pack</para></listitem>
+		<listitem><para>Antenna</para></listitem>
+		<listitem><para>Desk charger (With accompanying wall-wart)</para></listitem>
+		<listitem><para>Optional belt clip</para></listitem>
+		<listitem><para>Optional wrist-strap</para></listitem>
+	</itemizedlist>
 	<note>
-		<para>
-			Items included may vary depending on country of purchase. For further information please contact your local vendor or dealer.
-		</para>
+		<para>Items included may vary depending on country of purchase. For further information please contact your local vendor or dealer.</para>
 	</note>
 </section>
 <section xml:id="manual.setup.assembly">
 	<title>Assembly</title>
-	<para>
-		Before the radio is ready for use we need to attach the antenna and battery pack, as well as charge the battery.
-	</para>
+	<para>Before the radio is ready for use we need to attach the antenna and battery pack, as well as charge the battery.</para>
 	<section>
 		<title>Antenna</title>
-		<para>
-			This transceiver is fitted with a Male SMA connector. To mount your antenna (Female SMA connector), align the two connectors and turn clockwise until it stops.
-		</para>
+		<para>This transceiver is fitted with a Male SMA connector. To mount your antenna (Female SMA connector), align the two connectors and turn clockwise until it stops.</para>
 		<note>
-			<para>
-				<itemizedlist>
-					<listitem>Do not over-tighten your antenna to avoid damage to the connectors.</listitem>
-					<listitem>When installing the antenna, don't grip it by the top. Grip by the base and turn.</listitem>
-					<listitem>If you use an external antenna, make sure the <glossterm linkend="swr">SWR</glossterm> is about 1.5:1 or lower to avoid damage to the transceiver.</listitem>
-					<listitem>Do not hold the antenna with your hand or wrap the outside of it to avoid bad operation of the transceiver.</listitem>
-					<listitem>Never transmit without an antenna.</listitem>
-				</itemizedlist>
-			</para>
+			<itemizedlist>
+				<listitem><para>Do not over-tighten your antenna to avoid damage to the connectors.</para></listitem>
+				<listitem><para>When installing the antenna, don't grip it by the top. Grip by the base and turn.</para></listitem>
+				<listitem><para>If you use an external antenna, make sure the <glossterm linkend="swr">SWR</glossterm> is about 1.5:1 or lower to avoid damage to the transceiver.</para></listitem>
+				<listitem><para>Do not hold the antenna with your hand or wrap the outside of it to avoid bad operation of the transceiver.</para></listitem>
+				<listitem><para>Never transmit without an antenna.</para></listitem>
+			</itemizedlist>
 		</note>
 	</section>
 	<section>
 		<title>Belt clip</title>
-		<para>
-			At the back of the radio there are two parallel screws mounted above the battery, remove these and thread them through the holes on the belt clip as you screw them back into the radio body.
-		</para>
-		<caution>
-			<para>
-				Do not use any form of glue to fix the screws on the battery clip. The solvents in the glue may cause damage to the battery casing.
-			</para>
-		</caution>
+		<para>At the back of the radio there are two parallel screws mounted above the battery, remove these and thread them through the holes on the belt clip as you screw them back into the radio body.</para>
+		<warning>
+			<para>Do not use any form of glue to fix the screws on the battery clip. The solvents in the glue may cause damage to the battery casing.</para>
+		</warning>
 	</section>
 	<section>
 		<title>Battery</title>
-		<para>
-			Before attaching or removing the battery make sure your radio is turned off by turning the power/volume knob all the way counter-clockwise.
-		</para>
+		<para>Before attaching or removing the battery make sure your radio is turned off by turning the power/volume knob all the way counter-clockwise.</para>
 		<section>
 			<title>Installation</title>
-			<para>
-				Make sure the battery is aligned in parallel with the radio body with the lower edge of the battery about 1-2cm below the edge of the radio.
-			</para>
-			<para>
-				Once aligned with the guide-rails, slide the battery upward until you hear a click as the battery locks in place.
-			</para>
+			<para>Make sure the battery is aligned in parallel with the radio body with the lower edge of the battery about 1-2cm below the edge of the radio.</para>
+			<para>Once aligned with the guide-rails, slide the battery upward until you hear a click as the battery locks in place.</para>
 		</section>
 		<section>
 			<title>Removal</title>
-			<para>
-				To remove the battery, press the battery release above the battery pack, as you slide the battery downward.
-			</para>
+			<para>To remove the battery, press the battery release above the battery pack (see <xref linkend="manual.radio.front-fig"/>), as you slide the battery downward.</para>
 		</section>
 	</section>
 </section>
@@ -80,16 +56,14 @@
 	<title>Charging and battery maintenance</title>
 	<section xml:id="manual.setup.battery.charging">
 		<title>Charging</title>
-		<para>
-			Follow these steps to hook up and use the charger:
-			<orderedlist numeration="arabic">
-				<listitem>Plug the DC connector of the power adaptor into the charger base.</listitem>
-				<listitem>Plug the AC connector of the power adaptor into a mains wall socket.</listitem>
-				<listitem>Place the radio in the charging slot on the charger.</listitem>
-				<listitem>Make sure the radio is making contact with the charger. When the the red LED comes on steady, your radio is charging.</listitem>
-				<listitem>The radio is fully charged once the charger's green status LED goes steady. Please remove the radio at that time to avoid over-charging your battery.</listitem>
-			</orderedlist>
-		</para>
+		<para>Follow these steps to hook up and use the charger:</para>
+		<orderedlist numeration="arabic">
+			<listitem><para>Plug the DC connector of the power adaptor into the charger base.</para></listitem>
+			<listitem><para>Plug the AC connector of the power adaptor into a mains wall socket.</para></listitem>
+			<listitem><para>Place the radio in the charging slot on the charger.</para></listitem>
+			<listitem><para>Make sure the radio is making contact with the charger. When the the red LED comes on steady, your radio is charging.</para></listitem>
+			<listitem><para>The radio is fully charged once the charger's green status LED goes steady. Please remove the radio at that time to avoid over-charging your battery.</para></listitem>
+		</orderedlist>
 		<table>
 			<title>Charger LED codes</title>
 			<tgroup cols="3">
@@ -124,56 +98,42 @@
 			</tbody>
 			</tgroup>
 		</table>
-		<tip>
-			<para>
-				The charger and battery are fitted with matching notches so that you can charge your battery on its own! Practical if you have two batteries. That way you can charge one battery while still using your radio.
-			</para>
-		</tip>
+		<note>
+			<para>The charger and battery are fitted with matching notches so that you can charge your battery on its own! Practical if you have two batteries. That way you can charge one battery while still using your radio.</para>
+		</note>
 	</section>
 	<section xml:id="manual.setup.battery.maintenance">
 		<title>Battery Maintenance</title>
-		<para>
-			The battery for your radio comes uncharged from the factory, please let it charge for at least four to five hours before you start using your radio.
-		</para>
+		<para>The battery for your radio comes uncharged from the factory, please let it charge for at least four to five hours before you start using your radio.</para>
 		<warning>
 			<itemizedlist>
-				<listitem>Use only batteries approved by the original manufacturer.</listitem>
-				<listitem>Never attempt to disassemble your battery pack.</listitem>
-				<listitem>Do not expose your batteries to fire or intense heat.</listitem>
-				<listitem>Dispose of batteries in accordance with local recycling regulations. Batteries do not belong in your trash can!</listitem>
+				<listitem><para>Use only batteries approved by the original manufacturer.</para></listitem>
+				<listitem><para>Never attempt to disassemble your battery pack.</para></listitem>
+				<listitem><para>Do not expose your batteries to fire or intense heat.</para></listitem>
+				<listitem><para>Dispose of batteries in accordance with local recycling regulations. Batteries do not belong in your trash can!</para></listitem>
 			</itemizedlist>
 		</warning>
 		<section>
 			<title>Prolonging the life of your battery</title>
 			<itemizedlist>
-				<listitem>Only charge batteries in normal room temperatures.</listitem>
-				<listitem>When charging a battery attached to the radio, turn the radio off for a faster charge.</listitem>
-				<listitem>Do not unplug the power to the charger or remove the battery and/or radio before it's finished charging.</listitem>
-				<listitem>Never charge a wet battery.</listitem>
-				<listitem>Batteries wear out over time. If you notice a considerably shorter operating time with your radio, please consider purchasing a new battery.</listitem>
-				<listitem>Battery performance will be reduced in temperatures below freezing. When working in cold environments, keep a spare battery on you. Preferably inside your jacket or in a similar location in order to keep the battery warm.</listitem>
-				<listitem>Dust can interfere with the contacts on the battery. If necessary wipe the contacts with a clean cloth to ensure proper contact with radio and charger.</listitem>
+				<listitem><para>Only charge batteries in normal room temperatures.</para></listitem>
+				<listitem><para>When charging a battery attached to the radio, turn the radio off for a faster charge.</para></listitem>
+				<listitem><para>Do not unplug the power to the charger or remove the battery and/or radio before it's finished charging.</para></listitem>
+				<listitem><para>Never charge a wet battery.</para></listitem>
+				<listitem><para>Batteries wear out over time. If you notice a considerably shorter operating time with your radio, please consider purchasing a new battery.</para></listitem>
+				<listitem><para>Battery performance will be reduced in temperatures below freezing. When working in cold environments, keep a spare battery on you. Preferably inside your jacket or in a similar location in order to keep the battery warm.</para></listitem>
+				<listitem><para>Dust can interfere with the contacts on the battery. If necessary wipe the contacts with a clean cloth to ensure proper contact with radio and charger.</para></listitem>
 			</itemizedlist>
-			<tip>
-				<para>
-					If your battery has become wet, remove it from the radio, wipe it dry with a towel and put it in a plastic bag with a handful of dry rice. Tie the bag up and let it sit over night. The rice will absorb any remaining moisture in the battery.
-				</para>
-				<para>
-					This method is only effective against minor splashes (light rain for instance). A soaked radio may very well be beyond repair.
-				</para>
-			</tip>
+			<note>
+				<para>If your battery has become wet, remove it from the radio, wipe it dry with a towel and put it in a plastic bag with a handful of dry rice. Tie the bag up and let it sit over night. The rice will absorb any remaining moisture in the battery.</para>
+				<para>This method is only effective against minor splashes (light rain for instance). A soaked radio may very well be beyond repair.</para>
+			</note>
 		</section>
 		<section>
 			<title>Storage</title>
-			<para>
-				Fully charge your battery before long time storage in order to prevent damage from over-discharge.
-			</para>
-			<para>
-				To avoid severe capacity degradation of your battery while in long time storage, please cycle the battery at least every six(6) months.
-			</para>
-			<para>
-				Store your batteries in a cool and dry place, never above normal room temperatures.
-			</para>
+			<para>Fully charge your battery before long time storage in order to prevent damage from over-discharge.</para>
+			<para>To avoid severe capacity degradation of your battery while in long time storage, please cycle the battery at least every six(6) months.</para>
+			<para>Store your batteries in a cool and dry place, never above normal room temperatures.</para>
 		</section>
 	</section>
 </section>

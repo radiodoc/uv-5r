@@ -12,13 +12,13 @@
 <!ENTITY ch08 SYSTEM "ch-troubleshooting.xml">
 
 <!ENTITY appa SYSTEM "appa-menu-definitions.xml">
-<!ENTITY appb SYSTEM "appb-glossary.xml">
+<!ENTITY glossary SYSTEM "glossary.xml">
 <!ENTITY appc SYSTEM "appc-technical-specs.xml">
 <!ENTITY ctcss-table SYSTEM "ctcss-table.xml">
 <!ENTITY dcs-table SYSTEM "dcs-table.xml">
 
 <!ENTITY license SYSTEM "copyright.xml">
-<!ENTITY colophon SYSTEM "xml.colophon">
+<!ENTITY colophon SYSTEM "colophon.xml">
 ]>
 <book xmlns="http://docbook.org/ns/docbook" 
 	xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -82,20 +82,22 @@
 	<!-- External entity refs -->
 <!--
 	&preface;
+-->
 	&ch01;
 	&ch02;
--->
 	&ch03;
 	&ch04;
 <!--
 	&ch05;
-	&ch08;
+	&ch06;
+	&ch07;
 	
-	&appa;
-	&appb;
-	&appc;
-	<index xml:id="manual.index"/>
 	&index;
+	&ch08;
+	&appa;
+	&appc;
+	&glossary;
+	<index xml:id="manual.index"/>
 
 	&license;
 	&colophon;

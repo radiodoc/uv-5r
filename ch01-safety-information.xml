@@ -15,7 +15,7 @@
 		<listitem>Do not expose the radio to direct sunlight over a long time, nor place it close to heating source.</listitem>
 		<listitem>When transmitting with a portable radio, hold the radio in a vertical position with the microphone 3/4 centimeters away from your lips. Keep antenna at least 2.5 centimeters away from your body when transmitting.</listitem>
 	</itemizedlist>
-<warning>
-	<para>WARNING: If you wear a radio on your body, ensure the radio and its antenna are at least 2.5 centimeters away from your body when transmitting.</para>
-</warning>
+	<warning>
+		<para>If you wear a radio on your body, ensure the radio and its antenna are at least 2.5 centimeters away from your body when transmitting.</para>
+	</warning>
 </chapter>
