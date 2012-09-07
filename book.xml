@@ -5,6 +5,7 @@
 <!ENTITY ch01 SYSTEM "ch01-safety-information.xml">
 <!ENTITY ch02 SYSTEM "ch02-features.xml">
 <!ENTITY ch03 SYSTEM "ch03-unboxing.xml">
+<!ENTITY chgtk SYSTEM "ch-get-to-know.xml">
 <!ENTITY ch04 SYSTEM "ch04-basic-use.xml">
 <!ENTITY ch05 SYSTEM "ch05-advanced-topics.xml">
 <!ENTITY ch06 SYSTEM "ch-programming.xml">
@@ -79,18 +80,49 @@
 
 	</info>
 
-	<!-- External entity refs -->
 <!--
 	&preface;
 -->
-	&ch01;
-	&ch02;
-	&ch03;
-	&ch04;
+	<part label="I">
+		<title>Basic usage</title>
+		<partintro>
+			<para>The sections in Part II present real-world examples of programming with Java. You can study and learn from the examples, and you can adapt them for use in your own programs.</para>
+			    
+			<para>The example code in these chapters is available for downloading.See <link xlink:href="http://www.ora.com/catalog/books/javanut">http://www.ora.com/catalog/books/javanut</link>.</para>
+			<literallayout>
+			<xref linkend="manual.safety"/>
+			<xref linkend="manual.features"/>
+			<xref linkend="manual.setup"/>
+			<xref linkend="manual.get-to-know"/>
+			<xref linkend="manual.basic"/>
+			<xref linkend="manual.advanced"/>
+			</literallayout>
+		</partintro>
+		&ch01;
+		&ch02;
+		&ch03;
+		&chgtk;
+		&ch04;
+	</part>
+	<part label="II">
+		<title>Advanced topics</title>
+		<partintro>
+			<para>The sections in Part II present real-world examples of programming with Java. You can study and learn from the examples, and you can adapt them for use in your own programs.</para>
+			    
+			<para>The example code in these chapters is available for downloading.See <link xlink:href="http://www.ora.com/catalog/books/javanut">http://www.ora.com/catalog/books/javanut</link>.</para>
+			<literallayout>
+			<xref linkend="manual.safety"/>
+			<xref linkend="manual.features"/>
+			<xref linkend="manual.setup"/>
+			<xref linkend="manual.basic"/>
+			<xref linkend="manual.advanced"/>
+			</literallayout>
+		</partintro>
+		&ch05;
+		&ch06;
+		&ch07;
+	</part>
 <!--
-	&ch05;
-	&ch06;
-	&ch07;
 	
 	&index;
 	&ch08;
