@@ -5,12 +5,12 @@
 <!ENTITY ch01 SYSTEM "ch01-safety-information.xml">
 <!ENTITY ch02 SYSTEM "ch02-features.xml">
 <!ENTITY ch03 SYSTEM "ch03-unboxing.xml">
-<!ENTITY chgtk SYSTEM "ch-get-to-know.xml">
-<!ENTITY ch04 SYSTEM "ch04-basic-use.xml">
-<!ENTITY ch05 SYSTEM "ch05-advanced-topics.xml">
-<!ENTITY ch06 SYSTEM "ch-programming.xml">
-<!ENTITY ch07 SYSTEM "ch-application-specific-setup.xml">
-<!ENTITY ch08 SYSTEM "ch-troubleshooting.xml">
+<!ENTITY ch04 SYSTEM "ch-get-to-know.xml">
+<!ENTITY ch05 SYSTEM "ch04-basic-use.xml">
+<!ENTITY ch06 SYSTEM "ch05-advanced-topics.xml">
+<!ENTITY ch07 SYSTEM "ch-programming.xml">
+<!ENTITY ch08 SYSTEM "ch-application-specific-setup.xml">
+<!ENTITY ch09 SYSTEM "ch-troubleshooting.xml">
 
 <!ENTITY appa SYSTEM "appa-menu-definitions.xml">
 <!ENTITY glossary SYSTEM "glossary.xml">
@@ -47,6 +47,8 @@
 			<year>2012</year>
 			<holder>xles McFuzzypants</holder>
 		</copyright>
+
+		<subtitle>v0.5</subtitle>
 
 		<legalnotice>
 			<para>
@@ -86,30 +88,36 @@
 	<part label="I">
 		<title>Basic usage</title>
 		<partintro>
-			<para>The sections in Part II present real-world examples of programming with Java. You can study and learn from the examples, and you can adapt them for use in your own programs.</para>
-			    
-			<para>The example code in these chapters is available for downloading.See <link xlink:href="http://www.ora.com/catalog/books/javanut">http://www.ora.com/catalog/books/javanut</link>.</para>
+			<para>Part one covers the basic setup and use of your hand-held two-way transceiver.</para>
 			<literallayout>
 			<xref linkend="manual.safety"/>
 			<xref linkend="manual.features"/>
 			<xref linkend="manual.setup"/>
 			<xref linkend="manual.get-to-know"/>
 			<xref linkend="manual.basic"/>
-			<xref linkend="manual.advanced"/>
 			</literallayout>
+			<note>
+				<para>Part two is not included with this revision, on account of not having been written yet. Cross references in part one referencing sections in part two will appear as ???.</para>
+			</note>
 		</partintro>
 		&ch01;
 		&ch02;
 		&ch03;
-		&chgtk;
 		&ch04;
+		&ch05;
 	</part>
 	<part label="II">
 		<title>Advanced topics</title>
 		<partintro>
-			<para>The sections in Part II present real-world examples of programming with Java. You can study and learn from the examples, and you can adapt them for use in your own programs.</para>
-			    
-			<para>The example code in these chapters is available for downloading.See <link xlink:href="http://www.ora.com/catalog/books/javanut">http://www.ora.com/catalog/books/javanut</link>.</para>
+			<para>Part two is not included with this revision, on account of not having been written yet.</para>
+		</partintro>
+	</part>
+
+<!--
+	<part label="II">
+		<title>Advanced topics</title>
+		<partintro>
+			<para>Part two covers the more advanced topics, such as setup of repeater offset and programming via computer link.</para>
 			<literallayout>
 			<xref linkend="manual.safety"/>
 			<xref linkend="manual.features"/>
@@ -118,19 +126,20 @@
 			<xref linkend="manual.advanced"/>
 			</literallayout>
 		</partintro>
-		&ch05;
 		&ch06;
 		&ch07;
+		&ch08;
+		&ch09;
 	</part>
+-->
+	&appa;
 <!--
 	
-	&index;
-	&ch08;
-	&appa;
 	&appc;
 	&glossary;
-	<index xml:id="manual.index"/>
+	&index;
 
+	<index xml:id="manual.index"/>
 	&license;
 	&colophon;
 -->

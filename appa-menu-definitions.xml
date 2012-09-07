@@ -1,5 +1,6 @@
 <appendix>
 <title>Menu definitions</title>
+<para>See <xref linkend="manual.menu"/> for more info about using the menu-system.</para>
 <section>
 	<title>0 SQL - Squelch Level</title>
 	<para>Selects the squelch noise threshold.</para>
@@ -26,9 +27,10 @@
 	<title>1 STEP - Frequency Step</title>
 	<para>Selects the step in frequency when using the <keycap>up</keycap> and <keycap>down</keycap> keys. This is also the interval the scanner will run at.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values (kHz)</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -36,29 +38,29 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>0</entry>
 				<entry><literal>2.5</literal></entry>
-				<entry>
-		<inlinemediaobject>
-			<imageobject condition="print">
-				<imagedata contentdepth="0.8em" format="svg" fileref="assets/images/key-1.svg"/>
-			</imageobject>
-		</inlinemediaobject>
-				</entry>
+				<entry></entry>
 				<entry><literal></literal></entry>
 			</row>
 			<row>
+				<entry>1</entry>
 				<entry><literal>5</literal></entry>
 			</row>
 			<row>
+				<entry>2</entry>
 				<entry><literal>6.25</literal></entry>
 			</row>
 			<row>
+				<entry>3</entry>
 				<entry><literal>10</literal></entry>
 			</row>
 			<row>
+				<entry>4</entry>
 				<entry><literal>12.5</literal></entry>
 			</row>
 			<row>
+				<entry>5</entry>
 				<entry><literal>25</literal></entry>
 			</row>
 		</tbody>
@@ -80,16 +82,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry>
-					<simplelist type='vert'>
-						<member><literal>High</literal></member>
-						<member><literal>Low</literal></member>
-    					</simplelist>
-				</entry>
-					<simplelist type='vert'>
-						<member>4W</member>
-						<member>1W</member>
-    					</simplelist>
+				<entry><literal>High</literal></entry>
+				<entry>4W</entry>
+				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>Low</literal></entry>
+				<entry>1W</entry>
 				<entry><literal></literal></entry>
 			</row>
 		</tbody>
@@ -110,7 +109,11 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>OFF / 1 - 4</literal></entry>
+				<entry><literal>1 - 4</literal></entry>
+				<entry></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
 			</row>
@@ -132,7 +135,11 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>OFF / 1 - 10</literal></entry>
+				<entry><literal>1 - 10</literal></entry>
+				<entry></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
 			</row>
@@ -155,19 +162,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry>
-					<simplelist type='vert'>
-						<member><literal>WIDE</literal></member>
-						<member><literal>NARR</literal></member>
-    					</simplelist>
-				</entry>
-				<entry>
-					<simplelist type='vert'>
-						<member>5kHz</member>
-						<member>2.5kHz</member>
-    					</simplelist>
-				</entry>
+				<entry><literal>WIDE</literal></entry>
+				<entry>5kHz</entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>NARR</literal></entry>
+				<entry>2.5kHz</entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -188,7 +189,11 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>OFF / 1 - 5</literal></entry>
+				<entry><literal>1 - 5</literal></entry>
+				<entry></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
 			</row>
@@ -210,9 +215,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>OFF / ON</literal></entry>
+				<entry><literal>ON</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
+				<entry></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -233,9 +242,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>OFF / ON</literal></entry>
+				<entry><literal>ON</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
+				<entry></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -278,9 +291,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>OFF / D023N - D754I</literal></entry>
+				<entry><literal>D023N - D754I</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
+				<entry></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -300,9 +317,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>OFF / 67.0 - 254.1</literal></entry>
+				<entry><literal>67.0 - 254.1</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
+				<entry></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -322,9 +343,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>OFF / D023N - D754I</literal></entry>
+				<entry><literal>D023N - D754I</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
+				<entry></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -344,9 +369,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>OFF / 67.0 - 254.1</literal></entry>
+				<entry><literal>67.0 - 254.1</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
+				<entry></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -366,20 +395,16 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry>
-					<simplelist type='vert'>
-						<member><literal>ENG</literal></member>
-						<member><literal>CHI</literal></member>
-						<member><literal>OFF</literal></member>
-    					</simplelist>
-				</entry>
-				<entry>
-					<simplelist type='vert'>
-						<member>English</member>
-						<member>Chinese</member>
-    					</simplelist>
-				</entry>
+				<entry><literal>ENG</literal></entry>
+				<entry>English</entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>CHI</literal></entry>
+				<entry>Chinese</entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -421,20 +446,18 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry>
-					<simplelist type='vert'>
-						<member><literal>DT-ST</literal></member>
-						<member><literal>ANI-ST</literal></member>
-						<member><literal>DT-ANI</literal></member>
-						<member><literal>OFF</literal></member>
-    					</simplelist>
-				</entry>
-				<entry>
-					<simplelist type='vert'>
-						<member></member>
-    					</simplelist>
-				</entry>
+				<entry><literal>DT-ST</literal></entry>
+				<entry></entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>ANI-ST</literal></entry>
+			</row>
+			<row>
+				<entry><literal>DT-ANI</literal></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -476,26 +499,22 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry>
-					<simplelist type='vert'>
-						<member><literal>TO</literal></member>
-						<member><literal>CO</literal></member>
-						<member><literal>SE</literal></member>
-    					</simplelist>
-				</entry>
-				<entry>
-					<simplelist type='vert'>
-						<member>Time Operation</member>
-    						<member>Carrier Operation</member>
-    						<member>Search Operation</member>
-    					</simplelist>
-				</entry>
+				<entry><literal>TO</literal></entry>
+				<entry>Time Operation</entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>CO</literal></entry>
+				<entry>Carrier Operation</entry>
+			</row>
+			<row>
+				<entry><literal>SE</literal></entry>
+				<entry>Search Operation</entry>
 			</row>
 		</tbody>
 		</tgroup>
 	</informaltable>
-	<itemizedlist>
+	<itemizedlist spacing="compact">
 		<listitem>Time Operation: The scanner will resume after a pre set time.</listitem>
 		<listitem>Carrier Operation: The scanner will resume once the signal disappears.</listitem>
 		<listitem>Search Operation: The scanner holds on the frequency with detected activity.</listitem>
@@ -515,22 +534,20 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry>
-					<simplelist type='vert'>
-						<member><literal>BOT</literal></member>
-    						<member><literal>EOT</literal></member>
-    						<member><literal>BOTH</literal></member>
-    						<member><literal>OFF</literal></member>
-    					</simplelist>
-				</entry>
-				<entry>
-					<simplelist type='vert'>
-						<member>Beginning Of Transmit</member>
-    						<member>End Of Transmit</member>
-    						<member>Both BOT and EOT</member>
-    					</simplelist>
-				</entry>
+				<entry><literal>BOT</literal></entry>
+				<entry>Beginning Of Transmit</entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>EOT</literal></entry>
+				<entry>End Of Transmit</entry>
+			</row>
+			<row>
+				<entry><literal>BOTH</literal></entry>
+				<entry>Both BOT and EOT</entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -572,21 +589,17 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry>
-					<simplelist type='vert'>
-						<member><literal>FREQ</literal></member>
-						<member><literal>CHAN</literal></member>
-						<member><literal>NAME</literal></member>
-    					</simplelist>
-				</entry>
-				<entry>
-					<simplelist type='vert'>
-						<member>Frequency</member>
-						<member>Channel number</member>
-						<member>Channel name</member>
-    					</simplelist>
-				</entry>
+				<entry><literal>FREQ</literal></entry>
+				<entry>Frequency</entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>CHAN</literal></entry>
+				<entry>Channel number</entry>
+			</row>
+			<row>
+				<entry><literal>NAME</literal></entry>
+				<entry>Channel name</entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -607,21 +620,17 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry>
-					<simplelist type='vert'>
-						<member><literal>FREQ</literal></member>
-						<member><literal>CHAN</literal></member>
-						<member><literal>NAME</literal></member>
-    					</simplelist>
-				</entry>
-				<entry>
-					<simplelist type='vert'>
-						<member>Frequency</member>
-						<member>Channel number</member>
-						<member>Channel name</member>
-    					</simplelist>
-				</entry>
+				<entry><literal>FREQ</literal></entry>
+				<entry>Frequency</entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>CHAN</literal></entry>
+				<entry>Channel number</entry>
+			</row>
+			<row>
+				<entry><literal>NAME</literal></entry>
+				<entry>Channel name</entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -642,9 +651,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>OFF / ON</literal></entry>
+				<entry><literal>ON</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
+				<entry></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -664,9 +677,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>OFF / ON</literal></entry>
+				<entry><literal>ON</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
+				<entry></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -686,20 +703,16 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry>
-					<simplelist type='vert'>
-						<member><literal>+</literal></member>
-						<member><literal>-</literal></member>
-						<member><literal>OFF</literal></member>
-    					</simplelist>
-				</entry>
-				<entry>
-					<simplelist type='vert'>
-						<member>TX frequency = RX + OFFSET</member>
-						<member>TX frequency = RX - OFFSET</member>
-    					</simplelist>
-				</entry>
+				<entry><literal>+</literal></entry>
+				<entry>TX frequency = RX + OFFSET</entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>-</literal></entry>
+				<entry>TX frequency = RX - OFFSET</entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -785,16 +798,18 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry>
-					<simplelist type='vert'>
-						<member><literal>BLUE</literal></member>
-						<member><literal>ORANGE</literal></member>
-						<member><literal>PURPLE</literal></member>
-						<member><literal>OFF</literal></member>
-    					</simplelist>
-				</entry>
+				<entry><literal>BLUE</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>ORANGE</literal></entry>
+			</row>
+			<row>
+				<entry><literal>PURPLE</literal></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -814,16 +829,18 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry>
-					<simplelist type='vert'>
-						<member><literal>BLUE</literal></member>
-						<member><literal>ORANGE</literal></member>
-						<member><literal>PURPLE</literal></member>
-						<member><literal>OFF</literal></member>
-    					</simplelist>
-				</entry>
+				<entry><literal>BLUE</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>ORANGE</literal></entry>
+			</row>
+			<row>
+				<entry><literal>PURPLE</literal></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -843,16 +860,18 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry>
-					<simplelist type='vert'>
-						<member><literal>BLUE</literal></member>
-						<member><literal>ORANGE</literal></member>
-						<member><literal>PURPLE</literal></member>
-						<member><literal>OFF</literal></member>
-    					</simplelist>
-				</entry>
+				<entry><literal>BLUE</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>ORANGE</literal></entry>
+			</row>
+			<row>
+				<entry><literal>PURPLE</literal></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -872,21 +891,17 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry>
-					<simplelist type='vert'>
-						<member><literal>SITE</literal></member>
-						<member><literal>TONE</literal></member>
-						<member><literal>CODE</literal></member>
-    					</simplelist>
-				</entry>
-				<entry>
-					<simplelist type='vert'>
-						<member>Radio speaker only</member>
-						<member>Cycling tone over the air</member>
-						<member>Transmit 5s tone followed by Morse</member>
-    					</simplelist>
-				</entry>
+				<entry><literal>SITE</literal></entry>
+				<entry>Cycling tone over the air</entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>TONE</literal></entry>
+    				<entry>Radio speaker only</entry>
+			</row>
+			<row>
+				<entry><literal>CODE</literal></entry>
+				<entry>Transmit 5s tone followed by Morse</entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -906,9 +921,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>VHF / UHF</literal></entry>
+				<entry><literal>VHF</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>UHF</literal></entry>
+				<entry></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -928,20 +947,16 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry>
-					<simplelist type='vert'>
-						<member><literal>A</literal></member>
-						<member><literal>B</literal></member>
-						<member><literal>OFF</literal></member>
-    					</simplelist>
-				</entry>
-				<entry>
-					<simplelist type='vert'>
-						<member>Upper display</member>
-						<member>Lower display</member>
-    					</simplelist>
-				</entry>
+				<entry><literal>A</literal></entry>
+				<entry>Upper display</entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>B</literal></entry>
+				<entry>Lower display</entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -961,9 +976,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>OFF / ON</literal></entry>
+				<entry><literal>ON</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
+				<entry></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -983,9 +1002,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>OFF / 1 - 10</literal></entry>
+				<entry><literal>1 - 10</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
+				<entry></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -1005,9 +1028,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>OFF / 1 - 10</literal></entry>
+				<entry><literal>1 - 10</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
+				<entry></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -1027,19 +1054,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry>
-					<simplelist type='vert'>
-						<member><literal>FULL</literal></member>
-						<member><literal>MSG</literal></member>
-    					</simplelist>
-				</entry>
-				<entry>
-					<simplelist type='vert'>
-						<member>Flash entire LCD</member>
-						<member>Displays a 2 line welcome message</member>
-    					</simplelist>
-				</entry>
+				<entry><literal>FULL</literal></entry>
+				<entry>Flash entire LCD</entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>MSG</literal></entry>
+				<entry>Displays a 2 line welcome message</entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -1059,9 +1080,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>OFF / ON</literal></entry>
+				<entry><literal>ON</literal></entry>
 				<entry></entry>
 				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>OFF</literal></entry>
+				<entry></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -1081,19 +1106,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry>
-					<simplelist type='vert'>
-						<member><literal>VFO</literal></member>
-						<member><literal>ALL</literal></member>
-    					</simplelist>
-				</entry>
-				<entry>
-					<simplelist type='vert'>
-						<member>VFO settings only</member>
-						<member>Total reset*</member>
-    					</simplelist>
-				</entry>
-				<entry><literal></literal></entry>
+				<entry><literal>VFO</literal></entry>
+    				<entry>VFO settings only</entry>
+    				<entry><literal></literal></entry>
+			</row>
+			<row>
+				<entry><literal>ALL</literal></entry>
+				<entry>Total reset*</entry>
 			</row>
 		</tbody>
 		</tgroup>
