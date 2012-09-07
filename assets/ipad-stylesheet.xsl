@@ -108,6 +108,7 @@
 			<xsl:choose>
 				<xsl:when test="self::glossterm">blue</xsl:when>
 				<xsl:when test="self::ulink">blue</xsl:when>
+				<xsl:when test="self::link">blue</xsl:when>
 				<xsl:when test="self::xref">blue</xsl:when>
 				<xsl:when test="self::uri">blue</xsl:when>
 				<xsl:otherwise>red</xsl:otherwise>

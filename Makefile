@@ -43,20 +43,23 @@ png:
 	done; cd ../../figs/; \
 	echo "Done processing SVG assets"
 
-print: png
+pdf: print ipad
+
+print:
 	$(FOP) -xml $(SRC) -xsl $(PRINT_XSL) -pdf build/$(PRINT_DST)
-ipad: png
+
+ipad:
 	$(FOP) -xml $(SRC) -xsl $(IPAD_XSL) -pdf build/$(IPAD_DST)
 	
 html: 
 	$(XSLTPROC) --output build/$(HTML_DST) $(HTML_XSL) $(SRC)
 
-chunkhtml: png
+chunkhtml:
 	$(XSLTPROC) --output build/html/ $(CHUNK_XSL) $(SRC); \
 	mkdir -p build/html/figs; \
 	cp figs/* build/html/figs/
 
-rawepub: png
+rawepub:
 	$(XSLTPROC) --output build/epub/ $(EPUB_XSL) $(SRC); \
 	mkdir -p build/epub/OEBPS/figs; \
 	cp figs/* build/epub/OEBPS/figs/

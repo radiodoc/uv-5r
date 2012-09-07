@@ -16,228 +16,186 @@
 			</imageobject>
 		</mediaobject>
 	</figure>
-	<orderedlist numeration="arabic">
-		<listitem>Antenna</listitem>
-		<listitem>Power / Volume knob</listitem>
-		<listitem>Two-line LCD</listitem>
-		<listitem>VFO/MR mode key</listitem>
-		<listitem>Status LED</listitem>
-		<listitem>A / B select key</listitem>
-		<listitem>Keypad</listitem>
-		<listitem>Band select key</listitem>
-		<listitem>Speaker and microphone</listitem>
-		<listitem>Battery release latch</listitem>
-		<listitem>Lanyard loop</listitem>
-		<listitem>Accessory jack</listitem>
-		<listitem>Battery pack</listitem>
-		<listitem>Battery contacts</listitem>
-		<listitem>Call key</listitem>
-		<listitem>PTT key</listitem>
-		<listitem>Monitor key</listitem>
+	<orderedlist numeration="arabic" spacing="compact">
+		<listitem>
+			<para>Antenna, see <xref linkend="manual.setup.assembly"/> for details.</para>
+		</listitem>
+		<listitem>
+			<para>Power / Volume knob, usage discussed in <xref linkend="manual.basic.power-volume"/>.</para>
+		</listitem>
+		<listitem>
+			<para><link linkend="manual.know.display">Two-line LCD</link></para>
+		</listitem>
+		<listitem>
+			<para><link linkend="manual.know.call-key">Call key</link></para>
+		</listitem>
+		<listitem>
+			<para>PTT key, usage discussed in <xref linkend="manual.basic.making-call" />.</para>
+		</listitem>
+		<listitem>
+			<para><link linkend="manual.know.monitor-key">Monitor key</link></para>
+		</listitem>
+		<listitem>
+			<para><link linkend="manual.know.keypad">Keypad</link></para>
+		</listitem>
+		<listitem>
+			<para>Speaker and microphone</para>
+		</listitem>
+		<listitem>
+			<para><link linkend="manual.know.port">Accessory jack</link></para>
+		</listitem>
+		<listitem>
+			<para><link linkend="manual.know.mode-key">VFO/MR mode key</link></para>
+		</listitem>
+		<listitem>
+			<para><link linkend="manual.know.status-led">Status LED</link></para>
+		</listitem>
+		<listitem>
+			<para><link linkend="manual.know.ab-select-key">A / B select key</link></para>
+		</listitem>
+		<listitem>
+			<para><link linkend="manual.know.band-key">Band select key</link></para>
+		</listitem>
+		<listitem>
+			<para>Battery pack, see <xref linkend="manual.setup.battery" /> for details.</para>
+		</listitem>
+		<listitem>
+			<para>Battery contacts</para>
+		</listitem>
+		<listitem>
+			<para>Battery release latch</para>
+		</listitem>
+		<listitem>
+			<para>Lanyard loop</para>
+		</listitem>
+		<listitem>
+			<para>LED flashlight, (not marked) situated between antenna and power/volume knob. See <xref linkend="manual.know.monitor-key" /> for more information.</para>
+		</listitem>
 	</orderedlist>
+	<section xml:id="manual.know.display">
+		<title>The main display</title>
+		<para>It has two lines</para>
+	</section>
+	<section xml:id="manual.know.status-led">
+		<title>Status LED</title>
+		<para>The status LED has a very simple and traditional design. When you receive a signal it turns green, when you transmit it turns red, and it's off in standby.</para>
+	</section>
+	<section xml:id="manual.know.call-key">
+		<title>Side key 1 - Call (Broadcast FM and Alarm)</title>
+		<para>Press
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-call.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			momentarily to start the broadcast FM receiver. Another momentary press turns the broadcast FM receiver off.</para>
+		<para>Press and hold
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-call.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			to activate the alarm function. Press and hold again to turn it off.</para>
+	</section>
+	<section xml:id="manual.know.monitor-key">
+		<title>Side key 2 - Moni (Monitor and Flashlight)</title>
+		<para>Press
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-moni.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			momentarily to turn on the LED flashlight. Another momentary press turns the flashlight off.</para>
+		<para>Press and hold
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-moni.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			to monitor the signal. This will open up the squelch so you can listen to the unfiltered signal.</para>
+	</section>
+	<section xml:id="manual.know.mode-key">
+		<title>VFO / MR -mode key</title>
+		<para>Pressing 
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			switches between Frequency (VFO) Mode and Memory (MR) mode. Memory mode is sometimes also referred to as Channel mode.</para>
+	</section>
+	<section xml:id="manual.know.ab-key">
+		<title>A / B select key</title>
+		<para>The 
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-ab.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			key switches the display between your selected A and B bands or channels.</para>
+	</section>
+	<section xml:id="manual.know.band-key">
+		<title>Band key</title>
+		<para>Switches between bands?</para>
+	</section>
 	<section xml:id="manual.know.keypad">
 		<title>Numeric keypad</title>
 		<figure xml:id="manual.radio.keypad-fig">
 			<title>Baofeng UV-5R, keypad</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="figs/keypad.svg.png" contentdepth="4.5em" />
+					<imagedata fileref="figs/keypad.svg.png" contentdepth="4.6em" />
 				</imageobject>
 			</mediaobject>
 		</figure>
-		<variablelist>
-			<varlistentry>
-				<term>
-				<inlinemediaobject>
-					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
-					</imageobject>
-				</inlinemediaobject>
-				</term>
-				<listitem>
-					<para>The menu key, used to enter the menu you big dummy.</para>
-				</listitem>
-			</varlistentry>
-			<varlistentry>
-				<term>
-				<inlinemediaobject>
-					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
-					</imageobject>
-				</inlinemediaobject>
-				</term>
-				<term>
-				<inlinemediaobject>
-					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
-					</imageobject>
-				</inlinemediaobject>
-				</term>
-				<listitem>
-					<para>The menu key, used to enter the menu you big dummy.</para>
-				</listitem>
-			</varlistentry>
-			<varlistentry>
-				<term>
+		<section>
+			<title>Menu and function keys</title>
+			<para>The
 				<inlinemediaobject>
 					<imageobject>
 						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
 					</imageobject>
 				</inlinemediaobject>
-				</term>
-				<listitem>
-					<para>The menu key, used to enter the menu you big dummy.</para>
-				</listitem>
-			</varlistentry>
+				key, used to enter the menu and confirm menu options.</para>	
+			<para>The
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				and 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				keys are used to navigate through the menu as well as select channels and step up or down in frequency (depending on operating mode).</para>
+			<para>The
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key is used to exit menus and cancel menu options.</para>
+			<para>For a more in-depth explanation on how to work the menu see <xref linkend="manual.advanced.menu"/>.</para>
+		</section>
 
-			<varlistentry>
-				<term>
-				<inlinemediaobject>
-					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
-					</imageobject>
-				</inlinemediaobject>
-				</term>
-				<listitem>
-					<para>The menu key, used to enter the menu you big dummy.</para>
-				</listitem>
-			</varlistentry>
-			<varlistentry>
-				<term>
-				<inlinemediaobject>
-					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-2.svg.png"/>
-					</imageobject>
-				</inlinemediaobject>
-				</term>
-				<listitem>
-					<para>The menu key, used to enter the menu you big dummy.</para>
-				</listitem>
-			</varlistentry>
-			<varlistentry>
-				<term>
-				<inlinemediaobject>
-					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-3.svg.png"/>
-					</imageobject>
-				</inlinemediaobject>
-				</term>
-				<listitem>
-					<para>The menu key, used to enter the menu you big dummy.</para>
-				</listitem>
-			</varlistentry>
-			<varlistentry>
-				<term>
-				<inlinemediaobject>
-					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-4.svg.png"/>
-					</imageobject>
-				</inlinemediaobject>
-				</term>
-				<listitem>
-					<para>The menu key, used to enter the menu you big dummy.</para>
-				</listitem>
-			</varlistentry>
 
-			<varlistentry>
-				<term>
-				<inlinemediaobject>
-					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-5.svg.png"/>
-					</imageobject>
-				</inlinemediaobject>
-				</term>
-				<listitem>
-					<para>The menu key, used to enter the menu you big dummy.</para>
-				</listitem>
-			</varlistentry>
-			<varlistentry>
-				<term>
-				<inlinemediaobject>
-					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-6.svg.png"/>
-					</imageobject>
-				</inlinemediaobject>
-				</term>
-				<listitem>
-					<para>The menu key, used to enter the menu you big dummy.</para>
-				</listitem>
-			</varlistentry>
-			<varlistentry>
-				<term>
-				<inlinemediaobject>
-					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-7.svg.png"/>
-					</imageobject>
-				</inlinemediaobject>
-				</term>
-				<listitem>
-					<para>The menu key, used to enter the menu you big dummy.</para>
-				</listitem>
-			</varlistentry>
-			<varlistentry>
-				<term>
-				<inlinemediaobject>
-					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-8.svg.png"/>
-					</imageobject>
-				</inlinemediaobject>
-				</term>
-				<listitem>
-					<para>The menu key, used to enter the menu you big dummy.</para>
-				</listitem>
-			</varlistentry>
-
-			<varlistentry>
-				<term>
-				<inlinemediaobject>
-					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-9.svg.png"/>
-					</imageobject>
-				</inlinemediaobject>
-				</term>
-				<listitem>
-					<para>The menu key, used to enter the menu you big dummy.</para>
-				</listitem>
-			</varlistentry>
-			<varlistentry>
-				<term>
-				<inlinemediaobject>
-					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
-					</imageobject>
-				</inlinemediaobject>
-				</term>
-				<listitem>
-					<para>The menu key, used to enter the menu you big dummy.</para>
-				</listitem>
-			</varlistentry>
-			<varlistentry>
-				<term>
+			<para>
 				<inlinemediaobject>
 					<imageobject>
 						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
 					</imageobject>
 				</inlinemediaobject>
-				</term>
-				<listitem>
-					<para>The menu key, used to enter the menu you big dummy.</para>
-				</listitem>
-			</varlistentry>
-			<varlistentry>
-				<term>
+				The menu key, used to enter the menu you big dummy.</para>
+
+			<para>
 				<inlinemediaobject>
 					<imageobject>
 						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.svg.png"/>
 					</imageobject>
 				</inlinemediaobject>
-				</term>
-				<listitem>
-					<para>The menu key, used to enter the menu you big dummy.</para>
-				</listitem>
-			</varlistentry>
-		</variablelist>
-
+				The menu key, used to enter the menu you big dummy.</para>
 	</section>
 </section>
 <section xml:id="manual.basic.power-volume">
@@ -255,7 +213,7 @@
 		<title>Adjusting the volume</title>
 		<para>To turn up the volume, turn the volume/power knob clock-wise.</para>
 		<para>To turn the volume down, turn the volume/power knob counter-clock-wise. Be careful not to turn it too far, as you may inadvertently turn your radio off.</para>
-		<tip>
+		<note>
 			<para>By using the monitor function, enabled from the 
 				<inlinemediaobject>
 					<imageobject>
@@ -263,7 +221,7 @@
 					</imageobject>
 				</inlinemediaobject>
 				key below the PTT, you can more easily adjust your volume by adjusting it to the un-squelched static.</para>
-		</tip>
+		</note>
 	</section>
 </section>
 <section>
@@ -282,7 +240,7 @@
 		</inlinemediaobject>
 		keys to navigate between channels.</para>
 </section>
-<section>
+<section xml:id="manual.basic.making-call">
 	<title>Making a call</title>
 	<para>Press and hold the PTT button on the side of the radio body to transmit. While transmitting, speak approximately 3-5cm from the microphone. When you release the PTT your transceiver will go back to receive mode.</para>
 </section>
