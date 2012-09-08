@@ -1,0 +1,168 @@
+<chapter xml:id="manual.menu">
+<title>Working the menu system</title>
+<para>For a complete reference on available menu items and options, see <xref linkend="manual.menu.definitions"/>.</para>
+<note>
+	<para>If your radio is set to Memory (MR) mode, the following menu items will be unavailable to you:</para>
+	<para>CTCSS, DCS, W/N, PTT-ID, BCL, SCAN, S-CODE</para>
+</note>
+<section>
+	<title>Basic use</title>
+	<procedure>
+		<title>Using the menu with arrow keys</title>
+		<step>
+			<para>Press the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key to enter the menu.</para>
+		</step>
+		<step>
+			<para>Use the 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				and
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				keys to navigate between menu items.</para>
+		</step>
+		<step>
+			<para>Once you find the desired menu item, press
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				again to enter that sub-menu.</para>
+		</step>
+		<step>
+			<para>Use the 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				and
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				keys to select the desired parameter.</para>
+		</step>
+		<step>
+			<para>When you've selected the parameter you want to set for a given menu item;</para>
+			<substeps>
+				<step>
+					<para>To confirm your selection, press
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						and it will save your setting and bring you back to the main menu.</para>
+				</step>
+				<step>
+					<para>To cancel your changes, press
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						and it will reset that menu item and bring you back to the main menu.</para>
+				</step>
+			</substeps>
+		</step>
+		<step>
+			<para>To exit out of the main menu, press the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key.</para>
+		</step>
+	</procedure>
+</section>
+<section>
+	<title>Using short-cuts</title>
+	<para>As you may have noticed if you looked at <xref linkend="manual.menu.definitions"/>, every menu item has a numerical value associated with it. These numbers can be used for direct access of any given menu item.</para>
+	<para>The menu is also organized in such a way that the ten most common functions are on top, and as can be seen in <xref linkend="manual.radio.keypad-fig"/>, these are also printed on the keypad so you don't have to remember them all.</para>
+	<para>They parameters also have a number associated with them, see <xref linkend="manual.menu.definitions"/> for details.</para>
+	<procedure>
+		<title>Using the menu with short-cuts</title>
+		<step>
+			<para>Press the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key to enter the menu.</para>
+		</step>
+		<step>
+			<para>Use the numerical keypad to enter the number of the menu item.</para>
+		</step>
+		<step>
+			<para>To enter the menu item, press the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key.</para>
+		</step>
+		<step>
+			<para>For entering the desired parameter you have two options:</para>
+			<substeps>
+				<step>
+					<para>Use the arrow keys as we did in the previous section;</para>
+					<para>or</para>
+				</step>
+				<step>
+					<para>Use the numerical keypad to enter the numerical short-cut code.</para>
+				</step>
+			</substeps>
+		</step>
+		<step>
+			<para>And just as in the previous section;</para>
+			<substeps>
+				<step>
+					<para>To confirm your selection, press
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						and it will save your setting and bring you back to the main menu.</para>
+				</step>
+				<step>
+					<para>To cancel your changes, press
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						and it will reset that menu item and bring you back to the main menu.</para>
+				</step>
+			</substeps>
+		</step>
+		<step>
+			<para>To exit out of the main menu, press the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key.</para>
+		</step>
+	</procedure>
+</section>
+</chapter>
