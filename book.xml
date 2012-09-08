@@ -9,14 +9,15 @@
 <!ENTITY ch05 SYSTEM "ch05-basic-use.xml">
 <!ENTITY ch06 SYSTEM "ch06-menu.xml">
 <!ENTITY ch07 SYSTEM "ch07-groups.xml">
-<!ENTITY ch08 SYSTEM "ch-programming.xml">
+<!ENTITY ch08 SYSTEM "ch-repeater.xml">
+<!ENTITY ch09 SYSTEM "ch-programming.xml">
 
-<!ENTITY ch0 SYSTEM "ch-application-specific-setup.xml">
-<!ENTITY ch09 SYSTEM "ch-troubleshooting.xml">
+<!ENTITY ch10 SYSTEM "ch-application-specific-setup.xml">
+<!ENTITY ch11 SYSTEM "ch-troubleshooting.xml">
 
 <!ENTITY appa SYSTEM "appa-menu-definitions.xml">
-<!ENTITY glossary SYSTEM "glossary.xml">
 <!ENTITY appc SYSTEM "appc-technical-specs.xml">
+<!ENTITY glossary SYSTEM "glossary.xml">
 <!ENTITY ctcss-table SYSTEM "ctcss-table.xml">
 <!ENTITY dcs-table SYSTEM "dcs-table.xml">
 
@@ -65,34 +66,27 @@
 		</legalnotice>
 	</info>
 
-<!--
 	&preface;
--->
+		&ch01;
+		&ch02;
 	<part label="I">
 		<title>Basic usage</title>
 		<partintro>
 			<para>Part one covers the basic setup and use of your hand-held two-way transceiver.</para>
 			<literallayout>
+<!--
 			<xref linkend="manual.safety"/>
 			<xref linkend="manual.features"/>
+-->
 			<xref linkend="manual.setup"/>
 			<xref linkend="manual.get-to-know"/>
 			<xref linkend="manual.basic"/>
 			</literallayout>
 		</partintro>
-		&ch01;
-		&ch02;
 		&ch03;
 		&ch04;
 		&ch05;
 	</part>
-	<part label="II">
-		<title>Advanced topics</title>
-		<partintro>
-			<para>Part two is not included with this revision, on account of not having been written yet.</para>
-		</partintro>
-	</part>
-
 	<part label="II">
 		<title>Advanced topics</title>
 		<partintro>
@@ -110,16 +104,18 @@
 		&ch07;
 		&ch08;
 		&ch09;
+		&ch10;
+		&ch11;
 	</part>
 	&appa;
-<!--
-	
 	&appc;
 	&glossary;
-	&index;
+	
 
 	<index xml:id="manual.index"/>
-	&license;
 	&colophon;
+<!--
+	&index;
+	&license;
 -->
 </book>

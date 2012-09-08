@@ -1,6 +1,6 @@
 <glossary>
 <glosslist>
-	<glossentry>
+	<glossentry xml:id="vfo">
 		<glossterm>VFO</glossterm>
 		<glossdef>
 			<para>
@@ -8,7 +8,7 @@
 			</para>
 		</glossdef>
 	</glossentry>
-	<glossentry>
+	<glossentry xml:id="squelch">
 		<glossterm>Squelch</glossterm>
 		<glossdef>
 			<para>
@@ -16,7 +16,7 @@
 			</para>
 		</glossdef>
 	</glossentry>
-	<glossentry>
+	<glossentry xml:id="ptt">
 		<glossterm>PTT</glossterm>
 		<glossdef>
 			<para>
@@ -24,7 +24,7 @@
 			</para>
 		</glossdef>
 	</glossentry>
-	<glossentry>
+	<glossentry xml:id="ani">
 		<glossterm>ANI</glossterm>
 		<glossdef>
 			<para>
@@ -32,7 +32,7 @@
 			</para>
 		</glossdef>
 	</glossentry>
-	<glossentry>
+	<glossentry xml:id="ptt-id">
 		<glossterm>PTT-ID</glossterm>
 		<glossdef>
 			<para>
@@ -40,7 +40,7 @@
 			</para>
 		</glossdef>
 	</glossentry>
-	<glossentry>
+	<glossentry xml:id="ctcss">
 		<glossterm>CTCSS</glossterm>
 		<glossdef>
 			<para>
@@ -48,7 +48,7 @@
 			</para>
 		</glossdef>
 	</glossentry>
-	<glossentry>
+	<glossentry xml:id="dcs">
 		<glossterm>DCS</glossterm>
 		<glossdef>
 			<para>
@@ -56,7 +56,7 @@
 			</para>
 		</glossdef>
 	</glossentry>
-	<glossentry>
+	<glossentry xml:id="dtmf">
 		<glossterm>DTMF</glossterm>
 		<glossdef>
 			<para>

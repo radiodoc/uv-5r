@@ -143,11 +143,11 @@
 	</segmentedlist>
 </section>
 	<!--
+	-->
 <section xml:id="manual.specs.dcs">
 	<title>DCS table</title>
 	&dcs-table;
 </section>
-	-->
 <section xml:id="manual.specs.ctcss">
 	<title>CTCSS table</title>
 	&ctcss-table;

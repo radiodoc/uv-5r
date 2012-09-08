@@ -1,11 +1,5 @@
 <chapter xml:id="manual.get-to-know">
 	<title>Getting to know your radio</title>
-	<!--
-	<blockquote>
-		<attribution>Dr. Emmet Brown</attribution>
-		<para>Please excuse the crudity of this model. I didn't have time to build it to scale or paint it.</para>
-	</blockquote>
-	-->
 	<figure xml:id="manual.radio.front-fig">
 		<title>Baofeng UV-5R, overview</title>
 		<mediaobject>
@@ -304,7 +298,7 @@
 					</imageobject>
 				</inlinemediaobject>
 				key is used to exit menus and cancel menu options.</para>
-			<para>For a more in-depth explanation on how to work the menu see <xref linkend="manual.advanced.menu"/>.</para>
+			<para>For a more in-depth explanation on how to work the menu see <xref linkend="manual.menu"/>.</para>
 		</section>
 	</section>
 </chapter>
