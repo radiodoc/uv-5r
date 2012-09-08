@@ -1,0 +1,18 @@
+<chapter xml:id="manual.advanced">
+<title>Group calling</title>
+<para>The Baofeng UV-5R features three different ways of group calling.</para>
+<note>
+	<para>Using these features does NOT mean that others won't be able to listen in on your transmissions.</para>
+	<para>They only provide a method to <emphasis>filter out unwanted incoming transmissions</emphasis>. Any communications made while using these features will still be heard by anyone not employing filtering options of their own.</para>
+</note>
+<section>
+	<title>CTCSS</title>
+	
+</section>
+<section>
+	<title>DCS</title>
+</section>
+<section>
+	<title>1750Hz Tone-burst</title>
+</section>
+</chapter>

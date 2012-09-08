@@ -4,12 +4,15 @@
 
 <!ENTITY ch01 SYSTEM "ch01-safety-information.xml">
 <!ENTITY ch02 SYSTEM "ch02-features.xml">
-<!ENTITY ch03 SYSTEM "ch03-unboxing.xml">
-<!ENTITY ch04 SYSTEM "ch04-basic-operation.xml">
-<!ENTITY ch05 SYSTEM "ch05-advanced-operation.xml">
-<!ENTITY ch06 SYSTEM "ch-programming.xml">
-<!ENTITY ch07 SYSTEM "ch-application-specific-setup.xml">
-<!ENTITY ch08 SYSTEM "ch-troubleshooting.xml">
+<!ENTITY ch03 SYSTEM "ch03-setup.xml">
+<!ENTITY ch04 SYSTEM "ch04-get-to-know.xml">
+<!ENTITY ch05 SYSTEM "ch05-basic-use.xml">
+<!ENTITY ch06 SYSTEM "ch06-menu.xml">
+<!ENTITY ch07 SYSTEM "ch07-groups.xml">
+<!ENTITY ch08 SYSTEM "ch-programming.xml">
+
+<!ENTITY ch0 SYSTEM "ch-application-specific-setup.xml">
+<!ENTITY ch09 SYSTEM "ch-troubleshooting.xml">
 
 <!ENTITY appa SYSTEM "appa-menu-definitions.xml">
 <!ENTITY glossary SYSTEM "glossary.xml">
@@ -47,58 +50,75 @@
 			<holder>xles McFuzzypants</holder>
 		</copyright>
 
+		<subtitle>v0.5</subtitle>
+
 		<legalnotice>
-			<para>
-				This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.  
-				
-				To view a copy of this license, visit 
-			</para>
-			<para>
-				<link xlink:href="http://creativecommons.org/licenses/by-sa/3.0/"/>
-			</para>
-			<para>
-				or send a letter to 
+			<para>This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit</para>
+			<para><link xlink:href="http://creativecommons.org/licenses/by-sa/3.0/"/></para>
+			<para>or send a letter to 
 				<address>
 				Creative Commons, 
 				<street>559 Nathan Abbott Way</street>, 
 				<city>Stanford</city>, <state>California</state> <postcode>94305</postcode>, <country>USA</country>.
-				</address>
-			</para>
-			<para>
-				All brandnames and trademarks mentioned in this document is the property of their respective holders. The authors of this document shares no affiliation with any of the brands and trademarks mentioned within this document.
-			</para>
-<!--
-<mediaobject>
-  <imageobject>
-    <imagedata format="PNG" fileref="assets/images/g3151.png"/>
-    <imagedata format="SVG" fileref="assets/images/display-blank.svg"/>
-  </imageobject>
-</mediaobject>
--->
+				</address></para>
+			<para>All brandnames and trademarks mentioned in this document is the property of their respective holders. The authors of this document shares no affiliation with any of the brands and trademarks mentioned within this document.</para>
 		</legalnotice>
-
 	</info>
 
-	<!-- External entity refs -->
 <!--
 	&preface;
 -->
-	&ch01;
-	&ch02;
-	&ch03;
-	&ch04;
-<!--
-	&ch05;
-	&ch06;
-	&ch07;
-	
-	&index;
-	&ch08;
+	<part label="I">
+		<title>Basic usage</title>
+		<partintro>
+			<para>Part one covers the basic setup and use of your hand-held two-way transceiver.</para>
+			<literallayout>
+			<xref linkend="manual.safety"/>
+			<xref linkend="manual.features"/>
+			<xref linkend="manual.setup"/>
+			<xref linkend="manual.get-to-know"/>
+			<xref linkend="manual.basic"/>
+			</literallayout>
+		</partintro>
+		&ch01;
+		&ch02;
+		&ch03;
+		&ch04;
+		&ch05;
+	</part>
+	<part label="II">
+		<title>Advanced topics</title>
+		<partintro>
+			<para>Part two is not included with this revision, on account of not having been written yet.</para>
+		</partintro>
+	</part>
+
+	<part label="II">
+		<title>Advanced topics</title>
+		<partintro>
+			<para>Part two covers the more advanced topics, such as setup of repeater offset and programming via computer link.</para>
+			<literallayout>
+			<xref linkend="manual.menu"/>
+			<xref linkend="manual.groups"/>
+			<xref linkend="manual.repeater"/>
+			<xref linkend="manual.programming"/>
+			<xref linkend="manual.app-specicic"/>
+			<xref linkend="manual.troubleshooting"/>
+			</literallayout>
+		</partintro>
+		&ch06;
+		&ch07;
+		&ch08;
+		&ch09;
+	</part>
 	&appa;
+<!--
+	
 	&appc;
 	&glossary;
-	<index xml:id="manual.index"/>
+	&index;
 
+	<index xml:id="manual.index"/>
 	&license;
 	&colophon;
 -->
