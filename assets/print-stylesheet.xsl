@@ -1,12 +1,11 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
 		xmlns:fo="http://www.w3.org/1999/XSL/Format"
 		version='1.0'>
-<!--
-	<xsl:param name="fop1.extension">1</xsl:param>
--->
+
 	<xsl:import href="fo-stylesheet.xsl"/>
 
 	<!-- Page related Settings -->
+	<xsl:param name="double.sided">1</xsl:param>
 	<xsl:param name="paper.type">A4</xsl:param>
 	<xsl:param name="page.margin.top">1in</xsl:param>
 	<xsl:param name="page.margin.bottom">1in</xsl:param>

@@ -1,7 +1,5 @@
 # Contribution Guidelines
 
-So you want to contribute?
-
 ## Format
 
 Chapters describing functions should follow the following formula:
@@ -14,3 +12,15 @@ Chapters describing functions should follow the following formula:
 
 * How do we use it in our radios.
 
+
+## Workflow
+
+* Clone
+
+* Create private branch
+
+* Push private branch.
+
+* File pull request for private branch.
+
+Nothing gets commited to master directly, ever.

@@ -1,4 +1,8 @@
 <chapter xml:id="manual.groups">
+<indexterm>
+	<primary>groups</primary>
+</indexterm>
+
 <title>Selective calling</title>
 <para>Some times when you're working with larger groups of people using the same channel, things can get very crowded, very fast. To minimize this problem, several methods of blocking out unwanted transmissions on your frequency has developed. In general, there are two forms of selective calling in two-way radio systems: Group calling, and individual calling.</para>
 <para>Group calling, as the name suggest, is a one-to-many form of communication. Every radio in your working group is configured the same way and any radio will make contact with every other radio in the group.</para>

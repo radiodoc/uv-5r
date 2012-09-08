@@ -43,7 +43,7 @@
 			<para><link linkend="manual.know.status-led">Status LED</link></para>
 		</listitem>
 		<listitem>
-			<para><link linkend="manual.know.ab-select-key">A / B select key</link></para>
+			<para><link linkend="manual.know.ab-key">A / B select key</link></para>
 		</listitem>
 		<listitem>
 			<para><link linkend="manual.know.band-key">Band select key</link></para>
@@ -74,7 +74,7 @@
 				</imageobject>
 			</mediaobject>
 		</figure>
-		<para>The transceiver is fitted with a two lined x seven character dot alphanumeric LCD, with auxiliary icons for miscellaneous features.</para>
+		<para>The transceiver is fitted with a seven character by two line dot-matrix alphanumeric LCD, with auxiliary icons for miscellaneous features.</para>
 		<table>
 			<title>LCD icon summary</title>
 			<tgroup cols="2">
