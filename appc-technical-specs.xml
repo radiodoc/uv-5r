@@ -1,6 +1,6 @@
-<appendix>
+<appendix xml:id="manual.specs">
 <title>Technical specifications</title>
-<section>
+<section xml:id="manual.specs.general">
 	<title>General</title>
 	<segmentedlist>
 		<title>General specifications</title>
@@ -71,7 +71,7 @@
 		</seglistitem>
 	</segmentedlist>
 </section>
-<section>
+<section xml:id="manual.specs.transmitter">
 	<title>Transmitter</title>
 	<segmentedlist>
 		<title>Transmitter specifications</title>
@@ -117,7 +117,7 @@
 		</seglistitem>
 	</segmentedlist>
 </section>
-<section>
+<section xml:id="manual.specs.receiver">
 	<title>Receiver</title>
 	<segmentedlist>
 		<title>Receiver specifications</title>
@@ -143,13 +143,13 @@
 	</segmentedlist>
 </section>
 	<!--
-<section>
+<section xml:id="manual.specs.dcs">
 	<title>DCS table</title>
 	&dcs-table;
 </section>
-<section>
+	-->
+<section xml:id="manual.specs.ctcss">
 	<title>CTCSS table</title>
 	&ctcss-table;
 </section>
-	-->
 </appendix>
