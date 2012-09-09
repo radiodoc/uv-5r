@@ -22,12 +22,12 @@ IPAD_XSL = assets/ipad-stylesheet.xsl
 #PDF_XSL = assets/docbook-xsl-1.77.1/fo/docbook.xsl
 
 HTML_DST = $(FILENAME).html
-HTML_XSL = assets/docbook-xsl-1.77.1/html/docbook.xsl
-CHUNK_XSL = assets/docbook-xsl-1.77.1/html/chunk.xsl
+HTML_XSL = assets/html-stylesheet.xsl
+CHUNK_XSL = assets/chunk-stylesheet.xsl
 
 # EPUB uses a path relative to build/epub...
 EPUB_DST = $(FILENAME).epub
-EPUB_XSL = assets/docbook-xsl-1.77.1/epub/docbook.xsl
+EPUB_XSL = assets/epub-stylesheet.xsl
 
 KINDLE_DST = $(FILENAME).mobi
 
