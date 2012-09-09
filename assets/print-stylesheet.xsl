@@ -15,8 +15,14 @@
 
 	<xsl:param name="callout.unicode">1</xsl:param>
 	<xsl:param name="callout.graphics">0</xsl:param>
-
+ 	
 	<!-- Custom font settings 
+	<xsl:template match="link">
+		<xsl:text>[</xsl:text>
+		<xsl:call-template name="inline.boldseq"/>
+		<xsl:text>]</xsl:text>
+	</xsl:template>
+
 	<xsl:param name="title.font.family">sans-serif,SimHei</xsl:param>
 	<xsl:param name="body.font.family">serif,SimSun</xsl:param>
 	<xsl:param name="sans.font.family">sans-serif,SimHei</xsl:param>
@@ -49,16 +55,7 @@
 
 	<!-- Colourize links in output -->
 	<xsl:attribute-set name="xref.properties">
-		<xsl:attribute name="color">
-			<xsl:choose>
-				<xsl:when test="self::glossterm">blue</xsl:when>
-				<xsl:when test="self::ulink">blue</xsl:when>
-				<xsl:when test="self::link">blue</xsl:when>
-				<xsl:when test="self::xref">blue</xsl:when>
-				<xsl:when test="self::uri">blue</xsl:when>
-				<xsl:otherwise>red</xsl:otherwise>
-			</xsl:choose>
-		</xsl:attribute>
+		<xsl:attribute name="color">black</xsl:attribute>
 	</xsl:attribute-set>
 <!--
 

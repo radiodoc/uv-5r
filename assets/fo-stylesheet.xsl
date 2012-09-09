@@ -2,7 +2,8 @@
 		xmlns:fo="http://www.w3.org/1999/XSL/Format"
 		version='1.0'>
 	<xsl:import href="docbook-xsl-1.77.1/fo/docbook.xsl"/>
-
+	<xsl:import href="base-stylesheet.xsl"/>
+	
 	<xsl:param name="fop1.extensions">1</xsl:param>
 	<xsl:param name="generate.toc">
 		appendix  nop
@@ -106,18 +107,6 @@
 	</xsl:attribute-set>
 -->
 
-	<!-- Colourize links in output -->
-	<xsl:attribute-set name="xref.properties">
-		<xsl:attribute name="color">
-			<xsl:choose>
-				<xsl:when test="self::glossterm">blue</xsl:when>
-				<xsl:when test="self::ulink">blue</xsl:when>
-				<xsl:when test="self::xref">blue</xsl:when>
-				<xsl:when test="self::uri">blue</xsl:when>
-				<xsl:otherwise>red</xsl:otherwise>
-			</xsl:choose>
-		</xsl:attribute>
-	</xsl:attribute-set>
 <!--
 
 	<xsl:attribute-set name="sidebar.properties" use-attribute-sets="formal.object.properties">
