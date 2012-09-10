@@ -356,7 +356,7 @@
 	</informaltable>
 </section>
 <section xml:id="manual.menu.13">
-	<title>13 T-CTC - Transmitter CTCSS</title>
+	<title>13 T-CTS - Transmitter CTCSS</title>
 	<para>Sets the Continuous Tone-Coded Squelch System(CTCSS) sub-tone for the transmitter.</para>
 	<informaltable>
 		<tgroup cols="3">
