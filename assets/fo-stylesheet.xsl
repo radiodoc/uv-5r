@@ -1,36 +1,28 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
 		xmlns:fo="http://www.w3.org/1999/XSL/Format"
 		version='1.0'>
-<!--
-	<xsl:param name="fop1.extension">1</xsl:param>
--->
 	<xsl:import href="docbook-xsl-1.77.1/fo/docbook.xsl"/>
-	<xsl:template match="inlineasset">
-		<inlinemediaobject>
-			<xsl:apply-templates select="assetimage"/>
-		</inlinemediaobject>
-	</xsl:template>
-
-	<xsl:template match="assetimage">
-		<imageobject condition="print">
-			<imagedata contentdepth="1em" format="svg">
-				<xsl:attribute name="fileref">
-				<xsl:text>assets/images/</xsl:text>
-				<xsl:value-of select="." />
-				<xsl:text>.png</xsl:text>
-				</xsl:attribute>
-			</imagedata>
-		</imageobject>
-		<imageobject condition="web">
-			<imagedata contentdepth="1em" format="png">
-				<xsl:attribute name="fileref">
-				<xsl:text>assets/images/</xsl:text>
-				<xsl:value-of select="." />
-				<xsl:text>.png</xsl:text>
-				</xsl:attribute>
-			</imagedata>
-		</imageobject>
-	</xsl:template>
+	<xsl:import href="base-stylesheet.xsl"/>
+	
+	<xsl:param name="fop1.extensions">1</xsl:param>
+	<xsl:param name="generate.toc">
+		appendix  nop
+		article   nop
+		book      toc,title
+		chapter   nop
+		part      nop
+		preface   nop
+		qandadiv  nop
+		qandaset  nop
+		reference nop
+		sect1     nop
+		sect2     nop
+		sect3     nop
+		sect4     nop
+		sect5     nop
+		section   nop
+		set       nop
+	</xsl:param>
 <!--
 	<xsl:template name="book.titlepage.recto">
 	<fo:block>
@@ -68,18 +60,7 @@
 
 
 	<!-- Page related Settings -->
-	<xsl:param name="paper.type">A4</xsl:param>
-	<xsl:param name="page.margin.top">1in</xsl:param>
-	<xsl:param name="page.margin.bottom">1in</xsl:param>
-	<xsl:param name="page.margin.outer">1in</xsl:param>
-	<xsl:param name="page.margin.inner">1in</xsl:param>
-	<xsl:param name="section.margin.bottom">2em</xsl:param>
-
-	<xsl:param name="callout.unicode">1</xsl:param>
-	<xsl:param name="callout.graphics">0</xsl:param>
-
 	<!--
-	<xsl:param name="double.sided">1</xsl:param>
 	<xsl:param name="double.sided" select="1" />
 	<xsl:param name="title.margin.left">0pt</xsl:param>
 	<xsl:param name="body.start.indent">0pt</xsl:param>
@@ -126,18 +107,6 @@
 	</xsl:attribute-set>
 -->
 
-	<!-- Colourize links in output -->
-	<xsl:attribute-set name="xref.properties">
-		<xsl:attribute name="color">
-			<xsl:choose>
-				<xsl:when test="self::glossterm">blue</xsl:when>
-				<xsl:when test="self::ulink">blue</xsl:when>
-				<xsl:when test="self::xref">blue</xsl:when>
-				<xsl:when test="self::uri">blue</xsl:when>
-				<xsl:otherwise>red</xsl:otherwise>
-			</xsl:choose>
-		</xsl:attribute>
-	</xsl:attribute-set>
 <!--
 
 	<xsl:attribute-set name="sidebar.properties" use-attribute-sets="formal.object.properties">

@@ -1,12 +1,11 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
 		xmlns:fo="http://www.w3.org/1999/XSL/Format"
 		version='1.0'>
-<!--
-	<xsl:param name="fop1.extension">1</xsl:param>
--->
+
 	<xsl:import href="fo-stylesheet.xsl"/>
 
 	<!-- Page related Settings -->
+	<xsl:param name="double.sided">1</xsl:param>
 	<xsl:param name="paper.type">A4</xsl:param>
 	<xsl:param name="page.margin.top">1in</xsl:param>
 	<xsl:param name="page.margin.bottom">1in</xsl:param>
@@ -16,14 +15,26 @@
 
 	<xsl:param name="callout.unicode">1</xsl:param>
 	<xsl:param name="callout.graphics">0</xsl:param>
-
+ 	
 	<!-- Custom font settings 
+	<xsl:template match="link">
+		<xsl:text>[</xsl:text>
+		<xsl:call-template name="inline.boldseq"/>
+		<xsl:text>]</xsl:text>
+	</xsl:template>
+
+-->
 	<xsl:param name="title.font.family">sans-serif,SimHei</xsl:param>
 	<xsl:param name="body.font.family">serif,SimSun</xsl:param>
 	<xsl:param name="sans.font.family">sans-serif,SimHei</xsl:param>
 	<xsl:param name="dingbat.font.family">serif,SimSun</xsl:param>
 	<xsl:param name="monospace.font.family">monospace,FangSong,SimSun</xsl:param>
--->
+
+	<xsl:attribute-set name="part.properties">
+		<xsl:attribute name="border-style">solid</xsl:attribute>
+		<xsl:attribute name="border-width">.1mm</xsl:attribute>
+		<xsl:attribute name="background-color">#EEEEEE</xsl:attribute>
+	</xsl:attribute-set>
 
 	<!-- Admonitions and callouts settings 
 	<xsl:param name="admon.textlabel" select="0" />
@@ -50,16 +61,7 @@
 
 	<!-- Colourize links in output -->
 	<xsl:attribute-set name="xref.properties">
-		<xsl:attribute name="color">
-			<xsl:choose>
-				<xsl:when test="self::glossterm">blue</xsl:when>
-				<xsl:when test="self::ulink">blue</xsl:when>
-				<xsl:when test="self::link">blue</xsl:when>
-				<xsl:when test="self::xref">blue</xsl:when>
-				<xsl:when test="self::uri">blue</xsl:when>
-				<xsl:otherwise>red</xsl:otherwise>
-			</xsl:choose>
-		</xsl:attribute>
+		<xsl:attribute name="color">black</xsl:attribute>
 	</xsl:attribute-set>
 <!--
 

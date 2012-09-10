@@ -1,0 +1,8 @@
+<chapter xml:id="manual.repeater">
+<title>Repeater setup</title>
+<para>Repeaters are used to both relay your transmission, and to bridge it, depending on the setup of the repeater in question.</para>
+Set receive frequency
+set frequency shift
+set shift direction
+optional: Set ctcss
+</chapter>

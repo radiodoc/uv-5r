@@ -1,18 +1,267 @@
-<chapter xml:id="manual.advanced">
-<title>Group calling</title>
-<para>The Baofeng UV-5R features three different ways of group calling.</para>
+<chapter xml:id="manual.groups">
+<indexterm>
+	<primary>groups</primary>
+</indexterm>
+
+<title>Selective calling</title>
+<para>Some times when you're working with larger groups of people using the same channel, things can get very crowded, very fast. To minimize this problem, several methods of blocking out unwanted transmissions on your frequency has developed. In general, there are two forms of selective calling in two-way radio systems: Group calling, and individual calling.</para>
+<para>Group calling, as the name suggest, is a one-to-many form of communication. Every radio in your working group is configured the same way and any radio will make contact with every other radio in the group.</para>
+<para>Individual calling, some times also known as paging, is a one-to-one form of communication. Every radio is programmed with a unique ID code. And only by sending out a matching code can you get that radio to open up to your transmissions.</para>
+<para>The Baofeng UV-5R features three different ways of group calling:</para>
+<itemizedlist spacing="compact">
+	<listitem><para><glossterm linkend="ctcss">CTCSS</glossterm></para></listitem>
+	<listitem><para><glossterm linkend="dcs">DCS</glossterm></para></listitem>
+	<listitem><para>Tone-burst (1750Hz)</para></listitem>
+</itemizedlist>
+<para>The baofeng UV-5R does not feature any form of individual calling.</para>
 <note>
 	<para>Using these features does NOT mean that others won't be able to listen in on your transmissions.</para>
 	<para>They only provide a method to <emphasis>filter out unwanted incoming transmissions</emphasis>. Any communications made while using these features will still be heard by anyone not employing filtering options of their own.</para>
 </note>
-<section>
+<para>CTCSS and 1750Hz tone-burst are also popular methods among amateur radio operators to open up repeaters.</para>
+<section xml:id="manual.groups.ctcss">
 	<title>CTCSS</title>
-	
+	<para>CTCSS is set with menus 11 R-CTS
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentwidth="3.5cm" format="png" fileref="figs/display.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		and 13 T-CTS
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentwidth="3.5cm" format="png" fileref="figs/display.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>.</para>
+	<para>For a complete list of available CTCSS codes and corresponding sub-tone frequencies, see <xref linkend="manual.table.ctcss"/> in <xref linkend="manual.specs"/>.</para>
+	<procedure>
+		<title>CTCSS setup how-to</title>
+		<step>
+			<para>Press the 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key to enter the menu.</para>
+		</step>
+		<step>
+			<para>Enter 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				on the numeric keypad to get to receiver CTCSS.</para>
+		</step>
+		<step>
+			<para>Press 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to select.</para>
+		</step>
+		<step>
+			<para>Enter desired CTCSS code.</para>
+		</step>
+		<step>
+			<para>Press 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to confirm and save.</para>
+		</step>
+		<step>
+			<para>Enter 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-3.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				on the numeric keypad to go to transmitter CTCSS.</para>
+		</step>
+		<step>
+			<para>Press 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to select.</para>
+		</step>
+		<step>
+			<para>Enter desired CTCSS code. Make sure it's the same code as that you entered for receiver CTCSS.</para>
+		</step>
+		<step>
+			<para>Press 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to confirm and save.</para>
+		</step>
+		<step>
+			<para>Press 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to exit the menu system.</para>
+		</step>
+	</procedure>
+	<para>To turn CTCSS off, follow the same procedure but set it to off with the
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		key instead of selecting a CTCSS code.</para>
+	<para>For more information see <xref linkend="manual.menu.11"/> and <xref linkend="manual.menu.13"/> in <xref linkend="manual.menu.definitions"/>.</para>
 </section>
-<section>
+<section xml:id="manual.groups.dcs">
 	<title>DCS</title>
+	<para>DCS is set with menus 10 <literal>R-DCS</literal></para>
+	<informalfigure>
+		<mediaobject>
+			<imageobject>
+				<imagedata contentwidth="3.5cm" format="png" fileref="figs/display.svg.png"/>
+			</imageobject>
+		</mediaobject>
+	</informalfigure>
+	<para>and 12 <literal>T-DCS</literal></para>
+	<informalfigure>
+		<mediaobject>
+			<imageobject>
+				<imagedata contentwidth="3.5cm" format="png" fileref="figs/display.svg.png"/>
+			</imageobject>
+		</mediaobject>
+	</informalfigure>
+	<para>For a complete list of available DCS codes, see <xref linkend="manual.table.dcs"/> in <xref linkend="manual.specs"/>.</para>
+	<procedure>
+		<title>DCS setup how-to</title>
+		<step>
+			<para>Press the 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key to enter the menu.</para>
+		</step>
+		<step>
+			<para>Enter 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				on the numeric keypad to get to receiver DCS.</para>
+		</step>
+		<step>
+			<para>Press 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to select.</para>
+		</step>
+		<step>
+			<para>Enter desired DCS code.</para>
+		</step>
+		<step>
+			<para>Press 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to confirm and save.</para>
+		</step>
+		<step>
+			<para>Enter 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-2.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				on the numeric keypad to go to transmitter DCS.</para>
+		</step>
+		<step>
+			<para>Press 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to select.</para>
+		</step>
+		<step>
+			<para>Enter desired DCS code. Make sure it's the same code as that you entered for receiver DCS.</para>
+		</step>
+		<step>
+			<para>Press 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to confirm and save.</para>
+		</step>
+		<step>
+			<para>Press 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to exit the menu system.</para>
+		</step>
+	</procedure>
+	<para>To turn DCS off, follow the same procedure but set it to off with the
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		key instead of selecting a DCS code.</para>
+	<para>For more information see <xref linkend="manual.menu.10"/> and <xref linkend="manual.menu.12"/> in <xref linkend="manual.menu.definitions"/>.</para>
 </section>
-<section>
+<section xml:id="manual.groups.tone-burst">
 	<title>1750Hz Tone-burst</title>
+	<para>To send out a 1750Hz tone-burst, press the
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-band.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		key while holding down the PTT.</para>
+	<para>No further configuration required to use this feature.</para>
 </section>
 </chapter>
