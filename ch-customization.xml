@@ -1,0 +1,16 @@
+<chapter xml:id="manual.customization">
+<title>Customization</title>
+<!-- 
+	Customization chapter?
+	- Setting welcome message
+	- Setting backlight options.
+	- - Colours for transmit, receive and stand-by.
+	- - Backlight time-out.
+-->
+<section xml:id="manual.customization.message">
+	<title>Power-on message</title>
+</section>
+<section xml:id="manual.customization.display">
+	<title>Display</title>
+</section>
+</chapter>

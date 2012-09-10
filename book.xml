@@ -100,13 +100,6 @@
 				<xref linkend="manual.troubleshooting"/>
 			</literallayout>
 		</partintro>
-		<!-- 
-			Customization chapter?
-			- Setting welcome message
-			- Setting backlight options.
-			- - Colours for transmit, receive and stand-by.
-			- - Backlight time-out.
-		-->
 		&ch06;
 		&ch07;
 		&ch08;
