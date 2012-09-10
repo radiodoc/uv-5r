@@ -1,14 +1,14 @@
 <chapter xml:id="manual.programming">
 <title>Programming</title>
-<section>
+<section xml:id="manual.programming.manual">
 	<title>Manual programming</title>
 </section>
-<section>
+<section xml:id="manual.programming.computer">
 	<title>Computer programming</title>
-	<section>
+	<section xml:id="manual.programming.baofeng">
 		<title>Baofeng software</title>
 	</section>
-	<section>
+	<section xml:id="manual.programming.chirp">
 		<title>CHIRP</title>
 	</section>
 </section>

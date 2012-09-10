@@ -7,10 +7,198 @@
 	- - Colours for transmit, receive and stand-by.
 	- - Backlight time-out.
 -->
-<section xml:id="manual.customization.message">
-	<title>Power-on message</title>
-</section>
+<para>The Baofeng UV-5R allows for customization of both the power-on message (via computer link only), and the backlight colour during the three states of the transceiver (Transmit, Receive and Standby).</para>
 <section xml:id="manual.customization.display">
 	<title>Display</title>
+	<para>The LCD on the Baofeng UV-5R is backlit by multi-colour LEDs, the colour of which can be pre-set from the menu system into a variety of colours.</para>
+	<para>To change the colours, follow these steps:</para>
+	<procedure>
+		<title>Changing backlight colour</title>
+		<step>
+			<para>Press the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key to enter the menu.</para>
+		</step>
+		<step>
+			<para>Enter one of the following on your numeric keypad:</para>
+			<substeps>
+				<step>
+					<para>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-2.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-9.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						to change the Standby colour.</para>
+				</step>
+				<step>
+					<para>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-3.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						to change the receive colour.</para>
+				</step>
+				<step>
+					<para>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-3.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						to change the transmit colour.</para>
+				</step>
+			</substeps>
+		</step>
+		<step>
+			<para>Press
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key to select.</para>
+		</step>
+		<step>
+			<para>Use the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				and
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				keys to pick the desired colour.</para>
+		</step>
+		<step>
+			<para>Press
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to confirm and save.</para>
+		</step>
+		<step>
+			<para>Press 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to exit the menu.</para>
+		</step>
+	</procedure>
+	<para>To change the time the backlight stays on for your LCD, follow these steps:</para>
+	<procedure>
+		<title>Setting backlight time-out</title>
+		<step>
+			<para>Press the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key to enter the menu.</para>
+		</step>
+		<step>
+			<para>Enter
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-6.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				on your numeric keypad to come to backlight time out.</para>
+		</step>
+		<step>
+			<para>Press
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key to select.</para>
+		</step>
+		<step>
+			<para>Use the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				and
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				keys to pick the desired colour.</para>
+		</step>
+		<step>
+			<para>Press
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to confirm and save.</para>
+		</step>
+		<step>
+			<para>Press 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to exit the menu.</para>
+		</step>
+	</procedure>
+	<para>For details see <xref linkend="manual.menu.29"/> and onward in <xref linkend="manual.menu.definitions"/>.</para>
+</section>
+<section xml:id="manual.customization.message">
+	<title>Power-on message</title>
+	<para>The power-on message can only be set via computer link, see <xref linkend="manual.programming.computer"/> for details on how to set up a link with your computer.</para>
+	<para>The following instructions assume that you've already established a link using the Baofeng software from a computer running Windows, and that the Baofeng software is already installed and running.</para>
+	<procedure>
+		<title>Setting the power-on-message</title>
+		<step>
+			<para>Click <userinput>other</userinput> in the menu bar, a dialogue box titled "Other" should have popped up.</para>
+		</step>
+		<step>
+			<para>In the box titled "Power On Message", there are two text fields representing the two lines on your LCD. Enter the desired text in the fields.</para>
+		</step>
+		<step>
+			<para>Click <userinput>Write</userinput> to write your changes to the radio.</para>
+		</step>
+	</procedure>
+	<note>
+		<para>Even though the software has eight(8) character wide text fields for the power-on message, be aware that the display on the UV-5R can only display a maximum of seven(7) characters.</para>
+		<para>Make sure that menu item <literal>38</literal> is set to <literal>MSG</literal>, otherwise your message wont be displayed. see <xref linkend="manual.menu"/> for details on how to navigate the menu.</para>
+		<para>Some times it takes the Baofeng software more than one try to connect to your radio. If you see a dialogue box popping up stating that you have a connection failure, close the dialogue box and click read or write again.</para>
+	</note>
 </section>
 </chapter>

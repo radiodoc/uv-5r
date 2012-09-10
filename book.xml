@@ -4,18 +4,22 @@
 
 <!ENTITY ch01 SYSTEM "ch01-safety-information.xml">
 <!ENTITY ch02 SYSTEM "ch02-features.xml">
+
 <!ENTITY ch03 SYSTEM "ch03-setup.xml">
 <!ENTITY ch04 SYSTEM "ch04-get-to-know.xml">
 <!ENTITY ch05 SYSTEM "ch05-basic-use.xml">
+
 <!ENTITY ch06 SYSTEM "ch06-menu.xml">
 <!ENTITY ch07 SYSTEM "ch07-groups.xml">
-<!ENTITY ch08 SYSTEM "ch-repeater.xml">
+<!ENTITY ch08 SYSTEM "ch-customization.xml">
 <!ENTITY ch09 SYSTEM "ch-programming.xml">
 
-<!ENTITY ch10 SYSTEM "ch-application-specific-setup.xml">
-<!ENTITY ch11 SYSTEM "ch-troubleshooting.xml">
+<!ENTITY ch10 SYSTEM "ch-repeater.xml">
+<!ENTITY ch11 SYSTEM "ch-ani.xml">
+<!ENTITY ch12 SYSTEM "ch-application-specific-setup.xml">
 
-<!ENTITY appa SYSTEM "appa-menu-definitions.xml">
+<!ENTITY appa SYSTEM "ch-troubleshooting.xml">
+<!ENTITY appb SYSTEM "appa-menu-definitions.xml">
 <!ENTITY appc SYSTEM "appc-technical-specs.xml">
 <!ENTITY glossary SYSTEM "glossary.xml">
 <!ENTITY ctcss-table SYSTEM "ctcss-table.xml">
@@ -94,33 +98,35 @@
 			<literallayout>
 				<xref linkend="manual.menu"/>
 				<xref linkend="manual.groups"/>
-				<xref linkend="manual.repeater"/>
+				<xref linkend="manual.customization"/> 
 				<xref linkend="manual.programming"/>
-				<xref linkend="manual.app-specicic"/>
-				<xref linkend="manual.troubleshooting"/>
+				<!-- 
+				<xref linkend="manual.troubleshooting"/> 
+				-->
 			</literallayout>
 		</partintro>
 		&ch06;
 		&ch07;
 		&ch08;
 		&ch09;
-		&ch10;
-		&ch11;
 	</part>
 	<part label="III">
 		<title>How-to and setup guides.</title>
-		<partinfo>
+		<partintro>
 			<para>Part three covers is a collection of how-to documents to help you set up your radio for specific working environments.</para>
 			<literallayout>
-				<xref linkend="manual.groups"/>
 				<xref linkend="manual.repeater"/>
-				<xref linkend="manual.app-specicic"/>
 				<xref linkend="manual.ani"/>
+				<xref linkend="manual.app-specicic"/>
 			</literallayout>
-		</partinfo>
+		</partintro>
+		&ch10;
+		&ch11;
+		&ch12;
 	</part>
 
 	&appa;
+	&appb;
 	&appc;
 	&glossary;
 	
