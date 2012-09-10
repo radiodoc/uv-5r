@@ -92,14 +92,21 @@
 		<partintro>
 			<para>Part two covers the more advanced topics, such as setup of repeater offset and programming via computer link.</para>
 			<literallayout>
-			<xref linkend="manual.menu"/>
-			<xref linkend="manual.groups"/>
-			<xref linkend="manual.repeater"/>
-			<xref linkend="manual.programming"/>
-			<xref linkend="manual.app-specicic"/>
-			<xref linkend="manual.troubleshooting"/>
+				<xref linkend="manual.menu"/>
+				<xref linkend="manual.groups"/>
+				<xref linkend="manual.repeater"/>
+				<xref linkend="manual.programming"/>
+				<xref linkend="manual.app-specicic"/>
+				<xref linkend="manual.troubleshooting"/>
 			</literallayout>
 		</partintro>
+		<!-- 
+			Customization chapter?
+			- Setting welcome message
+			- Setting backlight options.
+			- - Colours for transmit, receive and stand-by.
+			- - Backlight time-out.
+		-->
 		&ch06;
 		&ch07;
 		&ch08;
@@ -107,6 +114,19 @@
 		&ch10;
 		&ch11;
 	</part>
+	<part label="III">
+		<title>How-to and setup guides.</title>
+		<partinfo>
+			<para>Part three covers is a collection of how-to documents to help you set up your radio for specific working environments.</para>
+			<literallayout>
+				<xref linkend="manual.groups"/>
+				<xref linkend="manual.repeater"/>
+				<xref linkend="manual.app-specicic"/>
+				<xref linkend="manual.ani"/>
+			</literallayout>
+		</partinfo>
+	</part>
+
 	&appa;
 	&appc;
 	&glossary;

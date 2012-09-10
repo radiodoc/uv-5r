@@ -1,8 +1,144 @@
 <chapter xml:id="manual.repeater">
-<title>Repeater setup</title>
-<para>Repeaters are used to both relay your transmission, and to bridge it, depending on the setup of the repeater in question.</para>
-Set receive frequency
-set frequency shift
-set shift direction
-optional: Set ctcss
+<title>Repeaters</title>
+<para>A radio repeater is an automated transceiver in a fixed location. Usually mounted high up on hill tops or on tall buildings, but sometimes they operate within buildings for internal use. A repeater takes one signal and relays it, usually after amplifying it by orders of magnitude. This can be very handy, as this enables you to use a small low powered hand-held two-way transceiver such as the Baofeng UV-5R to reach great distances.</para>
+<para>Whether you're a commercial (business or government) user or an amateur radio operator, chances are you'll be dealing with a repeater system sooner or later. To find out what settings to use to use your local repeater, ask your employer or someone at your local IARU member organization for details.</para>
+<para>A common type of repeater, is the duplex repeater. In a duplex repeater system, the repeater transmits and receives simultaneously, but on different frequencies. To utilize this type of repeater, your radio have to be capable of transmitting and receiving on different frequencies on the same memory channel. How you use this kind of repeater is by setting the receive frequency of your radio to the output frequency of the repeater, and the transmit frequency of your radio to the input frequency of the repeater. Often times, the transmit frequency to use isn't explicitly stated, but rather an offset relative your receive frequency is specified. This is conveniently enough also how the Baofeng UV-5R natively handles repeater setup, by specifying offset rather than transmit frequency.</para>
+
+<para>The following instructions assume that you know what transmit and receive frequencies your repeater employs, and that you're authorized to use it.</para>
+
+<procedure>
+	<title>Repeater setup</title>
+	<step>
+		<para>Set the radio to Frequency (VFO) mode with the
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			key.</para>
+	</step>
+	<step>
+		<para>Enter the repeaters output (your receiving) frequency by either using the
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			and
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			keys, or by entering it directly on the numerical keypad.</para>
+	</step>
+	<step>
+		<para>Press the 
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			key to enter the menu.</para>
+	</step>
+	<step>
+		<para>Enter 
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-2.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-6.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			on the numeric keypad to get to frequency offset.</para>
+	</step>
+	<step>
+		<para>Use the
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			and
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			keys, or the numerical keypad to enter the specified frequency offset in kilohertz.</para>
+	</step>
+	<step>
+		<para>Press
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			to confirm and save.</para>
+	</step>
+	<step>
+		<para>Enter 
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-2.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-5.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			on the numeric keypad to get to offset direction.</para>
+	</step>
+	<step>
+		<para>Use the
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			and
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			keys to select + (positive) or - (negative) offset.</para>
+	</step>
+	<step>
+		<para>Press
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			to confirm and save.</para>
+	</step>
+	<step>
+		<para>Optional:</para>
+		<substeps>
+			<step>
+				<para>Save to memory, see <xref linkend="manual.programming.manual"/> for details.</para>
+			</step>
+			<step>
+				<para>Set up CTCSS, see <xref linkend="manual.groups.ctcss"/> for details.</para>
+			</step>
+		</substeps>
+	</step>
+	<step>
+		<para>Press
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			to exit the menu.</para>
+	</step>
+</procedure>
+<para>If everything went well, you should be able to make a test call through the repeater. If you're experiencing problems making a connection to the repeater, check your settings and/or go through the procedure again.</para>
+<para>Certain Amateur Radio repeaters (especially in Europe) use a 1750Hz tone burst to open up the repeater. To see how this is done with the Baofeng UV-5R, see <xref linkend="manual.groups.tone-burst"/>.</para>
+<para>If you're still unable to make a connection, contact the person in charge of the radio system with your employer or your local amateur radio club, as the case may be.</para>
 </chapter>
