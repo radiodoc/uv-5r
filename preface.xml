@@ -1,3 +1,16 @@
 <preface>
-	<para></para>
+	<prefaceinfo>
+		<author>
+			<firstname>xles</firstname>
+			<surname>McFuzzypants</surname>
+		</author>
+		<pubdate>Today, bitch.</pubdate>
+	</prefaceinfo>
+
+	<title>Preface</title>
+	<blockquote>
+		<attribution>Dr. Emmet Brown</attribution>
+		<para>Please excuse the crudity of this model. I didn't have time to build it to scale or paint it.</para>
+	</blockquote>
+	<para>So uhm, I wrote this book...</para>
 </preface>
