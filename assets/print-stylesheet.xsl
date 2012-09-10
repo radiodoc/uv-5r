@@ -23,12 +23,18 @@
 		<xsl:text>]</xsl:text>
 	</xsl:template>
 
+-->
 	<xsl:param name="title.font.family">sans-serif,SimHei</xsl:param>
 	<xsl:param name="body.font.family">serif,SimSun</xsl:param>
 	<xsl:param name="sans.font.family">sans-serif,SimHei</xsl:param>
 	<xsl:param name="dingbat.font.family">serif,SimSun</xsl:param>
 	<xsl:param name="monospace.font.family">monospace,FangSong,SimSun</xsl:param>
--->
+
+	<xsl:attribute-set name="part.properties">
+		<xsl:attribute name="border-style">solid</xsl:attribute>
+		<xsl:attribute name="border-width">.1mm</xsl:attribute>
+		<xsl:attribute name="background-color">#EEEEEE</xsl:attribute>
+	</xsl:attribute-set>
 
 	<!-- Admonitions and callouts settings 
 	<xsl:param name="admon.textlabel" select="0" />
