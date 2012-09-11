@@ -1,0 +1,11 @@
+<chapter xml:id="manual.dtmf">
+<title>DTMF</title>
+		<figure xml:id="manual.dtmf.keypad-fig">
+			<title>Baofeng UV-5R, keypad</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="figs/keypad.svg.png" contentdepth="4.6em" />
+				</imageobject>
+			</mediaobject>
+		</figure>
+</chapter>

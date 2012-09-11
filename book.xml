@@ -71,8 +71,10 @@
 	</info>
 
 	&preface;
+<!--
 		&ch01;
 		&ch02;
+-->
 	<part label="I">
 		<title>Basic usage</title>
 		<partintro>
@@ -102,6 +104,9 @@
 				<xref linkend="manual.programming"/>
 				<!-- 
 				<xref linkend="manual.troubleshooting"/> 
+
+				- DTMF chapter
+				
 				-->
 			</literallayout>
 		</partintro>
