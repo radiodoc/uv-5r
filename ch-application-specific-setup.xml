@@ -2,30 +2,92 @@
 <title>Application Specific Setup</title>
 <section>
 	<title>Commercial Radio Setup</title>
-	<para>PLMR users in the United States are mandated to move to 12.5 kHz narrowband communication in the 150-174 MHz VHF and 421-512MHz UHF bands by January 1, 2013 and January 1, 2018 for Industrial/Business and Public Safety respectively.</para>
-
-<!--
-	Background.  As noted above, the Second Report and Order imposed deadlines of January 1, 
-2013 for licensees in the Industrial/Business Radio Pool and January 1, 2018 for licensees in the Public 
-Safety Radio Pool to migrate to 12.5 kHz technology for PLMR systems operating in the 150-174 MHz 
-and 421-512 MHz bands.
-21 
- 
-
- 21
-Second Report and Order, 18 FCC Rcd at 3038 ¶ 12; 47 C.F.R. § 90.209(b)(5).  The bandwidth limitations 
-apply to licensees in the listed bands “[u]nless specified elsewhere.”  47 C.F.R. § 90.209(b)(5).  We therefore 
-clarify, as requested by LoJack Corporation, see Letter dated December 10, 2003 from Henry Goldberg to John B. 
-Muleta, Chief, Wireless Telecommunications Bureau, that the mandatory migration date adopted in the Second 
-Report and Order does not apply to stolen vehicle recovery systems (SVRS), because a 20 kHz bandwidth is 
-specified elsewhere, specifically, in 47 C.F.R. § 90.20(e)(6).  Because SVRS systems operate on a frequency 
-shared with Federal Government operations, however, the applicable migration date is at issue in ET Docket No. 
-04-243.
-
--->
+	<para>PLMR users in the United States are mandated to move to 12.5 kHz narrowband communication in the 150-174 MHz VHF and 421-512MHz UHF bands by January 1, 2013.</para>
+	<para>Follow these instructions to set your radio to Narrowband mode:</para>
+	<procedure>
+		<step>
+			<para>Press the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key to enter frequency mode.</para>
+		</step>
+		<step>
+			<para>Press the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key to enter the menu.</para>
+		</step>
+		<step>
+			<para>Enter
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-5.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				on the numerical keypad.</para>
+		</step>
+		<step>
+			<para>Press
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to select.</para>
+		</step>
+		<step>
+			<para>Use the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				and
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				keys to select between Wide and Narrow("Narr").</para>
+		</step>
+		<step>
+			<para>Press
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to confirm and save</para>
+		</step>
+		<step>
+			<para>Press
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to exit the menu.</para>
+		</step>
+	</procedure>
+	<para>You can also switch by holding down the
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-5.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		key on the numerical keypad while in frequency mode.</para>
+	<para>If your employer has a dispatch system that requires your radio to identify via ANI, please see <xref linkend="manual.ani"/> for detailed instructions on how to set that up on your radio.</para>
+	<para>To find out what other channels and features needed, please contact your employer.</para>
 </section>
 <section>
 	<title>Amateur Radio Setup</title>
+	<para>- Add content here -</para>
 	<simplelist>
 	<member>Wideband</member>
 	<member>DCS off (unless needed by repeater)</member>
@@ -40,7 +102,7 @@ shared with Federal Government operations, however, the applicable migration dat
 </section>
 <section>
 	<title>MilSim: Airsoft and Paintball</title>
-	<para>If you live in the USA, it is highly recommended that you and your team get yourselves GMRS licenses to use with your radios. At the time of writing the licensing fee is $85 (per person) and the license is valid for five years. There is no exam involved and any legal resident of the US over the age of 18 can apply for a license.</para>
+	<para>If you live in the USA, it is highly recommended that you and your team get yourselves GMRS licenses to use with your radios. At the time of writing the licensing fee is $85 (per person) and the license is valid for five years. There is no exam involved and any legal resident of the US over the age of 18 can apply for a license with the FCC using form 605. Please visit <link xlink:href="http://fcc.gov/"/> for more information.</para>
 	<para>The following is a list of recommended GMRS channels suitable for Airsoft games, Paintball games, or other recreational military simulations:</para>
 	<simplelist>
 		<member><para>462.550 MHz (channel 15)</para></member>

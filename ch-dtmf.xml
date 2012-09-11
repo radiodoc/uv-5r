@@ -1,11 +1,94 @@
 <chapter xml:id="manual.dtmf">
 <title>DTMF</title>
-		<figure xml:id="manual.dtmf.keypad-fig">
-			<title>Baofeng UV-5R, keypad</title>
-			<mediaobject>
-				<imageobject>
-					<imagedata fileref="figs/keypad.svg.png" contentdepth="4.6em" />
-				</imageobject>
-			</mediaobject>
-		</figure>
+<para>DTMF is an in-band signalling method using dual sinusoidal signals for any given code. Originally developed for telephony systems, it has proved a very versatile tool in many other areas.</para>
+<para>In two-way radio systems, DTMF is most commonly used for automation systems and remote control. A common example would be in amateur radio repeaters where some repeaters are activated by sending out a DTMF sequence (usually a simple single-digit sequence).</para>
+	<table>
+		<title>DTMF frequencies and corresponding codes</title>
+		<tgroup cols="5" align="center">
+		<tbody>
+			<row>
+				<entry></entry>
+				<entry>1209 Hz</entry>
+				<entry>1336 Hz</entry>
+				<entry>1477 Hz</entry>
+				<entry>1633 Hz</entry>
+			</row>
+			<row>
+				<entry>697 Hz</entry>
+				<entry><literal>1</literal></entry>
+				<entry><literal>2</literal></entry>
+				<entry><literal>3</literal></entry>
+				<entry><literal>A</literal></entry>
+			</row>
+			<row>
+				<entry>770 Hz</entry>
+				<entry><literal>4</literal></entry>
+				<entry><literal>5</literal></entry>
+				<entry><literal>6</literal></entry>
+				<entry><literal>B</literal></entry>
+			</row>
+			<row>
+				<entry>852 Hz</entry>
+				<entry><literal>7</literal></entry>
+				<entry><literal>8</literal></entry>
+				<entry><literal>9</literal></entry>
+				<entry><literal>C</literal></entry>
+			</row>
+			<row>
+				<entry>941 Hz</entry>
+				<entry><literal>*</literal></entry>
+				<entry><literal>0</literal></entry>
+				<entry><literal>#</literal></entry>
+				<entry><literal>D</literal></entry>
+			</row>
+		</tbody>
+		</tgroup>
+	</table>
+	<para>The Baofeng UV-5R has a full implementation of DTMF, including the <literal>A</literal>, <literal>B</literal>, <literal>C</literal> and <literal>D</literal> codes.</para>
+	<para>The numerical keys, as well as the
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>,
+		and
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>,
+		keys correspond to the matching DTMF codes as you would expect. The <literal>A</literal>, <literal>B</literal>, <literal>C</literal> and <literal>D</literal> codes are located in the
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>,
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>,
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		and
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		keys respectively.</para>
+<!--
+	<figure xml:id="manual.dtmf.keypad-fig">
+		<title>Baofeng UV-5R, keypad</title>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="figs/keypad.svg.png" contentdepth="4.6em" />
+			</imageobject>
+		</mediaobject>
+	</figure>
+-->
+	<para>To send DTMF codes, press the key(s) corresponding to the message you want to send while holding down the PTT key.</para>
 </chapter>

@@ -10,13 +10,14 @@
 <!ENTITY ch05 SYSTEM "ch05-basic-use.xml">
 
 <!ENTITY ch06 SYSTEM "ch06-menu.xml">
-<!ENTITY ch07 SYSTEM "ch07-groups.xml">
-<!ENTITY ch08 SYSTEM "ch-customization.xml">
-<!ENTITY ch09 SYSTEM "ch-programming.xml">
+<!ENTITY ch07 SYSTEM "ch-dtmf.xml">
+<!ENTITY ch08 SYSTEM "ch07-groups.xml">
+<!ENTITY ch09 SYSTEM "ch-customization.xml">
+<!ENTITY ch10 SYSTEM "ch-programming.xml">
 
-<!ENTITY ch10 SYSTEM "ch-repeater.xml">
-<!ENTITY ch11 SYSTEM "ch-ani.xml">
-<!ENTITY ch12 SYSTEM "ch-application-specific-setup.xml">
+<!ENTITY ch11 SYSTEM "ch-repeater.xml">
+<!ENTITY ch12 SYSTEM "ch-ani.xml">
+<!ENTITY ch13 SYSTEM "ch-application-specific-setup.xml">
 
 <!ENTITY appa SYSTEM "ch-troubleshooting.xml">
 <!ENTITY appb SYSTEM "appa-menu-definitions.xml">
@@ -55,7 +56,7 @@
 			<holder>xles McFuzzypants</holder>
 		</copyright>
 
-		<subtitle>v0.5</subtitle>
+		<subtitle>Pre-release copy, not for distribution.</subtitle>
 
 		<legalnotice>
 			<para>This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit</para>
@@ -99,14 +100,14 @@
 			<para>Part two covers the more advanced topics, such as setup of repeater offset and programming via computer link.</para>
 			<literallayout>
 				<xref linkend="manual.menu"/>
+				<xref linkend="manual.dtmf"/> 
 				<xref linkend="manual.groups"/>
 				<xref linkend="manual.customization"/> 
 				<xref linkend="manual.programming"/>
 				<!-- 
-				<xref linkend="manual.troubleshooting"/> 
 
 				- DTMF chapter
-				
+
 				-->
 			</literallayout>
 		</partintro>
@@ -114,6 +115,7 @@
 		&ch07;
 		&ch08;
 		&ch09;
+		&ch10;
 	</part>
 	<part label="III">
 		<title>How-to and setup guides.</title>
@@ -125,9 +127,9 @@
 				<xref linkend="manual.app-specicic"/>
 			</literallayout>
 		</partintro>
-		&ch10;
 		&ch11;
 		&ch12;
+		&ch13;
 	</part>
 
 	&appa;
