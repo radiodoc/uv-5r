@@ -1,3 +1,17 @@
 <chapter xml:id="manual.ani">
 <title>Automatic Number Identification</title>
+<para>In dispatch environments...</para>
+<para>For details, contact the dispatch office with your employer.</para>
+<!--
+DTMF signalling?
+
+Menu items: 
+15 ANI (computer only)
+19 PTT ID placement and on/off.
+
+Look into:
+16 DTMFST
+17 S-code
+20 S-code delay
+-->
 </chapter>
