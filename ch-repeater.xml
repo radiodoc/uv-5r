@@ -150,4 +150,14 @@
 <para>If everything went well, you should be able to make a test call through the repeater. If you're experiencing problems making a connection to the repeater, check your settings and/or go through the procedure again.</para>
 <para>Certain Amateur Radio repeaters (especially in Europe) use a 1750Hz tone burst to open up the repeater. To see how this is done with the Baofeng UV-5R, see <xref linkend="manual.groups.tone-burst"/>.</para>
 <para>If you're still unable to make a connection, contact the person in charge of the radio system with your employer or your local amateur radio club, as the case may be.</para>
+<note>
+	<para>If you for some reason want to listen to the repeater's input frequency instead, press
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		momentarily and you'll reverse your transmit and receive frequencies.</para>
+	<para>This is indicated in the LCD on the radio with a <literal>R</literal> in the top row, next to the <literal>+</literal> and <literal>-</literal> for the offset direction.</para>
+</note>
 </chapter>

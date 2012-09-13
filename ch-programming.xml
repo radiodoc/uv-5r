@@ -1,16 +1,29 @@
 <chapter xml:id="manual.programming">
 <title>Programming</title>
+<para>This chapter talks about how to program channels into the radio memory.</para>
 <section xml:id="manual.programming.manual">
 	<title>Manual programming</title>
 	<para>Save channel to memory = save current state.</para>
+	<para>Only display A, upper</para>
 </section>
 <section xml:id="manual.programming.computer">
 	<title>Computer programming</title>
+	<para>This section assumes you know where to get a hold of your software and how to install it, and that you've already installed your software.</para>
 	<section xml:id="manual.programming.baofeng">
 		<title>Baofeng software</title>
+		<note>
+			<para>When you first open up the Baofeng programming software, it may default to Chinese. To change the language to English, go to the second rightmost menu. There you will find a list of available languages, select English.</para>
+		</note>
 	</section>
 	<section xml:id="manual.programming.chirp">
 		<title>CHIRP</title>
+		<para>A popular alternative to the manufacturers own software, is the open source and cross platform programming tool <link xlink:href="http://chirp.danplanet.com/">CHRIP</link>. If you're a user of Apple OS X or a flavour of Linux, CHRIP may very well be your only option to programming your radio via computer.</para>
+		<warning>
+			<para>At the time of writing, CHRIP only supports the Baofeng UV-5R in nightly builds. Earlier builds may possibly brick your radio.</para>
+		</warning>
+		<note>
+			<para>CHIRP does not currently have the functionality to program optional features such as ANI. To access these functions you'll have to use a computer running Windows with the Baofeng software.</para>
+		</note>
 	</section>
 </section>
 </chapter>

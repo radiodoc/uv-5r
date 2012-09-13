@@ -2,6 +2,42 @@
 <title>Automatic Number Identification</title>
 <para>In dispatch environments...</para>
 <para>For details, contact the dispatch office with your employer.</para>
+<procedure>
+	<title>ani baofeng software</title>
+	<step>
+		<para>edit</para>
+	</step>
+	<step>
+		<para>dtmf</para>
+	</step>
+	<step>
+		<para>ani-box</para>
+	</step>
+	<step>
+		<para>enter code</para>
+	</step>
+</procedure>
+<procedure>
+	<title>enabling ptt-id</title>
+	<step>
+		<para>menu</para>
+	</step>
+	<step>
+		<para>19</para>
+	</step>
+	<step>
+		<para>menu</para>
+	</step>
+	<step>
+		<para>up down</para>
+	</step>
+	<step>
+		<para>menu</para>
+	</step>
+	<step>
+		<para>exit</para>
+	</step>
+</procedure>
 <!--
 DTMF signalling?
 
