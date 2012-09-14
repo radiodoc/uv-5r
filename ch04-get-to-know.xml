@@ -308,7 +308,7 @@
 			<title>Typical 2 pin Kenwood headset configuration.</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="figs/kenwood-2pin-headset.svg.png" contentdepth="4.6em" />
+					<imagedata fileref="figs/kenwood-2pin-headset.svg.png" contentwidth="8cm" />
 				</imageobject>
 			</mediaobject>
 		</figure>
