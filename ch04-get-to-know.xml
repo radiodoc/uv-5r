@@ -301,4 +301,16 @@
 			<para>For a more in-depth explanation on how to work the menu see <xref linkend="manual.menu"/>.</para>
 		</section>
 	</section>
+	<section xml:id="manual.know.port">
+		<title>Accessory jack</title>
+		<para>The accessory jack on the Baofeng UV-5R is a Kenwood compatible two(2)-pin design.</para>
+		<figure xml:id="manual.radio.headset-fig">
+			<title>Typical 2 pin Kenwood headset configuration.</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="figs/kenwood-2pin-headset.svg.png" contentdepth="4.6em" />
+				</imageobject>
+			</mediaobject>
+		</figure>
+		<para>The Kenwood 2-pin connector has one 3.5mm TRS plug, and one 2.5mm TS plug, spaced 12mm apart.</para>
 </chapter>
