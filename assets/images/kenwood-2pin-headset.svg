@@ -14,7 +14,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.45pre1"
    sodipodi:docbase="E:\lenny\workspace\radiodoc\uv-5r\assets\images"
-   sodipodi:docname="kenwood-2pin-wiring-test.svg"
+   sodipodi:docname="kenwood-2pin-headset.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    inkscape:export-filename="E:\lenny\workspace\radiodoc\kenwood-2pin-wiring2.png"
@@ -33,15 +33,15 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="109.97141"
-     inkscape:cy="92.348159"
+     inkscape:zoom="1.979899"
+     inkscape:cx="8.8874944"
+     inkscape:cy="137.91915"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:window-width="1600"
      inkscape:window-height="1180"
-     inkscape:window-x="-4"
-     inkscape:window-y="-4"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      showguides="true"
      inkscape:guide-bbox="true" />
   <metadata
@@ -72,7 +72,7 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 203.12312,566.60269 L 203.12312,557.38505 L 140.79235,557.38505"
+       d="M 203.12312,566.60269 L 203.12312,557.38505 L 136.05726,557.38505"
        id="path2223"
        sodipodi:nodetypes="ccc" />
     <path

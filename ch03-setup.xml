@@ -54,16 +54,30 @@
 </section>
 <section xml:id="manual.setup.battery">
 	<title>Charging and battery maintenance</title>
+	<note>
+		<para>For optimum battery efficiency, cycle the battery at least three times.</para>
+		<para>A cycle consists of fully charging the battery (about five hours charge time with a standard battery) and then fully depleting it before charging it again.</para>
+	</note>
 	<section xml:id="manual.setup.battery.charging">
 		<title>Charging</title>
 		<para>Follow these steps to hook up and use the charger:</para>
-		<orderedlist numeration="arabic">
-			<listitem><para>Plug the DC connector of the power adaptor into the charger base.</para></listitem>
-			<listitem><para>Plug the AC connector of the power adaptor into a mains wall socket.</para></listitem>
-			<listitem><para>Place the radio in the charging slot on the charger.</para></listitem>
-			<listitem><para>Make sure the radio is making contact with the charger. When the the red LED comes on steady, your radio is charging.</para></listitem>
-			<listitem><para>The radio is fully charged once the charger's green status LED goes steady. Please remove the radio at that time to avoid over-charging your battery.</para></listitem>
-		</orderedlist>
+		<procedure>
+			<step>
+				<para>Plug the DC connector of the power adaptor into the charger base.</para>
+			</step>
+			<step>
+				<para>Plug the AC connector of the power adaptor into a mains wall socket.</para>
+			</step>
+			<step>
+				<para>Place the radio in the charging slot on the charger.</para>
+			</step>
+			<step>
+				<para>Make sure the radio is making contact with the charger. When the the red LED comes on steady, your radio is charging.</para>
+			</step>
+			<step>
+				<para>The radio is fully charged once the charger's green status LED goes steady. Please remove the radio at that time to avoid over-charging your battery.</para>
+			</step>
+		</procedure>
 		<table>
 			<title>Charger LED codes</title>
 			<tgroup cols="3">
