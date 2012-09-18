@@ -1,0 +1,100 @@
+<chapter xml:id="manual.scanner">
+<title>Scanning</title>
+<para>The Baofeng UV-5R features a built in scanner for the VHF and UHF bands. At </para>
+<para>To enable the scanner, press and hold the
+	<inlinemediaobject>
+		<imageobject>
+			<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+		</imageobject>
+	</inlinemediaobject>
+	key for about two seconds. This also works when listening to broadcast FM.</para>
+
+<para>press and hold [star] to scan</para>
+<para>in frequency mode it will scan in menu1 steps</para>
+<para>in memory mode it will scan your channels</para>
+<section>
+	<title>Scanning modes</title>
+	<para>There are three me</para>
+	<procedure>
+		<title>Setting scanner mode</title>
+		<step>
+			<para>Press the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key to enter the menu.</para>
+		</step>
+		<step>
+			<para>Enter
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-8.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				on your numeric keypad to come to scanner mode.</para>
+		</step>
+		<step>
+			<para>Press
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key to select.</para>
+		</step>
+		<step>
+			<para>Use the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				and
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				keys to select scanning mode.</para>
+		</step>
+		<step>
+			<para>Press
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to confirm and save.</para>
+		</step>
+		<step>
+			<para>Press 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				to exit the menu.</para>
+		</step>
+	</procedure>
+	<section>
+		<title>Time operation</title>
+	</section>
+	<section>
+		<title>Carrier operation</title>
+	</section>
+	<section>
+		<title>Search operation</title>
+	</section>
+</section>
+<section>
+	<title>Tone Scanning</title>
+	<para>You can also scan for CTCSS tones and DCS codes.</para>
+</section>
+</chapter>
