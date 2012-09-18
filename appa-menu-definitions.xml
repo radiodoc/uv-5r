@@ -409,6 +409,7 @@
 		</tbody>
 		</tgroup>
 	</informaltable>
+	<para>In some versions of the firmware your options may be restricted to <literal>ON</literal> and <literal>OFF</literal>.</para>
 </section>
 <section xml:id="manual.menu.15">
 	<title>15 ANI - Automatic Number ID</title>
