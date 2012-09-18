@@ -2,22 +2,23 @@
 <!DOCTYPE book [
 <!ENTITY preface SYSTEM "preface.xml">
 
-<!ENTITY ch01 SYSTEM "ch01-safety-information.xml">
-<!ENTITY ch02 SYSTEM "ch02-features.xml">
+<!ENTITY ch-safety SYSTEM "ch01-safety-information.xml">
+<!ENTITY ch-features SYSTEM "ch02-features.xml">
 
-<!ENTITY ch03 SYSTEM "ch03-setup.xml">
-<!ENTITY ch04 SYSTEM "ch04-get-to-know.xml">
-<!ENTITY ch05 SYSTEM "ch05-basic-use.xml">
+<!ENTITY ch-setup SYSTEM "ch03-setup.xml">
+<!ENTITY ch-gettoknow SYSTEM "ch04-get-to-know.xml">
+<!ENTITY ch-basicuse SYSTEM "ch05-basic-use.xml">
 
-<!ENTITY ch06 SYSTEM "ch06-menu.xml">
-<!ENTITY ch07 SYSTEM "ch-dtmf.xml">
-<!ENTITY ch08 SYSTEM "ch07-groups.xml">
-<!ENTITY ch09 SYSTEM "ch-customization.xml">
-<!ENTITY ch10 SYSTEM "ch-programming.xml">
+<!ENTITY ch-menu SYSTEM "ch06-menu.xml">
+<!ENTITY ch-scanner SYSTEM "ch-scanner.xml">
+<!ENTITY ch-dtmf SYSTEM "ch-dtmf.xml">
+<!ENTITY ch-groups SYSTEM "ch07-groups.xml">
+<!ENTITY ch-custom SYSTEM "ch-customization.xml">
+<!ENTITY ch-program SYSTEM "ch-programming.xml">
 
-<!ENTITY ch11 SYSTEM "ch-repeater.xml">
-<!ENTITY ch12 SYSTEM "ch-ani.xml">
-<!ENTITY ch13 SYSTEM "ch-application-specific-setup.xml">
+<!ENTITY ch-repeater SYSTEM "ch-repeater.xml">
+<!ENTITY ch-ani SYSTEM "ch-ani.xml">
+<!ENTITY ch-appspec SYSTEM "ch-application-specific-setup.xml">
 
 <!ENTITY appa SYSTEM "ch-troubleshooting.xml">
 <!ENTITY appb SYSTEM "appa-menu-definitions.xml">
@@ -73,8 +74,8 @@
 
 	&preface;
 <!--
-		&ch01;
-		&ch02;
+		&ch-safety;
+		&ch-features;
 -->
 	<part label="I">
 		<title>Basic usage</title>
@@ -90,9 +91,9 @@
 			<xref linkend="manual.basic"/>
 			</literallayout>
 		</partintro>
-		&ch03;
-		&ch04;
-		&ch05;
+		&ch-setup;
+		&ch-gettoknow;
+		&ch-basicuse;
 	</part>
 	<part label="II">
 		<title>Advanced topics</title>
@@ -100,22 +101,24 @@
 			<para>Part two covers the more advanced topics, such as setup of repeater offset and programming via computer link.</para>
 			<literallayout>
 				<xref linkend="manual.menu"/>
+				<xref linkend="manual.scanner"/> 
 				<xref linkend="manual.dtmf"/> 
 				<xref linkend="manual.groups"/>
 				<xref linkend="manual.customization"/> 
 				<xref linkend="manual.programming"/>
 				<!-- 
 
-				- DTMF chapter
+				- Scanning chapter?
 
 				-->
 			</literallayout>
 		</partintro>
-		&ch06;
-		&ch07;
-		&ch08;
-		&ch09;
-		&ch10;
+		&ch-menu;
+		&ch-scanner;
+		&ch-dtmf;
+		&ch-groups;
+		&ch-custom;
+		&ch-program;
 	</part>
 	<part label="III">
 		<title>How-to and setup guides.</title>
@@ -127,9 +130,9 @@
 				<xref linkend="manual.app-specicic"/>
 			</literallayout>
 		</partintro>
-		&ch11;
-		&ch12;
-		&ch13;
+		&ch-repeater;
+		&ch-ani;
+		&ch-appspec;
 	</part>
 
 	&appa;
