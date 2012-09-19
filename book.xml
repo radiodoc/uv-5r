@@ -20,9 +20,9 @@
 <!ENTITY ch-ani SYSTEM "ch-ani.xml">
 <!ENTITY ch-appspec SYSTEM "ch-application-specific-setup.xml">
 
-<!ENTITY appa SYSTEM "ch-troubleshooting.xml">
-<!ENTITY appb SYSTEM "appa-menu-definitions.xml">
-<!ENTITY appc SYSTEM "appc-technical-specs.xml">
+<!ENTITY app-trouble SYSTEM "app-troubleshooting.xml">
+<!ENTITY app-menudef SYSTEM "app-menu-definitions.xml">
+<!ENTITY app-techspec SYSTEM "app-technical-specs.xml">
 <!ENTITY glossary SYSTEM "glossary.xml">
 <!ENTITY ctcss-table SYSTEM "ctcss-table.xml">
 <!ENTITY dcs-table SYSTEM "dcs-table.xml">
@@ -135,9 +135,9 @@
 		&ch-appspec;
 	</part>
 
-	&appa;
-	&appb;
-	&appc;
+	&app-trouble;
+	&app-menudef;
+	&app-techspec;
 	&glossary;
 	
 
