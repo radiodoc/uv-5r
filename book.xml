@@ -2,17 +2,17 @@
 <!DOCTYPE book [
 <!ENTITY preface SYSTEM "preface.xml">
 
-<!ENTITY ch-safety SYSTEM "ch01-safety-information.xml">
-<!ENTITY ch-features SYSTEM "ch02-features.xml">
+<!ENTITY ch-safety SYSTEM "ch-safety-information.xml">
+<!ENTITY ch-features SYSTEM "ch-features.xml">
 
-<!ENTITY ch-setup SYSTEM "ch03-setup.xml">
-<!ENTITY ch-gettoknow SYSTEM "ch04-get-to-know.xml">
-<!ENTITY ch-basicuse SYSTEM "ch05-basic-use.xml">
+<!ENTITY ch-setup SYSTEM "ch-setup.xml">
+<!ENTITY ch-gettoknow SYSTEM "ch-get-to-know.xml">
+<!ENTITY ch-basicuse SYSTEM "ch-basic-use.xml">
 
-<!ENTITY ch-menu SYSTEM "ch06-menu.xml">
+<!ENTITY ch-menu SYSTEM "ch-menu.xml">
 <!ENTITY ch-scanner SYSTEM "ch-scanner.xml">
 <!ENTITY ch-dtmf SYSTEM "ch-dtmf.xml">
-<!ENTITY ch-groups SYSTEM "ch07-groups.xml">
+<!ENTITY ch-groups SYSTEM "ch-groups.xml">
 <!ENTITY ch-custom SYSTEM "ch-customization.xml">
 <!ENTITY ch-program SYSTEM "ch-programming.xml">
 
