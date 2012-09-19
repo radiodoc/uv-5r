@@ -122,11 +122,23 @@
 					<entry>Narrowband enabled</entry>
 				</row>
 				<row>
-					<entry>Battery symbol</entry>
+					<entry>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/symbol-battery.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+					</entry>
 					<entry>Battery level indicator</entry>
 				</row>
 				<row>
-					<entry>key symbol</entry>
+					<entry>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="1.0em" format="png" fileref="figs/symbol-key.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+					</entry>
 					<entry>Keypad lock enabled</entry>
 				</row>
 				<row>
@@ -134,11 +146,23 @@
 					<entry>Transmit power set to Low</entry>
 				</row>
 				<row>
-					<entry>Up and Down arrow symbols</entry>
+					<entry>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.7em" format="png" fileref="figs/symbol-arrows.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+					</entry>
 					<entry>Indicates active band or channel</entry>
 				</row>
 				<row>
-					<entry>Antenna symbol</entry>
+					<entry>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/symbol-antenna.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+					</entry>
 					<entry>Signal Strength Meter</entry>
 				</row>
 			</tbody>
