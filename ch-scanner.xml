@@ -85,12 +85,22 @@
 	</procedure>
 	<section>
 		<title>Time operation</title>
+		<para>In Time Operation (<literal>TO</literal>) mode, the scanner stops when it detects a signal, and after a pre set time out time of inactivity, it resumes scanning.</para>
 	</section>
 	<section>
 		<title>Carrier operation</title>
+		<para>In Carrier Operation (<literal>CO</literal>) mode, the scanner stops when it detects a signal, and as soon as the signal goes away it resumes scanning.</para>
 	</section>
 	<section>
 		<title>Search operation</title>
+		<para>In Search Operation (SE) mode, the scanner stops when it detects a signal.</para>
+		<para>To resume scanning you must press and hold the
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			key again.</para>
 	</section>
 </section>
 <section>
