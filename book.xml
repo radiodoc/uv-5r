@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE book [
-<!ENTITY preface SYSTEM "preface.xml">
+<!ENTITY preface 	SYSTEM "preface.xml">
 
-<!ENTITY ch-safety SYSTEM "ch-safety-information.xml">
-<!ENTITY ch-features SYSTEM "ch-features.xml">
+<!ENTITY ch-safety 	SYSTEM "ch-safety-information.xml">
+<!ENTITY ch-features 	SYSTEM "ch-features.xml">
 
-<!ENTITY ch-setup SYSTEM "ch-setup.xml">
-<!ENTITY ch-gettoknow SYSTEM "ch-get-to-know.xml">
-<!ENTITY ch-basicuse SYSTEM "ch-basic-use.xml">
+<!ENTITY ch-setup 	SYSTEM "ch-setup.xml">
+<!ENTITY ch-gettoknow 	SYSTEM "ch-get-to-know.xml">
+<!ENTITY ch-basicuse 	SYSTEM "ch-basic-use.xml">
 
-<!ENTITY ch-menu SYSTEM "ch-menu.xml">
-<!ENTITY ch-scanner SYSTEM "ch-scanner.xml">
-<!ENTITY ch-dtmf SYSTEM "ch-dtmf.xml">
-<!ENTITY ch-groups SYSTEM "ch-groups.xml">
-<!ENTITY ch-custom SYSTEM "ch-customization.xml">
-<!ENTITY ch-program SYSTEM "ch-programming.xml">
+<!ENTITY ch-menu 	SYSTEM "ch-menu.xml">
+<!ENTITY ch-scanner 	SYSTEM "ch-scanner.xml">
+<!ENTITY ch-dtmf 	SYSTEM "ch-dtmf.xml">
+<!ENTITY ch-groups 	SYSTEM "ch-groups.xml">
+<!ENTITY ch-custom 	SYSTEM "ch-customization.xml">
+<!ENTITY ch-program 	SYSTEM "ch-programming.xml">
 
-<!ENTITY ch-repeater SYSTEM "ch-repeater.xml">
-<!ENTITY ch-ani SYSTEM "ch-ani.xml">
-<!ENTITY ch-appspec SYSTEM "ch-application-specific-setup.xml">
+<!ENTITY ch-repeater 	SYSTEM "ch-repeater.xml">
+<!ENTITY ch-ani 	SYSTEM "ch-ani.xml">
+<!ENTITY ch-appspec 	SYSTEM "ch-application-specific-setup.xml">
 
-<!ENTITY app-trouble SYSTEM "app-troubleshooting.xml">
-<!ENTITY app-menudef SYSTEM "app-menu-definitions.xml">
-<!ENTITY app-techspec SYSTEM "app-technical-specs.xml">
-<!ENTITY glossary SYSTEM "glossary.xml">
-<!ENTITY ctcss-table SYSTEM "ctcss-table.xml">
-<!ENTITY dcs-table SYSTEM "dcs-table.xml">
+<!ENTITY app-trouble 	SYSTEM "app-troubleshooting.xml">
+<!ENTITY app-menudef 	SYSTEM "app-menu-definitions.xml">
+<!ENTITY app-techspec 	SYSTEM "app-technical-specs.xml">
+<!ENTITY ctcss-table 	SYSTEM "ctcss-table.xml">
+<!ENTITY dcs-table 	SYSTEM "dcs-table.xml">
 
-<!ENTITY license SYSTEM "copyright.xml">
-<!ENTITY colophon SYSTEM "colophon.xml">
+<!ENTITY glossary 	SYSTEM "glossary.xml">
+<!ENTITY license 	SYSTEM "copyright.xml">
+<!ENTITY colophon 	SYSTEM "colophon.xml">
 ]>
 <book xmlns="http://docbook.org/ns/docbook" 
 	xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -37,7 +37,6 @@
 	<title>Baofeng UV-5R</title>
 
 	<info>
-
 		<subtitle>The (Chinese) Radio Documentation Project</subtitle>
 		<subtitle><link xlink:href="http://radiodoc.github.com/"/></subtitle>
 

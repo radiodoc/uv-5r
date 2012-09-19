@@ -7,14 +7,26 @@
 	<!-- Page related Settings -->
 	<xsl:param name="double.sided">1</xsl:param>
 	<xsl:param name="paper.type">A4</xsl:param>
+
+<!--
 	<xsl:param name="page.margin.top">1in</xsl:param>
 	<xsl:param name="page.margin.bottom">1in</xsl:param>
 	<xsl:param name="page.margin.outer">1in</xsl:param>
 	<xsl:param name="page.margin.inner">1in</xsl:param>
+-->
+
+<!-- Van de Graaf:
+-->
+	<xsl:param name="page.margin.top">16.5mm</xsl:param>
+	<xsl:param name="page.margin.bottom">33mm</xsl:param>
+
+	<xsl:param name="body.margin.top">16.5mm</xsl:param>
+	<xsl:param name="body.margin.bottom">33mm</xsl:param>
+
+	<xsl:param name="page.margin.inner">23mm</xsl:param>
+	<xsl:param name="page.margin.outer">47mm</xsl:param>
 	<xsl:param name="section.margin.bottom">2em</xsl:param>
 
-	<xsl:param name="callout.unicode">1</xsl:param>
-	<xsl:param name="callout.graphics">0</xsl:param>
  	
 	<!-- Custom font settings 
 	<xsl:template match="link">
@@ -24,6 +36,9 @@
 	</xsl:template>
 
 -->
+	<xsl:param name="callout.unicode">1</xsl:param>
+	<xsl:param name="callout.graphics">0</xsl:param>
+
 	<xsl:param name="title.font.family">sans-serif,SimHei</xsl:param>
 	<xsl:param name="body.font.family">serif,SimSun</xsl:param>
 	<xsl:param name="sans.font.family">sans-serif,SimHei</xsl:param>
