@@ -6,6 +6,23 @@
 	<section>
 		<title>Turning the unit on</title>
 		<para>To turn the unit on, simply rotate the volume/power knob clockwise until you hear a "click". The backlight and display should now have come on.</para>
+		<note>
+			<para>You can get additional information about your radio when you turn it on by holding down miscellaneous keys as you turn it on.</para>
+			<para>Holding down the 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-3.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key while turning on the radio provides you with the firmware version.</para>
+			<para>Holding down the 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-6.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key while turning on the radio provides you with what is most likely a control or manufacturing date and a hardware revision number. (It should be noted that this is not confirmed and pure speculation from the community.)</para>
+		</note>
 	</section>
 	<section>
 		<title>Turning the unit off</title>

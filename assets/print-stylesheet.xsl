@@ -23,6 +23,10 @@
 	<xsl:param name="body.margin.top">16.5mm</xsl:param>
 	<xsl:param name="body.margin.bottom">33mm</xsl:param>
 
+	<xsl:param name="region.before.extent">16.6mm</xsl:param>
+	<xsl:param name="region.after.extent">33mm</xsl:param>
+
+
 	<xsl:param name="page.margin.inner">23mm</xsl:param>
 	<xsl:param name="page.margin.outer">47mm</xsl:param>
 	<xsl:param name="section.margin.bottom">2em</xsl:param>

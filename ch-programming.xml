@@ -5,6 +5,112 @@
 	<title>Manual programming</title>
 	<para>Save channel to memory = save current state.</para>
 	<para>Only display A, upper</para>
+	<section>
+		<title>Simplex channels</title>
+		<para>The following steps assume that you're in Frequency (VFO) mode and that you've entered the desired frequency to store to memory.</para>
+		<procedure>
+			<step>
+				<para>Press the
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						</imageobject>
+					</inlinemediaobject>
+					key to enter the menu.</para>
+			</step>
+			<step>
+				<para>Enter
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-2.svg.png"/>
+						</imageobject>
+					</inlinemediaobject>
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-7.svg.png"/>
+						</imageobject>
+					</inlinemediaobject>
+					on the numerical keypad to get to <literal>MEM-CH</literal>.</para>
+			</step>
+			<step>
+				<para>Press
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						</imageobject>
+					</inlinemediaobject>
+					to select.</para>
+			</step>
+			<step>
+				<para>Use the
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+						</imageobject>
+					</inlinemediaobject>
+					and
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+						</imageobject>
+					</inlinemediaobject>
+					keys to select a memory channel, or enter it directly on the numerical keypad.</para>
+			</step>
+			<step>
+				<para>Press the
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						</imageobject>
+					</inlinemediaobject>
+					key to confirm.</para>
+			</step>
+			<step>
+				<para>Press the
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+						</imageobject>
+					</inlinemediaobject>
+					key to exit the menu.</para>
+			</step>
+		</procedure>
+		<para>Switch to Channel (MR) mode with the 
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			key to test your new channel. If you would like to name your channel you will need to do that from a computer. More on that in <xref linkend="manual.programming.computer"/>.</para>
+	</section>
+	<section>
+		<title>Duplex channels</title>
+		<para>The following assumes you've set up a duplex channel in VFO mode on the upper display, as described in <xref linkend="manual.repeater"/>, and that you're still in VFO mode.</para>
+		<procedure>
+			<step>
+				<para>Save as you would a regular simplex channel, as described in the previous section.</para>
+			</step>
+			<step>
+				<para>Press the 
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-scan.svg.png"/>
+						</imageobject>
+					</inlinemediaobject>
+					key momentary to get into reverse mode.</para>
+			</step>
+			<step>
+				<para>Save that again to the same memory channel just as in step one(1).</para>
+			</step>
+		</procedure>
+		<para>Switch to Channel (MR) mode with the 
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			key to test your new channel. If you would like to name your channel you will need to do that from a computer. More on that in <xref linkend="manual.programming.computer"/>.</para>
+	</section>
 </section>
 <section xml:id="manual.programming.computer">
 	<title>Computer programming</title>
@@ -25,5 +131,19 @@
 			<para>CHIRP does not currently have the functionality to program optional features such as ANI. To access these functions you'll have to use a computer running Windows with the Baofeng software.</para>
 		</note>
 	</section>
+</section>
+<section xml:id="manual.programming.cloning">
+	<title>Radio to radio cloning</title>
+	attach cloning cable
+	Turn on slave
+	Turn on master while holding down
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			key
+	The master will show <literal>COPING</literal> in the display and if makes a successful connection to the slave it will start flashing red to indicate it's transmitting data. The slave will at that same time flash green to indicate it's receiving data.
+	When LEDs turn off, cloning is complete
 </section>
 </chapter>

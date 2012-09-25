@@ -77,7 +77,7 @@
 					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
 				</imageobject>
 			</inlinemediaobject>
-			keys, or the numerical keypad to enter the specified frequency offset in kilohertz.</para>
+			keys and the numerical keypad to enter the specified frequency offset. See <xref linkend="manual.menu.26"/> for details.</para>
 	</step>
 	<step>
 		<para>Press
@@ -115,7 +115,7 @@
 					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
 				</imageobject>
 			</inlinemediaobject>
-			keys to select + (positive) or - (negative) offset.</para>
+			keys to select <literal>+</literal> (positive) or <literal>-</literal> (negative) offset.</para>
 	</step>
 	<step>
 		<para>Press
