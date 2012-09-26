@@ -3,8 +3,7 @@
 <para>This chapter talks about how to program channels into the radio memory.</para>
 <section xml:id="manual.programming.manual">
 	<title>Manual programming</title>
-	<para>Save channel to memory = save current state.</para>
-	<para>Only display A, upper</para>
+	<para>Manual programming is a tad fiddly until you get used to it, </para>
 	<section>
 		<title>Simplex channels</title>
 		<para>The following steps assume that you're in Frequency (VFO) mode and that you've entered the desired frequency to store to memory.</para>
@@ -94,7 +93,7 @@
 				<para>Press the 
 					<inlinemediaobject>
 						<imageobject>
-							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-scan.svg.png"/>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
 						</imageobject>
 					</inlinemediaobject>
 					key momentary to get into reverse mode.</para>
@@ -120,6 +119,60 @@
 		<note>
 			<para>When you first open up the Baofeng programming software, it may default to Chinese. To change the language to English, go to the second rightmost menu. There you will find a list of available languages, select English.</para>
 		</note>
+		<variablelist>
+			<varlistentry>
+				<term>Channel</term>
+				<listitem><para>Channel number.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Band</term>
+				<listitem><para>What band, defaults to both VHF and UHF.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>RX Frequency</term>
+				<listitem><para>Receive frequency.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>TX Frequency</term>
+				<listitem><para>Transmit frequency. Defaults to the receive frequency.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>CTCSS/DCS Dec</term>
+				<listitem><para>Receiver CTCSS or DCS. Defaults to <literal>OFF</literal>.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>CTCSS/DCS Enc</term>
+				<listitem><para>Transmitter CTCSS or DCS. Defaults to <literal>OFF</literal>.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>TX Power</term>
+				<listitem><para>Transmit power. Defaults to <literal>HIGH</literal>.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>W/N</term>
+				<listitem><para>Wideband or Narrowband operation. Defaults to <literal>W</literal> for Wideband.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>PTT-ID</term>
+				<listitem><para>Enables and sets position of PTT-ID. Defaults to <literal>OFF</literal>.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>BusyLock</term>
+				<listitem><para>Busy Channel Lock-out. Defaults to <literal>OFF</literal>.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Scan_Add</term>
+				<listitem><para>Add to scanner list. When enabled the channel is included in scanning mode. Defaults to <literal>ON</literal>.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>SigCode</term>
+				<listitem><para>Signal Code, group ID for the channel. Defaults to <literal>1</literal>.</para></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>CH-Name</term>
+				<listitem><para>Channel name.</para></listitem>
+			</varlistentry>
+		</variablelist>
 	</section>
 	<section xml:id="manual.programming.chirp">
 		<title>CHIRP</title>

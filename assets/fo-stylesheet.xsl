@@ -58,15 +58,17 @@
 					<xsl:call-template name="draft.text"/>  
 				</xsl:when>
 				<xsl:when test="$sequence = 'odd' and $position = 'right'">
-					<fo:external-graphic content-height="1.2cm">
+					<!-- 
+                    <fo:external-graphic content-height="1.2cm">
 						<xsl:attribute name="src">
 							<xsl:call-template name="fo-external-image">
-								<!-- <xsl:with-param name="filename" select="$header.image.filename"/> -->
+								<xsl:with-param name="filename" select="$header.image.filename"/>
 								<xsl:with-param name="filename" select="../build/xlestronix-logo.png"/>
 							</xsl:call-template>
 						</xsl:attribute>
 					</fo:external-graphic>
-  					<!-- <xsl:text>odd right</xsl:text>  -->
+                    -->
+  					<xsl:text>odd right</xsl:text>
 				</xsl:when>
 
 
