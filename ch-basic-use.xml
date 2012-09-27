@@ -5,7 +5,16 @@
 	<para>Before we turn the power on, make sure you have attached the battery and antenna as described in <xref linkend="manual.setup"/>.</para>
 	<section>
 		<title>Turning the unit on</title>
-		<para>To turn the unit on, simply rotate the volume/power knob clockwise until you hear a "click". The backlight and display should now have come on.</para>
+		<para>To turn the unit on, simply rotate the volume/power knob clockwise until you hear a "click". If your radio powers on correctly there should be an audible double beep and the display and backlight should turn on, looking something like this:</para>
+		<figure xml:id="manual.basic.display-start-fig">
+			<title>First power-on, display</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="figs/display-start.svg.png" contentwidth="5cm" />
+				</imageobject>
+			</mediaobject>
+		</figure>
+
 		<note>
 			<para>You can get additional information about your radio when you turn it on by holding down miscellaneous keys as you turn it on.</para>
 			<para>Holding down the 
@@ -43,24 +52,156 @@
 		</note>
 	</section>
 </section>
-<section>
-	<title>Channel selection.</title>
-	<para>Use the 
-		<inlinemediaobject>
-			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
-			</imageobject>
-		</inlinemediaobject>
-		and
-		<inlinemediaobject>
-			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
-			</imageobject>
-		</inlinemediaobject>
-		keys to navigate between channels.</para>
-</section>
 <section xml:id="manual.basic.making-call">
 	<title>Making a call</title>
 	<para>Press and hold the PTT button on the side of the radio body to transmit. While transmitting, speak approximately 3-5cm from the microphone. When you release the PTT your transceiver will go back to receive mode.</para>
+</section>
+<section>
+	<title>Channel selection</title>
+	<para>There are two modes of operation. Frequency (VFO) mode, and Channel or Memory (MR) mode.</para>
+	<para>For everyday use, Channel (MR) mode is going to be a whole lot more practical than Frequency (VFO) mode. However, Frequency (VFO) mode is very handy for experimentation out in the field. Frequency (VFO) mode is also used for programming channels into memory. For details on how to program your transceiver see <xref linkend="manual.programming"/>.</para>
+	<para>Ultimately which mode you end up using will depend entirely on your use case.</para>
+	<section>
+		<title>Frequency (VFO) mode</title>
+		<para>In Frequency (VFO) mode you can navigate up and down the band by using the 
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			and
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			keys. Each press will increment or decrement your frequency according to the frequency step you've set your transceiver to. For details on how to set the frequency step on your transceiver see <xref linkend="manual.menu"/> and <xref linkend="manual.menu.1"/>.</para>
+		<para>You can also input frequencies directly on your numeric keypad with kilohertz accuracy. However, the radio will floor to the nearest frequency that correspond to your frequency step. In other words, when you input frequencies with greater than 1kHz resolution (such as 145.6875 MHz in the example below), always round your input up.</para>
+		<para>The following example assumes the use of a 12.5kHz frequency step.</para>
+		<example>
+			<title>Entering the frequency 145.6875 MHz on display A</title>
+			<procedure>
+				<step>
+					<para>Use the
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						key to switch to Frequency (VFO) mode</para>
+				</step>
+				<step>
+					<para>Press
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-ab.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						until the
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.7em" format="png" fileref="figs/symbol-up.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						appears next to the upper display (display A).</para>
+				</step>
+				<step>
+					<para>Press the
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-band.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						key until you get to VHF. The display should read somewhere between 136 and 174 MHz.</para>
+				</step>
+				<step>
+					<para>Enter
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-4.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-5.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						on the numeric keypad, it should look something like this:</para>
+					<figure xml:id="manual.basic.display-145-fig">
+						<title>Half-entered frequency input.</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="figs/display-145-.svg.png" contentwidth="5cm" />
+							</imageobject>
+						</mediaobject>
+					</figure>
+				</step>
+				<step>
+					<para>Now, for the final four digits. Note that you can only enter three decimals on the keypad, if you type 687 it wont work. So how do you get the fourth and final digit 5 in there? By rounding 145.6875 up to 145.6880 MHz.</para>
+					<para>Enter
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-6.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-8.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-8.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						on the numeric keypad, if all went well the display should look something like this:</para>
+					<figure xml:id="manual.basic.display-1456875-fig">
+						<title>Successful frequency input</title>
+						<mediaobject>
+							<imageobject>
+								<imagedata fileref="figs/display-1456875.svg.png" contentwidth="5cm" />
+							</imageobject>
+						</mediaobject>
+					</figure>
+				</step>
+			</procedure>
+		</example>
+		<warning>
+			<para>Just because you can program in a channel does not mean you're automatically authorized to use that frequency.</para>
+			<para>Transmitting on frequencies you're not authorized to operate on is illegal, and in most jurisdictions a serious offence. If you get caught transmitting without a license you can and will get fined, and in worst case sent to jail.</para>
+			<para>However, it is legal in most jurisdictions to listen. Contact your local regulatory body for further information on what laws, rules and regulations apply to your area.</para>
+		</warning>
+	</section>
+	<section>
+		<title>Channel (MR) mode</title>
+		<para>The use of Channel (MR) mode is dependent on actually having programmed in some channels to use. To find out more on how to program channels see <xref linkend="manual.programming"/>.</para>
+		<para>Once you have channels programmed and ready, you can use the 
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			and
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			keys to navigate between channels.</para>
+		<note>
+			<para>If you have channels programmed with Transmit power set to Low, you can use the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+			key to momentarily switch over to high power if you're having trouble getting through.</para>
+		</note>
+	</section>
 </section>
 </chapter>
