@@ -75,7 +75,7 @@
 					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
 				</imageobject>
 			</inlinemediaobject>
-			keys. Each press will increment or decrement your frequency according to the frequency step you've set your transceiver to. For details on how to set the frequency step on your transceiver see <xref linkend="manual.menu"/> and <xref linkend="manual.menu.1"/>.</para>
+			keys. Each press will increment or decrement your frequency according to the frequency step you've set your transceiver to. For details on how to set the frequency step on your transceiver see <xref linkend="manual.menu"/> and <xref linkend="manual.menu.1"/> in <xref linkend="manual.menu.definitions"/>.</para>
 		<para>You can also input frequencies directly on your numeric keypad with kilohertz accuracy. However, the radio will floor to the nearest frequency that correspond to your frequency step. In other words, when you input frequencies with greater than 1kHz resolution (such as 145.6875 MHz in the example below), always round your input up.</para>
 		<para>The following example assumes the use of a 12.5kHz frequency step.</para>
 		<example>
@@ -100,7 +100,7 @@
 						until the
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.7em" format="png" fileref="figs/symbol-up.svg.png"/>
+								<imagedata contentdepth="0.7em" format="png" fileref="figs/symbol-arrow-up.svg.png"/>
 							</imageobject>
 						</inlinemediaobject>
 						appears next to the upper display (display A).</para>

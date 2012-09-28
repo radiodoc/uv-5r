@@ -330,7 +330,7 @@
 			<para>The
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key, used to enter the menu and confirm menu options.</para>	
@@ -370,7 +370,7 @@
 		</figure>
 		<para>The Kenwood 2-pin connector has one 3.5mm TRS plug, and one 2.5mm TS plug, spaced 12mm apart.</para>
 		<para>To attach accessories such as headsets, speaker-mics or programming cables, align the connecors and push in fully.</para>
-		<para>The fit isn't always perfect on cheap cables and connectors and may require a bit of force to wiggle them in fully.</para>
+		<para>The fit isn't always perfect on cheap cables and connectors and may require a bit of force to wiggle them in completely.</para>
 		<warning>
 			<para>Make sure the radio is off before attaching any accessories.</para>
 		</warning>
