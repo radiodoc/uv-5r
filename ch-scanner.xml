@@ -93,7 +93,7 @@
 	</section>
 	<section>
 		<title>Search operation</title>
-		<para>In Search Operation (SE) mode, the scanner stops when it detects a signal.</para>
+		<para>In Search Operation (<literal>SE</literal>) mode, the scanner stops when it detects a signal.</para>
 		<para>To resume scanning you must press and hold the
 			<inlinemediaobject>
 				<imageobject>

@@ -1,0 +1,11 @@
+<chapter xml:id="manual.dual-watch">
+<title>Dual Watch</title>
+<para>To enable:
+	menu 7 menu up menu exit</para>
+</chapter>
+<!--
+Cannot use reverse function in dual watch mode
+Cannot switch between high and low power with pound in dual watch mode
+Cannot save duplex channels while in dual watch mode
+
+-->
