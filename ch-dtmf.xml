@@ -91,4 +91,7 @@
 	</figure>
 -->
 	<para>To send DTMF codes, press the key(s) corresponding to the message you want to send while holding down the PTT key.</para>
+	<note>
+		<para>If you have the keypad lock enabled on your radio, you can still send DTMF tones the regular way without having to unlock your radio.</para>
+	</note>
 </chapter>
