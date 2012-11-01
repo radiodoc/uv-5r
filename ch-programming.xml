@@ -1,9 +1,22 @@
 <chapter xml:id="manual.programming">
 <title>Programming</title>
-<para>This chapter talks about how to program channels into the radio memory.</para>
+<para>Memory channels are an easy way to store commonly used frequencies so that they can easily be retrieved at a later date.</para>
+<para>The Baofeng UV-5R features 128 memory channels that each can hold: Receive and transmit frequencies, transmit power, group signalling information, bandwidth, ANI/PTT-ID settings and a six character alphanumeric identifier or channel name
+	<footnote>
+		<para>ANI/PTT-ID and channel name can only be set from a computer.</para>
+	</footnote>
+	.</para>
 <section xml:id="manual.programming.manual">
 	<title>Manual programming</title>
-	<para>Manual programming is a tad fiddly until you get used to it, </para>
+	<para>Manual programming is somewhat fiddly until you get used to it, especially when programming in duplex channels. Note that the ANI and S-CODE IDs can only be set from a computer. When programming channels it is important to remember that you can only save memory channels when working on the upper display in VFO mode.</para>
+	<para>To create a new channel, start by switching your radio to Frequency (VFO) mode using the
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		key. When in Frequency (VFO) mode, select your desired receive frequency using the numerical keypad. After that, use the menu system to configure the finer details of the channel you're wanting to program to memory, such as transmit power, bandwidth, CTCSS or DCS and more.</para>
+		<para>For more information on how to use the menu system see <xref linkend="manual.menu"/> and <xref linkend="manual.menu.definitions"/>. Information regarding how to set up CTCSS and DCS can be found in <xref linkend="manual.groups"/>.</para>
 	<section>
 		<title>Simplex channels</title>
 		<para>The following steps assume that you're in Frequency (VFO) mode and that you've entered the desired frequency to store to memory.</para>
