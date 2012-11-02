@@ -87,18 +87,26 @@
 </section>
 <section>
 	<title>Amateur Radio Setup</title>
-	<para>- Add content here -</para>
-	<simplelist>
-	<member>Wideband</member>
-	<member>DCS off (unless needed by repeater)</member>
-	<member>CTCSS off (unless needed by repeater)</member>
-	<member>ANI / DTMFST / S-CODE / PTT-ID off</member>
-	<member>PTT-LT 0ms</member>
-	<member>STE off</member>
-	<member>ROGER off</member>
-
-	<member>Repeater frequency shift + direction</member>
-	</simplelist>
+	<para>In contrast with Commercial radio operators, who often need very specific requirements to be compatible with a very specific radio implementation, Amateur radio operators tend to need the broadest possible settings in order to be compatible with as many systems as possible. This basically implies turning all the fancy features that you typically might need for a commercial setup off.</para>
+	<para>In a typical Amateur radio setup the following settings would be recommended:</para>
+	<itemizedlist>
+		<listitem>
+			<para>Set bandwidth to Wide (menu item 5).</para>
+		</listitem>
+		<listitem>
+			<para>Turn DCS and CTCSS off (menu items 10 through 13).</para>
+		</listitem>
+		<listitem>
+			<para>Turn ANI, DTMFST, S-CODE, PTT-ID off and PTT-LT to 0ms  (menu items 15 through 17 and 19 through 20).</para>
+		</listitem>
+		<listitem>
+			<para>Turn off Squelch Tail Elimination (STE) features (menu items 35 through 37).</para>
+		</listitem>
+		<listitem>
+			<para>Turn roger beep (ROGER) off (menu item 39).</para>
+		</listitem>
+	</itemizedlist>
+	<para>For further information see <xref linkend="manual.menu.definitions"/> and <xref linkend="manual.menu"/>.</para>
 </section>
 <section>
 	<title>MilSim: Airsoft and Paintball</title>

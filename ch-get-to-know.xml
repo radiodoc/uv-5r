@@ -293,13 +293,6 @@
 			keys on the other hand have actual secondary functions, scan and keypad lock respectively.</para>
 		<section>
 			<title>Pound key</title>
-			<para>To enable or disable the keypad lock, press and hold the
-				<inlinemediaobject>
-					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.svg.png"/>
-					</imageobject>
-				</inlinemediaobject>
-				key for about two seconds.</para>
 			<para>In channel mode,
 				<inlinemediaobject>
 					<imageobject>
@@ -313,17 +306,30 @@
 					</imageobject>
 				</inlinemediaobject>
 				to change between High and Low transmit power. Do note that this is does not alter the transmit power stored to memory for that channel, it only affects the current session. Switching to another channel or another operating mode (including broadcast FM) will reset transmit power to what's stored in channel memory.</para>
+			<section>
+				<title>Keypad Lock</title>
+				<para>The Baofeng UV-5R features a keypad lock that locks out all keys except for the three side keys.</para>
+				<para>To enable or disable the keypad lock, press and hold the
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.svg.png"/>
+						</imageobject>
+					</inlinemediaobject>
+					key for about two seconds.</para>
+				<para>You can also enable so that the radio automatically locks the keypad after ten seconds from the menu, see <xref linkend="manual.menu"/> and <xref linkend="manual.menu.definitions.24"/> in <xref linkend="manual.menu.definitions"/> for details.</para>
+			</section>
 		</section>
 		<section>
 			<title>Star key</title>
+			<para>A short momentary press of the key enables the reverse function (see <xref linkend="manual.repeater"/>).</para>
+			<para>When listening to broadcast FM a momentary press will start the scanning. Scanning in broadcast FM will stop as soon as an active station is found, regardless of scanner resume method.</para>
 			<para>To enable the scanner, press and hold the
 				<inlinemediaobject>
 					<imageobject>
 						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
 					</imageobject>
 				</inlinemediaobject>
-				key for about two seconds.</para>
-			<para>When listening to broadcast FM a momentary press will start the scanning. Scanning in broadcast FM will stop as soon as an active station is found, regardless of scanner resume method.</para>
+				key for about two seconds. See <xref linkend="manual.scanner"/> for details.</para>
 		</section>
 		<section>
 			<title>Menu and function keys</title>
