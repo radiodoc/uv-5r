@@ -126,13 +126,28 @@
 </section>
 <section xml:id="manual.programming.computer">
 	<title>Computer programming</title>
-	<para>This section assumes you know where to get a hold of your software and how to install it, and that you've already installed your software.</para>
+	<para>This section assumes you know where to get a hold of your software and how to install it, that you've already installed your software and that you know how to find out what port your programming cable is hooked up to.</para>
+	<section xml:id="manual.programming.cable">
+		<title>Attaching the programming cable</title>
+		<para>Before attaching the cable, make sure your radio is turned off.</para>
+		<para>To attach the cable, uncover the accessory port behind the rubber flap on the right side of the radio body (see <xref linkend="manual.radio.front-fig"/>), align the connectors and push in firmly.</para>
+		<para>Attach the USB (or DE9 in the case of standard RS-232) connector to your computer and start your programming software. You may now turn on your radio.</para>
+	</section>
 	<section xml:id="manual.programming.baofeng">
 		<title>Baofeng software</title>
+		<para>Before starting the software, follow the steps in <xref linkend="manual.programming.cable"/>.</para>
 		<note>
 			<para>When you first open up the Baofeng programming software, it may default to Chinese. To change the language to English, go to the second rightmost menu. There you will find a list of available languages, select English.</para>
 		</note>
+		<para>When you start the Baofeng programming software you will be greeted by the <literal>Channel Information</literal> window. This is where you enter the channel information for your memory channels. If the <literal>Channel Information</literal> window doesn't show automatically, you can bring it up by going to <literal>Edit -&gt; Channel Information</literal>.</para>
+		<para>Before we start adding channels, go to <literal>Communication</literal> to select the port your cable is attached to. Next go to <literal>Program -&gt; Read from radio</literal> and click <userinput>Read</userinput> to read in any existing channel information on the radio. This is also a good way to test the connection of the programming cable. If the read is successful the LED on your radio will start flashing red indicating that the radio is transmitting data to the computer.</para>
+		<note>
+			<para>The Baofeng programming software has been known to fail on connect the first try. If your connection fails, just try to read or write again.</para>
+			<para>If it continues to fail, check the connection of your cable and that you've configured your port properly in the programming software.</para>
+		</note>
+		<para>The <literal>Channel Information</literal> window in the Baofeng software features a simple and easy to use spreadsheet style interface. Some columns are obvious, others aren't as transparent as to what their purpose is. However, in most cases the default values tend to be the appropriate ones.</para>
 		<variablelist>
+			<title>Channel Information window, column definitions</title>
 			<varlistentry>
 				<term>Channel</term>
 				<listitem><para>Channel number.</para></listitem>
@@ -186,7 +201,32 @@
 				<listitem><para>Channel name.</para></listitem>
 			</varlistentry>
 		</variablelist>
+		<para>You can in theory edit any field in a row at any time, however the software seems to work best when you work from left to right.</para>
+		<para>To add a new channel, go to the row for the channel number you want to edit (you do not have to go sequentially, you can skip channel numbers if you so desire) and follow these steps:</para>
+		<procedure>
+			<title>Adding a channel</title>
+			<step>
+				<para>Select the <literal>Band</literal>.</para>
+			</step>
+			<step>
+				<para>Click in the <literal>RX Frequency</literal> field next to it and enter your receive frequency.</para>
+			</step>
+			<step>
+				<para>Click on the <literal>TX Frequency</literal> field, and the rest of the row should fill in automatically with default values (except for <literal>CH-Name</literal> which will be kept blank).</para>
+				<para>If you're adding a duplex channel you can go ahead and enter your transmit frequency directly.</para>
+			</step>
+			<step>
+				<para>After that it's all just a matter of adding all the extra information and features needed for the channel based on your requirements.</para>
+				<para>When you're done you can add an optional six character Channel Name in the <literal>CH-Name</literal> field.</para>
+			</step>
+		</procedure>
+		<para>Repeat for all the channels you want to add.</para>
+		<note>
+			<para>To delete a channel, simply go to the <literal>RX Frequency</literal> field of that channel's row, erase it and click on another field. The row should now erase itself.</para>
+		</note>
+		<para>When you're done adding and editing channels you will want to write them to the radio. To write your information to the radio, go to <literal>Program -&gt; Write to radio</literal> and click <userinput>Write</userinput>. On a successful write sequence the radio will start flashing green indicating that it is receiving data. When all data blocks have been sent from the computer the radio will restart itself.</para>
 	</section>
+<!--
 	<section xml:id="manual.programming.chirp">
 		<title>CHIRP</title>
 		<para>A popular alternative to the manufacturers own software, is the open source and cross platform programming tool <link xlink:href="http://chirp.danplanet.com/">CHRIP</link>. If you're a user of Apple OS X or a flavour of Linux, CHRIP may very well be your only option to programming your radio via computer.</para>
@@ -197,19 +237,32 @@
 			<para>CHIRP does not currently have the functionality to program optional features such as ANI. To access these functions you'll have to use a computer running Windows with the Baofeng software.</para>
 		</note>
 	</section>
+-->
 </section>
 <section xml:id="manual.programming.cloning">
 	<title>Radio to radio cloning</title>
-	attach cloning cable
-	Turn on slave
-	Turn on master while holding down
-			<inlinemediaobject>
-				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
-				</imageobject>
-			</inlinemediaobject>
-			key
-	The master will show <literal>COPING</literal> in the display and if makes a successful connection to the slave it will start flashing red to indicate it's transmitting data. The slave will at that same time flash green to indicate it's receiving data.
-	When LEDs turn off, cloning is complete
+	<para>The Baofeng UV-5R is capable of cloning between radios, meaning if you have one radio set up just the way you like it (the reference or "master" radio) and want another radio configured in exactly the same way (the "slave" radio), you just hook a cable between them and copy the information over.</para>
+	<procedure>
+		<title>Cloning radios</title>
+		<step>
+			<para>Attach your cloning cable in much the same way you attach a programming cable, except for where you put the other end into another radio's accessory port rather than a computer.</para>
+		</step>
+		<step>
+			<para>Turn on the slave radio, (the radio you want to <emphasis>clone to</emphasis>).</para>
+		</step>
+		<step>
+			<para>Turn on the master radio, (the radio you want to <emphasis>clone from</emphasis>) while holding down the
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-moni.svg.png"/>
+						</imageobject>
+					</inlinemediaobject>
+					key.</para>
+			<para>The master will show <literal>COPING</literal> in the display, and if makes a successful connection to the slave it will start flashing red to indicate it's transmitting data. The slave will at that same time flash green to indicate it's receiving data.</para>
+		</step>
+		<step>
+			<para>When LEDs turn off, the radio's will restart and the cloning operation is completed.</para>
+		</step>
+	</procedure>
 </section>
 </chapter>
