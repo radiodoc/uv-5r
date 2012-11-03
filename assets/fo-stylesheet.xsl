@@ -25,78 +25,147 @@
         </xsl:param>
 
 
-	<xsl:param name="header.image.filename" select="../build/xlestronix-logo.png"/>
-	<xsl:template name="header.content">  
-		<xsl:param name="pageclass" select="''"/>
-		<xsl:param name="sequence" select="''"/>
-		<xsl:param name="position" select="''"/>
-		<xsl:param name="gentext-key" select="''"/>
-		<fo:block>  
-			<!-- sequence can be odd, even, first, blank -->
-			<!-- position can be left, center, right -->
-			<xsl:choose>
-				<!-- First page -->
-				<xsl:when test="$sequence = 'first' and $position = 'left'"> 
-					<xsl:text>first left</xsl:text> 
-				</xsl:when>
-				<xsl:when test="$sequence = 'first' and $position = 'right'">  
-					<xsl:text>first right</xsl:text> 
-				</xsl:when>
-				<xsl:when test="$sequence = 'first' and $position = 'center'"> 
-					<xsl:value-of select="ancestor-or-self::book/title"/>  
-				</xsl:when>
+    <xsl:param name="header.image.filename" select="../build/xlestronix-logo.png"/>
+
+    <xsl:param name="header.column.widths">1 0 1</xsl:param>
+    <xsl:param name="marker.section.level" select="1"/>
+    <xsl:template name="header.content">  
+        <xsl:param name="pageclass" select="''"/>
+        <xsl:param name="sequence" select="''"/>
+        <xsl:param name="position" select="''"/>
+        <xsl:param name="gentext-key" select="''"/>
+        <fo:block>  
+            <!-- sequence can be odd, even, first, blank -->
+            <!-- position can be left, center, right -->
+            <xsl:choose>
+                <!-- First page -->
+                <xsl:when test="$sequence = 'first' and $position = 'left'"> 
+                    <!-- <xsl:text>first left</xsl:text> -->
+                </xsl:when>
+                <xsl:when test="$sequence = 'first' and $position = 'center'"> 
+                    <!-- <xsl:text>first center</xsl:text> -->
+                </xsl:when>
+                <xsl:when test="$sequence = 'first' and $position = 'right'">  
+                    <xsl:value-of select="ancestor-or-self::book/title"/>  
+                </xsl:when>
 
 
-				<!-- Odd page, single sided uses this layout only -->
-				<xsl:when test="$sequence = 'odd' and $position = 'left'">  
-					<fo:retrieve-marker 
-						retrieve-class-name="section.head.marker"  
-						retrieve-position="first-including-carryover"
-						retrieve-boundary="page-sequence"/>
-				</xsl:when>
-				<xsl:when test="$sequence = 'odd' and $position = 'center'">
-					<xsl:call-template name="draft.text"/>  
-				</xsl:when>
-				<xsl:when test="$sequence = 'odd' and $position = 'right'">
-					<!-- 
+                <!-- Odd page, single sided uses this layout only -->
+                <xsl:when test="$sequence = 'odd' and $position = 'left'">  
+                    <fo:retrieve-marker 
+                        retrieve-class-name="section.head.marker"  
+                        retrieve-position="first-including-carryover"
+                        retrieve-boundary="page-sequence"/>
+                </xsl:when>
+                <xsl:when test="$sequence = 'odd' and $position = 'center'">
+<!--                    <xsl:call-template name="draft.text"/>  -->
+                </xsl:when>
+                <xsl:when test="$sequence = 'odd' and $position = 'right'">
+                    <xsl:value-of select="ancestor-or-self::book/title"/>  
+                    <!-- 
                     <fo:external-graphic content-height="1.2cm">
-						<xsl:attribute name="src">
-							<xsl:call-template name="fo-external-image">
-								<xsl:with-param name="filename" select="$header.image.filename"/>
-								<xsl:with-param name="filename" select="../build/xlestronix-logo.png"/>
-							</xsl:call-template>
-						</xsl:attribute>
-					</fo:external-graphic>
+                        <xsl:attribute name="src">
+                            <xsl:call-template name="fo-external-image">
+                                <xsl:with-param name="filename" select="$header.image.filename"/>
+                                <xsl:with-param name="filename" select="../build/xlestronix-logo.png"/>
+                            </xsl:call-template>
+                        </xsl:attribute>
+                    </fo:external-graphic>
                     -->
-  					<xsl:text>odd right</xsl:text>
-				</xsl:when>
+                    <!-- <xsl:text>odd right</xsl:text> -->
+                </xsl:when>
 
 
-				<!-- Even page, only used in double sided -->
-				<xsl:when test="$sequence = 'even' and $position = 'left'">  
-					<xsl:text>even left</xsl:text>
-				</xsl:when>
-				<xsl:when test="$sequence = 'even' and $position = 'center'">
-					<xsl:call-template name="draft.text"/>
-				</xsl:when>
-				<xsl:when test="$sequence = 'even' and $position = 'right'">
-					<xsl:apply-templates select="." mode="titleabbrev.markup"/>  
-				</xsl:when>
+                <!-- Even page, only used in double sided -->
+                <xsl:when test="$sequence = 'even' and $position = 'left'">  
+                    <xsl:text>The (Chinese) Radio Documentation Project</xsl:text>
+                </xsl:when>
+                <xsl:when test="$sequence = 'even' and $position = 'center'">
+                    <xsl:call-template name="draft.text"/>
+                </xsl:when>
+                <xsl:when test="$sequence = 'even' and $position = 'right'">
+                    <!-- <xsl:apply-templates select="." mode="titleabbrev.markup"/> -->
+                </xsl:when>
 
 
-				<!-- Blank page, only used in double sided -->
-				<xsl:when test="$sequence = 'blank' and $position = 'left'">
-					<xsl:text>blank left</xsl:text>
-				</xsl:when>
-				<xsl:when test="$sequence = 'blank' and $position = 'center'">
-					<xsl:text>This page intentionally left blank</xsl:text>  
-				</xsl:when>
-				<xsl:when test="$sequence = 'blank' and $position = 'right'">
-				</xsl:when>
+                <!-- Blank page, only used in double sided -->
+                <xsl:when test="$sequence = 'blank' and $position = 'left'">
+                    <xsl:text>The (Chinese) Radio Documentation Project</xsl:text>
+                    <!-- <xsl:text>blank left</xsl:text> -->
+                </xsl:when>
+                <xsl:when test="$sequence = 'blank' and $position = 'center'">
+                    <!-- <xsl:text>This page intentionally left blank</xsl:text> -->
+                </xsl:when>
+                <xsl:when test="$sequence = 'blank' and $position = 'right'">
+                    <!-- <xsl:apply-templates select="." mode="titleabbrev.markup"/> -->
+                </xsl:when>
 
-			</xsl:choose>
-		</fo:block>
-	</xsl:template>
+            </xsl:choose>
+        </fo:block>
+    </xsl:template>
+    
+    <xsl:param name="footer.column.widths">1 0 1</xsl:param>
+    <xsl:template name="footer.content">  
+        <xsl:param name="pageclass" select="''"/>
+        <xsl:param name="sequence" select="''"/>
+        <xsl:param name="position" select="''"/>
+        <xsl:param name="gentext-key" select="''"/>
+        <fo:block>  
+            <!-- sequence can be odd, even, first, blank -->
+            <!-- position can be left, center, right -->
+            <xsl:choose>
+                <!-- First page -->
+                <xsl:when test="$sequence = 'first' and $position = 'left'"> 
+                    <!-- <xsl:text>first left</xsl:text> -->
+                </xsl:when>
+                <xsl:when test="$sequence = 'first' and $position = 'center'"> 
+                    <!-- <xsl:text>first center</xsl:text> -->
+                </xsl:when>
+                <xsl:when test="$sequence = 'first' and $position = 'right'">  
+                    <!-- <xsl:text>first right</xsl:text> -->
+                    <fo:page-number/>
+                </xsl:when>
+
+
+                <!-- Odd page, single sided uses this layout only -->
+                <xsl:when test="$sequence = 'odd' and $position = 'left'">  
+                    <xsl:apply-templates select="." mode="object.title.markup"/>
+                </xsl:when>
+                <xsl:when test="$sequence = 'odd' and $position = 'center'">
+                    <!-- <xsl:text>odd center</xsl:text> -->
+                </xsl:when>
+                <xsl:when test="$sequence = 'odd' and $position = 'right'">
+                    <fo:page-number/>
+                </xsl:when>
+
+
+                <!-- Even page, only used in double sided -->
+                <xsl:when test="$sequence = 'even' and $position = 'left'">  
+                    <fo:page-number/>
+                </xsl:when>
+                <xsl:when test="$sequence = 'even' and $position = 'center'">
+                    <!-- <xsl:text>even center</xsl:text> -->
+                </xsl:when>
+                <xsl:when test="$sequence = 'even' and $position = 'right'">
+                    <xsl:apply-templates select="." mode="titleabbrev.markup"/>  
+                </xsl:when>
+
+
+                <!-- Blank page, only used in double sided -->
+                <xsl:when test="$sequence = 'blank' and $position = 'left'">
+                    <fo:page-number/>
+                </xsl:when>
+                <xsl:when test="$sequence = 'blank' and $position = 'center'">
+                    <!-- <xsl:text>blank center</xsl:text> -->
+                </xsl:when>
+                <xsl:when test="$sequence = 'blank' and $position = 'right'">
+                    <!-- <xsl:text>blank right</xsl:text> -->
+                    <xsl:apply-templates select="." mode="titleabbrev.markup"/>  
+                </xsl:when>
+
+            </xsl:choose>
+        </fo:block>
+    </xsl:template>
 <!--
         <xsl:template name="book.titlepage.recto">
         <fo:block>
