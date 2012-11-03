@@ -1271,7 +1271,7 @@
 	<para>* RESET&gt;ALL resets everything with the exception of:
 	<simplelist type='vert'>
 		<member>The Power On Message</member>
-		<member>The [6] key Power On Message</member>
+		<!-- <member>The [6] key Power On Message</member> -->
 		<member>The VIP software band limits</member>
 	</simplelist>
 	On some firmware it may reset language to Chinese</para>
