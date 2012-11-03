@@ -1,4 +1,4 @@
-<chapter xml:id="manual.troubleshooting">
+<appendix xml:id="manual.troubleshooting">
 <title>Troubleshooting</title>
 	<informaltable>
 		<tgroup cols="3">
@@ -88,4 +88,4 @@
 		</tbody>
 		</tgroup>
 	</informaltable>
-</chapter>
+</appendix>

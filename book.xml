@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE book [
-<!ENTITY preface SYSTEM "preface.xml">
+<!ENTITY preface 	SYSTEM "preface.xml">
 
-<!ENTITY ch01 SYSTEM "ch01-safety-information.xml">
-<!ENTITY ch02 SYSTEM "ch02-features.xml">
-<!ENTITY ch03 SYSTEM "ch03-setup.xml">
-<!ENTITY ch04 SYSTEM "ch04-get-to-know.xml">
-<!ENTITY ch05 SYSTEM "ch05-basic-use.xml">
-<!ENTITY ch06 SYSTEM "ch06-menu.xml">
-<!ENTITY ch07 SYSTEM "ch07-groups.xml">
-<!ENTITY ch08 SYSTEM "ch-repeater.xml">
-<!ENTITY ch09 SYSTEM "ch-programming.xml">
+<!ENTITY ch-safety 	SYSTEM "ch-safety-information.xml">
+<!ENTITY ch-features 	SYSTEM "ch-features.xml">
 
-<!ENTITY ch10 SYSTEM "ch-application-specific-setup.xml">
-<!ENTITY ch11 SYSTEM "ch-troubleshooting.xml">
+<!ENTITY ch-setup 	SYSTEM "ch-setup.xml">
+<!ENTITY ch-gettoknow 	SYSTEM "ch-get-to-know.xml">
+<!ENTITY ch-basicuse 	SYSTEM "ch-basic-use.xml">
 
-<!ENTITY appa SYSTEM "appa-menu-definitions.xml">
-<!ENTITY appc SYSTEM "appc-technical-specs.xml">
-<!ENTITY glossary SYSTEM "glossary.xml">
-<!ENTITY ctcss-table SYSTEM "ctcss-table.xml">
-<!ENTITY dcs-table SYSTEM "dcs-table.xml">
+<!ENTITY ch-menu 	SYSTEM "ch-menu.xml">
+<!ENTITY ch-scanner 	SYSTEM "ch-scanner.xml">
+<!ENTITY ch-dtmf 	SYSTEM "ch-dtmf.xml">
+<!ENTITY ch-groups 	SYSTEM "ch-groups.xml">
+<!ENTITY ch-custom 	SYSTEM "ch-customization.xml">
+<!ENTITY ch-program 	SYSTEM "ch-programming.xml">
 
-<!ENTITY license SYSTEM "copyright.xml">
-<!ENTITY colophon SYSTEM "colophon.xml">
+<!ENTITY ch-repeater 	SYSTEM "ch-repeater.xml">
+<!ENTITY ch-ani 	SYSTEM "ch-ani.xml">
+<!ENTITY ch-appspec 	SYSTEM "ch-application-specific-setup.xml">
+
+<!ENTITY app-trouble 	SYSTEM "app-troubleshooting.xml">
+<!ENTITY app-menudef 	SYSTEM "app-menu-definitions.xml">
+<!ENTITY app-techspec 	SYSTEM "app-technical-specs.xml">
+<!ENTITY ctcss-table 	SYSTEM "ctcss-table.xml">
+<!ENTITY dcs-table 	SYSTEM "dcs-table.xml">
+
+<!ENTITY glossary 	SYSTEM "glossary.xml">
+<!ENTITY license 	SYSTEM "copyright.xml">
+<!ENTITY colophon 	SYSTEM "colophon.xml">
 ]>
 <book xmlns="http://docbook.org/ns/docbook" 
 	xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -31,7 +37,6 @@
 	<title>Baofeng UV-5R</title>
 
 	<info>
-
 		<subtitle>The (Chinese) Radio Documentation Project</subtitle>
 		<subtitle><link xlink:href="http://radiodoc.github.com/"/></subtitle>
 
@@ -51,7 +56,7 @@
 			<holder>xles McFuzzypants</holder>
 		</copyright>
 
-		<subtitle>v0.5</subtitle>
+		<subtitle>Pre-release copy, not for distribution.</subtitle>
 
 		<legalnotice>
 			<para>This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit</para>
@@ -63,14 +68,17 @@
 				<city>Stanford</city>, <state>California</state> <postcode>94305</postcode>, <country>USA</country>.
 				</address></para>
 			<para>All brandnames and trademarks mentioned in this document is the property of their respective holders. The authors of this document shares no affiliation with any of the brands and trademarks mentioned within this document.</para>
+			<para>The (Chinese) Radio Documentation Project or its authors does not hold any responsibility or liability for any damage or injury, direct, indirect or otherwise caused as a result of following the instructions and procedures herein.</para>
 		</legalnotice>
 	</info>
 
 	&preface;
-		&ch01;
-		&ch02;
+<!--
+		&ch-safety;
+		&ch-features;
+-->
 	<part label="I">
-		<title>Basic usage</title>
+		<title>Getting started</title>
 		<partintro>
 			<para>Part one covers the basic setup and use of your hand-held two-way transceiver.</para>
 			<literallayout>
@@ -83,9 +91,9 @@
 			<xref linkend="manual.basic"/>
 			</literallayout>
 		</partintro>
-		&ch03;
-		&ch04;
-		&ch05;
+		&ch-setup;
+		&ch-gettoknow;
+		&ch-basicuse;
 	</part>
 	<part label="II">
 		<title>Advanced topics</title>
@@ -93,49 +101,45 @@
 			<para>Part two covers the more advanced topics, such as setup of repeater offset and programming via computer link.</para>
 			<literallayout>
 				<xref linkend="manual.menu"/>
+				<xref linkend="manual.scanner"/> 
+				<xref linkend="manual.dtmf"/> 
 				<xref linkend="manual.groups"/>
-				<xref linkend="manual.repeater"/>
+				<xref linkend="manual.customization"/> 
 				<xref linkend="manual.programming"/>
-				<xref linkend="manual.app-specicic"/>
-				<xref linkend="manual.troubleshooting"/>
 			</literallayout>
 		</partintro>
-		<!-- 
-			Customization chapter?
-			- Setting welcome message
-			- Setting backlight options.
-			- - Colours for transmit, receive and stand-by.
-			- - Backlight time-out.
-		-->
-		&ch06;
-		&ch07;
-		&ch08;
-		&ch09;
-		&ch10;
-		&ch11;
+		&ch-menu;
+		&ch-scanner;
+		&ch-dtmf;
+		&ch-groups;
+		&ch-custom;
+		&ch-program;
 	</part>
 	<part label="III">
 		<title>How-to and setup guides.</title>
-		<partinfo>
+		<partintro>
 			<para>Part three covers is a collection of how-to documents to help you set up your radio for specific working environments.</para>
 			<literallayout>
-				<xref linkend="manual.groups"/>
 				<xref linkend="manual.repeater"/>
-				<xref linkend="manual.app-specicic"/>
 				<xref linkend="manual.ani"/>
+				<xref linkend="manual.app-specicic"/>
 			</literallayout>
-		</partinfo>
+		</partintro>
+		&ch-repeater;
+		&ch-ani;
+		&ch-appspec;
 	</part>
 
-	&appa;
-	&appc;
+	&app-trouble;
+	&app-menudef;
+	&app-techspec;
+<!--
 	&glossary;
 	
 
 	<index xml:id="manual.index"/>
-	&colophon;
-<!--
 	&index;
 	&license;
 -->
+	&colophon;
 </book>

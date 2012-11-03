@@ -122,11 +122,23 @@
 					<entry>Narrowband enabled</entry>
 				</row>
 				<row>
-					<entry>Battery symbol</entry>
-					<entry>Battery level indicator</entry>
+					<entry>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/symbol-battery.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+					</entry>
+					<entry><link linkend="manual.know.battery">Battery level indicator</link></entry>
 				</row>
 				<row>
-					<entry>key symbol</entry>
+					<entry>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="1.0em" format="png" fileref="figs/symbol-key.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+					</entry>
 					<entry>Keypad lock enabled</entry>
 				</row>
 				<row>
@@ -134,11 +146,23 @@
 					<entry>Transmit power set to Low</entry>
 				</row>
 				<row>
-					<entry>Up and Down arrow symbols</entry>
+					<entry>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.7em" format="png" fileref="figs/symbol-arrows.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+					</entry>
 					<entry>Indicates active band or channel</entry>
 				</row>
 				<row>
-					<entry>Antenna symbol</entry>
+					<entry>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/symbol-antenna.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+					</entry>
 					<entry>Signal Strength Meter</entry>
 				</row>
 			</tbody>
@@ -148,6 +172,16 @@
 		<note>
 			<para>Even though it is a seven character by two line display, channel memories are only configurable to six character names.</para>
 		</note>
+		<section>
+			<title>Battery Level Indicator</title>
+			<para>When the battery level indicator reads
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/symbol-battery-empty.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				the battery is depleated. At this point the radio will start beeping periodically as well as flash the backlight of the display, indicating that you need to change your battery or put your radio in the charger.</para>
+		</section>
 	</section>
 	<section xml:id="manual.know.status-led">
 		<title>Status LED</title>
@@ -168,7 +202,13 @@
 					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-call.svg.png"/>
 				</imageobject>
 			</inlinemediaobject>
-			to activate the alarm function. Press and hold again to turn it off.</para>
+			to activate the alarm function. Press
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-call.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			again to turn it off.</para>
 	</section>
 	<section xml:id="manual.know.monitor-key">
 		<title>Side key 2 - MONI (Monitor and Flashlight)</title>
@@ -196,6 +236,7 @@
 				</imageobject>
 			</inlinemediaobject>
 			switches between Frequency (VFO) Mode and Memory (MR) mode. Memory mode is sometimes also referred to as Channel mode.</para>
+		<para>To save frequencies to channel memory you must be in Frequency (VFO) mode.</para>
 	</section>
 	<section xml:id="manual.know.ab-key">
 		<title>A / B select key</title>
@@ -205,11 +246,25 @@
 					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-ab.svg.png"/>
 				</imageobject>
 			</inlinemediaobject>
-			key switches the display between your selected A and B bands or channels.</para>
+			key switches between A (upper) and B (lower) displays. The frequency or channel on the selected display becomes the active listening and transmit frequency or channel.</para>
+		<para>To save frequencies to channel memory you must be on the A display.</para>
 	</section>
 	<section xml:id="manual.know.band-key">
 		<title>Band key</title>
-		<para>Switches between bands?</para>
+		<para>The 
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-band.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			key switches between VHF and UHF bands when in Frequency (VFO) mode.</para>
+		<para>When listening to broadcast FM, the 
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-band.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			key switches between 65-75 MHz and 76-108 MHz bands.</para>
 	</section>
 	<section xml:id="manual.know.keypad">
 		<title>Numeric keypad</title>
@@ -222,7 +277,7 @@
 				</imageobject>
 			</mediaobject>
 		</figure>
-		<para>The numeric keys have their secondary function printed on them (in reality it's rather menu short-cuts, more on that in <xref linkend="manual.advanced.menu"/>).</para>
+		<para>The numeric keys have their secondary function printed on them (in reality it's rather menu short-cuts, more on that in <xref linkend="manual.menu"/>).</para>
 		<para>The
 			<inlinemediaobject>
 				<imageobject>
@@ -238,13 +293,6 @@
 			keys on the other hand have actual secondary functions, scan and keypad lock respectively.</para>
 		<section>
 			<title>Pound key</title>
-			<para>To enable or disable the keypad lock, press and hold the
-				<inlinemediaobject>
-					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.svg.png"/>
-					</imageobject>
-				</inlinemediaobject>
-				key for about two seconds.</para>
 			<para>In channel mode,
 				<inlinemediaobject>
 					<imageobject>
@@ -257,24 +305,38 @@
 						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.svg.png"/>
 					</imageobject>
 				</inlinemediaobject>
-				to change between High and Low transmit power.</para>
+				to change between High and Low transmit power. Do note that this is does not alter the transmit power stored to memory for that channel, it only affects the current session. Switching to another channel or another operating mode (including broadcast FM) will reset transmit power to what's stored in channel memory.</para>
+			<section>
+				<title>Keypad Lock</title>
+				<para>The Baofeng UV-5R features a keypad lock that locks out all keys except for the three side keys.</para>
+				<para>To enable or disable the keypad lock, press and hold the
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.svg.png"/>
+						</imageobject>
+					</inlinemediaobject>
+					key for about two seconds.</para>
+				<para>You can also enable so that the radio automatically locks the keypad after ten seconds from the menu, see <xref linkend="manual.menu"/> and <xref linkend="manual.menu.definitions.24"/> in <xref linkend="manual.menu.definitions"/> for details.</para>
+			</section>
 		</section>
 		<section>
 			<title>Star key</title>
+			<para>A short momentary press of the key enables the reverse function (see <xref linkend="manual.repeater"/>).</para>
+			<para>When listening to broadcast FM a momentary press will start the scanning. Scanning in broadcast FM will stop as soon as an active station is found, regardless of scanner resume method.</para>
 			<para>To enable the scanner, press and hold the
 				<inlinemediaobject>
 					<imageobject>
 						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
 					</imageobject>
 				</inlinemediaobject>
-				key for about two seconds. This also works when listening to broadcast FM.</para>
+				key for about two seconds. See <xref linkend="manual.scanner"/> for details.</para>
 		</section>
 		<section>
 			<title>Menu and function keys</title>
 			<para>The
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key, used to enter the menu and confirm menu options.</para>	
@@ -300,5 +362,23 @@
 				key is used to exit menus and cancel menu options.</para>
 			<para>For a more in-depth explanation on how to work the menu see <xref linkend="manual.menu"/>.</para>
 		</section>
+	</section>
+	<section xml:id="manual.know.port">
+		<title>Accessory jack</title>
+		<para>The accessory jack on the Baofeng UV-5R is a Kenwood compatible two(2)-pin design.</para>
+		<figure xml:id="manual.radio.headset-fig">
+			<title>Typical 2 pin Kenwood headset configuration.</title>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="figs/kenwood-2pin-headset.svg.png" contentwidth="8cm" />
+				</imageobject>
+			</mediaobject>
+		</figure>
+		<para>The Kenwood 2-pin connector has one 3.5mm TRS plug, and one 2.5mm TS plug, spaced 12mm apart.</para>
+		<para>To attach accessories such as headsets, speaker-mics or programming cables, align the connecors and push in fully.</para>
+		<para>The fit isn't always perfect on cheap cables and connectors and may require a bit of force to wiggle them in completely.</para>
+		<warning>
+			<para>Make sure the radio is off before attaching any accessories.</para>
+		</warning>
 	</section>
 </chapter>
