@@ -13,26 +13,16 @@
 	<listitem><para><glossterm linkend="dcs">DCS</glossterm></para></listitem>
 	<listitem><para>Tone-burst (1750Hz)</para></listitem>
 </itemizedlist>
-<para>The baofeng UV-5R does not feature any form of individual calling.</para>
+<para>The Baofeng UV-5R does not feature any form of individual calling.</para>
 <note>
 	<para>Using these features does NOT mean that others won't be able to listen in on your transmissions.</para>
 	<para>They only provide a method to <emphasis>filter out unwanted incoming transmissions</emphasis>. Any communications made while using these features will still be heard by anyone not employing filtering options of their own.</para>
+	<para>Also, you cannot change the CTCSS or DCS settings while in memory (MR) mode.</para>
 </note>
 <para>CTCSS and 1750Hz tone-burst are also popular methods among amateur radio operators to open up repeaters.</para>
 <section xml:id="manual.groups.ctcss">
 	<title>CTCSS</title>
-	<para>CTCSS is set with menus 11 R-CTS
-		<inlinemediaobject>
-			<imageobject>
-				<imagedata contentwidth="3.5cm" format="png" fileref="figs/display.svg.png"/>
-			</imageobject>
-		</inlinemediaobject>
-		and 13 T-CTS
-		<inlinemediaobject>
-			<imageobject>
-				<imagedata contentwidth="3.5cm" format="png" fileref="figs/display.svg.png"/>
-			</imageobject>
-		</inlinemediaobject>.</para>
+	<para>CTCSS is set with menus 11 <literal>R-CTCS</literal> and 13 <literal>T-CTCS</literal>.</para>
 	<para>For a complete list of available CTCSS codes and corresponding sub-tone frequencies, see <xref linkend="manual.table.ctcss"/> in <xref linkend="manual.specs"/>.</para>
 	<procedure>
 		<title>CTCSS setup how-to</title>
@@ -69,7 +59,7 @@
 				to select.</para>
 		</step>
 		<step>
-			<para>Enter desired CTCSS code.</para>
+			<para>Enter desired CTCSS sub-tone frequency in hertz on the numeric keypad.</para>
 		</step>
 		<step>
 			<para>Press 
@@ -104,7 +94,7 @@
 				to select.</para>
 		</step>
 		<step>
-			<para>Enter desired CTCSS code. Make sure it's the same code as that you entered for receiver CTCSS.</para>
+			<para>Enter desired CTCSS sub-tone frequency in hertz on the numeric keypad. Make sure it's the same frequency as that you entered for receiver CTCSS.</para>
 		</step>
 		<step>
 			<para>Press 
@@ -131,27 +121,12 @@
 				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
 			</imageobject>
 		</inlinemediaobject>
-		key instead of selecting a CTCSS code.</para>
+		key instead of selecting a CTCSS sub-tone frequency.</para>
 	<para>For more information see <xref linkend="manual.menu.11"/> and <xref linkend="manual.menu.13"/> in <xref linkend="manual.menu.definitions"/>.</para>
 </section>
 <section xml:id="manual.groups.dcs">
 	<title>DCS</title>
-	<para>DCS is set with menus 10 <literal>R-DCS</literal></para>
-	<informalfigure>
-		<mediaobject>
-			<imageobject>
-				<imagedata contentwidth="3.5cm" format="png" fileref="figs/display.svg.png"/>
-			</imageobject>
-		</mediaobject>
-	</informalfigure>
-	<para>and 12 <literal>T-DCS</literal></para>
-	<informalfigure>
-		<mediaobject>
-			<imageobject>
-				<imagedata contentwidth="3.5cm" format="png" fileref="figs/display.svg.png"/>
-			</imageobject>
-		</mediaobject>
-	</informalfigure>
+	<para>DCS is set with menus 10 <literal>R-DCS</literal> and 12 <literal>T-DCS</literal>.</para>
 	<para>For a complete list of available DCS codes, see <xref linkend="manual.table.dcs"/> in <xref linkend="manual.specs"/>.</para>
 	<procedure>
 		<title>DCS setup how-to</title>
@@ -188,7 +163,7 @@
 				to select.</para>
 		</step>
 		<step>
-			<para>Enter desired DCS code.</para>
+			<para>Enter desired DCS code on the numeric keypad.</para>
 		</step>
 		<step>
 			<para>Press 
@@ -223,7 +198,7 @@
 				to select.</para>
 		</step>
 		<step>
-			<para>Enter desired DCS code. Make sure it's the same code as that you entered for receiver DCS.</para>
+			<para>Enter desired DCS code on the numeric keypad. Make sure it's the same code as that you entered for receiver DCS.</para>
 		</step>
 		<step>
 			<para>Press 
@@ -263,5 +238,8 @@
 		</inlinemediaobject>
 		key while holding down the PTT.</para>
 	<para>No further configuration required to use this feature.</para>
+	<note>
+		<para>If you have the keypad lock enabled on your radio, you can still send a 1750Hz tone the regular way without having to unlock your radio.</para>
+	</note>
 </section>
 </chapter>

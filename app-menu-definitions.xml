@@ -17,15 +17,28 @@
 			<row>
 				<entry><literal>0-9</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>3</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
 	</informaltable>
+	<para>Setting the squelch to <literal>0</literal> will open up the squelch entirely.</para>
 </section>
 <section xml:id="manual.menu.1">
 	<title>1 STEP - Frequency Step</title>
-	<para>Selects the step in frequency when using the <keycap>up</keycap> and <keycap>down</keycap> keys. This is also the interval the scanner will run at.</para>
+	<para>Selects the step in frequency when using the
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		and
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		keys. This is also the interval the scanner will run at.</para>
 	<informaltable>
 		<tgroup cols="4">
 		<thead>
@@ -39,29 +52,29 @@
 		<tbody>
 			<row>
 				<entry>0</entry>
-				<entry><literal>2.5</literal></entry>
+				<entry><literal>2.5K</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>25.0K</literal></entry>
 			</row>
 			<row>
 				<entry>1</entry>
-				<entry><literal>5</literal></entry>
+				<entry><literal>5.0K</literal></entry>
 			</row>
 			<row>
 				<entry>2</entry>
-				<entry><literal>6.25</literal></entry>
+				<entry><literal>6.25K</literal></entry>
 			</row>
 			<row>
 				<entry>3</entry>
-				<entry><literal>10</literal></entry>
+				<entry><literal>10.0K</literal></entry>
 			</row>
 			<row>
 				<entry>4</entry>
-				<entry><literal>12.5</literal></entry>
+				<entry><literal>12.5K</literal></entry>
 			</row>
 			<row>
 				<entry>5</entry>
-				<entry><literal>25</literal></entry>
+				<entry><literal>25.0K</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -70,11 +83,12 @@
 </section>
 <section xml:id="manual.menu.2">
 	<title>2 TXP - Transmit Power</title>
-	<para>Transmit power is only setinformaltable in Frequency(VFO) Mode. In Memory(MR) Mode transmit power will be set to the level programmed in memory for any given channel.</para>
+	<para>Transmit power is only settable in Frequency(VFO) Mode. In Memory(MR) Mode transmit power will be set to the level programmed in memory for any given channel.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -82,11 +96,13 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>High</literal></entry>
+				<entry>0</entry>
+				<entry><literal>HIGH</literal></entry>
 				<entry>4W</entry>
-				<entry><literal></literal></entry>
+				<entry><literal>HIGH</literal></entry>
 			</row>
 			<row>
+				<entry>1</entry>
 				<entry><literal>Low</literal></entry>
 				<entry>1W</entry>
 				<entry><literal></literal></entry>
@@ -111,11 +127,11 @@
 			<row>
 				<entry><literal>1 - 4</literal></entry>
 				<entry></entry>
+				<entry><literal>3</literal></entry>
 			</row>
 			<row>
 				<entry><literal>OFF</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -137,11 +153,11 @@
 			<row>
 				<entry><literal>1 - 10</literal></entry>
 				<entry></entry>
+				<entry><literal>OFF</literal></entry>
 			</row>
 			<row>
 				<entry><literal>OFF</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -149,12 +165,13 @@
 	<para>The lower the setting, the louder your voice have to be in order to engage the transmitter.</para>
 </section>
 <section xml:id="manual.menu.5">
-	<title>5 W/N - Wideband / Narrowband</title>
+	<title>5 WN - Wideband / Narrowband</title>
 	<para>Sets maximum band deviation.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -162,11 +179,13 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>0</entry>
 				<entry><literal>WIDE</literal></entry>
 				<entry>5kHz</entry>
-				<entry><literal></literal></entry>
+				<entry><literal>WIDE</literal></entry>
 			</row>
 			<row>
+				<entry>1</entry>
 				<entry><literal>NARR</literal></entry>
 				<entry>2.5kHz</entry>
 			</row>
@@ -191,11 +210,11 @@
 			<row>
 				<entry><literal>1 - 5</literal></entry>
 				<entry></entry>
+				<entry><literal>5</literal></entry>
 			</row>
 			<row>
 				<entry><literal>OFF</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -205,9 +224,10 @@
 	<title>7 TDR - Dual Watch</title>
 	<para>When enabled it allows you to monitor two frequencies simultaneously.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -215,11 +235,13 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>1</entry>
 				<entry><literal>ON</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>OFF</literal></entry>
 			</row>
 			<row>
+				<entry>0</entry>
 				<entry><literal>OFF</literal></entry>
 				<entry></entry>
 			</row>
@@ -232,9 +254,10 @@
 	<title>8 BEEP - Keypad Beep</title>
 	<para>When enabled your radio will emit an audible tone at every key press.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -242,11 +265,13 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>1</entry>
 				<entry><literal>ON</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>ON</literal></entry>
 			</row>
 			<row>
+				<entry>0</entry>
 				<entry><literal>OFF</literal></entry>
 				<entry></entry>
 			</row>
@@ -256,7 +281,7 @@
 </section>
 <section xml:id="manual.menu.9">
 	<title>9 TOT - Transmission Time-out-Timer</title>
-	<para>Transmission times out after set time</para>
+	<para>Transmission times out after set time. Radio will alert you when your time is up.</para>
 	<informaltable>
 		<tgroup cols="3">
 		<thead>
@@ -268,14 +293,15 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>15 / 30 / 45 - 600</literal></entry>
-				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>15 - 600</literal></entry>
+				<entry>Increments of 15 seconds</entry>
+				<entry><literal>60</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
 	</informaltable>
-	<para>Radio will alert you when your time is up.</para>
+	<para>To use the numeric keypad for input, use the following formula: <literal>(T-15)/15 = X</literal>, where T is the time in seconds that you want and X is a two digit code on your keypad.</para>
+	<para>Example: To get 300 seconds, take <literal>(300-15)/15</literal> to get <literal>19</literal></para>. 
 </section>
 <section xml:id="manual.menu.10">
 	<title>10 R-DCS - Receiver DCS</title>
@@ -293,7 +319,7 @@
 			<row>
 				<entry><literal>D023N - D754I</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>OFF</literal></entry>
 			</row>
 			<row>
 				<entry><literal>OFF</literal></entry>
@@ -302,9 +328,10 @@
 		</tbody>
 		</tgroup>
 	</informaltable>
+	<para>See <xref linkend="manual.table.dcs"/> for a complete reference of DCS codes and their corresponding numerical value. Remember to input any leading zeros when using the numerical keypad. To set it to off, enter code <literal>000</literal>.</para>
 </section>
 <section xml:id="manual.menu.11">
-	<title>11 R-CTS - Receiver CTCSS</title>
+	<title>11 R-CTCS - Receiver CTCSS</title>
 	<para>Continuous Tone-Coded Squelch System(CTCSS) will block out any signal that isn't sent with a matching CTCSS sub-tone.</para>
 	<informaltable>
 		<tgroup cols="3">
@@ -319,7 +346,7 @@
 			<row>
 				<entry><literal>67.0 - 254.1</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>OFF</literal></entry>
 			</row>
 			<row>
 				<entry><literal>OFF</literal></entry>
@@ -328,6 +355,7 @@
 		</tbody>
 		</tgroup>
 	</informaltable>
+	<para>See <xref linkend="manual.table.ctcss"/> for a complete reference of CTCSS sub tones. To enter a CTCSS tone on the numerical keypad, enter its frequency directly rather than the numerical code. Remember to input any leading zeros when using the numerical keypad. To set it to off, enter code <literal>000</literal>.</para>
 </section>
 <section xml:id="manual.menu.12">
 	<title>12 T-DCS - Transmitter DCS</title>
@@ -345,7 +373,7 @@
 			<row>
 				<entry><literal>D023N - D754I</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>OFF</literal></entry>
 			</row>
 			<row>
 				<entry><literal>OFF</literal></entry>
@@ -354,9 +382,10 @@
 		</tbody>
 		</tgroup>
 	</informaltable>
+	<para>See <xref linkend="manual.table.dcs"/> for a complete reference of DCS codes and their corresponding numerical value. Remember to input any leading zeros when using the numerical keypad. To set it to off, enter code <literal>000</literal>.</para>
 </section>
 <section xml:id="manual.menu.13">
-	<title>13 T-CTS - Transmitter CTCSS</title>
+	<title>13 T-CTCS - Transmitter CTCSS</title>
 	<para>Sets the Continuous Tone-Coded Squelch System(CTCSS) sub-tone for the transmitter.</para>
 	<informaltable>
 		<tgroup cols="3">
@@ -371,7 +400,7 @@
 			<row>
 				<entry><literal>67.0 - 254.1</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>OFF</literal></entry>
 			</row>
 			<row>
 				<entry><literal>OFF</literal></entry>
@@ -380,14 +409,16 @@
 		</tbody>
 		</tgroup>
 	</informaltable>
+	<para>See <xref linkend="manual.table.ctcss"/> for a complete reference of CTCSS sub tones. To enter a CTCSS tone on the numerical keypad, enter its frequency directly rather than the numerical code. Remember to input any leading zeros when using the numerical keypad. To set it to off, enter code <literal>000</literal>.</para>
 </section>
 <section xml:id="manual.menu.14">
 	<title>14 VOICE - Voice Prompt</title>
 	<para>When enabled your radio will "talk back" to you, meaning audible confirmation when pressing keys and working the menu system.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -395,23 +426,27 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>1</entry>
 				<entry><literal>ENG</literal></entry>
 				<entry>English</entry>
-				<entry><literal></literal></entry>
+				<entry><literal>ENG</literal></entry>
 			</row>
 			<row>
+				<entry>2</entry>
 				<entry><literal>CHI</literal></entry>
 				<entry>Chinese</entry>
 			</row>
 			<row>
+				<entry>0</entry>
 				<entry><literal>OFF</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
 	</informaltable>
+	<para>In some versions of the firmware your options may be restricted to <literal>ON</literal> and <literal>OFF</literal>.</para>
 </section>
 <section xml:id="manual.menu.15">
-	<title>15 ANI - Automatic Number ID</title>
+	<title>15 ANI-ID - Automatic Number ID</title>
 	<para>This can only be set via Computer Linked programming.</para>
 	<informaltable>
 		<tgroup cols="3">
@@ -426,7 +461,7 @@
 			<row>
 				<entry><literal></literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>80808</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -434,11 +469,12 @@
 </section>
 <section xml:id="manual.menu.16">
 	<title>16 DTMFST - DTMF tone of transmit code</title>
-	<para></para>
+	<para>Selects if you should send your S-CODE(<literal>DT</literal>) or ANI code with the PTT-ID.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -446,26 +482,32 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>1</entry>
 				<entry><literal>DT-ST</literal></entry>
-				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry>S-CODE only</entry>
+				<entry><literal>DT+ANI</literal></entry>
 			</row>
 			<row>
-				<entry><literal>ANI-ST</literal></entry>
+				<entry>2</entry>
+				<entry>ANI code only<literal>ANI-ST</literal></entry>
 			</row>
 			<row>
-				<entry><literal>DT-ANI</literal></entry>
+				<entry>3</entry>
+				<entry><literal>DT+ANI</literal></entry>
+				<entry>Both</entry>
 			</row>
 			<row>
+				<entry>0</entry>
 				<entry><literal>OFF</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
 	</informaltable>
+	<para>You cannot set DTMFST while in channel/memory mode.</para>
 </section>
 <section xml:id="manual.menu.17">
 	<title>17 S-CODE - Signal Code</title>
-	<para></para>
+	<para><literal>S-CODE</literal> sets your transceiver to one of the fifteen(15) group ID codes. The actual ID codes are only settable from a computer.</para>
 	<informaltable>
 		<tgroup cols="3">
 		<thead>
@@ -479,19 +521,21 @@
 			<row>
 				<entry><literal>1 - 15</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>1</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
 	</informaltable>
+	<para>You cannot set S-CODE while in channel/memory mode.</para>
 </section>
 <section xml:id="manual.menu.18">
 	<title>18 SC-REV - Scanner Resume Method</title>
 	<para>Sets the behaviour of the scanner upon finding active frequencies.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -499,15 +543,18 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>0</entry>
 				<entry><literal>TO</literal></entry>
 				<entry>Time Operation</entry>
-				<entry><literal></literal></entry>
+				<entry><literal>TO</literal></entry>
 			</row>
 			<row>
+				<entry>1</entry>
 				<entry><literal>CO</literal></entry>
 				<entry>Carrier Operation</entry>
 			</row>
 			<row>
+				<entry>2</entry>
 				<entry><literal>SE</literal></entry>
 				<entry>Search Operation</entry>
 			</row>
@@ -522,11 +569,12 @@
 </section>
 <section xml:id="manual.menu.19">
 	<title>19 PTT-ID - When to send the PTT-ID</title>
-	<para>Sets when to send the PTT-ID (ANI) code.</para>
+	<para>Sets when to send the PTT-ID (ANI and/or S-CODE) code(s).</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -534,24 +582,29 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>1</entry>
 				<entry><literal>BOT</literal></entry>
 				<entry>Beginning Of Transmit</entry>
-				<entry><literal></literal></entry>
+				<entry><literal>OFF</literal></entry>
 			</row>
 			<row>
+				<entry>2</entry>
 				<entry><literal>EOT</literal></entry>
 				<entry>End Of Transmit</entry>
 			</row>
 			<row>
+				<entry>3</entry>
 				<entry><literal>BOTH</literal></entry>
 				<entry>Both BOT and EOT</entry>
 			</row>
 			<row>
+				<entry>0</entry>
 				<entry><literal>OFF</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
 	</informaltable>
+	<para>You cannot set PTT-ID while in channel/memory mode.</para>
 </section>
 <section xml:id="manual.menu.20">
 	<title>20 PTT-LT - Signal code sending delay.</title>
@@ -569,7 +622,7 @@
 			<row>
 				<entry><literal>0 - 30</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>5</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -579,9 +632,10 @@
 	<title>21 MDF-A - Channel Mode A Display</title>
 	<para>Sets the display mode for the upper display.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -589,17 +643,20 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>FREQ</literal></entry>
-				<entry>Frequency</entry>
-				<entry><literal></literal></entry>
-			</row>
-			<row>
-				<entry><literal>CHAN</literal></entry>
+				<entry>0</entry>
+				<entry><literal>CH</literal></entry>
 				<entry>Channel number</entry>
+				<entry><literal>FREQ</literal></entry>
 			</row>
 			<row>
+				<entry>1</entry>
 				<entry><literal>NAME</literal></entry>
 				<entry>Channel name</entry>
+			</row>
+			<row>
+				<entry>2</entry>
+				<entry><literal>FREQ</literal></entry>
+				<entry>Frequency</entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -610,9 +667,10 @@
 	<title>22 MDF-B - Channel Mode B Display</title>
 	<para>Sets the display mode for the lower display.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -620,17 +678,20 @@
 		</thead>
 		<tbody>
 			<row>
-				<entry><literal>FREQ</literal></entry>
-				<entry>Frequency</entry>
-				<entry><literal></literal></entry>
-			</row>
-			<row>
-				<entry><literal>CHAN</literal></entry>
+				<entry>0</entry>
+				<entry><literal>CH</literal></entry>
 				<entry>Channel number</entry>
+				<entry><literal>FREQ</literal></entry>
 			</row>
 			<row>
+				<entry>1</entry>
 				<entry><literal>NAME</literal></entry>
 				<entry>Channel name</entry>
+			</row>
+			<row>
+				<entry>2</entry>
+				<entry><literal>FREQ</literal></entry>
+				<entry>Frequency</entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -641,9 +702,10 @@
 	<title>23 BCL - Busy Channel Lock-out</title>
 	<para>If enabled your radio will prevent you from transmitting on active frequencies.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -651,11 +713,13 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>1</entry>
 				<entry><literal>ON</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>OFF</literal></entry>
 			</row>
 			<row>
+				<entry>0</entry>
 				<entry><literal>OFF</literal></entry>
 				<entry></entry>
 			</row>
@@ -667,9 +731,10 @@
 	<title>24 AUTOLK - Automatic Keypad Lock</title>
 	<para>If enabled keypad will automatically lock after eight(8) seconds of inactivity.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -677,11 +742,13 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>1</entry>
 				<entry><literal>ON</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>OFF</literal></entry>
 			</row>
 			<row>
+				<entry>0</entry>
 				<entry><literal>OFF</literal></entry>
 				<entry></entry>
 			</row>
@@ -693,9 +760,10 @@
 	<title>25 SFT-D - Frequency Shift Direction</title>
 	<para>Sets the direction of the transmit offset relative receive frequency.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -703,15 +771,18 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>1</entry>
 				<entry><literal>+</literal></entry>
 				<entry>TX frequency = RX + OFFSET</entry>
-				<entry><literal></literal></entry>
+				<entry><literal>OFF</literal></entry>
 			</row>
 			<row>
+				<entry>2</entry>
 				<entry><literal>-</literal></entry>
 				<entry>TX frequency = RX - OFFSET</entry>
 			</row>
 			<row>
+				<entry>0</entry>
 				<entry><literal>OFF</literal></entry>
 			</row>
 		</tbody>
@@ -734,14 +805,56 @@
 			<row>
 				<entry><literal>00.000 - 69.990</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>00.000</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
 	</informaltable>
+	<para>To input an offset frequency with the numeric keypad, enter the frequency in 10 megahertz with leading zeroes. 
+		For a 2MHz shift, enter
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-2.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>.
+		For a 600kHz shift, enter
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-6.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>.
+	</para>
+	<para>Use the
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		and
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		keys to set offsets below 100kHz.</para>
 </section>
 <section xml:id="manual.menu.27">
-	<title>27 MEMCH - Store a Memory Channel</title>
+	<title>27 MEM-CH - Store a Memory Channel</title>
 	<para>Stores current settings in memory to the specified channel number.</para>
 	<informaltable>
 		<tgroup cols="3">
@@ -756,14 +869,14 @@
 			<row>
 				<entry><literal>000 - 127</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>000</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
 	</informaltable>
 </section>
 <section xml:id="manual.menu.28">
-	<title>28 DELCH - Delete a memory channel</title>
+	<title>28 DEL-CH - Delete a memory channel</title>
 	<para>Deletes a memory channel at the specified channel number.</para>
 	<informaltable>
 		<tgroup cols="3">
@@ -778,7 +891,7 @@
 			<row>
 				<entry><literal>0 - 127</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>000</literal></entry>
 			</row>
 		</tbody>
 		</tgroup>
@@ -788,9 +901,10 @@
 	<title>29 WT-LED - Display back-light colour, Standby</title>
 	<para>Sets the back-light colour in standby.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -798,17 +912,21 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>1</entry>
 				<entry><literal>BLUE</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
-			</row>
-			<row>
-				<entry><literal>ORANGE</literal></entry>
-			</row>
-			<row>
 				<entry><literal>PURPLE</literal></entry>
 			</row>
 			<row>
+				<entry>2</entry>
+				<entry><literal>ORANGE</literal></entry>
+			</row>
+			<row>
+				<entry>3</entry>
+				<entry><literal>PURPLE</literal></entry>
+			</row>
+			<row>
+				<entry>0</entry>
 				<entry><literal>OFF</literal></entry>
 			</row>
 		</tbody>
@@ -819,9 +937,10 @@
 	<title>30 RX-LED - Display back-light colour, Receive</title>
 	<para>Sets the back-light colour while receiving a signal.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -829,17 +948,21 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>1</entry>
 				<entry><literal>BLUE</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>BLUE</literal></entry>
 			</row>
 			<row>
+				<entry>2</entry>
 				<entry><literal>ORANGE</literal></entry>
 			</row>
 			<row>
+				<entry>3</entry>
 				<entry><literal>PURPLE</literal></entry>
 			</row>
 			<row>
+				<entry>0</entry>
 				<entry><literal>OFF</literal></entry>
 			</row>
 		</tbody>
@@ -850,9 +973,10 @@
 	<title>31 TX-LED - Display back-light colour, Transmit</title>
 	<para>Sets the back-light colour while transmitting a signal.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -860,17 +984,21 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>1</entry>
 				<entry><literal>BLUE</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
-			</row>
-			<row>
 				<entry><literal>ORANGE</literal></entry>
 			</row>
 			<row>
+				<entry>2</entry>
+				<entry><literal>ORANGE</literal></entry>
+			</row>
+			<row>
+				<entry>3</entry>
 				<entry><literal>PURPLE</literal></entry>
 			</row>
 			<row>
+				<entry>0</entry>
 				<entry><literal>OFF</literal></entry>
 			</row>
 		</tbody>
@@ -881,9 +1009,10 @@
 	<title>32 AL-MOD - Alarm Mode</title>
 	<para></para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -891,15 +1020,18 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>0</entry>
 				<entry><literal>SITE</literal></entry>
 				<entry>Cycling tone over the air</entry>
-				<entry><literal></literal></entry>
+				<entry><literal>SITE</literal></entry>
 			</row>
 			<row>
+				<entry>1</entry>
 				<entry><literal>TONE</literal></entry>
     				<entry>Radio speaker only</entry>
 			</row>
 			<row>
+				<entry>2</entry>
 				<entry><literal>CODE</literal></entry>
 				<entry>Transmit 5s tone followed by Morse</entry>
 			</row>
@@ -911,9 +1043,10 @@
 	<title>33 BAND - Band Selection</title>
 	<para>Sets the current operating band.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -921,11 +1054,13 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>0</entry>
 				<entry><literal>VHF</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>VHF</literal></entry>
 			</row>
 			<row>
+				<entry>1</entry>
 				<entry><literal>UHF</literal></entry>
 				<entry></entry>
 			</row>
@@ -934,12 +1069,13 @@
 	</informaltable>
 </section>
 <section xml:id="manual.menu.34">
-	<title>34 TX-AB - Transmit selection while in Dual Watch mode</title>
+	<title>34 TDR-AB - Transmit selection while in Dual Watch mode</title>
 	<para>If enabled, this will force the radio to transmit on the selected frequency when in Dual Watch mode.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -947,15 +1083,18 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>1</entry>
 				<entry><literal>A</literal></entry>
 				<entry>Upper display</entry>
-				<entry><literal></literal></entry>
+				<entry><literal>OFF</literal></entry>
 			</row>
 			<row>
+				<entry>2</entry>
 				<entry><literal>B</literal></entry>
 				<entry>Lower display</entry>
 			</row>
 			<row>
+				<entry>0</entry>
 				<entry><literal>OFF</literal></entry>
 			</row>
 		</tbody>
@@ -966,9 +1105,10 @@
 	<title>35 STE - Squelch Tail Elimination</title>
 	<para></para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -976,11 +1116,13 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>1</entry>
 				<entry><literal>ON</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>ON</literal></entry>
 			</row>
 			<row>
+				<entry>0</entry>
 				<entry><literal>OFF</literal></entry>
 				<entry></entry>
 			</row>
@@ -989,7 +1131,7 @@
 	</informaltable>
 </section>
 <section xml:id="manual.menu.36">
-	<title>36 RP_STE - Squelch Tail Elimination through a repeater</title>
+	<title>36 RP-STE - Squelch Tail Elimination through a repeater</title>
 	<para></para>
 	<informaltable>
 		<tgroup cols="3">
@@ -1004,7 +1146,7 @@
 			<row>
 				<entry><literal>1 - 10</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>5</literal></entry>
 			</row>
 			<row>
 				<entry><literal>OFF</literal></entry>
@@ -1015,7 +1157,7 @@
 	</informaltable>
 </section>
 <section xml:id="manual.menu.37">
-	<title>37 RPT_RL - Delay the squelch tail of repeater</title>
+	<title>37 RPT-RL - Delay the squelch tail of repeater</title>
 	<para></para>
 	<informaltable>
 		<tgroup cols="3">
@@ -1030,7 +1172,7 @@
 			<row>
 				<entry><literal>1 - 10</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>OFF</literal></entry>
 			</row>
 			<row>
 				<entry><literal>OFF</literal></entry>
@@ -1044,9 +1186,10 @@
 	<title>38 PONMGS - Power On Message</title>
 	<para>When enabled it displays a 2 line message on the display. Message can only be set via computer.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -1054,11 +1197,13 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>0</entry>
 				<entry><literal>FULL</literal></entry>
 				<entry>Flash entire LCD</entry>
-				<entry><literal></literal></entry>
+				<entry><literal>MSG</literal></entry>
 			</row>
 			<row>
+				<entry>1</entry>
 				<entry><literal>MSG</literal></entry>
 				<entry>Displays a 2 line welcome message</entry>
 			</row>
@@ -1070,9 +1215,10 @@
 	<title>39 ROGER -  Roger Beep</title>
 	<para>Transmits an audible tone after you release the PTT.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -1080,11 +1226,13 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>1</entry>
 				<entry><literal>ON</literal></entry>
 				<entry></entry>
-				<entry><literal></literal></entry>
+				<entry><literal>OFF</literal></entry>
 			</row>
 			<row>
+				<entry>0</entry>
 				<entry><literal>OFF</literal></entry>
 				<entry></entry>
 			</row>
@@ -1096,9 +1244,10 @@
 	<title>40 RESET - Restore defaults</title>
 	<para>Resets the radio to factory defaults, with some exceptions.</para>
 	<informaltable>
-		<tgroup cols="3">
+		<tgroup cols="4">
 		<thead>
 			<row>
+				<entry>Key</entry>
 				<entry>Values</entry>
 				<entry>Notes</entry>
 				<entry>Default value</entry>
@@ -1106,11 +1255,13 @@
 		</thead>
 		<tbody>
 			<row>
+				<entry>0</entry>
 				<entry><literal>VFO</literal></entry>
     				<entry>VFO settings only</entry>
-    				<entry><literal></literal></entry>
+    				<entry><literal>ALL</literal></entry>
 			</row>
 			<row>
+				<entry>1</entry>
 				<entry><literal>ALL</literal></entry>
 				<entry>Total reset*</entry>
 			</row>
