@@ -1,11 +1,168 @@
 <chapter xml:id="manual.dual-watch">
 <title>Dual Watch</title>
-<para>To enable:
-	menu 7 menu up menu exit</para>
-</chapter>
-<!--
-Cannot use reverse function in dual watch mode
-Cannot switch between high and low power with pound in dual watch mode
-Cannot save duplex channels while in dual watch mode
+<para>In certain situations, the ability to monitor two channels at once can be a valuable asset. This can be achieved in one of two ways. You can either have one receiver in your radio and flip-flop between two frequencies at a fixed interval (known as Dual Watch), or you can equip a radio with two receivers (known as Dual Receive or Dual VFO). The former method is cheaper to implement and far more common than the latter.</para>
+<para>The Baofeng UV-5R features Dual Watch functionality (single receiver) with the ability to lock the transmit frequency to one of the two channels it monitors.</para>
+<note>
+	<para>Certain functions are not available while in dual watch mode:</para>
+	<itemizedlist spacing="compact">
+		<listitem><para>You cannot use the reverse function.</para></listitem>
+		<listitem><para>You cannot use the
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			key to switch between high and low transmit power in channel mode.</para></listitem>
+		<listitem><para>You cannot save duplex channels.</para></listitem>
+	</itemizedlist>
+</note>
 
--->
+<procedure>
+	<title>Enabling or disabling Dual Watch mode</title>
+	<step>
+		<para>Press the
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			key to enter the menu.</para>
+	</step>
+	<step>
+		<para>Enter
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-7.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			on the numeric keypad to get to Dual Watch.</para>
+	</step>
+	<step>
+		<para>Press
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			to select.</para>
+	</step>
+	<step>
+		<para>Use the
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			and
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			keys to enable or disable.</para>
+	</step>
+	<step>
+		<para>Press the
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			key to confirm.</para>
+	</step>
+	<step>
+		<para>Press the
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			key to exit the menu.</para>
+	</step>
+</procedure>
+<para>Due to the way the Baofeng UV-5R is constructed, whenever one of the A and B channels goes active, it will default to transmit on that channel. This behaviour can be highly inconvenient, especially if you're listening to a frequency you're not allowed to transmit on. Luckily there is a menu option available to lock the transmitter to one of the A and B channels.</para>
+<procedure>
+	<title>Locking the Dual Watch transmit channel</title>
+	<step>
+		<para>Press the
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			key to enter the menu.</para>
+	</step>
+	<step>
+		<para>Enter
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-3.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-4.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			on the numeric keypad to get to <literal>TDR-AB</literal>.</para>
+	</step>
+	<step>
+		<para>Press
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			to select.</para>
+	</step>
+	<step>
+		<para>Use the
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			and
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			keys to select A (upper) or B (lower) displays.</para>
+	</step>
+	<step>
+		<para>Press the
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			key to confirm.</para>
+	</step>
+	<step>
+		<para>Press the
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			key to exit the menu.</para>
+	</step>
+</procedure>
+<note>
+	<para>If you want to momentarily override the lock without having to setting the menu option to <literal>OFF</literal>, you can do so by pressing the
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-ab.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		key an instant before pressing the PTT.</para>
+	<para>Another option for overriding the lock momentarily, is to program in the reverse of Channel (MR) mode into Frequency (VFO) mode and using the
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
+			</imageobject>
+		</inlinemediaobject>
+		key to swap between primary and secondary channels.</para>
+</note>
+</chapter>

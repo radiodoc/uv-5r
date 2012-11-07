@@ -11,6 +11,7 @@
 
 <!ENTITY ch-menu 	SYSTEM "ch-menu.xml">
 <!ENTITY ch-scanner 	SYSTEM "ch-scanner.xml">
+<!ENTITY ch-dualwatch 	SYSTEM "ch-dual-watch.xml">
 <!ENTITY ch-dtmf 	SYSTEM "ch-dtmf.xml">
 <!ENTITY ch-groups 	SYSTEM "ch-groups.xml">
 <!ENTITY ch-custom 	SYSTEM "ch-customization.xml">
@@ -147,6 +148,7 @@
 			<literallayout>
 				<xref linkend="manual.menu"/>
 				<xref linkend="manual.scanner"/> 
+				<xref linkend="manual.dual-watch"/> 
 				<xref linkend="manual.dtmf"/> 
 				<xref linkend="manual.groups"/>
 				<xref linkend="manual.customization"/> 
@@ -155,6 +157,7 @@
 		</partintro>
 		&ch-menu;
 		&ch-scanner;
+		&ch-dualwatch;
 		&ch-dtmf;
 		&ch-groups;
 		&ch-custom;
