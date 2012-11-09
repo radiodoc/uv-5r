@@ -1,43 +1,64 @@
 <chapter xml:id="manual.ani">
 <title>Automatic Number Identification</title>
-<para>In dispatch environments...</para>
-<para>For details, contact the dispatch office with your employer.</para>
+<para>In dispatch environments it's common to have a system in place that will allow radios to automatically identify themselves to the dispatcher. This is known as Automatic Number Identification, or sometimes PTT-ID since the radio sends a data burst containing the ID code at the beginning or end of a transmission.</para>
+<para>The Baofeng UV-5R uses DTMF signalling for it's ANI implementation. For details on what settings to use and questions regarding system interoperability, contact the dispatch office with your employer.</para>
 <procedure>
-	<title>ani baofeng software</title>
+	<title>Setting ANI code</title>
 	<step>
-		<para>edit</para>
+		<para>Attach your radio to your computer with a programming cable and open up the Baofeng programming software, see <xref linkend="manual.programming.computer"/> for details.</para>
 	</step>
 	<step>
-		<para>dtmf</para>
+		<para>In the <literal>Edit</literal> menu, select <literal>DTMF</literal>. This will open up a window called <literal>DTMF Encode/Decode</literal>.</para>
 	</step>
 	<step>
-		<para>ani-box</para>
+		<para>Go to the <literal>Program</literal> menu, select <literal>Read from radio</literal> and the <literal>Read Data From Radio</literal> window will open.</para>
 	</step>
 	<step>
-		<para>enter code</para>
+		<para>Click the <literal>Read</literal> button. The status LED on the radio will flash red indicating it's transmitting data.</para>
+	</step>
+	<step>
+		<para>Locate the box named <literal>ANI code</literal> and enter your personal ID number that you've been given from your dispatch office into the text field.</para>
+		<para>If you use group ID codes in addition to, or instead of personal ID codes, you can enter up to 15 of them in the list to the left in the <literal>DTMF Encode/Decode</literal> window. These can be assigned on channel by channel basis in the <literal>Channel Information</literal>, see <xref linkend="manual.programming.baofeng"/> for further details.</para>
+	</step>
+	<step>
+		<para>Check the <literal>Press PTT to Send</literal> box if you want to transmit your ID before you speak, or;</para>
+		<para>check the <literal>Release PTT to Send</literal> box if you want to transmit your ID after you speak.</para>
+	</step>
+	<step>
+		<para>In the <literal>Program</literal> menu, select <literal>Write to radio</literal> and the <literal>Write Data to Radio</literal> window will open.</para>
+	</step>
+	<step>
+		<para>Click the <literal>Write</literal> button. The status LED on the radio will flash green indicating it's receiving data.</para>
 	</step>
 </procedure>
+<para>Unfortunately Baofeng decided to split up related functions in the programming software, so in order to enable ANI we'll have to open up yet another window and do some final configuration before the radio is ready for use.</para>
+<para>The following assumes that you've still got the programming software running from earlier.</para>
 <procedure>
-	<title>enabling ptt-id</title>
+	<title>Setting ANI settings</title>
 	<step>
-		<para>menu</para>
+		<para>In the <literal>Edit</literal> menu, select <literal>Optional Features</literal>. This will open up a very crowded looking window called <literal>Optional Features</literal>.</para>
 	</step>
 	<step>
-		<para>19</para>
+		<para>Go to the <literal>Program</literal> menu, select <literal>Read from radio</literal> and the <literal>Read Data From Radio</literal> window will open.</para>
 	</step>
 	<step>
-		<para>menu</para>
+		<para>Click the <literal>Read</literal> button. The status LED on the radio will flash red indicating it's transmitting data.</para>
 	</step>
 	<step>
-		<para>up down</para>
+		<para>In the lower left corner there's a nameless box with a number of drop-down lists, including but not limited to DTMF-ST and PTT_ID.</para>
+		<para>Use the DTMF-ST drop-down list to select whether to send your personal ANI code (<literal>Send ANI DTMF Side Tone</literal>), the group code (<literal>KB DTMF Side Tone</literal>), or both (<literal>DTMFST + Send ANI DTMFST</literal>).</para>
 	</step>
 	<step>
-		<para>menu</para>
+		<para>Use the PTT-ID drop-down list to select the position of your ANI data burst; <literal>BOT</literal> (Beginning of Transmit), <literal>EOT</literal> (End of Transmit) or <literal>BOTH</literal>. This is also the option that turns ANI completely off when set to <literal>OFF</literal>.</para>
 	</step>
 	<step>
-		<para>exit</para>
+		<para>In the <literal>Program</literal> menu, select <literal>Write to radio</literal> and the <literal>Write Data to Radio</literal> window will open.</para>
+	</step>
+	<step>
+		<para>Click the <literal>Write</literal> button. The status LED on the radio will flash green indicating it's receiving data.</para>
 	</step>
 </procedure>
+<para>Congratulations, you've successfully set your radio up for ANI. If you're experiencing any problems, contact the dispatch office with your employer.</para>
 <!--
 DTMF signalling?
 

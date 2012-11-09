@@ -157,7 +157,7 @@
 				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
 			</imageobject>
 		</inlinemediaobject>
-		momentarily and you'll reverse your transmit and receive frequencies.</para>
+		momentarily and you'll reverse your transmit and receive frequencies (reverse function not available while in Dual Watch mode).</para>
 	<para>This is indicated in the LCD on the radio with a <literal>R</literal> in the top row, next to the <literal>+</literal> and <literal>-</literal> for the offset direction.</para>
 </note>
 </chapter>

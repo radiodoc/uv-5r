@@ -1,20 +1,17 @@
 <chapter xml:id="manual.scanner">
 <title>Scanning</title>
-<para>The Baofeng UV-5R features a built in scanner for the VHF and UHF bands. At </para>
+<para>The Baofeng UV-5R features a built in scanner for the VHF and UHF bands. When in Frequency (VFO) mode it will scan in steps according to your set frequency step. In Channel (MR) mode it will scan your channels. At approximately three frequencies per second, it's not the fastest scanner in the world, but it is nonetheless a useful feature to have at times.</para>
 <para>To enable the scanner, press and hold the
 	<inlinemediaobject>
 		<imageobject>
 			<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
 		</imageobject>
 	</inlinemediaobject>
-	key for about two seconds. This also works when listening to broadcast FM.</para>
-
-<para>press and hold [star] to scan</para>
-<para>in frequency mode it will scan in menu1 steps</para>
-<para>in memory mode it will scan your channels</para>
+	key for about two seconds.</para>
+<para>Press any key to exit scanning mode.</para>
 <section>
 	<title>Scanning modes</title>
-	<para>There are three me</para>
+	<para>The scanner is configurable to one of three ways of operation: Time, carrier or search, each of which are explained in further details in their respective section below.</para>
 	<procedure>
 		<title>Setting scanner mode</title>
 		<step>
@@ -41,7 +38,7 @@
 				on your numeric keypad to come to scanner mode.</para>
 		</step>
 		<step>
-			<para>Press
+			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
 						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
@@ -65,22 +62,22 @@
 				keys to select scanning mode.</para>
 		</step>
 		<step>
-			<para>Press
+			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
 						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
 					</imageobject>
 				</inlinemediaobject>
-				to confirm and save.</para>
+				key to confirm and save.</para>
 		</step>
 		<step>
-			<para>Press 
+			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
 						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
 					</imageobject>
 				</inlinemediaobject>
-				to exit the menu.</para>
+				key to exit the menu.</para>
 		</step>
 	</procedure>
 	<section>
@@ -105,7 +102,89 @@
 </section>
 <section>
 	<title>Tone Scanning</title>
-	<para>You can also scan for CTCSS tones and DCS codes on ctive channels.</para>
-	<para>To scan for CTCSS or DCS on active channels, blablabla</para>
+	<para>In frequency mode you can scan for CTCSS tones and DCS codes on active frequencies.</para>
+	<para>To scan for CTCSS or DCS on active channels, follow these steps:</para>
+	<procedure>
+		<title>Tone scanning</title>
+		<step>
+			<para>Press the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key to enter the menu.</para>
+		</step>
+		<step>
+			<para>Enter one of the following on the numeric keypad:</para>
+			<substeps>
+				<step>
+					<para>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						to scan for DCS codes, or</para>
+				</step>
+				<step>
+					<para>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						<inlinemediaobject>
+							<imageobject>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+							</imageobject>
+						</inlinemediaobject>
+						to scan for CTCSS sub-tones.</para>
+				</step>
+			</substeps>
+		</step>
+		<step>
+			<para>Press the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key to select.</para>
+		</step>
+		<step>
+			<para>Press the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key momentarily, <literal>CT</literal> or <literal>DCS</literal> will start flashing in the display as the radio starts scanning. Once it finds a tone or code in use, it will beep and stop flashing, indicating that a tone or code has been found.</para>
+		</step>
+		<step>
+			<para>Press the
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key to confirm.</para>
+		</step>
+		<step>
+			<para>Press the 
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+					</imageobject>
+				</inlinemediaobject>
+				key to exit the menu system</para>
+		</step>
+	</procedure>
+	<para>If you wish to communicate with a party after finding out what CTCSS or DCS settings they're transmitting with, configure your transmit CTCSS or DCS according with what the scanner set for your receive CTCSS or DCS. For details see <xref linkend="manual.groups"/>.</para>
 </section>
 </chapter>
