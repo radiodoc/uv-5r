@@ -180,7 +180,7 @@
 						<imagedata contentdepth="0.9em" format="png" fileref="figs/symbol-battery-empty.svg.png"/>
 					</imageobject>
 				</inlinemediaobject>
-				the battery is depleated. At this point the radio will start beeping periodically as well as flash the backlight of the display, indicating that you need to change your battery or put your radio in the charger.</para>
+				the battery is depleted. At this point the radio will start beeping periodically as well as flash the backlight of the display, indicating that you need to change your battery or put your radio in the charger.</para>
 		</section>
 	</section>
 	<section xml:id="manual.know.status-led">
