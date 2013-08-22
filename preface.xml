@@ -9,7 +9,7 @@
 
 	<title>Preface</title>
 	<blockquote>
-		<attribution>Dr. Emmet Brown</attribution>
+		<attribution>Dr. Emmett Brown</attribution>
 		<para>Please excuse the crudity of this model. I didn't have time to build it to scale or paint it.</para>
 	</blockquote>
 	<para>This manual started out as a bit of a joke between friends, saying that "Someone should write a better manual!". As it turns out, that someone turned out to be I.</para>
@@ -18,6 +18,6 @@
 
 	<para>Many thanks to all of those who donated to make this possible. Also big thanks to O'Reilly Media for their inspiration and wonderful documentation.</para>
 	<bridgehead renderas="sect5">Regarding CHIRP and the upcoming revised edition</bridgehead>
-	<para>Originally I intended to include a whole section in the programming chapter dedicated to the free and open source programming tool <link xlink:href="http://chirp.danplanet.com/">CHRIP</link>, but unfortunately I couldn't for the life of me get it playing with my hardware, despite trying three entirely different setups.</para>
+	<para>Originally I intended to include a whole section in the programming chapter dedicated to the free and open source programming tool <link xlink:href="http://chirp.danplanet.com/">CHIRP</link>, but unfortunately I couldn't for the life of me get it playing with my hardware, despite trying three entirely different setups.</para>
 	<para>CHIRP will therefore have to wait for the revised edition of the book, which in turn will have to wait for me to get CHIRP working. Other than the addition of CHIRP and inclusion of any errata from this edition, the revised edition will include the Glossary and Index sections that were cut due to time concerns (unfortunately I didn't have the foresight to index things as I was writing them as I was still learning about how to use DocBook). There is a high probability that I will further refine the book's layout and design as well.</para>
 </preface>
