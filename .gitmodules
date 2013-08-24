@@ -1,0 +1,3 @@
+[submodule "toolchain"]
+	path = toolchain
+	url = git@github.com:radiodoc/docbook-toolchain.git
