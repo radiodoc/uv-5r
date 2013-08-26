@@ -248,7 +248,7 @@
 		</tbody>
 		</tgroup>
 	</informaltable>
-	<para>It should be noted that this radio does not possess a dual VFO, meaning that the Dual Watch feature is a time sharing operation. Your radio will flip-flop between A and B channels at a fixed rate. This will not allow you to receive two frequencies in paralell.</para>
+	<para>It should be noted that this radio does not possess a dual VFO, meaning that the Dual Watch feature is a time sharing operation. Your radio will flip-flop between A and B channels at a fixed rate. This will not allow you to receive two frequencies in parallel.</para>
 </section>
 <section xml:id="manual.menu.8">
 	<title>8 BEEP - Keypad Beep</title>
