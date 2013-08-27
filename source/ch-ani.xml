@@ -1,4 +1,8 @@
-<chapter xml:id="manual.ani">
+<chapter xmlns="http://docbook.org/ns/docbook" 
+         version="5.0" 
+         xmlns:xlink="http://www.w3.org/1999/xlink" 
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xml:id="manual.ani">
 <title>Automatic Number Identification</title>
 <para>In dispatch environments it's common to have a system in place that will allow radios to automatically identify themselves to the dispatcher. This is known as Automatic Number Identification, or sometimes PTT-ID since the radio sends a data burst containing the ID code at the beginning or end of a transmission.</para>
 <para>The Baofeng UV-5R uses DTMF signalling for it's ANI implementation. For details on what settings to use and questions regarding system interoperability, contact the dispatch office with your employer.</para>

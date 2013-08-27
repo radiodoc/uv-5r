@@ -1,4 +1,8 @@
-<chapter xml:id="manual.scanner">
+<chapter xmlns="http://docbook.org/ns/docbook" 
+         version="5.0" 
+         xmlns:xlink="http://www.w3.org/1999/xlink" 
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xml:id="manual.scanner">
 <title>Scanning</title>
 <para>The Baofeng UV-5R features a built in scanner for the VHF and UHF bands. When in Frequency (VFO) mode it will scan in steps according to your set frequency step. In Channel (MR) mode it will scan your channels. At approximately three frequencies per second, it's not the fastest scanner in the world, but it is nonetheless a useful feature to have at times.</para>
 <para>To enable the scanner, press and hold the

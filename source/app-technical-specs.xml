@@ -1,4 +1,9 @@
-<appendix xml:id="manual.specs">
+<appendix xmlns="http://docbook.org/ns/docbook" 
+          version="5.0" 
+          xmlns:xlink="http://www.w3.org/1999/xlink" 
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:xi="http://www.w3.org/2001/XInclude"
+          xml:id="manual.specs">
 <title>Technical specifications</title>
 <section xml:id="manual.specs.general">
 	<title>General</title>
@@ -142,14 +147,14 @@
 		</seglistitem>
 	</segmentedlist>
 </section>
-	<!--
-	-->
 <section xml:id="manual.specs.dcs">
 	<title>DCS table</title>
-	&dcs-table;
+	<xi:include href="dcs-table.xml"/>
 </section>
+	<!--
+	-->
 <section xml:id="manual.specs.ctcss">
 	<title>CTCSS table</title>
-	&ctcss-table;
+	<xi:include href="ctcss-table.xml"/>
 </section>
 </appendix>

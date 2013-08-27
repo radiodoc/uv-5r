@@ -1,5 +1,7 @@
-
-<appendix>
+<appendix xmlns="http://docbook.org/ns/docbook" 
+          version="5.0" 
+          xmlns:xlink="http://www.w3.org/1999/xlink" 
+          xmlns:svg="http://www.w3.org/2000/svg">
 	<title>Copyright</title>
 	<para>Copyright (c) 2012 xles McFuzzypants.</para>
 	<para>This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit</para>
