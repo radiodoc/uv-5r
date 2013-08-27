@@ -1,4 +1,8 @@
-<chapter xml:id="manual.get-to-know">
+<chapter xmlns="http://docbook.org/ns/docbook" 
+         version="5.0" 
+         xmlns:xlink="http://www.w3.org/1999/xlink" 
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xml:id="manual.get-to-know">
 	<title>Getting to know your radio</title>
 	<figure xml:id="manual.radio.front-fig">
 		<title>Baofeng UV-5R, overview</title>

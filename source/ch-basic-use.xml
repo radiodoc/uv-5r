@@ -1,4 +1,8 @@
-<chapter xml:id="manual.basic">
+<chapter xmlns="http://docbook.org/ns/docbook" 
+         version="5.0" 
+         xmlns:xlink="http://www.w3.org/1999/xlink" 
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xml:id="manual.basic">
 <title>Basic Use</title>
 <section xml:id="manual.basic.power-volume">
 	<title>Power and volume</title>

@@ -1,4 +1,8 @@
-<chapter xml:id="manual.groups">
+<chapter xmlns="http://docbook.org/ns/docbook" 
+         version="5.0" 
+         xmlns:xlink="http://www.w3.org/1999/xlink" 
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xml:id="manual.groups">
 <indexterm>
 	<primary>groups</primary>
 </indexterm>
