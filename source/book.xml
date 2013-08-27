@@ -1,40 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE book [
-<!ENTITY preface 	SYSTEM "preface.xml">
-
-<!ENTITY ch-safety 	SYSTEM "ch-safety-information.xml">
-<!ENTITY ch-features 	SYSTEM "ch-features.xml">
-
-<!ENTITY ch-setup 	SYSTEM "ch-setup.xml">
-<!ENTITY ch-gettoknow 	SYSTEM "ch-get-to-know.xml">
-<!ENTITY ch-basicuse 	SYSTEM "ch-basic-use.xml">
-
-<!ENTITY ch-menu 	SYSTEM "ch-menu.xml">
-<!ENTITY ch-scanner 	SYSTEM "ch-scanner.xml">
-<!ENTITY ch-dualwatch 	SYSTEM "ch-dual-watch.xml">
-<!ENTITY ch-dtmf 	SYSTEM "ch-dtmf.xml">
-<!ENTITY ch-groups 	SYSTEM "ch-groups.xml">
-<!ENTITY ch-custom 	SYSTEM "ch-customization.xml">
-<!ENTITY ch-program 	SYSTEM "ch-programming.xml">
-
-<!ENTITY ch-repeater 	SYSTEM "ch-repeater.xml">
-<!ENTITY ch-ani 	SYSTEM "ch-ani.xml">
-<!ENTITY ch-appspec 	SYSTEM "ch-application-specific-setup.xml">
-
-<!ENTITY app-trouble 	SYSTEM "app-troubleshooting.xml">
-<!ENTITY app-menudef 	SYSTEM "app-menu-definitions.xml">
-<!ENTITY app-techspec 	SYSTEM "app-technical-specs.xml">
 <!ENTITY ctcss-table 	SYSTEM "ctcss-table.xml">
 <!ENTITY dcs-table 	SYSTEM "dcs-table.xml">
-
-<!ENTITY glossary 	SYSTEM "glossary.xml">
-<!ENTITY license 	SYSTEM "copyright.xml">
-<!ENTITY colophon 	SYSTEM "colophon.xml">
 ]>
 <book xmlns="http://docbook.org/ns/docbook" 
-	xmlns:xlink="http://www.w3.org/1999/xlink" 
-	xmlns:svg="http://www.w3.org/2000/svg"
-	version="5.0" xml:id="manual">
+      xmlns:xlink="http://www.w3.org/1999/xlink" 
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      version="5.0" xml:id="manual">
 	<title>Baofeng UV-5R</title>
 
 	<info>
@@ -118,10 +91,10 @@
 		</legalnotice>
 	</info>
 
-	&preface;
+	<xi:include href="preface.xml"/>
 <!--
-		&ch-safety;
-		&ch-features;
+		<xi:include href="ch-safety-information.xml"/>
+		<xi:include href="ch-features.xml"/>
 -->
 	<part label="I">
 		<title>Getting started</title>
@@ -137,9 +110,9 @@
 			<xref linkend="manual.basic"/>
 			</literallayout>
 		</partintro>
-		&ch-setup;
-		&ch-gettoknow;
-		&ch-basicuse;
+		<xi:include href="ch-setup.xml"/>
+		<xi:include href="ch-get-to-know.xml"/>
+		<xi:include href="ch-basic-use.xml"/>
 	</part>
 	<part label="II">
 		<title>Advanced topics</title>
@@ -155,13 +128,13 @@
 				<xref linkend="manual.programming"/>
 			</literallayout>
 		</partintro>
-		&ch-menu;
-		&ch-scanner;
-		&ch-dualwatch;
-		&ch-dtmf;
-		&ch-groups;
-		&ch-custom;
-		&ch-program;
+		<xi:include href="ch-menu.xml"/>
+		<xi:include href="ch-scanner.xml"/>
+		<xi:include href="ch-dual-watch.xml"/>
+		<xi:include href="ch-dtmf.xml"/>
+		<xi:include href="ch-groups.xml"/>
+		<xi:include href="ch-customization.xml"/>
+		<xi:include href="ch-programming.xml"/>
 	</part>
 	<part label="III">
 		<title>How-to and setup guides.</title>
@@ -173,21 +146,21 @@
 				<xref linkend="manual.app-specicic"/>
 			</literallayout>
 		</partintro>
-		&ch-repeater;
-		&ch-ani;
-		&ch-appspec;
+		<xi:include href="ch-repeater.xml"/>
+		<xi:include href="ch-ani.xml"/>
+		<xi:include href="ch-application-specific-setup.xml"/>
 	</part>
 
-	&app-trouble;
-	&app-menudef;
-	&app-techspec;
-<!--
-	&glossary;
-	
+	<xi:include href="app-troubleshooting.xml"/>
+	<xi:include href="app-menu-definitions.xml"/>
+	<xi:include href="app-technical-specs.xml"/>
 
+	
+	<xi:include href="glossary.xml"/>
+<!--
 	<index xml:id="manual.index"/>
-	&index;
-	&license;
+	<xi:include href="&index;"/>
+	<xi:include href="copyright.xml"/>
 -->
-	&colophon;
+	<xi:include href="colophon.xml"/>
 </book>

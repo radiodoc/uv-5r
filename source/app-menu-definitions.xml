@@ -1,4 +1,8 @@
-<appendix xml:id="manual.menu.definitions">
+<appendix xmlns="http://docbook.org/ns/docbook" 
+          version="5.0" 
+          xmlns:xlink="http://www.w3.org/1999/xlink" 
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xml:id="manual.menu.definitions">
 <title>Menu definitions</title>
 <para>See <xref linkend="manual.menu"/> for more info about using the menu-system.</para>
 <section xml:id="manual.menu.0">

@@ -1,4 +1,8 @@
-<chapter xml:id="manual.repeater">
+<chapter xmlns="http://docbook.org/ns/docbook" 
+         version="5.0" 
+         xmlns:xlink="http://www.w3.org/1999/xlink" 
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xml:id="manual.repeater">
 <title>Repeaters</title>
 <para>A radio repeater is an automated transceiver in a fixed location. Usually mounted high up on hill tops or on tall buildings, but sometimes they operate within buildings for internal use. A repeater takes one signal and relays it, usually after amplifying it by orders of magnitude. This can be very handy, as this enables you to use a small low powered hand-held two-way transceiver such as the Baofeng UV-5R to reach great distances.</para>
 <para>Whether you're a commercial (business or government) user or an amateur radio operator, chances are you'll be dealing with a repeater system sooner or later. To find out what settings to use to use your local repeater, ask your employer or someone at your local IARU member organization for details.</para>

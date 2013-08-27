@@ -1,6 +1,8 @@
-	<table xml:id="manual.table.dcs">
-		<title>DCS Codes</title>
-		<tgroup cols="6">
+<table xmlns="http://docbook.org/ns/docbook" 
+       version="5.0" 
+       xml:id="manual.table.dcs">
+	<title>DCS Codes</title>
+	<tgroup cols="6">
 		<thead>
 			<row>
 				<entry>Number</entry>
@@ -365,5 +367,5 @@
 				<entry><literal>D754N</literal></entry>
 			</row>
 		</tbody>
-		</tgroup>
-	</table>
+	</tgroup>
+</table>
