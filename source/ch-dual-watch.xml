@@ -1,4 +1,8 @@
-<chapter xml:id="manual.dual-watch">
+<chapter xmlns="http://docbook.org/ns/docbook" 
+         version="5.0" 
+         xmlns:xlink="http://www.w3.org/1999/xlink" 
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xml:id="manual.dual-watch">
 <title>Dual Watch</title>
 <para>In certain situations, the ability to monitor two channels at once can be a valuable asset. This can be achieved in one of two ways. You can either have one receiver in your radio and flip-flop between two frequencies at a fixed interval (known as Dual Watch), or you can equip a radio with two receivers (known as Dual Receive or Dual VFO). The former method is cheaper to implement and far more common than the latter.</para>
 <para>The Baofeng UV-5R features Dual Watch functionality (single receiver) with the ability to lock the transmit frequency to one of the two channels it monitors.</para>
