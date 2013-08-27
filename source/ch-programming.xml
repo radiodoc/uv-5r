@@ -143,65 +143,65 @@
 		<note>
 			<para>When you first open up the Baofeng programming software, it may default to Chinese. To change the language to English, go to the second rightmost menu. There you will find a list of available languages, select English.</para>
 		</note>
-		<para>When you start the Baofeng programming software you will be greeted by the <literal>Channel Information</literal> window. This is where you enter the channel information for your memory channels. If the <literal>Channel Information</literal> window doesn't show automatically, you can bring it up by going to <literal>Edit -&gt; Channel Information</literal>.</para>
-		<para>Before we start adding channels, go to <literal>Communication</literal> to select the port your cable is attached to. Next go to <literal>Program -&gt; Read from radio</literal> and click <userinput>Read</userinput> to read in any existing channel information on the radio. This is also a good way to test the connection of the programming cable. If the read is successful the LED on your radio will start flashing red indicating that the radio is transmitting data to the computer.</para>
+		<para>When you start the Baofeng programming software you will be greeted by the <guilabel>Channel Information</guilabel> window. This is where you enter the channel information for your memory channels. If the <guilabel>Channel Information</guilabel> window doesn't show automatically, you can bring it up by going to <menuchoice><guimenu>Edit</guimenu><guimenuitem>Channel Information</guimenuitem></menuchoice>.</para>
+		<para>Before we start adding channels, go to <guimenu>Communication</guimenu> to select the port your cable is attached to. Next go to <menuchoice><guimenu>Program</guimenu><guimenuitem>Read from radio</guimenuitem></menuchoice> and click <guibutton>Read</guibutton> to read in any existing channel information on the radio. This is also a good way to test the connection of the programming cable. If the read is successful the LED on your radio will start flashing red indicating that the radio is transmitting data to the computer.</para>
 		<note>
 			<para>The Baofeng programming software has been known to fail on connect the first try. If your connection fails, just try to read or write again.</para>
 			<para>If it continues to fail, check the connection of your cable and that you've configured your port properly in the programming software.</para>
 		</note>
-		<para>The <literal>Channel Information</literal> window in the Baofeng software features a simple and easy to use spreadsheet style interface. Some columns are obvious, others aren't as transparent as to what their purpose is. However, in most cases the default values tend to be the appropriate ones.</para>
+		<para>The <guilabel>Channel Information</guilabel> window in the Baofeng software features a simple and easy to use spreadsheet style interface. Some columns are obvious, others aren't as transparent as to what their purpose is. However, in most cases the default values tend to be the appropriate ones.</para>
 		<variablelist>
 			<title>Channel Information window, column definitions</title>
 			<varlistentry>
-				<term>Channel</term>
+				<term><guilabel>Channel</guilabel></term>
 				<listitem><para>Channel number.</para></listitem>
 			</varlistentry>
 			<varlistentry>
-				<term>Band</term>
+				<term><guilabel>Band</guilabel></term>
 				<listitem><para>What band, defaults to both VHF and UHF.</para></listitem>
 			</varlistentry>
 			<varlistentry>
-				<term>RX Frequency</term>
+				<term><guilabel>RX Frequency</guilabel></term>
 				<listitem><para>Receive frequency.</para></listitem>
 			</varlistentry>
 			<varlistentry>
-				<term>TX Frequency</term>
+				<term><guilabel>TX Frequency</guilabel></term>
 				<listitem><para>Transmit frequency. Defaults to the receive frequency.</para></listitem>
 			</varlistentry>
 			<varlistentry>
-				<term>CTCSS/DCS Dec</term>
+				<term><guilabel>CTCSS/DCS Dec</guilabel></term>
 				<listitem><para>Receiver CTCSS or DCS. Defaults to <literal>OFF</literal>.</para></listitem>
 			</varlistentry>
 			<varlistentry>
-				<term>CTCSS/DCS Enc</term>
+				<term><guilabel>CTCSS/DCS Enc</guilabel></term>
 				<listitem><para>Transmitter CTCSS or DCS. Defaults to <literal>OFF</literal>.</para></listitem>
 			</varlistentry>
 			<varlistentry>
-				<term>TX Power</term>
+				<term><guilabel>TX Power</guilabel></term>
 				<listitem><para>Transmit power. Defaults to <literal>HIGH</literal>.</para></listitem>
 			</varlistentry>
 			<varlistentry>
-				<term>W/N</term>
+				<term><guilabel>W/N</guilabel></term>
 				<listitem><para>Wideband or Narrowband operation. Defaults to <literal>W</literal> for Wideband.</para></listitem>
 			</varlistentry>
 			<varlistentry>
-				<term>PTT-ID</term>
+				<term><guilabel>PTT-ID</guilabel></term>
 				<listitem><para>Enables and sets position of PTT-ID. Defaults to <literal>OFF</literal>.</para></listitem>
 			</varlistentry>
 			<varlistentry>
-				<term>BusyLock</term>
+				<term><guilabel>BusyLock</guilabel></term>
 				<listitem><para>Busy Channel Lock-out. Defaults to <literal>OFF</literal>.</para></listitem>
 			</varlistentry>
 			<varlistentry>
-				<term>Scan_Add</term>
+				<term><guilabel>Scan_Add</guilabel></term>
 				<listitem><para>Add to scanner list. When enabled the channel is included in scanning mode. Defaults to <literal>ON</literal>.</para></listitem>
 			</varlistentry>
 			<varlistentry>
-				<term>SigCode</term>
+				<term><guilabel>SigCode</guilabel></term>
 				<listitem><para>Signal Code, group ID for the channel. Defaults to <literal>1</literal>.</para></listitem>
 			</varlistentry>
 			<varlistentry>
-				<term>CH-Name</term>
+				<term><guilabel>CH-Name</guilabel></term>
 				<listitem><para>Channel name.</para></listitem>
 			</varlistentry>
 		</variablelist>
@@ -210,38 +210,38 @@
 		<procedure>
 			<title>Adding a channel</title>
 			<step>
-				<para>Select the <literal>Band</literal>.</para>
+				<para>Select the <guilabel>Band</guilabel>.</para>
 			</step>
 			<step>
-				<para>Click in the <literal>RX Frequency</literal> field next to it and enter your receive frequency.</para>
+				<para>Click in the <guilabel>RX Frequency</guilabel> field next to it and enter your receive frequency.</para>
 			</step>
 			<step>
-				<para>Click on the <literal>TX Frequency</literal> field, and the rest of the row should fill in automatically with default values (except for <literal>CH-Name</literal> which will be kept blank).</para>
+				<para>Click on the <guilabel>TX Frequency</guilabel> field, and the rest of the row should fill in automatically with default values (except for <guilabel>CH-Name</guilabel> which will be kept blank).</para>
 				<para>If you're adding a duplex channel you can go ahead and enter your transmit frequency directly.</para>
 			</step>
 			<step>
 				<para>After that it's all just a matter of adding all the extra information and features needed for the channel based on your requirements.</para>
-				<para>When you're done you can add an optional six character Channel Name in the <literal>CH-Name</literal> field.</para>
+				<para>When you're done you can add an optional six character Channel Name in the <guilabel>CH-Name</guilabel> field.</para>
 			</step>
 		</procedure>
 		<para>Repeat for all the channels you want to add.</para>
 		<note>
-			<para>To delete a channel, simply go to the <literal>RX Frequency</literal> field of that channel's row, erase it and click on another field. The row should now erase itself.</para>
+			<para>To delete a channel, simply go to the <guilabel>RX Frequency</guilabel> field of that channel's row, erase it and click on another field. The row should now erase itself.</para>
 		</note>
-		<para>When you're done adding and editing channels you will want to write them to the radio. To write your information to the radio, go to <literal>Program -&gt; Write to radio</literal> and click <userinput>Write</userinput>. On a successful write sequence the radio will start flashing green indicating that it is receiving data. When all data blocks have been sent from the computer the radio will restart itself.</para>
+		<para>When you're done adding and editing channels you will want to write them to the radio. To write your information to the radio, go to <menuchoice><guimenu>Program</guimenu><guimenuitem>Write to radio</guimenuitem></menuchoice> and click <guibutton>Write</guibutton>. On a successful write sequence the radio will start flashing green indicating that it is receiving data. When all data blocks have been sent from the computer the radio will restart itself.</para>
 	</section>
-<!--
 	<section xml:id="manual.programming.chirp">
 		<title>CHIRP</title>
 		<para>A popular alternative to the manufacturers own software, is the open source and cross platform programming tool <link xlink:href="http://chirp.danplanet.com/">CHRIP</link>. If you're a user of Apple OS X or a flavour of Linux, CHRIP may very well be your only option to programming your radio via computer.</para>
+<!--
 		<warning>
 			<para>At the time of writing, CHRIP only supports the Baofeng UV-5R in nightly builds. Earlier builds may possibly brick your radio.</para>
 		</warning>
+-->
 		<note>
 			<para>CHIRP does not currently have the functionality to program optional features such as ANI. To access these functions you'll have to use a computer running Windows with the Baofeng software.</para>
 		</note>
 	</section>
--->
 </section>
 <section xml:id="manual.programming.cloning">
 	<title>Radio to radio cloning</title>
