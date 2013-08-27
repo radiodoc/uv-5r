@@ -1,4 +1,8 @@
-<chapter xml:id="manual.programming">
+<chapter xmlns="http://docbook.org/ns/docbook" 
+         version="5.0" 
+         xmlns:xlink="http://www.w3.org/1999/xlink" 
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xml:id="manual.programming">
 <title>Programming</title>
 <para>Memory channels are an easy way to store commonly used frequencies so that they can easily be retrieved at a later date.</para>
 <para>The Baofeng UV-5R features 128 memory channels that each can hold: Receive and transmit frequencies, transmit power, group signalling information, bandwidth, ANI/PTT-ID settings and a six character alphanumeric identifier or channel name
