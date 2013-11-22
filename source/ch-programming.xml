@@ -135,7 +135,7 @@
 		<title>Attaching the programming cable</title>
 		<para>Before attaching the cable, make sure your radio is turned off.</para>
 		<para>To attach the cable, uncover the accessory port behind the rubber flap on the right side of the radio body (see <xref linkend="manual.radio.front-fig"/>), align the connectors and push in firmly.</para>
-		<para>Attach the USB (or DE9 in the case of standard RS-232) connector to your computer and start your programming software. You may now turn on your radio.</para>
+		<para>Attach the USB (or DB9 in the case of standard RS-232) connector to your computer and start your programming software. You may now turn on your radio.</para>
 	</section>
 	<section xml:id="manual.programming.baofeng">
 		<title>Baofeng software</title>
