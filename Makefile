@@ -3,4 +3,4 @@
 MODEL = uv-5r
 SRC = source/book.xml
 
-include toolchain/Makefile.base
+include ../toolchain/Makefile.base
