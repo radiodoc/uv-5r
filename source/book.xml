@@ -33,18 +33,18 @@
 	</info>
 
 	<xi:include href="preface.xml"/>
-<!--
 		<xi:include href="ch-safety-information.xml"/>
 		<xi:include href="ch-features.xml"/>
+<!--
 -->
 	<part label="I">
 		<title>Getting started</title>
 		<partintro>
 			<para>Part one covers the basic setup and use of your hand-held two-way transceiver.</para>
 			<literallayout>
-<!--
 			<xref linkend="manual.safety"/>
 			<xref linkend="manual.features"/>
+<!--
 -->
 			<xref linkend="manual.setup"/>
 			<xref linkend="manual.get-to-know"/>
@@ -98,10 +98,10 @@
 
 	
 	<xi:include href="glossary.xml"/>
-<!--
 	<index xml:id="manual.index"/>
+<!--
 	<xi:include href="&index;"/>
-	<xi:include href="copyright.xml"/>
 -->
+	<xi:include href="copyright.xml"/>
 	<xi:include href="colophon.xml"/>
 </book>
