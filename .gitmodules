@@ -1,3 +1,0 @@
-[submodule "toolchain"]
-	path = toolchain
-	url = git@github.com:radiodoc/toolchain.git
