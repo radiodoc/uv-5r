@@ -176,7 +176,7 @@
 		<note>
 			<para>Even though it is a seven character by two line display, channel memories are only configurable to six character names.</para>
 		</note>
-		<section>
+		<section xml:id="manual.know.battery">
 			<title>Battery Level Indicator</title>
 			<para>When the battery level indicator reads
 				<inlinemediaobject>
@@ -320,7 +320,7 @@
 						</imageobject>
 					</inlinemediaobject>
 					key for about two seconds.</para>
-				<para>You can also enable so that the radio automatically locks the keypad after ten seconds from the menu, see <xref linkend="manual.menu"/> and <xref linkend="manual.menu.definitions.24"/> in <xref linkend="manual.menu.definitions"/> for details.</para>
+				<para>You can also enable so that the radio automatically locks the keypad after ten seconds from the menu, see <xref linkend="manual.menu"/> and <xref linkend="manual.menu.24"/> in <xref linkend="manual.menu.definitions"/> for details.</para>
 			</section>
 		</section>
 		<section>

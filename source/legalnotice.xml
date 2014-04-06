@@ -1,0 +1,62 @@
+<legalnotice xmlns="http://docbook.org/ns/docbook" 
+             version="5.0" 
+             xmlns:xlink="http://www.w3.org/1999/xlink" 
+             xml:id="manual.legalnotice">
+	<para>This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.</para>
+
+	<para>You are free:</para>
+	<itemizedlist spacing="compact">
+		<listitem>
+			<para>to Share — to copy, distribute and transmit the work</para>
+		</listitem>
+		<listitem>
+			<para>to Remix — to adapt the work</para>
+		</listitem>
+		<listitem>
+			<para>to make commercial use of the work</para>
+		</listitem>
+	</itemizedlist>
+	<para>Under the following conditions:</para>
+	<itemizedlist spacing="compact">
+		<listitem>
+			<para>Attribution — You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).</para>
+		</listitem>
+		<listitem>
+			<para>Share Alike — If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.</para>
+		</listitem>
+	</itemizedlist>
+	<para>With the understanding that:</para>
+	<itemizedlist spacing="compact">
+		<listitem>
+			<para>Waiver — Any of the above conditions can be waived if you get permission from the copyright holder.</para>
+		</listitem>
+		<listitem>
+			<para>Public Domain — Where the work or any of its elements is in the public domain under applicable law, that status is in no way affected by the license.</para>
+		</listitem>
+		<listitem>
+			<para>Other Rights — In no way are any of the following rights affected by the license:</para>
+			<itemizedlist spacing="compact">
+				<listitem>
+					<para>Your fair dealing or fair use rights, or other applicable copyright exceptions and limitations;</para>
+				</listitem>
+				<listitem>
+					<para>The author's moral rights;</para>
+				</listitem>
+				<listitem>
+					<para>Rights other persons may have either in the work itself or in how the work is used, such as publicity or privacy rights.</para>
+				</listitem>
+			</itemizedlist>
+		</listitem>
+	</itemizedlist>
+
+	<para>To view a copy of this license, visit</para>
+	<para><link xlink:href="http://creativecommons.org/licenses/by-sa/3.0/"/></para>
+	<para>or send a letter to 
+		<address>
+		Creative Commons, 
+		<street>559 Nathan Abbott Way</street>, 
+		<city>Stanford</city>, <state>California</state> <postcode>94305</postcode>, <country>USA</country>.
+		</address></para>
+	<para>All brand names and trademarks mentioned in this document is the property of their respective holders. The authors of this document shares no affiliation with any of the brands and trademarks mentioned within this document.</para>
+	<para>The (Chinese) Radio Documentation Project or its authors does not hold any responsibility or liability for any damage or injury, direct, indirect or otherwise caused as a result of following the instructions and procedures herein.</para>
+</legalnotice>

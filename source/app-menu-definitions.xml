@@ -305,7 +305,7 @@
 		</tgroup>
 	</informaltable>
 	<para>To use the numeric keypad for input, use the following formula: <literal>(T-15)/15 = X</literal>, where T is the time in seconds that you want and X is a two digit code on your keypad.</para>
-	<para>Example: To get 300 seconds, take <literal>(300-15)/15</literal> to get <literal>19</literal></para>. 
+	<para>Example: To get 300 seconds, take <literal>(300-15)/15</literal> to get <literal>19</literal>.</para>
 </section>
 <section xml:id="manual.menu.10">
 	<title>10 R-DCS - Receiver DCS</title>
@@ -566,9 +566,9 @@
 		</tgroup>
 	</informaltable>
 	<itemizedlist spacing="compact">
-		<listitem>Time Operation: The scanner will resume after a pre set time.</listitem>
-		<listitem>Carrier Operation: The scanner will resume once the signal disappears.</listitem>
-		<listitem>Search Operation: The scanner holds on the frequency with detected activity.</listitem>
+		<listitem><para>Time Operation: The scanner will resume after a pre set time.</para></listitem>
+		<listitem><para>Carrier Operation: The scanner will resume once the signal disappears.</para></listitem>
+		<listitem><para>Search Operation: The scanner holds on the frequency with detected activity.</para></listitem>
 	</itemizedlist>
 </section>
 <section xml:id="manual.menu.19">
