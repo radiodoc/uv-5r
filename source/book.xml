@@ -6,11 +6,10 @@
       xmlns:xi="http://www.w3.org/2001/XInclude"
       version="5.0" xml:id="manual">
 	<title>Baofeng UV-5R</title>
+	<subtitle>The Radio Documentation Project</subtitle>
+	<subtitle><link xlink:href="http://radiodoc.github.com/"/></subtitle>
 
 	<info>
-		<subtitle>The Radio Documentation Project</subtitle>
-		<subtitle><link xlink:href="http://radiodoc.github.com/"/></subtitle>
-
 		<authorgroup>
 			<author>
 				<personname>
@@ -31,7 +30,6 @@
 			<holder>Lennart Lidberg</holder>
 		</copyright>
 		<xi:include href="legalnotice.xml"/>
-
 	</info>
 
 	<xi:include href="preface.xml"/>

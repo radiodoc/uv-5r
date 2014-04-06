@@ -3,6 +3,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg">
 	<info>
+		<title>Preface</title>
 		<author>
 			<personname>
 				<firstname>Lennart</firstname>
@@ -12,7 +13,6 @@
 		<pubdate>November 10th, 2012.</pubdate>
 	</info>
 
-	<title>Preface</title>
 	<blockquote>
 		<attribution>Dr. Emmett Brown</attribution>
 		<para>Please excuse the crudity of this model. I didn't have time to build it to scale or paint it.</para>
