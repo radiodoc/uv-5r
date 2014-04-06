@@ -2,13 +2,15 @@
          version="5.0" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg">
-	<prefaceinfo>
+	<info>
 		<author>
-			<firstname>Lennart</firstname>
-			<surname>Lidberg</surname>
+			<personname>
+				<firstname>Lennart</firstname>
+				<surname>Lidberg</surname>
+			</personname>
 		</author>
 		<pubdate>November 10th, 2012.</pubdate>
-	</prefaceinfo>
+	</info>
 
 	<title>Preface</title>
 	<blockquote>

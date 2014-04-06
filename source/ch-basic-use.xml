@@ -136,14 +136,14 @@
 							</imageobject>
 						</inlinemediaobject>
 						on the numeric keypad, it should look something like this:</para>
-					<figure xml:id="manual.basic.display-145-fig">
+					<screenshot xml:id="manual.basic.display-145-fig">
 						<title>Half-entered frequency input.</title>
 						<mediaobject>
 							<imageobject>
 								<imagedata fileref="figs/display-145-.svg.png" contentwidth="5cm" />
 							</imageobject>
 						</mediaobject>
-					</figure>
+					</screenshot>
 				</step>
 				<step>
 					<para>Now, for the final four digits. Note that you can only enter three decimals on the keypad, if you type 687 it wont work. So how do you get the fourth and final digit 5 in there? By rounding 145.6875 up to 145.6880 MHz.</para>
@@ -164,14 +164,14 @@
 							</imageobject>
 						</inlinemediaobject>
 						on the numeric keypad, if all went well the display should look something like this:</para>
-					<figure xml:id="manual.basic.display-1456875-fig">
+					<screenshot xml:id="manual.basic.display-1456875-fig">
 						<title>Successful frequency input</title>
 						<mediaobject>
 							<imageobject>
 								<imagedata fileref="figs/display-1456875.svg.png" contentwidth="5cm" />
 							</imageobject>
 						</mediaobject>
-					</figure>
+					</screenshot>
 				</step>
 			</procedure>
 		</example>

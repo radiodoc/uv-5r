@@ -117,11 +117,11 @@
 	<para>If you live in the USA, it is highly recommended that you and your team get yourselves GMRS licenses to use with your radios. At the time of writing the licensing fee is $85 (per person) and the license is valid for five years. There is no exam involved and any legal resident of the US over the age of 18 can apply for a license with the FCC using form 605. Please visit <link xlink:href="http://fcc.gov/"/> for more information.</para>
 	<para>The following is a list of recommended GMRS channels suitable for Airsoft games, Paintball games, or other recreational military simulations:</para>
 	<simplelist>
-		<member><para>462.550 MHz (channel 15)</para></member>
-		<member><para>462.575 MHz (channel 16)</para></member>
-		<member><para>462.600 MHz (channel 17)</para></member>
-		<member><para>462.625 MHz (channel 18)</para></member>
-		<member><para>462.725 MHz (channel 22)</para></member>
+		<member>462.550 MHz (channel 15)</member>
+		<member>462.575 MHz (channel 16)</member>
+		<member>462.600 MHz (channel 17)</member>
+		<member>462.625 MHz (channel 18)</member>
+		<member>462.725 MHz (channel 22)</member>
 	</simplelist>
 	<note>
 		<para>Channel numbers reflect a convention used by Motorola, actual mapping of frequency to channel number may vary between manufacturers.</para>
