@@ -5,32 +5,86 @@
          xml:id="manual.features">
 <title>Features and functions.</title>
 	<itemizedlist spacing="compact">
-		<listitem>Dual-band handheld transceiver with display function menu on the display LCD.</listitem>
-		<listitem>DTMF encoded.</listitem>
-		<listitem>High Capacity Lithium-Ion battery</listitem>
-		<listitem>Broadcast FM radio receiver 65-108 MHz</listitem>
-		<listitem>50 CTCSS tones and 105 DCS codes.</listitem>
-		<listitem>VOX (voice activated transmit).</listitem>
-		<listitem>Alarm function.</listitem>
-		<listitem>Up to 128 named memory channels.</listitem>
-		<listitem>FCC part 90 Narrowband compliance.</listitem>
-		<listitem>High and low power, selectable.</listitem>
-		<listitem>Display illumination and programmable keyboard.</listitem>
-		<listitem>function beep on the keyboard.</listitem>
-		<listitem>Dual watch / Dual reception.</listitem>
-		<listitem>Frequency step, selectable between 2.5 / 5 / 6.25 / 10 / 12.5 / 25 (kHz).</listitem>
-		<listitem>Programmable repeater offset.</listitem>
-		<listitem>battery saving function</listitem>
-		<listitem>Transmission time-out timer.</listitem>
-		<listitem>selecting the scan mode</listitem>
-		<listitem>function busy channel lock</listitem>
-		<listitem>built in CTCSS/DCS scan</listitem>
-		<listitem>LED flashlight.</listitem>
-		<listitem>PC programmable.</listitem>
-		<listitem>Ten (10) levels of Squelch adjustment.</listitem>
-		<listitem>Crossband reception.</listitem>
-		<listitem>End of transmission tone, aka "Roger Beep".</listitem>
-		<listitem>ANI</listitem>
-		<listitem>keylock</listitem>
+		<listitem>
+			<para>Dual-band handheld transceiver with display function menu on the display LCD.</para>
+		</listitem>
+		<listitem>
+			<para>DTMF encoded.</para>
+		</listitem>
+		<listitem>
+			<para>High Capacity Lithium-Ion battery</para>
+		</listitem>
+		<listitem>
+			<para>Broadcast FM radio receiver 65-108 MHz</para>
+		</listitem>
+		<listitem>
+			<para>50 CTCSS tones and 105 DCS codes.</para>
+		</listitem>
+		<listitem>
+			<para>VOX (voice activated transmit).</para>
+		</listitem>
+		<listitem>
+			<para>Alarm function.</para>
+		</listitem>
+		<listitem>
+			<para>Up to 128 named memory channels.</para>
+		</listitem>
+		<listitem>
+			<para>FCC part 90 Narrowband compliance.</para>
+		</listitem>
+		<listitem>
+			<para>High and low power, selectable.</para>
+		</listitem>
+		<listitem>
+			<para>Display illumination and programmable keyboard.</para>
+		</listitem>
+		<listitem>
+			<para>function beep on the keyboard.</para>
+		</listitem>
+		<listitem>
+			<para>Dual watch / Dual reception.</para>
+		</listitem>
+		<listitem>
+			<para>Frequency step, selectable between 2.5 / 5 / 6.25 / 10 / 12.5 / 25 (kHz).</para>
+		</listitem>
+		<listitem>
+			<para>Programmable repeater offset.</para>
+		</listitem>
+		<listitem>
+			<para>battery saving function</para>
+		</listitem>
+		<listitem>
+			<para>Transmission time-out timer.</para>
+		</listitem>
+		<listitem>
+			<para>selecting the scan mode</para>
+		</listitem>
+		<listitem>
+			<para>function busy channel lock</para>
+		</listitem>
+		<listitem>
+			<para>built in CTCSS/DCS scan</para>
+		</listitem>
+		<listitem>
+			<para>LED flashlight.</para>
+		</listitem>
+		<listitem>
+			<para>PC programmable.</para>
+		</listitem>
+		<listitem>
+			<para>Ten (10) levels of Squelch adjustment.</para>
+		</listitem>
+		<listitem>
+			<para>Crossband reception.</para>
+		</listitem>
+		<listitem>
+			<para>End of transmission tone, aka "Roger Beep".</para>
+		</listitem>
+		<listitem>
+			<para>ANI</para>
+		</listitem>
+		<listitem>
+			<para>keylock</para>
+		</listitem>
 	</itemizedlist>
 </chapter>
