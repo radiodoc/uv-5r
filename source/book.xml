@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE book>
-<book xmlns="http://docbook.org/ns/docbook" 
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
+      xmlns:xi="http://www.w3.org/2001/XInclude"
       xmlns:xlink="http://www.w3.org/1999/xlink" 
       xmlns:svg="http://www.w3.org/2000/svg"
-      xmlns:xi="http://www.w3.org/2001/XInclude"
-      version="5.0" xml:id="manual">
+      xml:id="manual">
 	<title>Baofeng UV-5R</title>
-	<subtitle>The Radio Documentation Project</subtitle>
-	<subtitle><link xlink:href="http://radiodoc.github.com/"/></subtitle>
-
+	<subtitle>
+		<link xlink:href="http://radiodoc.github.com/">
+			The Radio Documentation Project
+		</link>
+	</subtitle>
 	<info>
 		<authorgroup>
 			<author>
@@ -33,64 +35,14 @@
 	</info>
 
 	<xi:include href="preface.xml"/>
+<!--
 		<xi:include href="ch-safety-information.xml"/>
 		<xi:include href="ch-features.xml"/>
-<!--
 -->
-	<part label="I">
-		<title>Getting started</title>
-		<partintro>
-			<para>Part one covers the basic setup and use of your hand-held two-way transceiver.</para>
-			<literallayout>
-			<xref linkend="manual.safety"/>
-			<xref linkend="manual.features"/>
-<!--
--->
-			<xref linkend="manual.setup"/>
-			<xref linkend="manual.get-to-know"/>
-			<xref linkend="manual.basic"/>
-			</literallayout>
-		</partintro>
-		<xi:include href="ch-setup.xml"/>
-		<xi:include href="ch-get-to-know.xml"/>
-		<xi:include href="ch-basic-use.xml"/>
-	</part>
-	<part label="II">
-		<title>Advanced topics</title>
-		<partintro>
-			<para>Part two covers the more advanced topics, such as setup of repeater offset and programming via computer link.</para>
-			<literallayout>
-				<xref linkend="manual.menu"/>
-				<xref linkend="manual.scanner"/> 
-				<xref linkend="manual.dual-watch"/> 
-				<xref linkend="manual.dtmf"/> 
-				<xref linkend="manual.groups"/>
-				<xref linkend="manual.customization"/> 
-				<xref linkend="manual.programming"/>
-			</literallayout>
-		</partintro>
-		<xi:include href="ch-menu.xml"/>
-		<xi:include href="ch-scanner.xml"/>
-		<xi:include href="ch-dual-watch.xml"/>
-		<xi:include href="ch-dtmf.xml"/>
-		<xi:include href="ch-groups.xml"/>
-		<xi:include href="ch-customization.xml"/>
-		<xi:include href="ch-programming.xml"/>
-	</part>
-	<part label="III">
-		<title>How-to and setup guides.</title>
-		<partintro>
-			<para>Part three covers is a collection of how-to documents to help you set up your radio for specific working environments.</para>
-			<literallayout>
-				<xref linkend="manual.repeater"/>
-				<xref linkend="manual.ani"/>
-				<xref linkend="manual.app-specicic"/>
-			</literallayout>
-		</partintro>
-		<xi:include href="ch-repeater.xml"/>
-		<xi:include href="ch-ani.xml"/>
-		<xi:include href="ch-application-specific-setup.xml"/>
-	</part>
+
+	<xi:include href="part-1.xml"/>
+	<xi:include href="part-2.xml"/>
+	<xi:include href="part-3.xml"/>
 
 	<xi:include href="app-troubleshooting.xml"/>
 	<xi:include href="app-menu-definitions.xml"/>
@@ -101,7 +53,7 @@
 	<index xml:id="manual.index"/>
 <!--
 	<xi:include href="&index;"/>
--->
 	<xi:include href="copyright.xml"/>
+-->
 	<xi:include href="colophon.xml"/>
 </book>

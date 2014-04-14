@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE part>
+<part xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xlink="http://www.w3.org/1999/xlink" 
+      xmlns:svg="http://www.w3.org/2000/svg"
+      label="I">
+	<title>Getting started</title>
+	<partintro>
+		<para>Part one covers the basic setup and use of your hand-held two-way transceiver.</para>
+		<literallayout>
+<!--
+		<xref linkend="manual.safety"/>
+		<xref linkend="manual.features"/>
+-->
+		<xref linkend="manual.setup"/>
+		<xref linkend="manual.get-to-know"/>
+		<xref linkend="manual.basic"/>
+		</literallayout>
+	</partintro>
+	<xi:include href="ch-setup.xml"/>
+	<xi:include href="ch-get-to-know.xml"/>
+	<xi:include href="ch-basic-use.xml"/>
+</part>

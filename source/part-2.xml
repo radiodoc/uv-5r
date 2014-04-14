@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE part>
+<part xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xlink="http://www.w3.org/1999/xlink" 
+      xmlns:svg="http://www.w3.org/2000/svg"
+      label="II">
+	<title>Advanced topics</title>
+	<partintro>
+		<para>Part two covers the more advanced topics, such as setup of repeater offset and programming via computer link.</para>
+		<literallayout>
+			<xref linkend="manual.menu"/>
+			<xref linkend="manual.scanner"/> 
+			<xref linkend="manual.dual-watch"/> 
+			<xref linkend="manual.dtmf"/> 
+			<xref linkend="manual.groups"/>
+			<xref linkend="manual.customization"/> 
+			<xref linkend="manual.programming"/>
+		</literallayout>
+	</partintro>
+	<xi:include href="ch-menu.xml"/>
+	<xi:include href="ch-scanner.xml"/>
+	<xi:include href="ch-dual-watch.xml"/>
+	<xi:include href="ch-dtmf.xml"/>
+	<xi:include href="ch-groups.xml"/>
+	<xi:include href="ch-customization.xml"/>
+	<xi:include href="ch-programming.xml"/>
+</part>
