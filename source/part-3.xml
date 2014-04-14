@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE part>
+<part xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xlink="http://www.w3.org/1999/xlink" 
+      xmlns:svg="http://www.w3.org/2000/svg"
+      label="III">
+	<title>How-to and setup guides.</title>
+	<partintro>
+		<para>Part three covers is a collection of how-to documents to help you set up your radio for specific working environments.</para>
+		<literallayout>
+			<xref linkend="manual.repeater"/>
+			<xref linkend="manual.ani"/>
+			<xref linkend="manual.app-specicic"/>
+		</literallayout>
+	</partintro>
+	<xi:include href="ch-repeater.xml"/>
+	<xi:include href="ch-ani.xml"/>
+	<xi:include href="ch-application-specific-setup.xml"/>
+</part>
