@@ -4,7 +4,7 @@
       xmlns:xi="http://www.w3.org/2001/XInclude"
       xmlns:xlink="http://www.w3.org/1999/xlink" 
       xmlns:svg="http://www.w3.org/2000/svg"
-      label="II">
+      xml:id="advanced-topics" label="II">
 	<title>Advanced topics</title>
 	<partintro>
 		<para>Part two covers the more advanced topics, such as setup of repeater offset and programming via computer link.</para>

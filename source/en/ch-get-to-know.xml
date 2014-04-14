@@ -1,5 +1,4 @@
-<chapter xmlns="http://docbook.org/ns/docbook" 
-         version="5.0" 
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg"
          xml:id="manual.get-to-know">
@@ -8,7 +7,7 @@
 		<title>Baofeng UV-5R, overview</title>
 		<mediaobject>
 			<imageobject>
-				<imagedata fileref="figs/radio-overview.svg.png" contentwidth="4.8in" />
+				<imagedata contentwidth="4.8in" format="svg" fileref="images/radio-overview.svg"/>
 			</imageobject>
 		</mediaobject>
 	</figure>
@@ -74,7 +73,7 @@
 			<title>Baofeng UV-5R, display</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="figs/display.svg.png" contentwidth="5cm" />
+					<imagedata contentwidth="5cm" format="svg" fileref="images/display.svg"/>
 				</imageobject>
 			</mediaobject>
 		</figure>
@@ -129,7 +128,7 @@
 					<entry>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/symbol-battery.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/symbol-battery.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 					</entry>
@@ -139,7 +138,7 @@
 					<entry>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="1.0em" format="png" fileref="figs/symbol-key.svg.png"/>
+								<imagedata contentdepth="1.0em" format="svg" fileref="images/symbol-key.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 					</entry>
@@ -153,7 +152,7 @@
 					<entry>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.7em" format="png" fileref="figs/symbol-arrows.svg.png"/>
+								<imagedata contentdepth="0.7em" format="svg" fileref="images/symbol-arrows.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 					</entry>
@@ -163,7 +162,7 @@
 					<entry>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/symbol-antenna.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/symbol-antenna.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 					</entry>
@@ -181,7 +180,7 @@
 			<para>When the battery level indicator reads
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/symbol-battery-empty.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/symbol-battery-empty.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				the battery is depleted. At this point the radio will start beeping periodically as well as flash the backlight of the display, indicating that you need to change your battery or put your radio in the charger.</para>
@@ -196,20 +195,20 @@
 		<para>Press
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-call.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-call.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			momentarily to start the broadcast FM receiver. Another momentary press turns the broadcast FM receiver off.</para>
 		<para>Press and hold
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-call.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-call.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			to activate the alarm function. Press
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-call.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-call.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			again to turn it off.</para>
@@ -219,14 +218,14 @@
 		<para>Press
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-moni.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-moni.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			momentarily to turn on the LED flashlight. Another momentary press turns the flashlight off.</para>
 		<para>Press and hold
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-moni.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-moni.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			to monitor the signal. This will open up the squelch so you can listen to the unfiltered signal.</para>
@@ -236,7 +235,7 @@
 		<para>Pressing 
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-mode.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			switches between Frequency (VFO) Mode and Memory (MR) mode. Memory mode is sometimes also referred to as Channel mode.</para>
@@ -247,7 +246,7 @@
 		<para>The 
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-ab.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-ab.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			key switches between A (upper) and B (lower) displays. The frequency or channel on the selected display becomes the active listening and transmit frequency or channel.</para>
@@ -258,14 +257,14 @@
 		<para>The 
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-band.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-band.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			key switches between VHF and UHF bands when in Frequency (VFO) mode.</para>
 		<para>When listening to broadcast FM, the 
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-band.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-band.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			key switches between 65-75 MHz and 76-108 MHz bands.</para>
@@ -277,7 +276,7 @@
 			<title>Baofeng UV-5R, keypad</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="figs/keypad.svg.png" contentdepth="4.6em" />
+					<imagedata contentdepth="4.6em" format="svg" fileref="images/keypad.svg"/>
 				</imageobject>
 			</mediaobject>
 		</figure>
@@ -285,13 +284,13 @@
 		<para>The
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-star.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			and
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-pound.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			keys on the other hand have actual secondary functions, scan and keypad lock respectively.</para>
@@ -300,13 +299,13 @@
 			<para>In channel mode,
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-pound.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				also acts as a transmit power short key. While in channel mode, momentarily press
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-pound.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				to change between High and Low transmit power. Do note that this is does not alter the transmit power stored to memory for that channel, it only affects the current session. Switching to another channel or another operating mode (including broadcast FM) will reset transmit power to what's stored in channel memory.</para>
@@ -316,7 +315,7 @@
 				<para>To enable or disable the keypad lock, press and hold the
 					<inlinemediaobject>
 						<imageobject>
-							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.svg.png"/>
+							<imagedata contentdepth="0.9em" format="svg" fileref="images/key-pound.svg"/>
 						</imageobject>
 					</inlinemediaobject>
 					key for about two seconds.</para>
@@ -330,7 +329,7 @@
 			<para>To enable the scanner, press and hold the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-star.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				key for about two seconds. See <xref linkend="manual.scanner"/> for details.</para>
@@ -340,27 +339,27 @@
 			<para>The
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				key, used to enter the menu and confirm menu options.</para>	
 			<para>The
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-up.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				and 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-down.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				keys are used to navigate through the menu as well as select channels and step up or down in frequency (depending on operating mode).</para>
 			<para>The
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-exit.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				key is used to exit menus and cancel menu options.</para>
@@ -374,7 +373,7 @@
 			<title>Typical 2 pin Kenwood headset configuration.</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="figs/kenwood-2pin-headset.svg.png" contentwidth="8cm" />
+					<imagedata contentwidth="8cm" format="svg" fileref="images/kenwood-2pin-headset.svg"/>
 				</imageobject>
 			</mediaobject>
 		</figure>

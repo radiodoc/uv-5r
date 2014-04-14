@@ -1,5 +1,4 @@
-<appendix xmlns="http://docbook.org/ns/docbook" 
-          version="5.0" 
+<appendix xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
           xmlns:xlink="http://www.w3.org/1999/xlink" 
           xmlns:svg="http://www.w3.org/2000/svg"
           xml:id="manual.menu.definitions">
@@ -33,13 +32,13 @@
 	<para>Selects the step in frequency when using the
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+				<imagedata contentdepth="0.9em" format="svg" fileref="images/key-up.svg"/>
 			</imageobject>
 		</inlinemediaobject>
 		and
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+				<imagedata contentdepth="0.9em" format="svg" fileref="images/key-down.svg"/>
 			</imageobject>
 		</inlinemediaobject>
 		keys. This is also the interval the scanner will run at.</para>
@@ -818,41 +817,41 @@
 		For a 2MHz shift, enter
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
+				<imagedata contentdepth="0.9em" format="svg" fileref="images/key-0.svg"/>
 			</imageobject>
 		</inlinemediaobject>
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-2.svg.png"/>
+				<imagedata contentdepth="0.9em" format="svg" fileref="images/key-2.svg"/>
 			</imageobject>
 		</inlinemediaobject>.
 		For a 600kHz shift, enter
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
+				<imagedata contentdepth="0.9em" format="svg" fileref="images/key-0.svg"/>
 			</imageobject>
 		</inlinemediaobject>
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
+				<imagedata contentdepth="0.9em" format="svg" fileref="images/key-0.svg"/>
 			</imageobject>
 		</inlinemediaobject>
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-6.svg.png"/>
+				<imagedata contentdepth="0.9em" format="svg" fileref="images/key-6.svg"/>
 			</imageobject>
 		</inlinemediaobject>.
 	</para>
 	<para>Use the
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+				<imagedata contentdepth="0.9em" format="svg" fileref="images/key-up.svg"/>
 			</imageobject>
 		</inlinemediaobject>
 		and
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+				<imagedata contentdepth="0.9em" format="svg" fileref="images/key-down.svg"/>
 			</imageobject>
 		</inlinemediaobject>
 		keys to set offsets below 100kHz.</para>

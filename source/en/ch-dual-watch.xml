@@ -1,5 +1,4 @@
-<chapter xmlns="http://docbook.org/ns/docbook" 
-         version="5.0" 
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg"
          xml:id="manual.dual-watch">
@@ -13,7 +12,7 @@
 		<listitem><para>You cannot use the
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-pound.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			key to switch between high and low transmit power in channel mode.</para></listitem>
@@ -27,7 +26,7 @@
 		<para>Press the
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			key to enter the menu.</para>
@@ -36,7 +35,7 @@
 		<para>Enter
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-7.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-7.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			on the numeric keypad to get to Dual Watch.</para>
@@ -45,7 +44,7 @@
 		<para>Press
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			to select.</para>
@@ -54,13 +53,13 @@
 		<para>Use the
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-up.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			and
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-down.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			keys to enable or disable.</para>
@@ -69,7 +68,7 @@
 		<para>Press the
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			key to confirm.</para>
@@ -78,7 +77,7 @@
 		<para>Press the
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-exit.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			key to exit the menu.</para>
@@ -91,7 +90,7 @@
 		<para>Press the
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			key to enter the menu.</para>
@@ -100,12 +99,12 @@
 		<para>Enter
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-3.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-3.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-4.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-4.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			on the numeric keypad to get to <literal>TDR-AB</literal>.</para>
@@ -114,7 +113,7 @@
 		<para>Press
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			to select.</para>
@@ -123,13 +122,13 @@
 		<para>Use the
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-up.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			and
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-down.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			keys to select A (upper) or B (lower) displays.</para>
@@ -138,7 +137,7 @@
 		<para>Press the
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			key to confirm.</para>
@@ -147,7 +146,7 @@
 		<para>Press the
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-exit.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			key to exit the menu.</para>
@@ -157,14 +156,14 @@
 	<para>If you want to momentarily override the lock without having to setting the menu option to <literal>OFF</literal>, you can do so by pressing the
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-ab.svg.png"/>
+				<imagedata contentdepth="0.9em" format="svg" fileref="images/key-ab.svg"/>
 			</imageobject>
 		</inlinemediaobject>
 		key an instant before pressing the PTT.</para>
 	<para>Another option for overriding the lock momentarily, is to program in the reverse of Channel (MR) mode into Frequency (VFO) mode and using the
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
+				<imagedata contentdepth="0.9em" format="svg" fileref="images/key-mode.svg"/>
 			</imageobject>
 		</inlinemediaobject>
 		key to swap between primary and secondary channels.</para>

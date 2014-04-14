@@ -1,5 +1,4 @@
-<colophon xmlns="http://docbook.org/ns/docbook" 
-          version="5.0" 
+<colophon xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
           xmlns:xlink="http://www.w3.org/1999/xlink" 
           xmlns:svg="http://www.w3.org/2000/svg">
 	<para>All linework drawings were recreated in <link xlink:href="http://inkscape.org/">Inkscape</link> using the original Baofeng manual artwork as reference.</para>

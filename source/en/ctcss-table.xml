@@ -1,5 +1,4 @@
-<table xmlns="http://docbook.org/ns/docbook" 
-       version="5.0" 
+<table xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
        xml:id="manual.table.ctcss">
 	<title>CTCSS Frequencies</title>
 	<tgroup cols="4">

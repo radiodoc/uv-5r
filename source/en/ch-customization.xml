@@ -1,5 +1,4 @@
-<chapter xmlns="http://docbook.org/ns/docbook" 
-         version="5.0" 
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg"
          xml:id="manual.customization">
@@ -22,7 +21,7 @@
 			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to enter the menu.</para>
@@ -34,12 +33,12 @@
 					<para>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-2.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-2.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-9.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-9.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						to change the Standby colour.</para>
@@ -48,12 +47,12 @@
 					<para>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-3.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-3.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-0.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						to change the receive colour.</para>
@@ -62,12 +61,12 @@
 					<para>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-3.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-3.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-1.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						to change the transmit colour.</para>
@@ -78,7 +77,7 @@
 			<para>Press
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to select.</para>
@@ -87,13 +86,13 @@
 			<para>Use the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-up.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				and
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-down.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				keys to pick the desired colour.</para>
@@ -102,7 +101,7 @@
 			<para>Press
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				to confirm and save.</para>
@@ -111,7 +110,7 @@
 			<para>Press 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-exit.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				to exit the menu.</para>
@@ -124,7 +123,7 @@
 			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to enter the menu.</para>
@@ -133,7 +132,7 @@
 			<para>Enter
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-6.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-6.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				on your numeric keypad to come to backlight time out.</para>
@@ -142,7 +141,7 @@
 			<para>Press
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to select.</para>
@@ -151,13 +150,13 @@
 			<para>Use the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-up.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				and
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-down.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				keys to pick the desired colour.</para>
@@ -166,7 +165,7 @@
 			<para>Press
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				to confirm and save.</para>
@@ -175,7 +174,7 @@
 			<para>Press 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-exit.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				to exit the menu.</para>

@@ -4,7 +4,7 @@
       xmlns:xi="http://www.w3.org/2001/XInclude"
       xmlns:xlink="http://www.w3.org/1999/xlink" 
       xmlns:svg="http://www.w3.org/2000/svg"
-      label="III">
+      xml:id="how-to-and-setup-guides" label="III">
 	<title>How-to and setup guides.</title>
 	<partintro>
 		<para>Part three covers is a collection of how-to documents to help you set up your radio for specific working environments.</para>

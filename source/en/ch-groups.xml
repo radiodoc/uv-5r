@@ -1,5 +1,4 @@
-<chapter xmlns="http://docbook.org/ns/docbook" 
-         version="5.0" 
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg"
          xml:id="manual.groups">
@@ -34,7 +33,7 @@
 			<para>Press the 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to enter the menu.</para>
@@ -43,12 +42,12 @@
 			<para>Enter 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-1.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-1.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				on the numeric keypad to get to receiver CTCSS.</para>
@@ -57,7 +56,7 @@
 			<para>Press 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				to select.</para>
@@ -69,7 +68,7 @@
 			<para>Press 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				to confirm and save.</para>
@@ -78,12 +77,12 @@
 			<para>Enter 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-1.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-3.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-3.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				on the numeric keypad to go to transmitter CTCSS.</para>
@@ -92,7 +91,7 @@
 			<para>Press 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				to select.</para>
@@ -104,7 +103,7 @@
 			<para>Press 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				to confirm and save.</para>
@@ -113,7 +112,7 @@
 			<para>Press 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				to exit the menu system.</para>
@@ -122,7 +121,7 @@
 	<para>To turn CTCSS off, follow the same procedure but set it to off with the
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
+				<imagedata contentdepth="0.9em" format="svg" fileref="images/key-0.svg"/>
 			</imageobject>
 		</inlinemediaobject>
 		key instead of selecting a CTCSS sub-tone frequency.</para>
@@ -138,7 +137,7 @@
 			<para>Press the 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to enter the menu.</para>
@@ -147,12 +146,12 @@
 			<para>Enter 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-1.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-0.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				on the numeric keypad to get to receiver DCS.</para>
@@ -161,7 +160,7 @@
 			<para>Press 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				to select.</para>
@@ -173,7 +172,7 @@
 			<para>Press 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				to confirm and save.</para>
@@ -182,12 +181,12 @@
 			<para>Enter 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-1.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-2.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-2.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				on the numeric keypad to go to transmitter DCS.</para>
@@ -196,7 +195,7 @@
 			<para>Press 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				to select.</para>
@@ -208,7 +207,7 @@
 			<para>Press 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				to confirm and save.</para>
@@ -217,7 +216,7 @@
 			<para>Press 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				to exit the menu system.</para>
@@ -226,7 +225,7 @@
 	<para>To turn DCS off, follow the same procedure but set it to off with the
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
+				<imagedata contentdepth="0.9em" format="svg" fileref="images/key-0.svg"/>
 			</imageobject>
 		</inlinemediaobject>
 		key instead of selecting a DCS code.</para>
@@ -237,7 +236,7 @@
 	<para>To send out a 1750Hz tone-burst, press the
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-band.svg.png"/>
+				<imagedata contentdepth="0.9em" format="svg" fileref="images/key-band.svg"/>
 			</imageobject>
 		</inlinemediaobject>
 		key while holding down the PTT.</para>

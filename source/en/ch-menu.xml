@@ -1,5 +1,4 @@
-<chapter xmlns="http://docbook.org/ns/docbook" 
-         version="5.0" 
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg"
          xml:id="manual.menu">
@@ -17,8 +16,11 @@
 			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
+					<textobject>
+						<phrase>menu</phrase>
+					</textobject>
 				</inlinemediaobject>
 				key to enter the menu.</para>
 		</step>
@@ -26,13 +28,13 @@
 			<para>Use the 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-up.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				and
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-down.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				keys to navigate between menu items.</para>
@@ -41,7 +43,7 @@
 			<para>Once you find the desired menu item, press
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				again to select that menu item.</para>
@@ -50,13 +52,13 @@
 			<para>Use the 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-up.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				and
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-down.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				keys to select the desired parameter.</para>
@@ -68,7 +70,7 @@
 					<para>To confirm your selection, press
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						and it will save your setting and bring you back to the main menu.</para>
@@ -77,7 +79,7 @@
 					<para>To cancel your changes, press
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-exit.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						and it will reset that menu item and bring you out of the menu entirely.</para>
@@ -88,7 +90,7 @@
 			<para>To exit out of the menu at any time, press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-exit.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				key.</para>
@@ -106,7 +108,7 @@
 			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to enter the menu.</para>
@@ -118,7 +120,7 @@
 			<para>To enter the menu item, press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				key.</para>
@@ -142,7 +144,7 @@
 					<para>To confirm your selection, press
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-menu.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						and it will save your setting and bring you back to the main menu.</para>
@@ -151,7 +153,7 @@
 					<para>To cancel your changes, press
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-exit.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						and it will reset that menu item and bring you out of the menu entirely.</para>
@@ -162,7 +164,7 @@
 			<para>To exit out of the menu at any time, press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-exit.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				key.</para>

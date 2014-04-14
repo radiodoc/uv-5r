@@ -1,5 +1,4 @@
-<chapter xmlns="http://docbook.org/ns/docbook" 
-         version="5.0" 
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg"
          xml:id="manual.basic">
@@ -14,7 +13,7 @@
 			<title>First power-on, display</title>
 			<mediaobject>
 				<imageobject>
-					<imagedata fileref="figs/display-start.svg.png" contentwidth="5cm" />
+					<imagedata contentwidth="5cm" format="svg" fileref="images/display-start.svg"/>
 				</imageobject>
 			</mediaobject>
 		</figure>
@@ -24,14 +23,14 @@
 			<para>Holding down the 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-3.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-3.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				key while turning on the radio provides you with the firmware version.</para>
 			<para>Holding down the 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-6.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-6.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				key while turning on the radio provides you with what is most likely a control or manufacturing date and a hardware revision number. (It should be noted that this is not confirmed and pure speculation from the community.)</para>
@@ -49,7 +48,7 @@
 			<para>By using the monitor function, enabled from the 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-moni.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-moni.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 				key below the PTT, you can more easily adjust your volume by adjusting it to the un-squelched static.</para>
@@ -70,13 +69,13 @@
 		<para>In Frequency (VFO) mode you can navigate up and down the band by using the 
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-up.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			and
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-down.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			keys. Each press will increment or decrement your frequency according to the frequency step you've set your transceiver to. For details on how to set the frequency step on your transceiver see <xref linkend="manual.menu"/> and <xref linkend="manual.menu.1"/> in <xref linkend="manual.menu.definitions"/>.</para>
@@ -89,7 +88,7 @@
 					<para>Use the
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-mode.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						key to switch to Frequency (VFO) mode</para>
@@ -98,13 +97,13 @@
 					<para>Press
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-ab.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-ab.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						until the
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.7em" format="png" fileref="figs/symbol-arrow-up.svg.png"/>
+								<imagedata contentdepth="0.7em" format="svg" fileref="images/symbol-arrow-up.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						appears next to the upper display (display A).</para>
@@ -113,7 +112,7 @@
 					<para>Press the
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-band.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-band.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						key until you get to VHF. The display should read somewhere between 136 and 174 MHz.</para>
@@ -122,17 +121,17 @@
 					<para>Enter
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-1.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-4.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-4.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-5.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-5.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						on the numeric keypad, it should look something like this:</para>
@@ -140,7 +139,7 @@
 						<title>Half-entered frequency input.</title>
 						<mediaobject>
 							<imageobject>
-								<imagedata fileref="figs/display-145-.svg.png" contentwidth="5cm" />
+								<imagedata contentwidth="5cm" format="svg" fileref="images/display-145-.svg"/>
 							</imageobject>
 						</mediaobject>
 					</screenshot>
@@ -150,17 +149,17 @@
 					<para>Enter
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-6.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-6.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-8.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-8.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-8.svg.png"/>
+								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-8.svg"/>
 							</imageobject>
 						</inlinemediaobject>
 						on the numeric keypad, if all went well the display should look something like this:</para>
@@ -168,7 +167,7 @@
 						<title>Successful frequency input</title>
 						<mediaobject>
 							<imageobject>
-								<imagedata fileref="figs/display-1456875.svg.png" contentwidth="5cm" />
+								<imagedata contentwidth="5cm" format="svg" fileref="images/display-1456875.svg"/>
 							</imageobject>
 						</mediaobject>
 					</screenshot>
@@ -187,13 +186,13 @@
 		<para>Once you have channels programmed and ready, you can use the 
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-up.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			and
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-down.svg"/>
 				</imageobject>
 			</inlinemediaobject>
 			keys to navigate between channels.</para>
@@ -201,7 +200,7 @@
 			<para>If you have channels programmed with Transmit power set to Low, you can use the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.svg.png"/>
+						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-pound.svg"/>
 					</imageobject>
 				</inlinemediaobject>
 			key to momentarily switch over to high power if you're having trouble getting through.</para>
