@@ -32,6 +32,14 @@
 			<holder>Lennart Lidberg</holder>
 		</copyright>
 		<xi:include href="legalnotice.xml"/>
+		<cover>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="covers/front-cover.png"/>
+				</imageobject>
+			</mediaobject>
+			<para>Additional content on cover page.</para>
+		</cover>
 	</info>
 
 	<xi:include href="preface.xml"/>
