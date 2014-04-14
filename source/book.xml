@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE book>
-<book xmlns="http://docbook.org/ns/docbook" 
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
+      xmlns:xi="http://www.w3.org/2001/XInclude"
       xmlns:xlink="http://www.w3.org/1999/xlink" 
       xmlns:svg="http://www.w3.org/2000/svg"
-      xmlns:xi="http://www.w3.org/2001/XInclude"
-      version="5.0" xml:id="manual">
+      xml:id="manual">
 	<title>Baofeng UV-5R</title>
-	<subtitle>The Radio Documentation Project</subtitle>
-	<subtitle><link xlink:href="http://radiodoc.github.com/"/></subtitle>
-
+	<subtitle>
+		<link xlink:href="http://radiodoc.github.com/">
+			The Radio Documentation Project
+		</link>
+	</subtitle>
 	<info>
 		<authorgroup>
 			<author>
