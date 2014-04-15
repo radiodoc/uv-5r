@@ -494,7 +494,8 @@
 			</row>
 			<row>
 				<entry>2</entry>
-				<entry>ANI code only<literal>ANI-ST</literal></entry>
+				<entry>ANI code only</entry>
+				<entry><literal>ANI-ST</literal></entry>
 			</row>
 			<row>
 				<entry>3</entry>
