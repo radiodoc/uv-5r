@@ -3,7 +3,7 @@
 <chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg"
-         xml:id="manual.repeater">
+         xml:id="repeaters">
 <title>Repeaters</title>
 <para>A radio repeater is an automated transceiver in a fixed location. Usually mounted high up on hill tops or on tall buildings, but sometimes they operate within buildings for internal use. A repeater takes one signal and relays it, usually after amplifying it by orders of magnitude. This can be very handy, as this enables you to use a small low powered hand-held two-way transceiver such as the Baofeng UV-5R to reach great distances.</para>
 <para>Whether you're a commercial (business or government) user or an amateur radio operator, chances are you'll be dealing with a repeater system sooner or later. To find out what settings to use to use your local repeater, ask your employer or someone at your local IARU member organization for details.</para>
@@ -11,7 +11,7 @@
 
 <para>The following instructions assume that you know what transmit and receive frequencies your repeater employs, and that you're authorized to use it.</para>
 
-<procedure>
+<procedure xml:id="repeater-setup">
 	<title>Repeater setup</title>
 	<step>
 		<para>Set the radio to Frequency (VFO) mode with the
@@ -82,7 +82,7 @@
 					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-down.svg"/>
 				</imageobject>
 			</inlinemediaobject>
-			keys and the numerical keypad to enter the specified frequency offset. See <xref linkend="manual.menu.26"/> for details.</para>
+			keys and the numerical keypad to enter the specified frequency offset. See <xref linkend="menu-26-offset"/> for details.</para>
 	</step>
 	<step>
 		<para>Press
@@ -135,10 +135,10 @@
 		<para>Optional:</para>
 		<substeps>
 			<step>
-				<para>Save to memory, see <xref linkend="manual.programming.manual"/> for details.</para>
+				<para>Save to memory, see <xref linkend="manual-programming"/> for details.</para>
 			</step>
 			<step>
-				<para>Set up CTCSS, see <xref linkend="manual.groups.ctcss"/> for details.</para>
+				<para>Set up CTCSS, see <xref linkend="ctcss-calling"/> for details.</para>
 			</step>
 		</substeps>
 	</step>
@@ -153,7 +153,7 @@
 	</step>
 </procedure>
 <para>If everything went well, you should be able to make a test call through the repeater. If you're experiencing problems making a connection to the repeater, check your settings and/or go through the procedure again.</para>
-<para>Certain Amateur Radio repeaters (especially in Europe) use a 1750Hz tone burst to open up the repeater. To see how this is done with the Baofeng UV-5R, see <xref linkend="manual.groups.tone-burst"/>.</para>
+<para>Certain Amateur Radio repeaters (especially in Europe) use a 1750Hz tone burst to open up the repeater. To see how this is done with the Baofeng UV-5R, see <xref linkend="tone-burst"/>.</para>
 <para>If you're still unable to make a connection, contact the person in charge of the radio system with your employer or your local amateur radio club, as the case may be.</para>
 <note>
 	<para>If you for some reason want to listen to the repeater's input frequency instead, press

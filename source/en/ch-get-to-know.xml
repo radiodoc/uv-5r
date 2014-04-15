@@ -3,9 +3,9 @@
 <chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg"
-         xml:id="manual.get-to-know">
+         xml:id="getting-to-know-your-radio">
 	<title>Getting to know your radio</title>
-	<figure xml:id="manual.radio.front-fig">
+	<figure xml:id="figure-radio-overview">
 		<title>Baofeng UV-5R, overview</title>
 		<mediaobject>
 			<imageobject>
@@ -15,46 +15,46 @@
 	</figure>
 	<orderedlist numeration="arabic" spacing="compact">
 		<listitem>
-			<para>Antenna, see <xref linkend="manual.setup.assembly"/> for details.</para>
+			<para>Antenna, see <xref linkend="assembly"/> for details.</para>
 		</listitem>
 		<listitem>
-			<para>Power / Volume knob, usage discussed in <xref linkend="manual.basic.power-volume"/>.</para>
+			<para>Power / Volume knob, usage discussed in <xref linkend="power-and-volume"/>.</para>
 		</listitem>
 		<listitem>
-			<para><link linkend="manual.know.display">Two-line LCD</link></para>
+			<para><link linkend="the-main-display">Two-line LCD</link></para>
 		</listitem>
 		<listitem>
-			<para><link linkend="manual.know.call-key">Call key</link></para>
+			<para><link linkend="side-key-call">Call key</link></para>
 		</listitem>
 		<listitem>
-			<para>PTT key, usage discussed in <xref linkend="manual.basic.making-call" />.</para>
+			<para>PTT key, usage discussed in <xref linkend="making-a-call"/>.</para>
 		</listitem>
 		<listitem>
-			<para><link linkend="manual.know.monitor-key">Monitor key</link></para>
+			<para><link linkend="side-key-monitor">Monitor key</link></para>
 		</listitem>
 		<listitem>
-			<para><link linkend="manual.know.keypad">Keypad</link></para>
+			<para><link linkend="numeric-keypad">Keypad</link></para>
 		</listitem>
 		<listitem>
 			<para>Speaker and microphone</para>
 		</listitem>
 		<listitem>
-			<para><link linkend="manual.know.port">Accessory jack</link></para>
+			<para><link linkend="accessory-jack">Accessory jack</link></para>
 		</listitem>
 		<listitem>
-			<para><link linkend="manual.know.mode-key">VFO/MR mode key</link></para>
+			<para><link linkend="mode-key">VFO/MR mode key</link></para>
 		</listitem>
 		<listitem>
-			<para><link linkend="manual.know.status-led">Status LED</link></para>
+			<para><link linkend="status-led">Status LED</link></para>
 		</listitem>
 		<listitem>
-			<para><link linkend="manual.know.ab-key">A / B select key</link></para>
+			<para><link linkend="ab-select-key">A / B select key</link></para>
 		</listitem>
 		<listitem>
-			<para><link linkend="manual.know.band-key">Band select key</link></para>
+			<para><link linkend="band-key">Band select key</link></para>
 		</listitem>
 		<listitem>
-			<para>Battery pack, see <xref linkend="manual.setup.battery" /> for details.</para>
+			<para>Battery pack, see <xref linkend="battery"/> for details.</para>
 		</listitem>
 		<listitem>
 			<para>Battery contacts</para>
@@ -66,12 +66,12 @@
 			<para>Lanyard loop</para>
 		</listitem>
 		<listitem>
-			<para>LED flashlight, (not marked) situated between antenna and power/volume knob. See <xref linkend="manual.know.monitor-key" /> for more information.</para>
+			<para>LED flashlight, (not marked) situated between antenna and power/volume knob. See <xref linkend="side-key-monitor" /> for more information.</para>
 		</listitem>
 	</orderedlist>
-	<section xml:id="manual.know.display">
+	<section xml:id="the-main-display">
 		<title>The main display</title>
-		<figure xml:id="manual.radio.display-fig">
+		<figure xml:id="figure-radio-display">
 			<title>Baofeng UV-5R, display</title>
 			<mediaobject>
 				<imageobject>
@@ -80,7 +80,7 @@
 			</mediaobject>
 		</figure>
 		<para>The transceiver is fitted with a seven character by two line dot-matrix alphanumeric LCD, with auxiliary icons for miscellaneous features.</para>
-		<table>
+		<table xml:id="table-lcd-icon-summary">
 			<title>LCD icon summary</title>
 			<tgroup cols="2">
 			<thead>
@@ -134,7 +134,7 @@
 							</imageobject>
 						</inlinemediaobject>
 					</entry>
-					<entry><link linkend="manual.know.battery">Battery level indicator</link></entry>
+					<entry><link linkend="battery">Battery level indicator</link></entry>
 				</row>
 				<row>
 					<entry>
@@ -177,7 +177,7 @@
 		<note>
 			<para>Even though it is a seven character by two line display, channel memories are only configurable to six character names.</para>
 		</note>
-		<section xml:id="manual.know.battery">
+		<section xml:id="battery-level-indicator">
 			<title>Battery Level Indicator</title>
 			<para>When the battery level indicator reads
 				<inlinemediaobject>
@@ -188,11 +188,11 @@
 				the battery is depleted. At this point the radio will start beeping periodically as well as flash the backlight of the display, indicating that you need to change your battery or put your radio in the charger.</para>
 		</section>
 	</section>
-	<section xml:id="manual.know.status-led">
+	<section xml:id="status-led">
 		<title>Status LED</title>
 		<para>The status LED has a very simple and traditional design. When you receive a signal it turns green, when you transmit it turns red, and it's off in standby.</para>
 	</section>
-	<section xml:id="manual.know.call-key">
+	<section xml:id="side-key-call">
 		<title>Side key 1 - CALL (Broadcast FM and Alarm)</title>
 		<para>Press
 			<inlinemediaobject>
@@ -215,7 +215,7 @@
 			</inlinemediaobject>
 			again to turn it off.</para>
 	</section>
-	<section xml:id="manual.know.monitor-key">
+	<section xml:id="side-key-monitor">
 		<title>Side key 2 - MONI (Monitor and Flashlight)</title>
 		<para>Press
 			<inlinemediaobject>
@@ -232,7 +232,7 @@
 			</inlinemediaobject>
 			to monitor the signal. This will open up the squelch so you can listen to the unfiltered signal.</para>
 	</section>
-	<section xml:id="manual.know.mode-key">
+	<section xml:id="mode-key">
 		<title>VFO / MR -mode key</title>
 		<para>Pressing 
 			<inlinemediaobject>
@@ -243,7 +243,7 @@
 			switches between Frequency (VFO) Mode and Memory (MR) mode. Memory mode is sometimes also referred to as Channel mode.</para>
 		<para>To save frequencies to channel memory you must be in Frequency (VFO) mode.</para>
 	</section>
-	<section xml:id="manual.know.ab-key">
+	<section xml:id="ab-select-key">
 		<title>A / B select key</title>
 		<para>The 
 			<inlinemediaobject>
@@ -254,7 +254,7 @@
 			key switches between A (upper) and B (lower) displays. The frequency or channel on the selected display becomes the active listening and transmit frequency or channel.</para>
 		<para>To save frequencies to channel memory you must be on the A display.</para>
 	</section>
-	<section xml:id="manual.know.band-key">
+	<section xml:id="band-key">
 		<title>Band key</title>
 		<para>The 
 			<inlinemediaobject>
@@ -271,10 +271,10 @@
 			</inlinemediaobject>
 			key switches between 65-75 MHz and 76-108 MHz bands.</para>
 	</section>
-	<section xml:id="manual.know.keypad">
+	<section xml:id="numeric-keypad">
 		<title>Numeric keypad</title>
 		<para>The Baofeng UV-5R hand-held transceiver comes standard with a full numeric keypad.</para>
-		<figure xml:id="manual.radio.keypad-fig">
+		<figure xml:id="figure-numeric-keypad">
 			<title>Baofeng UV-5R, keypad</title>
 			<mediaobject>
 				<imageobject>
@@ -282,7 +282,7 @@
 				</imageobject>
 			</mediaobject>
 		</figure>
-		<para>The numeric keys have their secondary function printed on them (in reality it's rather menu short-cuts, more on that in <xref linkend="manual.menu"/>).</para>
+		<para>The numeric keys have their secondary function printed on them (in reality it's rather menu short-cuts, more on that in <xref linkend="working-the-menu-system"/>).</para>
 		<para>The
 			<inlinemediaobject>
 				<imageobject>
@@ -296,7 +296,7 @@
 				</imageobject>
 			</inlinemediaobject>
 			keys on the other hand have actual secondary functions, scan and keypad lock respectively.</para>
-		<section>
+		<section xml:id="pound-key">
 			<title>Pound key</title>
 			<para>In channel mode,
 				<inlinemediaobject>
@@ -311,7 +311,7 @@
 					</imageobject>
 				</inlinemediaobject>
 				to change between High and Low transmit power. Do note that this is does not alter the transmit power stored to memory for that channel, it only affects the current session. Switching to another channel or another operating mode (including broadcast FM) will reset transmit power to what's stored in channel memory.</para>
-			<section>
+			<section xml:id="keypad-lock">
 				<title>Keypad Lock</title>
 				<para>The Baofeng UV-5R features a keypad lock that locks out all keys except for the three side keys.</para>
 				<para>To enable or disable the keypad lock, press and hold the
@@ -321,12 +321,12 @@
 						</imageobject>
 					</inlinemediaobject>
 					key for about two seconds.</para>
-				<para>You can also enable so that the radio automatically locks the keypad after ten seconds from the menu, see <xref linkend="manual.menu"/> and <xref linkend="manual.menu.24"/> in <xref linkend="manual.menu.definitions"/> for details.</para>
+				<para>You can also enable so that the radio automatically locks the keypad after ten seconds from the menu, see <xref linkend="working-the-menu-system"/> and <xref linkend="menu-24-autolk"/> in <xref linkend="menu-definitions"/> for details.</para>
 			</section>
 		</section>
-		<section>
+		<section xml:id="star-key">
 			<title>Star key</title>
-			<para>A short momentary press of the key enables the reverse function (see <xref linkend="manual.repeater"/>).</para>
+			<para>A short momentary press of the key enables the reverse function (see <xref linkend="repeaters"/>).</para>
 			<para>When listening to broadcast FM a momentary press will start the scanning. Scanning in broadcast FM will stop as soon as an active station is found, regardless of scanner resume method.</para>
 			<para>To enable the scanner, press and hold the
 				<inlinemediaobject>
@@ -334,9 +334,9 @@
 						<imagedata contentdepth="0.9em" format="svg" fileref="images/key-star.svg"/>
 					</imageobject>
 				</inlinemediaobject>
-				key for about two seconds. See <xref linkend="manual.scanner"/> for details.</para>
+				key for about two seconds. See <xref linkend="scanning"/> for details.</para>
 		</section>
-		<section>
+		<section xml:id="menu-and-function-keys">
 			<title>Menu and function keys</title>
 			<para>The
 				<inlinemediaobject>
@@ -365,13 +365,13 @@
 					</imageobject>
 				</inlinemediaobject>
 				key is used to exit menus and cancel menu options.</para>
-			<para>For a more in-depth explanation on how to work the menu see <xref linkend="manual.menu"/>.</para>
+			<para>For a more in-depth explanation on how to work the menu see <xref linkend="working-the-menu-system"/>.</para>
 		</section>
 	</section>
-	<section xml:id="manual.know.port">
+	<section xml:id="accessory-jack">
 		<title>Accessory jack</title>
 		<para>The accessory jack on the Baofeng UV-5R is a Kenwood compatible two(2)-pin design.</para>
-		<figure xml:id="manual.radio.headset-fig">
+		<figure xml:id="figure-kenwood-headset-plug">
 			<title>Typical 2 pin Kenwood headset configuration.</title>
 			<mediaobject>
 				<imageobject>

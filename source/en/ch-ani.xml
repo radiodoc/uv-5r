@@ -3,14 +3,14 @@
 <chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg"
-         xml:id="manual.ani">
+         xml:id="automatic-number-identification">
 <title>Automatic Number Identification</title>
 <para>In dispatch environments it's common to have a system in place that will allow radios to automatically identify themselves to the dispatcher. This is known as Automatic Number Identification, or sometimes PTT-ID since the radio sends a data burst containing the ID code at the beginning or end of a transmission.</para>
 <para>The Baofeng UV-5R uses DTMF signalling for it's ANI implementation. For details on what settings to use and questions regarding system interoperability, contact the dispatch office with your employer.</para>
 <procedure>
 	<title>Setting ANI code</title>
 	<step>
-		<para>Attach your radio to your computer with a programming cable and open up the Baofeng programming software, see <xref linkend="manual.programming.computer"/> for details.</para>
+		<para>Attach your radio to your computer with a programming cable and open up the Baofeng programming software, see <xref linkend="computer-programming"/> for details.</para>
 	</step>
 	<step>
 		<para>In the <literal>Edit</literal> menu, select <literal>DTMF</literal>. This will open up a window called <literal>DTMF Encode/Decode</literal>.</para>
@@ -23,7 +23,7 @@
 	</step>
 	<step>
 		<para>Locate the box named <literal>ANI code</literal> and enter your personal ID number that you've been given from your dispatch office into the text field.</para>
-		<para>If you use group ID codes in addition to, or instead of personal ID codes, you can enter up to 15 of them in the list to the left in the <literal>DTMF Encode/Decode</literal> window. These can be assigned on channel by channel basis in the <literal>Channel Information</literal>, see <xref linkend="manual.programming.baofeng"/> for further details.</para>
+		<para>If you use group ID codes in addition to, or instead of personal ID codes, you can enter up to 15 of them in the list to the left in the <literal>DTMF Encode/Decode</literal> window. These can be assigned on channel by channel basis in the <literal>Channel Information</literal>, see <xref linkend="baofeng-software"/> for further details.</para>
 	</step>
 	<step>
 		<para>Check the <literal>Press PTT to Send</literal> box if you want to transmit your ID before you speak, or;</para>

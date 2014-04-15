@@ -3,9 +3,9 @@
 <chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg"
-         xml:id="manual.setup">
+         xml:id="initial-setup">
 <title>Initial setup</title>
-<section xml:id="manual.setup.in-the-box">
+<section xml:id="whats-in-the-box">
 	<title>What's in the box</title>
 	<para>This transceiver comes shipped with the following items in the box:</para>
 	<itemizedlist spacing="compact">
@@ -20,7 +20,7 @@
 		<para>Items included may vary depending on country of purchase. For further information please contact your local vendor or dealer.</para>
 	</note>
 </section>
-<section xml:id="manual.setup.assembly">
+<section xml:id="assembly">
 	<title>Assembly</title>
 	<para>Before the radio is ready for use we need to attach the antenna and battery pack, as well as charge the battery.</para>
 	<section>
@@ -36,34 +36,34 @@
 			</itemizedlist>
 		</note>
 	</section>
-	<section>
+	<section xml:id="belt-clip">
 		<title>Belt clip</title>
 		<para>At the back of the radio there are two parallel screws mounted above the battery, remove these and thread them through the holes on the belt clip as you screw them back into the radio body.</para>
 		<warning>
 			<para>Do not use any form of glue to fix the screws on the battery clip. The solvents in the glue may cause damage to the battery casing.</para>
 		</warning>
 	</section>
-	<section>
+	<section xml:id="battery">
 		<title>Battery</title>
 		<para>Before attaching or removing the battery make sure your radio is turned off by turning the power/volume knob all the way counter-clockwise.</para>
-		<section>
+		<section xml:id="battery-installation">
 			<title>Installation</title>
 			<para>Make sure the battery is aligned in parallel with the radio body with the lower edge of the battery about 1-2cm below the edge of the radio.</para>
 			<para>Once aligned with the guide-rails, slide the battery upward until you hear a click as the battery locks in place.</para>
 		</section>
-		<section>
+		<section xml:id="battery-removal">
 			<title>Removal</title>
-			<para>To remove the battery, press the battery release above the battery pack (see <xref linkend="manual.radio.front-fig"/>), as you slide the battery downward.</para>
+			<para>To remove the battery, press the battery release above the battery pack (see <xref linkend="figure-radio-overview"/>), as you slide the battery downward.</para>
 		</section>
 	</section>
 </section>
-<section xml:id="manual.setup.battery">
+<section xml:id="charging-and-battery-maintenance">
 	<title>Charging and battery maintenance</title>
 	<note>
 		<para>For optimum battery efficiency, cycle the battery at least three times before regular use.</para>
 		<para>A cycle consists of fully charging the battery (about five hours charge time with a standard battery) and then fully depleting it before charging it again.</para>
 	</note>
-	<section xml:id="manual.setup.battery.charging">
+	<section xml:id="battery-charging">
 		<title>Charging</title>
 		<para>Follow these steps to hook up and use the charger:</para>
 		<procedure>
@@ -83,7 +83,7 @@
 				<para>The radio is fully charged once the charger's green status LED goes steady. Please remove the radio at that time to avoid over-charging your battery.</para>
 			</step>
 		</procedure>
-		<table>
+		<table xml:id="table-charger-led-codes">
 			<title>Charger LED codes</title>
 			<tgroup cols="3">
 			<thead>
@@ -121,18 +121,26 @@
 			<para>The charger and battery are fitted with matching notches so that you can charge your battery on its own! Practical if you have two batteries. That way you can charge one battery while still using your radio.</para>
 		</note>
 	</section>
-	<section xml:id="manual.setup.battery.maintenance">
+	<section xml:id="battery-maintenance">
 		<title>Battery Maintenance</title>
 		<para>The battery for your radio comes uncharged from the factory, please let it charge for at least four to five hours before you start using your radio.</para>
 		<warning>
 			<itemizedlist>
-				<listitem><para>Use only batteries approved by the original manufacturer.</para></listitem>
-				<listitem><para>Never attempt to disassemble your battery pack.</para></listitem>
-				<listitem><para>Do not expose your batteries to fire or intense heat.</para></listitem>
-				<listitem><para>Dispose of batteries in accordance with local recycling regulations. Batteries do not belong in your trash can!</para></listitem>
+				<listitem>
+					<para>Use only batteries approved by the original manufacturer.</para>
+				</listitem>
+				<listitem>
+					<para>Never attempt to disassemble your battery pack.</para>
+				</listitem>
+				<listitem>
+					<para>Do not expose your batteries to fire or intense heat.</para>
+				</listitem>
+				<listitem>
+					<para>Dispose of batteries in accordance with local recycling regulations. Batteries do not belong in your trash can!</para>
+				</listitem>
 			</itemizedlist>
 		</warning>
-		<section>
+		<section xml:id="prolonging-battery-life">
 			<title>Prolonging the life of your battery</title>
 			<itemizedlist>
 				<listitem><para>Only charge batteries in normal room temperatures.</para></listitem>
@@ -148,7 +156,7 @@
 				<para>This method is only effective against minor splashes (light rain for instance). A soaked radio may very well be beyond repair.</para>
 			</note>
 		</section>
-		<section>
+		<section xml:id="battery-storage">
 			<title>Storage</title>
 			<para>Fully charge your battery before long time storage in order to prevent damage from over-discharge.</para>
 			<para>To avoid severe capacity degradation of your battery while in long time storage, please cycle the battery at least every six(6) months.</para>

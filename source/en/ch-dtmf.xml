@@ -3,11 +3,11 @@
 <chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg"
-         xml:id="manual.dtmf">
+         xml:id="using-dtmf">
 <title>DTMF</title>
 <para>DTMF is an in-band signalling method using dual sinusoidal signals for any given code. Originally developed for telephony systems, it has proved a very versatile tool in many other areas.</para>
 <para>In two-way radio systems, DTMF is most commonly used for automation systems and remote control. A common example would be in amateur radio repeaters where some repeaters are activated by sending out a DTMF sequence (usually a simple single-digit sequence).</para>
-	<table>
+	<table xml:id="table-dtmf-frequencies">
 		<title>DTMF frequencies and corresponding codes</title>
 		<tgroup cols="5" align="center">
 		<tbody>
@@ -86,7 +86,7 @@
 		</inlinemediaobject>
 		keys respectively.</para>
 <!--
-	<figure xml:id="manual.dtmf.keypad-fig">
+	<figure xml:id="figure-dtmf-keypad">
 		<title>Baofeng UV-5R, keypad</title>
 		<mediaobject>
 			<imageobject>

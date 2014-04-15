@@ -2,7 +2,7 @@
 <!DOCTYPE legalnotice>
 <legalnotice xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
              xmlns:xlink="http://www.w3.org/1999/xlink" 
-             xml:id="manual.legalnotice">
+             xml:id="legalnotice">
 	<para>This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.</para>
 
 	<para>You are free:</para>

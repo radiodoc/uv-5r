@@ -3,10 +3,10 @@
 <appendix xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
           xmlns:xlink="http://www.w3.org/1999/xlink" 
           xmlns:svg="http://www.w3.org/2000/svg"
-          xml:id="manual.menu.definitions">
+          xml:id="menu-definitions">
 <title>Menu definitions</title>
-<para>See <xref linkend="manual.menu"/> for more info about using the menu-system.</para>
-<section xml:id="manual.menu.0">
+<para>See <xref linkend="working-the-menu-system"/> for more info about using the menu-system.</para>
+<section xml:id="menu-0-sql">
 	<title>0 SQL - Squelch Level</title>
 	<para>Selects the squelch noise threshold.</para>
 	<informaltable>
@@ -29,7 +29,7 @@
 	</informaltable>
 	<para>Setting the squelch to <literal>0</literal> will open up the squelch entirely.</para>
 </section>
-<section xml:id="manual.menu.1">
+<section xml:id="menu-1-step">
 	<title>1 STEP - Frequency Step</title>
 	<para>Selects the step in frequency when using the
 		<inlinemediaobject>
@@ -86,7 +86,7 @@
 	</informaltable>
 	<para>This does only affect the radio when in Frequency (VFO) Mode.</para>
 </section>
-<section xml:id="manual.menu.2">
+<section xml:id="menu-2-txp">
 	<title>2 TXP - Transmit Power</title>
 	<para>Transmit power is only settable in Frequency(VFO) Mode. In Memory(MR) Mode transmit power will be set to the level programmed in memory for any given channel.</para>
 	<informaltable>
@@ -116,7 +116,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.3">
+<section xml:id="menu-3-save">
 	<title>3 SAVE - Battery Save</title>
 	<para>Sampling ratio of the Receiver to acknowledge a signal</para>
 	<informaltable>
@@ -142,7 +142,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.4">
+<section xml:id="menu-4-vox">
 	<title>4 VOX - Voice Operated TX</title>
 	<para>Adjusts the sensitivity of the VOX feature, if enabled.</para>
 	<informaltable>
@@ -169,7 +169,7 @@
 	</informaltable>
 	<para>The lower the setting, the louder your voice have to be in order to engage the transmitter.</para>
 </section>
-<section xml:id="manual.menu.5">
+<section xml:id="menu-5-wn">
 	<title>5 WN - Wideband / Narrowband</title>
 	<para>Sets maximum band deviation.</para>
 	<informaltable>
@@ -199,7 +199,7 @@
 	</informaltable>
 	<para>In the USA, FCC part 90 radios are mandated to switch over to Narrowband communication by January 1st 2013. Meaning all commercial users. This does not affect Amateur Radio operators.</para>
 </section>
-<section xml:id="manual.menu.6">
+<section xml:id="menu-6-abr">
 	<title>6 ABR - Display Illumination Time</title>
 	<para>Time-out for the LCD back-light.</para>
 	<informaltable>
@@ -225,7 +225,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.7">
+<section xml:id="menu-7-tdr">
 	<title>7 TDR - Dual Watch</title>
 	<para>When enabled it allows you to monitor two frequencies simultaneously.</para>
 	<informaltable>
@@ -255,7 +255,7 @@
 	</informaltable>
 	<para>It should be noted that this radio does not possess a dual VFO, meaning that the Dual Watch feature is a time sharing operation. Your radio will flip-flop between A and B channels at a fixed rate. This will not allow you to receive two frequencies in parallel.</para>
 </section>
-<section xml:id="manual.menu.8">
+<section xml:id="menu-8-beep">
 	<title>8 BEEP - Keypad Beep</title>
 	<para>When enabled your radio will emit an audible tone at every key press.</para>
 	<informaltable>
@@ -284,7 +284,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.9">
+<section xml:id="menu-9-tot">
 	<title>9 TOT - Transmission Time-out-Timer</title>
 	<para>Transmission times out after set time. Radio will alert you when your time is up.</para>
 	<informaltable>
@@ -308,7 +308,7 @@
 	<para>To use the numeric keypad for input, use the following formula: <literal>(T-15)/15 = X</literal>, where T is the time in seconds that you want and X is a two digit code on your keypad.</para>
 	<para>Example: To get 300 seconds, take <literal>(300-15)/15</literal> to get <literal>19</literal>.</para>
 </section>
-<section xml:id="manual.menu.10">
+<section xml:id="menu-10-r-dcs">
 	<title>10 R-DCS - Receiver DCS</title>
 	<para>Digital-Coded Squelch(DCS) will block out any signal that isn't sent with a matching DCS code.</para>
 	<informaltable>
@@ -333,9 +333,9 @@
 		</tbody>
 		</tgroup>
 	</informaltable>
-	<para>See <xref linkend="manual.table.dcs"/> for a complete reference of DCS codes and their corresponding numerical value. Remember to input any leading zeros when using the numerical keypad. To set it to off, enter code <literal>000</literal>.</para>
+	<para>See <xref linkend="dcs-table"/> for a complete reference of DCS codes and their corresponding numerical value. Remember to input any leading zeros when using the numerical keypad. To set it to off, enter code <literal>000</literal>.</para>
 </section>
-<section xml:id="manual.menu.11">
+<section xml:id="menu-11-r-ctcs">
 	<title>11 R-CTCS - Receiver CTCSS</title>
 	<para>Continuous Tone-Coded Squelch System(CTCSS) will block out any signal that isn't sent with a matching CTCSS sub-tone.</para>
 	<informaltable>
@@ -360,9 +360,9 @@
 		</tbody>
 		</tgroup>
 	</informaltable>
-	<para>See <xref linkend="manual.table.ctcss"/> for a complete reference of CTCSS sub tones. To enter a CTCSS tone on the numerical keypad, enter its frequency directly rather than the numerical code. Remember to input any leading zeros when using the numerical keypad. To set it to off, enter code <literal>000</literal>.</para>
+	<para>See <xref linkend="ctcss-table"/> for a complete reference of CTCSS sub tones. To enter a CTCSS tone on the numerical keypad, enter its frequency directly rather than the numerical code. Remember to input any leading zeros when using the numerical keypad. To set it to off, enter code <literal>000</literal>.</para>
 </section>
-<section xml:id="manual.menu.12">
+<section xml:id="menu-12-t-dcs">
 	<title>12 T-DCS - Transmitter DCS</title>
 	<para>Sets the Digital-Coded Squelch(DCS) code for the transmitter.</para>
 	<informaltable>
@@ -387,9 +387,9 @@
 		</tbody>
 		</tgroup>
 	</informaltable>
-	<para>See <xref linkend="manual.table.dcs"/> for a complete reference of DCS codes and their corresponding numerical value. Remember to input any leading zeros when using the numerical keypad. To set it to off, enter code <literal>000</literal>.</para>
+	<para>See <xref linkend="dcs-table"/> for a complete reference of DCS codes and their corresponding numerical value. Remember to input any leading zeros when using the numerical keypad. To set it to off, enter code <literal>000</literal>.</para>
 </section>
-<section xml:id="manual.menu.13">
+<section xml:id="menu-13-t-ctcs">
 	<title>13 T-CTCS - Transmitter CTCSS</title>
 	<para>Sets the Continuous Tone-Coded Squelch System(CTCSS) sub-tone for the transmitter.</para>
 	<informaltable>
@@ -414,9 +414,9 @@
 		</tbody>
 		</tgroup>
 	</informaltable>
-	<para>See <xref linkend="manual.table.ctcss"/> for a complete reference of CTCSS sub tones. To enter a CTCSS tone on the numerical keypad, enter its frequency directly rather than the numerical code. Remember to input any leading zeros when using the numerical keypad. To set it to off, enter code <literal>000</literal>.</para>
+	<para>See <xref linkend="ctcss-table"/> for a complete reference of CTCSS sub tones. To enter a CTCSS tone on the numerical keypad, enter its frequency directly rather than the numerical code. Remember to input any leading zeros when using the numerical keypad. To set it to off, enter code <literal>000</literal>.</para>
 </section>
-<section xml:id="manual.menu.14">
+<section xml:id="menu-14-voice">
 	<title>14 VOICE - Voice Prompt</title>
 	<para>When enabled your radio will "talk back" to you, meaning audible confirmation when pressing keys and working the menu system.</para>
 	<informaltable>
@@ -450,7 +450,7 @@
 	</informaltable>
 	<para>In some versions of the firmware your options may be restricted to <literal>ON</literal> and <literal>OFF</literal>.</para>
 </section>
-<section xml:id="manual.menu.15">
+<section xml:id="menu-15-ani-id">
 	<title>15 ANI-ID - Automatic Number ID</title>
 	<para>This can only be set via Computer Linked programming.</para>
 	<informaltable>
@@ -472,7 +472,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.16">
+<section xml:id="menu-16-dtmfst">
 	<title>16 DTMFST - DTMF tone of transmit code</title>
 	<para>Selects if you should send your S-CODE(<literal>DT</literal>) or ANI code with the PTT-ID.</para>
 	<informaltable>
@@ -510,7 +510,7 @@
 	</informaltable>
 	<para>You cannot set DTMFST while in channel/memory mode.</para>
 </section>
-<section xml:id="manual.menu.17">
+<section xml:id="menu-17-s-code">
 	<title>17 S-CODE - Signal Code</title>
 	<para><literal>S-CODE</literal> sets your transceiver to one of the fifteen(15) group ID codes. The actual ID codes are only settable from a computer.</para>
 	<informaltable>
@@ -533,7 +533,7 @@
 	</informaltable>
 	<para>You cannot set S-CODE while in channel/memory mode.</para>
 </section>
-<section xml:id="manual.menu.18">
+<section xml:id="menu-18-sc-rev">
 	<title>18 SC-REV - Scanner Resume Method</title>
 	<para>Sets the behaviour of the scanner upon finding active frequencies.</para>
 	<informaltable>
@@ -572,7 +572,7 @@
 		<listitem><para>Search Operation: The scanner holds on the frequency with detected activity.</para></listitem>
 	</itemizedlist>
 </section>
-<section xml:id="manual.menu.19">
+<section xml:id="menu-19-ptt-id">
 	<title>19 PTT-ID - When to send the PTT-ID</title>
 	<para>Sets when to send the PTT-ID (ANI and/or S-CODE) code(s).</para>
 	<informaltable>
@@ -611,7 +611,7 @@
 	</informaltable>
 	<para>You cannot set PTT-ID while in channel/memory mode.</para>
 </section>
-<section xml:id="manual.menu.20">
+<section xml:id="menu-20-ptt-lt">
 	<title>20 PTT-LT - Signal code sending delay.</title>
 	<para>Delay before sending the PTT-ID.</para>
 	<informaltable>
@@ -633,7 +633,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.21">
+<section xml:id="menu-21-mdf-a">
 	<title>21 MDF-A - Channel Mode A Display</title>
 	<para>Sets the display mode for the upper display.</para>
 	<informaltable>
@@ -668,7 +668,7 @@
 	</informaltable>
 	<para>Channel name can only be set via Computer.</para>
 </section>
-<section xml:id="manual.menu.22">
+<section xml:id="menu-22-mdf-b">
 	<title>22 MDF-B - Channel Mode B Display</title>
 	<para>Sets the display mode for the lower display.</para>
 	<informaltable>
@@ -703,7 +703,7 @@
 	</informaltable>
 	<para>Channel name can only be set via Computer.</para>
 </section>
-<section xml:id="manual.menu.23">
+<section xml:id="menu-23-bcl">
 	<title>23 BCL - Busy Channel Lock-out</title>
 	<para>If enabled your radio will prevent you from transmitting on active frequencies.</para>
 	<informaltable>
@@ -732,7 +732,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.24">
+<section xml:id="menu-24-autolk">
 	<title>24 AUTOLK - Automatic Keypad Lock</title>
 	<para>If enabled keypad will automatically lock after eight(8) seconds of inactivity.</para>
 	<informaltable>
@@ -761,7 +761,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.25">
+<section xml:id="menu-25-sft-d">
 	<title>25 SFT-D - Frequency Shift Direction</title>
 	<para>Sets the direction of the transmit offset relative receive frequency.</para>
 	<informaltable>
@@ -794,7 +794,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.26">
+<section xml:id="menu-26-offset">
 	<title>26 OFFSET - Frequency shift amount</title>
 	<para>Sets the amount of offset on the transmit frequency relative the receive frequency.</para>
 	<informaltable>
@@ -858,7 +858,7 @@
 		</inlinemediaobject>
 		keys to set offsets below 100kHz.</para>
 </section>
-<section xml:id="manual.menu.27">
+<section xml:id="menu-27-mem-ch">
 	<title>27 MEM-CH - Store a Memory Channel</title>
 	<para>Stores current settings in memory to the specified channel number.</para>
 	<informaltable>
@@ -880,7 +880,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.28">
+<section xml:id="menu-28-del-ch">
 	<title>28 DEL-CH - Delete a memory channel</title>
 	<para>Deletes a memory channel at the specified channel number.</para>
 	<informaltable>
@@ -902,7 +902,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.29">
+<section xml:id="menu-29-wt-led">
 	<title>29 WT-LED - Display back-light colour, Standby</title>
 	<para>Sets the back-light colour in standby.</para>
 	<informaltable>
@@ -938,7 +938,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.30">
+<section xml:id="menu-30-rx-led">
 	<title>30 RX-LED - Display back-light colour, Receive</title>
 	<para>Sets the back-light colour while receiving a signal.</para>
 	<informaltable>
@@ -974,7 +974,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.31">
+<section xml:id="menu-31-tx-led">
 	<title>31 TX-LED - Display back-light colour, Transmit</title>
 	<para>Sets the back-light colour while transmitting a signal.</para>
 	<informaltable>
@@ -1010,7 +1010,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.32">
+<section xml:id="menu-32-al-mod">
 	<title>32 AL-MOD - Alarm Mode</title>
 	<para></para>
 	<informaltable>
@@ -1044,7 +1044,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.33">
+<section xml:id="menu-33-band">
 	<title>33 BAND - Band Selection</title>
 	<para>Sets the current operating band.</para>
 	<informaltable>
@@ -1073,7 +1073,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.34">
+<section xml:id="menu-34-tdr-ab">
 	<title>34 TDR-AB - Transmit selection while in Dual Watch mode</title>
 	<para>If enabled, this will force the radio to transmit on the selected frequency when in Dual Watch mode.</para>
 	<informaltable>
@@ -1106,7 +1106,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.35">
+<section xml:id="menu-35-ste">
 	<title>35 STE - Squelch Tail Elimination</title>
 	<para></para>
 	<informaltable>
@@ -1135,7 +1135,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.36">
+<section xml:id="menu-36-rp-ste">
 	<title>36 RP-STE - Squelch Tail Elimination through a repeater</title>
 	<para></para>
 	<informaltable>
@@ -1161,7 +1161,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.37">
+<section xml:id="menu-37-rpt-rl">
 	<title>37 RPT-RL - Delay the squelch tail of repeater</title>
 	<para></para>
 	<informaltable>
@@ -1187,7 +1187,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.38">
+<section xml:id="menu-38-ponmgs">
 	<title>38 PONMGS - Power On Message</title>
 	<para>When enabled it displays a 2 line message on the display. Message can only be set via computer.</para>
 	<informaltable>
@@ -1216,7 +1216,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.39">
+<section xml:id="menu-39-roger">
 	<title>39 ROGER -  Roger Beep</title>
 	<para>Transmits an audible tone after you release the PTT.</para>
 	<informaltable>
@@ -1245,7 +1245,7 @@
 		</tgroup>
 	</informaltable>
 </section>
-<section xml:id="manual.menu.40">
+<section xml:id="menu-40-reset">
 	<title>40 RESET - Restore defaults</title>
 	<para>Resets the radio to factory defaults, with some exceptions.</para>
 	<informaltable>

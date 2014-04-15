@@ -3,9 +3,9 @@
 <chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg"
-         xml:id="manual.menu">
+         xml:id="working-the-menu-system">
 <title>Working the menu system</title>
-<para>For a complete reference on available menu items and parameters, see <xref linkend="manual.menu.definitions"/>.</para>
+<para>For a complete reference on available menu items and parameters, see <xref linkend="menu-definitions"/>.</para>
 <note>
 	<para>If your radio is set to Memory (MR) mode, the following menu items will not take any effect:</para>
 	<para>STEP, TXP, W/N, CTCSS, DCS, S-CODE, PTT-ID, BCL, SFT-D, OFFSET, MEM-CH, BAND</para>
@@ -101,9 +101,9 @@
 </section>
 <section>
 	<title>Using short-cuts</title>
-	<para>As you may have noticed if you looked at <xref linkend="manual.menu.definitions"/>, every menu item has a numerical value associated with it. These numbers can be used for direct access of any given menu item.</para>
-	<para>The menu is also organized in such a way that the ten most common functions are on top, and as can be seen in <xref linkend="manual.radio.keypad-fig"/>, these are also printed on the keypad so you don't have to remember them all.</para>
-	<para>The parameters also have a number associated with them, see <xref linkend="manual.menu.definitions"/> for details.</para>
+	<para>As you may have noticed if you looked at <xref linkend="menu-definitions"/>, every menu item has a numerical value associated with it. These numbers can be used for direct access of any given menu item.</para>
+	<para>The menu is also organized in such a way that the ten most common functions are on top, and as can be seen in <xref linkend="figure-numeric-keypad"/>, these are also printed on the keypad so you don't have to remember them all.</para>
+	<para>The parameters also have a number associated with them, see <xref linkend="menu-definitions"/> for details.</para>
 	<procedure>
 		<title>Using the menu with short-cuts</title>
 		<step>

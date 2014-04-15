@@ -3,7 +3,7 @@
 <chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg"
-         xml:id="manual.scanner">
+         xml:id="scanning">
 <title>Scanning</title>
 <para>The Baofeng UV-5R features a built in scanner for the VHF and UHF bands. When in Frequency (VFO) mode it will scan in steps according to your set frequency step. In Channel (MR) mode it will scan your channels. At approximately three frequencies per second, it's not the fastest scanner in the world, but it is nonetheless a useful feature to have at times.</para>
 <para>To enable the scanner, press and hold the
@@ -14,10 +14,10 @@
 	</inlinemediaobject>
 	key for about two seconds.</para>
 <para>Press any key to exit scanning mode.</para>
-<section>
+<section xml:id="scanning-modes">
 	<title>Scanning modes</title>
 	<para>The scanner is configurable to one of three ways of operation: Time, carrier or search, each of which are explained in further details in their respective section below.</para>
-	<procedure>
+	<procedure xml:id="setting-scanner-mode">
 		<title>Setting scanner mode</title>
 		<step>
 			<para>Press the
@@ -85,15 +85,15 @@
 				key to exit the menu.</para>
 		</step>
 	</procedure>
-	<section>
+	<section xml:id="time-operation">
 		<title>Time operation</title>
 		<para>In Time Operation (<literal>TO</literal>) mode, the scanner stops when it detects a signal, and after a pre set time out time of inactivity, it resumes scanning.</para>
 	</section>
-	<section>
+	<section xml:id="carrier-operation">
 		<title>Carrier operation</title>
 		<para>In Carrier Operation (<literal>CO</literal>) mode, the scanner stops when it detects a signal, and as soon as the signal goes away it resumes scanning.</para>
 	</section>
-	<section>
+	<section xml:id="search-operation">
 		<title>Search operation</title>
 		<para>In Search Operation (<literal>SE</literal>) mode, the scanner stops when it detects a signal.</para>
 		<para>To resume scanning you must press and hold the
@@ -105,11 +105,11 @@
 			key again.</para>
 	</section>
 </section>
-<section>
+<section xml:id="tone-scanning">
 	<title>Tone Scanning</title>
 	<para>In frequency mode you can scan for CTCSS tones and DCS codes on active frequencies.</para>
 	<para>To scan for CTCSS or DCS on active channels, follow these steps:</para>
-	<procedure>
+	<procedure xml:id="tone-scanning-procedure">
 		<title>Tone scanning</title>
 		<step>
 			<para>Press the
@@ -135,7 +135,7 @@
 								<imagedata contentdepth="0.9em" format="svg" fileref="images/key-0.svg"/>
 							</imageobject>
 						</inlinemediaobject>
-						to scan for DCS codes, or</para>
+						to scan for DCS codes, or;</para>
 				</step>
 				<step>
 					<para>
@@ -190,6 +190,6 @@
 				key to exit the menu system</para>
 		</step>
 	</procedure>
-	<para>If you wish to communicate with a party after finding out what CTCSS or DCS settings they're transmitting with, configure your transmit CTCSS or DCS according with what the scanner set for your receive CTCSS or DCS. For details see <xref linkend="manual.groups"/>.</para>
+	<para>If you wish to communicate with a party after finding out what CTCSS or DCS settings they're transmitting with, configure your transmit CTCSS or DCS according with what the scanner set for your receive CTCSS or DCS. For details see <xref linkend="selective-calling"/>.</para>
 </section>
 </chapter>

@@ -10,12 +10,12 @@
 		<para>Part one covers the basic setup and use of your hand-held two-way transceiver.</para>
 		<literallayout>
 <!--
-		<xref linkend="manual.safety"/>
-		<xref linkend="manual.features"/>
+		<xref linkend="safety-information"/>
+		<xref linkend="features-and-functions"/>
 -->
-		<xref linkend="manual.setup"/>
-		<xref linkend="manual.get-to-know"/>
-		<xref linkend="manual.basic"/>
+		<xref linkend="initial-setup"/>
+		<xref linkend="getting-to-know-your-radio"/>
+		<xref linkend="basic-use"/>
 		</literallayout>
 	</partintro>
 	<xi:include href="ch-setup.xml"/>

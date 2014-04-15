@@ -9,9 +9,9 @@
 	<partintro>
 		<para>Part three covers is a collection of how-to documents to help you set up your radio for specific working environments.</para>
 		<literallayout>
-			<xref linkend="manual.repeater"/>
-			<xref linkend="manual.ani"/>
-			<xref linkend="manual.app-specicic"/>
+			<xref linkend="repeaters"/>
+			<xref linkend="automatic-number-identification"/>
+			<xref linkend="application-specific-setup"/>
 		</literallayout>
 	</partintro>
 	<xi:include href="ch-repeater.xml"/>

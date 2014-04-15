@@ -9,13 +9,13 @@
 	<partintro>
 		<para>Part two covers the more advanced topics, such as setup of repeater offset and programming via computer link.</para>
 		<literallayout>
-			<xref linkend="manual.menu"/>
-			<xref linkend="manual.scanner"/> 
-			<xref linkend="manual.dual-watch"/> 
-			<xref linkend="manual.dtmf"/> 
-			<xref linkend="manual.groups"/>
-			<xref linkend="manual.customization"/> 
-			<xref linkend="manual.programming"/>
+			<xref linkend="working-the-menu-system"/>
+			<xref linkend="scanning"/> 
+			<xref linkend="dual-watch"/> 
+			<xref linkend="dtmf"/> 
+			<xref linkend="selective-calling"/>
+			<xref linkend="customization"/> 
+			<xref linkend="programming"/>
 		</literallayout>
 	</partintro>
 	<xi:include href="ch-menu.xml"/>

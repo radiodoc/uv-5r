@@ -3,7 +3,7 @@
 <chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg"
-         xml:id="manual.groups">
+         xml:id="selective-calling">
 <title>Selective calling</title>
 <indexterm>
 	<primary>groups</primary>
@@ -14,9 +14,15 @@
 <para>Individual calling, some times also known as paging, is a one-to-one form of communication. Every radio is programmed with a unique ID code. And only by sending out a matching code can you get that radio to open up to your transmissions.</para>
 <para>The Baofeng UV-5R features three different ways of group calling:</para>
 <itemizedlist spacing="compact">
-	<listitem><para><glossterm linkend="ctcss">CTCSS</glossterm></para></listitem>
-	<listitem><para><glossterm linkend="dcs">DCS</glossterm></para></listitem>
-	<listitem><para>Tone-burst (1750Hz)</para></listitem>
+	<listitem>
+		<para><glossterm linkend="ctcss">CTCSS</glossterm></para>
+	</listitem>
+	<listitem>
+		<para><glossterm linkend="dcs">DCS</glossterm></para>
+	</listitem>
+	<listitem>
+		<para>Tone-burst (1750Hz)</para>
+	</listitem>
 </itemizedlist>
 <para>The Baofeng UV-5R does not feature any form of individual calling.</para>
 <note>
@@ -25,11 +31,11 @@
 	<para>Also, you cannot change the CTCSS or DCS settings while in memory (MR) mode.</para>
 </note>
 <para>CTCSS and 1750Hz tone-burst are also popular methods among amateur radio operators to open up repeaters.</para>
-<section xml:id="manual.groups.ctcss">
+<section xml:id="ctcss-calling">
 	<title>CTCSS</title>
 	<para>CTCSS is set with menus 11 <literal>R-CTCS</literal> and 13 <literal>T-CTCS</literal>.</para>
-	<para>For a complete list of available CTCSS codes and corresponding sub-tone frequencies, see <xref linkend="manual.table.ctcss"/> in <xref linkend="manual.specs"/>.</para>
-	<procedure>
+	<para>For a complete list of available CTCSS codes and corresponding sub-tone frequencies, see <xref linkend="ctcss-table"/> in <xref linkend="technical-specifications"/>.</para>
+	<procedure xml:id="ctcss-setup">
 		<title>CTCSS setup how-to</title>
 		<step>
 			<para>Press the 
@@ -127,13 +133,13 @@
 			</imageobject>
 		</inlinemediaobject>
 		key instead of selecting a CTCSS sub-tone frequency.</para>
-	<para>For more information see <xref linkend="manual.menu.11"/> and <xref linkend="manual.menu.13"/> in <xref linkend="manual.menu.definitions"/>.</para>
+	<para>For more information see <xref linkend="menu-11-r-ctcs"/> and <xref linkend="menu-13-t-ctcs"/> in <xref linkend="menu-definitions"/>.</para>
 </section>
-<section xml:id="manual.groups.dcs">
+<section xml:id="dcs-calling">
 	<title>DCS</title>
 	<para>DCS is set with menus 10 <literal>R-DCS</literal> and 12 <literal>T-DCS</literal>.</para>
-	<para>For a complete list of available DCS codes, see <xref linkend="manual.table.dcs"/> in <xref linkend="manual.specs"/>.</para>
-	<procedure>
+	<para>For a complete list of available DCS codes, see <xref linkend="dcs-table"/> in <xref linkend="technical-specifications"/>.</para>
+	<procedure xml:id="dcs-setup">
 		<title>DCS setup how-to</title>
 		<step>
 			<para>Press the 
@@ -231,9 +237,9 @@
 			</imageobject>
 		</inlinemediaobject>
 		key instead of selecting a DCS code.</para>
-	<para>For more information see <xref linkend="manual.menu.10"/> and <xref linkend="manual.menu.12"/> in <xref linkend="manual.menu.definitions"/>.</para>
+	<para>For more information see <xref linkend="menu-10-r-dcs"/> and <xref linkend="menu-12-t-dcs"/> in <xref linkend="menu-definitions"/>.</para>
 </section>
-<section xml:id="manual.groups.tone-burst">
+<section xml:id="tone-burst">
 	<title>1750Hz Tone-burst</title>
 	<para>To send out a 1750Hz tone-burst, press the
 		<inlinemediaobject>

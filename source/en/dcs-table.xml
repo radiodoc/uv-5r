@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE table>
 <table xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
-       xml:id="manual.table.dcs">
+       xml:id="table-dcs">
 	<title>DCS Codes</title>
 	<tgroup cols="6">
 		<thead>

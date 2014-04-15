@@ -58,7 +58,7 @@
 
 	
 	<xi:include href="glossary.xml"/>
-	<index xml:id="manual.index"/>
+	<index xml:id="index"/>
 <!--
 	<xi:include href="&index;"/>
 	<xi:include href="copyright.xml"/>

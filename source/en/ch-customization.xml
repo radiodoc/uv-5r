@@ -3,7 +3,7 @@
 <chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg"
-         xml:id="manual.customization">
+         xml:id="customization">
 <title>Customization</title>
 <!-- 
 	Customization chapter?
@@ -13,11 +13,11 @@
 	- - Backlight time-out.
 -->
 <para>The Baofeng UV-5R allows for customization of both the power-on message (via computer link only), and the backlight colour during the three states of the transceiver (Transmit, Receive and Standby).</para>
-<section xml:id="manual.customization.display">
+<section xml:id="custimizing-the-display">
 	<title>Display</title>
 	<para>The LCD on the Baofeng UV-5R is backlit by multi-colour LEDs, the colour of which can be pre-set from the menu system into a variety of colours.</para>
 	<para>To change the colours, follow these steps:</para>
-	<procedure>
+	<procedure xml:id="changing-backlight-colour">
 		<title>Changing backlight colour</title>
 		<step>
 			<para>Press the
@@ -119,7 +119,7 @@
 		</step>
 	</procedure>
 	<para>To change the time the backlight stays on for your LCD, follow these steps:</para>
-	<procedure>
+	<procedure xml:id="setting-backlight-time-out">
 		<title>Setting backlight time-out</title>
 		<step>
 			<para>Press the
@@ -182,13 +182,13 @@
 				to exit the menu.</para>
 		</step>
 	</procedure>
-	<para>For details see <xref linkend="manual.menu.29"/> and onward in <xref linkend="manual.menu.definitions"/>.</para>
+	<para>For details see <xref linkend="menu-29-wt-led"/> and onward in <xref linkend="menu-definitions"/>.</para>
 </section>
-<section xml:id="manual.customization.message">
+<section xml:id="power-on-message">
 	<title>Power-on message</title>
-	<para>The power-on message can only be set via computer link, see <xref linkend="manual.programming.computer"/> for details on how to set up a link with your computer.</para>
+	<para>The power-on message can only be set via computer link, see <xref linkend="computer-programming"/> for details on how to set up a link with your computer.</para>
 	<para>The following instructions assume that you've already established a link using the Baofeng software from a computer running Windows, and that the Baofeng software is already installed and running.</para>
-	<procedure>
+	<procedure xml:id="setting-the-power-on-message">
 		<title>Setting the power-on-message</title>
 		<step>
 			<para>Click <userinput>other</userinput> in the menu bar, a dialogue box titled "Other" should have popped up.</para>
@@ -202,7 +202,7 @@
 	</procedure>
 	<note>
 		<para>Even though the software has eight(8) character wide text fields for the power-on message, be aware that the display on the UV-5R can only display a maximum of seven(7) characters.</para>
-		<para>Make sure that menu item <literal>38</literal> is set to <literal>MSG</literal>, otherwise your message wont be displayed. see <xref linkend="manual.menu"/> for details on how to navigate the menu.</para>
+		<para>Make sure that menu item <literal>38</literal> is set to <literal>MSG</literal>, otherwise your message wont be displayed. see <xref linkend="working-the-menu-system"/> for details on how to navigate the menu.</para>
 		<para>Some times it takes the Baofeng software more than one try to connect to your radio. If you see a dialogue box popping up stating that you have a connection failure, close the dialogue box and click read or write again.</para>
 	</note>
 </section>

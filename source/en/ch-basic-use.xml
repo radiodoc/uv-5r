@@ -3,15 +3,15 @@
 <chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg"
-         xml:id="manual.basic">
+         xml:id="basic-use">
 <title>Basic Use</title>
-<section xml:id="manual.basic.power-volume">
+<section xml:id="power-and-volume">
 	<title>Power and volume</title>
-	<para>Before we turn the power on, make sure you have attached the battery and antenna as described in <xref linkend="manual.setup"/>.</para>
-	<section>
+	<para>Before we turn the power on, make sure you have attached the battery and antenna as described in <xref linkend="initial-setup"/>.</para>
+	<section xml:id="turning-the-unit-on">
 		<title>Turning the unit on</title>
 		<para>To turn the unit on, simply rotate the volume/power knob clockwise until you hear a "click". If your radio powers on correctly there should be an audible double beep and the display and backlight should turn on, looking something like this:</para>
-		<figure xml:id="manual.basic.display-start-fig">
+		<figure xml:id="figure-first-power-on-display">
 			<title>First power-on, display</title>
 			<mediaobject>
 				<imageobject>
@@ -19,7 +19,6 @@
 				</imageobject>
 			</mediaobject>
 		</figure>
-
 		<note>
 			<para>You can get additional information about your radio when you turn it on by holding down miscellaneous keys as you turn it on.</para>
 			<para>Holding down the 
@@ -38,11 +37,11 @@
 				key while turning on the radio provides you with what is most likely a control or manufacturing date and a hardware revision number. (It should be noted that this is not confirmed and pure speculation from the community.)</para>
 		</note>
 	</section>
-	<section>
+	<section xml:id="turning-the-unit-off">
 		<title>Turning the unit off</title>
 		<para>Turn the volume/power knob counter-clock wise all the way until you hear a "click". The unit is now off.</para>
 	</section>
-	<section>
+	<section xml:id="adjusting-the-volume">
 		<title>Adjusting the volume</title>
 		<para>To turn up the volume, turn the volume/power knob clock-wise.</para>
 		<para>To turn the volume down, turn the volume/power knob counter-clock-wise. Be careful not to turn it too far, as you may inadvertently turn your radio off.</para>
@@ -57,16 +56,16 @@
 		</note>
 	</section>
 </section>
-<section xml:id="manual.basic.making-call">
+<section xml:id="making-a-call">
 	<title>Making a call</title>
 	<para>Press and hold the PTT button on the side of the radio body to transmit. While transmitting, speak approximately 3-5cm from the microphone. When you release the PTT your transceiver will go back to receive mode.</para>
 </section>
-<section>
+<section xml:id="channel-selection">
 	<title>Channel selection</title>
 	<para>There are two modes of operation. Frequency (VFO) mode, and Channel or Memory (MR) mode.</para>
-	<para>For everyday use, Channel (MR) mode is going to be a whole lot more practical than Frequency (VFO) mode. However, Frequency (VFO) mode is very handy for experimentation out in the field. Frequency (VFO) mode is also used for programming channels into memory. For details on how to program your transceiver see <xref linkend="manual.programming"/>.</para>
+	<para>For everyday use, Channel (MR) mode is going to be a whole lot more practical than Frequency (VFO) mode. However, Frequency (VFO) mode is very handy for experimentation out in the field. Frequency (VFO) mode is also used for programming channels into memory. For details on how to program your transceiver see <xref linkend="programming"/>.</para>
 	<para>Ultimately which mode you end up using will depend entirely on your use case.</para>
-	<section>
+	<section xml:id="frequency-mode">
 		<title>Frequency (VFO) mode</title>
 		<para>In Frequency (VFO) mode you can navigate up and down the band by using the 
 			<inlinemediaobject>
@@ -80,10 +79,10 @@
 					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-down.svg"/>
 				</imageobject>
 			</inlinemediaobject>
-			keys. Each press will increment or decrement your frequency according to the frequency step you've set your transceiver to. For details on how to set the frequency step on your transceiver see <xref linkend="manual.menu"/> and <xref linkend="manual.menu.1"/> in <xref linkend="manual.menu.definitions"/>.</para>
+			keys. Each press will increment or decrement your frequency according to the frequency step you've set your transceiver to. For details on how to set the frequency step on your transceiver see <xref linkend="working-the-menu-system"/> and <xref linkend="menu-1-step"/> in <xref linkend="menu-definitions"/>.</para>
 		<para>You can also input frequencies directly on your numeric keypad with kilohertz accuracy. However, the radio will floor to the nearest frequency that correspond to your frequency step. In other words, when you input frequencies with greater than 1kHz resolution (such as 145.6875 MHz in the example below), always round your input up.</para>
 		<para>The following example assumes the use of a 12.5kHz frequency step.</para>
-		<example>
+		<example xml:id="entering-a-frequency">
 			<title>Entering the frequency 145.6875 MHz on display A</title>
 			<procedure>
 				<step>
@@ -137,7 +136,7 @@
 							</imageobject>
 						</inlinemediaobject>
 						on the numeric keypad, it should look something like this:</para>
-					<screenshot xml:id="manual.basic.display-145-fig">
+					<screenshot xml:id="half-entered-frequency-input">
 						<title>Half-entered frequency input.</title>
 						<mediaobject>
 							<imageobject>
@@ -165,7 +164,7 @@
 							</imageobject>
 						</inlinemediaobject>
 						on the numeric keypad, if all went well the display should look something like this:</para>
-					<screenshot xml:id="manual.basic.display-1456875-fig">
+					<screenshot xml:id="successful-frequency-input">
 						<title>Successful frequency input</title>
 						<mediaobject>
 							<imageobject>
@@ -182,9 +181,9 @@
 			<para>However, it is legal in most jurisdictions to listen. Contact your local regulatory body for further information on what laws, rules and regulations apply to your area.</para>
 		</warning>
 	</section>
-	<section>
+	<section xml:id="channel-mode">
 		<title>Channel (MR) mode</title>
-		<para>The use of Channel (MR) mode is dependent on actually having programmed in some channels to use. To find out more on how to program channels see <xref linkend="manual.programming"/>.</para>
+		<para>The use of Channel (MR) mode is dependent on actually having programmed in some channels to use. To find out more on how to program channels see <xref linkend="programming"/>.</para>
 		<para>Once you have channels programmed and ready, you can use the 
 			<inlinemediaobject>
 				<imageobject>

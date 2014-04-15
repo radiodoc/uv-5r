@@ -3,7 +3,7 @@
 <chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:lang="en" 
          xmlns:xlink="http://www.w3.org/1999/xlink" 
          xmlns:svg="http://www.w3.org/2000/svg"
-         xml:id="manual.programming">
+         xml:id="programming">
 <title>Programming</title>
 <para>Memory channels are an easy way to store commonly used frequencies so that they can easily be retrieved at a later date.</para>
 <para>The Baofeng UV-5R features 128 memory channels that each can hold: Receive and transmit frequencies, transmit power, group signalling information, bandwidth, ANI/PTT-ID settings and a six character alphanumeric identifier or channel name
@@ -11,7 +11,7 @@
 		<para>ANI/PTT-ID and channel name can only be set from a computer.</para>
 	</footnote>
 	.</para>
-<section xml:id="manual.programming.manual">
+<section xml:id="manual-programming">
 	<title>Manual programming</title>
 	<para>Manual programming is somewhat fiddly until you get used to it, especially when programming in duplex channels. Note that the ANI and S-CODE IDs can only be set from a computer. When programming channels it is important to remember that you can only save memory channels when working on the upper display in VFO mode.</para>
 	<para>To create a new channel, start by switching your radio to Frequency (VFO) mode using the
@@ -21,8 +21,8 @@
 			</imageobject>
 		</inlinemediaobject>
 		key. When in Frequency (VFO) mode, select your desired receive frequency using the numerical keypad. After that, use the menu system to configure the finer details of the channel you're wanting to program to memory, such as transmit power, bandwidth, CTCSS or DCS and more.</para>
-		<para>For more information on how to use the menu system see <xref linkend="manual.menu"/> and <xref linkend="manual.menu.definitions"/>. Information regarding how to set up CTCSS and DCS can be found in <xref linkend="manual.groups"/>.</para>
-	<section>
+		<para>For more information on how to use the menu system see <xref linkend="working-the-menu-system"/> and <xref linkend="menu-definitions"/>. Information regarding how to set up CTCSS and DCS can be found in <xref linkend="selective-calling"/>.</para>
+	<section xml:id="programming-simplex-channels">
 		<title>Simplex channels</title>
 		<para>The following steps assume that you're in Frequency (VFO) mode and that you've entered the desired frequency to store to memory.</para>
 		<procedure>
@@ -98,11 +98,11 @@
 					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-mode.svg"/>
 				</imageobject>
 			</inlinemediaobject>
-			key to test your new channel. If you would like to name your channel you will need to do that from a computer. More on that in <xref linkend="manual.programming.computer"/>.</para>
+			key to test your new channel. If you would like to name your channel you will need to do that from a computer. More on that in <xref linkend="computer-programming"/>.</para>
 	</section>
-	<section>
+	<section xml:id="programming-duplex-channels">
 		<title>Duplex channels</title>
-		<para>The following assumes you've set up a duplex channel in VFO mode on the upper display, as described in <xref linkend="manual.repeater"/>, and that you're still in VFO mode.</para>
+		<para>The following assumes you've set up a duplex channel in VFO mode on the upper display, as described in <xref linkend="repeaters"/>, and that you're still in VFO mode.</para>
 		<procedure>
 			<step>
 				<para>Save as you would a regular simplex channel, as described in the previous section.</para>
@@ -126,21 +126,21 @@
 					<imagedata contentdepth="0.9em" format="svg" fileref="images/key-mode.svg"/>
 				</imageobject>
 			</inlinemediaobject>
-			key to test your new channel. If you would like to name your channel you will need to do that from a computer. More on that in <xref linkend="manual.programming.computer"/>.</para>
+			key to test your new channel. If you would like to name your channel you will need to do that from a computer. More on that in <xref linkend="computer-programming"/>.</para>
 	</section>
 </section>
-<section xml:id="manual.programming.computer">
+<section xml:id="computer-programming">
 	<title>Computer programming</title>
 	<para>This section assumes you know where to get a hold of your software and how to install it, that you've already installed your software and that you know how to find out what port your programming cable is hooked up to.</para>
-	<section xml:id="manual.programming.cable">
+	<section xml:id="attaching-the-programming-cable">
 		<title>Attaching the programming cable</title>
 		<para>Before attaching the cable, make sure your radio is turned off.</para>
-		<para>To attach the cable, uncover the accessory port behind the rubber flap on the right side of the radio body (see <xref linkend="manual.radio.front-fig"/>), align the connectors and push in firmly.</para>
+		<para>To attach the cable, uncover the accessory port behind the rubber flap on the right side of the radio body (see <xref linkend="figure-radio-overview"/>), align the connectors and push in firmly.</para>
 		<para>Attach the USB (or DE9 in the case of standard RS-232) connector to your computer and start your programming software. You may now turn on your radio.</para>
 	</section>
-	<section xml:id="manual.programming.baofeng">
+	<section xml:id="baofeng-software">
 		<title>Baofeng software</title>
-		<para>Before starting the software, follow the steps in <xref linkend="manual.programming.cable"/>.</para>
+		<para>Before starting the software, follow the steps in <xref linkend="attaching-the-programming-cable"/>.</para>
 		<note>
 			<para>When you first open up the Baofeng programming software, it may default to Chinese. To change the language to English, go to the second rightmost menu. There you will find a list of available languages, select English.</para>
 		</note>
@@ -151,7 +151,7 @@
 			<para>If it continues to fail, check the connection of your cable and that you've configured your port properly in the programming software.</para>
 		</note>
 		<para>The <guilabel>Channel Information</guilabel> window in the Baofeng software features a simple and easy to use spreadsheet style interface. Some columns are obvious, others aren't as transparent as to what their purpose is. However, in most cases the default values tend to be the appropriate ones.</para>
-		<variablelist>
+		<variablelist xml:id="channel-information-window">
 			<title>Channel Information window, column definitions</title>
 			<varlistentry>
 				<term><guilabel>Channel</guilabel></term>
@@ -208,7 +208,7 @@
 		</variablelist>
 		<para>You can in theory edit any field in a row at any time, however the software seems to work best when you work from left to right.</para>
 		<para>To add a new channel, go to the row for the channel number you want to edit (you do not have to go sequentially, you can skip channel numbers if you so desire) and follow these steps:</para>
-		<procedure>
+		<procedure xml:id="adding-a-channel">
 			<title>Adding a channel</title>
 			<step>
 				<para>Select the <guilabel>Band</guilabel>.</para>
@@ -231,7 +231,7 @@
 		</note>
 		<para>When you're done adding and editing channels you will want to write them to the radio. To write your information to the radio, go to <menuchoice><guimenu>Program</guimenu><guimenuitem>Write to radio</guimenuitem></menuchoice> and click <guibutton>Write</guibutton>. On a successful write sequence the radio will start flashing green indicating that it is receiving data. When all data blocks have been sent from the computer the radio will restart itself.</para>
 	</section>
-	<section xml:id="manual.programming.chirp">
+	<section xml:id="chirp">
 		<title>CHIRP</title>
 		<para>A popular alternative to the manufacturers own software, is the open source and cross platform programming tool <link xlink:href="http://chirp.danplanet.com/">CHRIP</link>. If you're a user of Apple OS X or a flavour of Linux, CHRIP may very well be your only option to programming your radio via computer.</para>
 <!--
@@ -244,7 +244,7 @@
 		</note>
 	</section>
 </section>
-<section xml:id="manual.programming.cloning">
+<section xml:id="radio-to-radio-cloning">
 	<title>Radio to radio cloning</title>
 	<para>The Baofeng UV-5R is capable of cloning between radios, meaning if you have one radio set up just the way you like it (the reference or "master" radio) and want another radio configured in exactly the same way (the "slave" radio), you just hook a cable between them and copy the information over.</para>
 	<procedure>
