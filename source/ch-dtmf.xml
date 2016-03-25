@@ -52,35 +52,35 @@
 	<para>The numerical keys, as well as the
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.png"/>
 			</imageobject>
 		</inlinemediaobject>,
 		and
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.svg.png"/>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-pound.png"/>
 			</imageobject>
 		</inlinemediaobject>,
 		keys correspond to the matching DTMF codes as you would expect. The <literal>A</literal>, <literal>B</literal>, <literal>C</literal> and <literal>D</literal> codes are located in the
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 			</imageobject>
 		</inlinemediaobject>,
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.png"/>
 			</imageobject>
 		</inlinemediaobject>,
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.png"/>
 			</imageobject>
 		</inlinemediaobject>
 		and
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.png"/>
 			</imageobject>
 		</inlinemediaobject>
 		keys respectively.</para>
@@ -89,7 +89,7 @@
 		<title>Baofeng UV-5R, keypad</title>
 		<mediaobject>
 			<imageobject>
-				<imagedata fileref="figs/keypad.svg.png" contentdepth="4.6em" />
+				<imagedata fileref="figs/keypad.png" contentdepth="4.6em" />
 			</imageobject>
 		</mediaobject>
 	</figure>

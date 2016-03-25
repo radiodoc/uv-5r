@@ -16,7 +16,7 @@
 	<para>To create a new channel, start by switching your radio to Frequency (VFO) mode using the
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.png"/>
 			</imageobject>
 		</inlinemediaobject>
 		key. When in Frequency (VFO) mode, select your desired receive frequency using the numerical keypad. After that, use the menu system to configure the finer details of the channel you're wanting to program to memory, such as transmit power, bandwidth, CTCSS or DCS and more.</para>
@@ -29,7 +29,7 @@
 				<para>Press the
 					<inlinemediaobject>
 						<imageobject>
-							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 						</imageobject>
 					</inlinemediaobject>
 					key to enter the menu.</para>
@@ -38,12 +38,12 @@
 				<para>Enter
 					<inlinemediaobject>
 						<imageobject>
-							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-2.svg.png"/>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-2.png"/>
 						</imageobject>
 					</inlinemediaobject>
 					<inlinemediaobject>
 						<imageobject>
-							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-7.svg.png"/>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-7.png"/>
 						</imageobject>
 					</inlinemediaobject>
 					on the numerical keypad to get to <literal>MEM-CH</literal>.</para>
@@ -52,7 +52,7 @@
 				<para>Press
 					<inlinemediaobject>
 						<imageobject>
-							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 						</imageobject>
 					</inlinemediaobject>
 					to select.</para>
@@ -61,13 +61,13 @@
 				<para>Use the
 					<inlinemediaobject>
 						<imageobject>
-							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.png"/>
 						</imageobject>
 					</inlinemediaobject>
 					and
 					<inlinemediaobject>
 						<imageobject>
-							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.png"/>
 						</imageobject>
 					</inlinemediaobject>
 					keys to select a memory channel, or enter it directly on the numerical keypad.</para>
@@ -76,7 +76,7 @@
 				<para>Press the
 					<inlinemediaobject>
 						<imageobject>
-							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 						</imageobject>
 					</inlinemediaobject>
 					key to confirm.</para>
@@ -85,7 +85,7 @@
 				<para>Press the
 					<inlinemediaobject>
 						<imageobject>
-							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.png"/>
 						</imageobject>
 					</inlinemediaobject>
 					key to exit the menu.</para>
@@ -94,7 +94,7 @@
 		<para>Switch to Channel (MR) mode with the 
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			key to test your new channel. If you would like to name your channel you will need to do that from a computer. More on that in <xref linkend="manual.programming.computer"/>.</para>
@@ -110,7 +110,7 @@
 				<para>Press the 
 					<inlinemediaobject>
 						<imageobject>
-							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.png"/>
 						</imageobject>
 					</inlinemediaobject>
 					key momentary to get into reverse mode.</para>
@@ -122,7 +122,7 @@
 		<para>Switch to Channel (MR) mode with the 
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			key to test your new channel. If you would like to name your channel you will need to do that from a computer. More on that in <xref linkend="manual.programming.computer"/>.</para>
@@ -258,7 +258,7 @@
 			<para>Turn on the master radio, (the radio you want to <emphasis>clone from</emphasis>) while holding down the
 					<inlinemediaobject>
 						<imageobject>
-							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-moni.svg.png"/>
+							<imagedata contentdepth="0.9em" format="png" fileref="figs/key-moni.png"/>
 						</imageobject>
 					</inlinemediaobject>
 					key.</para>
