@@ -13,7 +13,7 @@
 			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to enter frequency mode.</para>
@@ -22,7 +22,7 @@
 			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to enter the menu.</para>
@@ -31,7 +31,7 @@
 			<para>Enter
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-5.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-5.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				on the numerical keypad.</para>
@@ -40,7 +40,7 @@
 			<para>Press
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				to select.</para>
@@ -49,13 +49,13 @@
 			<para>Use the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				and
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				keys to select between Wide and Narrow("Narr").</para>
@@ -64,7 +64,7 @@
 			<para>Press
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				to confirm and save</para>
@@ -73,7 +73,7 @@
 			<para>Press
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				to exit the menu.</para>
@@ -82,7 +82,7 @@
 	<para>You can also switch by holding down the
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-5.svg.png"/>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-5.png"/>
 			</imageobject>
 		</inlinemediaobject>
 		key on the numerical keypad while in frequency mode.</para>

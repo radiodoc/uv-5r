@@ -8,7 +8,7 @@
 <para>To enable the scanner, press and hold the
 	<inlinemediaobject>
 		<imageobject>
-			<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+			<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.png"/>
 		</imageobject>
 	</inlinemediaobject>
 	key for about two seconds.</para>
@@ -22,7 +22,7 @@
 			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to enter the menu.</para>
@@ -31,12 +31,12 @@
 			<para>Enter
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-8.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-8.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				on your numeric keypad to come to scanner mode.</para>
@@ -45,7 +45,7 @@
 			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to select.</para>
@@ -54,13 +54,13 @@
 			<para>Use the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				and
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				keys to select scanning mode.</para>
@@ -69,7 +69,7 @@
 			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to confirm and save.</para>
@@ -78,7 +78,7 @@
 			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to exit the menu.</para>
@@ -98,7 +98,7 @@
 		<para>To resume scanning you must press and hold the
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			key again.</para>
@@ -114,7 +114,7 @@
 			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to enter the menu.</para>
@@ -126,12 +126,12 @@
 					<para>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.png"/>
 							</imageobject>
 						</inlinemediaobject>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.svg.png"/>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-0.png"/>
 							</imageobject>
 						</inlinemediaobject>
 						to scan for DCS codes, or</para>
@@ -140,12 +140,12 @@
 					<para>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.png"/>
 							</imageobject>
 						</inlinemediaobject>
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.svg.png"/>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-1.png"/>
 							</imageobject>
 						</inlinemediaobject>
 						to scan for CTCSS sub-tones.</para>
@@ -156,7 +156,7 @@
 			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to select.</para>
@@ -165,7 +165,7 @@
 			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key momentarily, <literal>CT</literal> or <literal>DCS</literal> will start flashing in the display as the radio starts scanning. Once it finds a tone or code in use, it will beep and stop flashing, indicating that a tone or code has been found.</para>
@@ -174,7 +174,7 @@
 			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to confirm.</para>
@@ -183,7 +183,7 @@
 			<para>Press the 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to exit the menu system</para>

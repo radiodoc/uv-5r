@@ -16,7 +16,7 @@
 		<para>Set the radio to Frequency (VFO) mode with the
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-mode.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			key.</para>
@@ -25,13 +25,13 @@
 		<para>Enter the repeaters output (your receiving) frequency by either using the
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			and
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			keys, or by entering it directly on the numerical keypad.</para>
@@ -40,7 +40,7 @@
 		<para>Press the 
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			key to enter the menu.</para>
@@ -49,12 +49,12 @@
 		<para>Enter 
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-2.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-2.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-6.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-6.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			on the numeric keypad to get to frequency offset.</para>
@@ -63,7 +63,7 @@
 		<para>Press
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			key to select.</para>
@@ -72,13 +72,13 @@
 		<para>Use the
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			and
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			keys and the numerical keypad to enter the specified frequency offset. See <xref linkend="manual.menu.26"/> for details.</para>
@@ -87,7 +87,7 @@
 		<para>Press
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			to confirm and save.</para>
@@ -96,12 +96,12 @@
 		<para>Enter 
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-2.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-2.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-5.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-5.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			on the numeric keypad to get to offset direction.</para>
@@ -110,13 +110,13 @@
 		<para>Use the
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			and
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			keys to select <literal>+</literal> (positive) or <literal>-</literal> (negative) offset.</para>
@@ -125,7 +125,7 @@
 		<para>Press
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			to confirm and save.</para>
@@ -145,7 +145,7 @@
 		<para>Press
 			<inlinemediaobject>
 				<imageobject>
-					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.png"/>
 				</imageobject>
 			</inlinemediaobject>
 			to exit the menu.</para>
@@ -158,7 +158,7 @@
 	<para>If you for some reason want to listen to the repeater's input frequency instead, press
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.svg.png"/>
+				<imagedata contentdepth="0.9em" format="png" fileref="figs/key-star.png"/>
 			</imageobject>
 		</inlinemediaobject>
 		momentarily and you'll reverse your transmit and receive frequencies (reverse function not available while in Dual Watch mode).</para>

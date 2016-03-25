@@ -17,7 +17,7 @@
 			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to enter the menu.</para>
@@ -26,13 +26,13 @@
 			<para>Use the 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				and
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				keys to navigate between menu items.</para>
@@ -41,7 +41,7 @@
 			<para>Once you find the desired menu item, press
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				again to select that menu item.</para>
@@ -50,13 +50,13 @@
 			<para>Use the 
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				and
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				keys to select the desired parameter.</para>
@@ -68,7 +68,7 @@
 					<para>To confirm your selection, press
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 							</imageobject>
 						</inlinemediaobject>
 						and it will save your setting and bring you back to the main menu.</para>
@@ -77,7 +77,7 @@
 					<para>To cancel your changes, press
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.png"/>
 							</imageobject>
 						</inlinemediaobject>
 						and it will reset that menu item and bring you out of the menu entirely.</para>
@@ -88,7 +88,7 @@
 			<para>To exit out of the menu at any time, press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key.</para>
@@ -106,7 +106,7 @@
 			<para>Press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key to enter the menu.</para>
@@ -118,7 +118,7 @@
 			<para>To enter the menu item, press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key.</para>
@@ -142,7 +142,7 @@
 					<para>To confirm your selection, press
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.svg.png"/>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-menu.png"/>
 							</imageobject>
 						</inlinemediaobject>
 						and it will save your setting and bring you back to the main menu.</para>
@@ -151,7 +151,7 @@
 					<para>To cancel your changes, press
 						<inlinemediaobject>
 							<imageobject>
-								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+								<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.png"/>
 							</imageobject>
 						</inlinemediaobject>
 						and it will reset that menu item and bring you out of the menu entirely.</para>
@@ -162,7 +162,7 @@
 			<para>To exit out of the menu at any time, press the
 				<inlinemediaobject>
 					<imageobject>
-						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.svg.png"/>
+						<imagedata contentdepth="0.9em" format="png" fileref="figs/key-exit.png"/>
 					</imageobject>
 				</inlinemediaobject>
 				key.</para>
