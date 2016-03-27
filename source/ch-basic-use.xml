@@ -196,7 +196,20 @@
 					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.png"/>
 				</imageobject>
 			</inlinemediaobject>
-			keys to navigate between channels.</para>
+			keys to navigate between channels, or;</para>
+		<para>You can enter a three-digit channel number (with leading zeroes) directly on the numeric keypad.  By pressing and holding down the
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-up.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			or
+			<inlinemediaobject>
+				<imageobject>
+					<imagedata contentdepth="0.9em" format="png" fileref="figs/key-down.png"/>
+				</imageobject>
+			</inlinemediaobject>
+			key, you can rapidly page between your channels.</para>
 		<note>
 			<para>If you have channels programmed with Transmit power set to Low, you can use the
 				<inlinemediaobject>
