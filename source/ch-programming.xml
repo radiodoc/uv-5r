@@ -232,10 +232,10 @@
 	</section>
 	<section xml:id="manual.programming.chirp">
 		<title>CHIRP</title>
-		<para>A popular alternative to the manufacturers own software, is the open source and cross platform programming tool <link xlink:href="http://chirp.danplanet.com/">CHRIP</link>. If you're a user of Apple OS X or a flavour of Linux, CHRIP may very well be your only option to programming your radio via computer.</para>
+		<para>A popular alternative to the manufacturers own software, is the open source and cross platform programming tool <link xlink:href="http://chirp.danplanet.com/">CHIRP</link>. If you're a user of Apple OS X or a flavour of Linux, CHIRP may very well be your only option to programming your radio via computer.</para>
 <!--
 		<warning>
-			<para>At the time of writing, CHRIP only supports the Baofeng UV-5R in nightly builds. Earlier builds may possibly brick your radio.</para>
+			<para>At the time of writing, CHIRP only supports the Baofeng UV-5R in nightly builds. Earlier builds may possibly brick your radio.</para>
 		</warning>
 -->
 		<note>
