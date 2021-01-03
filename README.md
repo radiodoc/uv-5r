@@ -8,6 +8,16 @@ Creative Commons Attribution-ShareAlike 3.0 Unported License.
 In the `source/` directory you'll find the XML sources for the manual to
 the Baofeng UV-5R dual band handheld transceiver.
 
+## Build prerequisites
+
+Be sure to have installed gmake and java
+
+Example on Ubuntu 20.04
+
+   ```
+   apt install make openjdk-14-jdk
+   ```
+
 ## Build instructions.
 
 1. Check out the toolchain repo:
